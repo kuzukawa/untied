@@ -25,24 +25,53 @@
 // を使用し、必ず UTF-8 の BOM なし (UTF-8N) で保存してください。
 
 // ** MySQL 設定 - この情報はホスティング先から入手してください。 ** //
-/** WordPress のためのデータベース名 */
-define( 'DB_NAME', 'wordpress' );
+if (@$_SERVER["SERVER_NAME"] === 'localhost') {
+    /** The name of the database for WordPress */
+    define( 'DB_NAME', 'wpdb' );
 
-/** MySQL データベースのユーザー名 */
-define( 'DB_USER', 'wordpress' );
+    /** MySQL database username */
+    define( 'DB_USER', 'wpuser' );
 
-/** MySQL データベースのパスワード */
-define( 'DB_PASSWORD', 'password' );
+    /** MySQL database password */
+    define( 'DB_PASSWORD', 'password' );
 
-/** MySQL のホスト名 */
-define( 'DB_HOST', 'wordpress-web.cd3nqb3uj58c.ap-northeast-1.rds.amazonaws.com' );
+    /** MySQL hostname */
+    define( 'DB_HOST', 'db:3306' );
 
-/** データベースのテーブルを作成する際のデータベースの文字セット */
-define( 'DB_CHARSET', 'utf8mb4' );
+    /** Database Charset to use in creating database tables. */
+    define( 'DB_CHARSET', 'utf8' );
 
-/** データベースの照合順序 (ほとんどの場合変更する必要はありません) */
-define( 'DB_COLLATE', '' );
+    /** The Database Collate type. Don't change this if in doubt. */
+    define( 'DB_COLLATE', '' );
 
+    define('WP_HOME', 'http://localhost:8000');
+    define('WP_SITEURL', 'http://localhost:8000');
+
+    define('WP_DEBUG', true);
+} else {
+    /** WordPress のためのデータベース名 */
+    define( 'DB_NAME', 'wordpress' );
+
+    /** MySQL データベースのユーザー名 */
+    define( 'DB_USER', 'wordpress' );
+
+    /** MySQL データベースのパスワード */
+    define( 'DB_PASSWORD', 'password' );
+
+    /** MySQL のホスト名 */
+    define( 'DB_HOST', 'wordpress-web.cd3nqb3uj58c.ap-northeast-1.rds.amazonaws.com' );
+
+    /** データベースのテーブルを作成する際のデータベースの文字セット */
+    define( 'DB_CHARSET', 'utf8mb4' );
+
+    /** データベースの照合順序 (ほとんどの場合変更する必要はありません) */
+    define( 'DB_COLLATE', '' );
+
+    define('WP_HOME', 'http://untied.tech');
+    define('WP_SITEURL', 'http://untied.tech');
+
+    define('WP_DEBUG', false);
+}
 /**#@+
  * 認証用ユニークキー
  *
@@ -81,7 +110,7 @@ $table_prefix = 'wp_';
  *
  * @link https://ja.wordpress.org/support/article/debugging-in-wordpress/
  */
-define( 'WP_DEBUG', false );
+//define( 'WP_DEBUG', false );
 
 /* カスタム値は、この行と「編集が必要なのはここまでです」の行の間に追加してください。 */
 

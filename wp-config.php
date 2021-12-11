@@ -25,24 +25,27 @@
 // を使用し、必ず UTF-8 の BOM なし (UTF-8N) で保存してください。
 
 // ** MySQL 設定 - この情報はホスティング先から入手してください。 ** //
-if (@$_SERVER["SERVER_NAME"] === 'untiied.local') {
+if (@$_SERVER["SERVER_NAME"] === 'localhost') {
     /** The name of the database for WordPress */
-    define( 'DB_NAME', 'local' );
+    define( 'DB_NAME', 'wpdb' );
 
     /** MySQL database username */
-    define( 'DB_USER', 'root' );
+    define( 'DB_USER', 'wpuser' );
 
     /** MySQL database password */
-    define( 'DB_PASSWORD', 'root' );
+    define( 'DB_PASSWORD', 'password' );
 
     /** MySQL hostname */
-    define( 'DB_HOST', 'localhost' );
+    define( 'DB_HOST', 'db:3306' );
 
     /** Database Charset to use in creating database tables. */
     define( 'DB_CHARSET', 'utf8' );
 
     /** The Database Collate type. Don't change this if in doubt. */
     define( 'DB_COLLATE', '' );
+
+    define('WP_HOME', 'http://localhost:8000');
+    define('WP_SITEURL', 'http://localhost:8000');
 
     define('WP_DEBUG', true);
 } else {
@@ -63,6 +66,9 @@ if (@$_SERVER["SERVER_NAME"] === 'untiied.local') {
 
     /** データベースの照合順序 (ほとんどの場合変更する必要はありません) */
     define( 'DB_COLLATE', '' );
+
+    define('WP_HOME', 'http://untied.tech');
+    define('WP_SITEURL', 'http://untied.tech');
 
     define('WP_DEBUG', false);
 }

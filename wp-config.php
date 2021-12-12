@@ -67,9 +67,13 @@ if (@$_SERVER["SERVER_NAME"] === 'localhost') {
     /** データベースの照合順序 (ほとんどの場合変更する必要はありません) */
     define( 'DB_COLLATE', '' );
 
-    define('WP_HOME', 'http://untied.tech');
-    define('WP_SITEURL', 'http://untied.tech');
+    define('WP_HOME', 'https://untied.tech');
+    define('WP_SITEURL', 'https://untied.tech');
 
+    $_SERVER['HTTPS']='on';
+    define('FORCE_SSL_LOGIN', true);
+    define('FORCE_SSL_ADMIN', true);
+    
     define('WP_DEBUG', false);
 }
 /**#@+

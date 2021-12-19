@@ -74,6 +74,8 @@ if (@$_SERVER["SERVER_NAME"] === 'localhost') {
     define('FORCE_SSL_LOGIN', true);
     define('FORCE_SSL_ADMIN', true);
     
+    define('FS_METHOD', 'direct');
+
     define('WP_DEBUG', false);
 }
 /**#@+

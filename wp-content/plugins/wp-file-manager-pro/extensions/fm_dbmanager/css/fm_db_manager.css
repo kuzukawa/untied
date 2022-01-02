@@ -1,0 +1,359 @@
+a:focus {
+    box-shadow: none !important;
+}
+.dbmanager .db_top {
+    background: #888;
+    color: #fff;
+    padding: 10px 5px;
+	border-radius: 5px 5px 0px 0px;
+}
+.dbmanager .db_top::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.dbmanager .db_top a{
+	color:#fff;
+}
+.dbmanager .db_main {
+	background: #fff;
+	border: 1px solid #888;
+	border-top: none;
+}
+.dbmanager .db_top .button {
+	border-radius: 30px;
+	box-shadow: none;
+	color: #fff;
+	text-shadow: none;
+	line-height: normal;
+	height: inherit;
+	padding: 5px 15px;
+	float: right;
+	background: #fff;
+	color: #0085ba;
+	border: none;
+	margin-right: 15px;
+	font-weight: 700;
+}
+.dbmanager .db_top .dbDetailHost{
+	margin-right: 15px;
+}
+.dbmanager .db_top .dbDetailHost .icon{
+	position: relative;
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+}
+.dbmanager .db_top .dbDetailHost .icon img{
+	margin-top: 4px;
+	position: absolute;
+}
+.dbmanager .db_top .dbDetailDatabase{
+	margin-right: 15px;
+}
+.dbmanager .db_top .dbDetailDatabase .icon{
+	position: relative;
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+}
+.dbmanager .db_top .dbDetailDatabase .icon img{
+	margin-top: 4px;
+	position: absolute;
+}
+.dbmanager .db_top .dbDetailTable .icon{
+	position: relative;
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+}
+.dbmanager .db_top .dbDetailTable img{
+	margin-top: 4px;
+	position: absolute;
+}
+.dbmanager .db_top  .dbDetail{
+	text-shadow: 1px 1px 1px #444;
+}
+.dbmanager .db_main::after{
+	content:"";
+	display:table;
+	clear:both;
+}
+.dbmanager .db_main .db_main_left{
+	float:left;
+	width:20%;
+	background: #f9f9f9;	
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	z-index:1;
+	position:relative;
+	height: 90vh !important;
+	overflow-y:scroll;
+	overflow-x:hidden;
+}
+.dbmanager .db_main .db_main_left #db_left_resize{
+	border-right:1px solid #ddd;
+}
+.dbmanager .db_main .db_main_right{
+	float:left;
+	width:80%;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	z-index:9;
+	position:relative;
+	background:#fff;
+	overflow-x:scroll;
+	height:90vh;
+	padding-top: 5px;
+}
+.dbmanager .db_main .db_main_right #db_main_right_content{
+	padding-left:10px;
+	padding-right: 10px;
+}
+.dbmanager .db_main .db_main_right #db_main_right_content .error.settings-error.notice{
+	background:#ededed;
+	border-left:3px solid #C00;
+}
+.dbmanager .db_main .db_main_right table{
+	border-collapse:collapse;
+}
+.dbmanager .db_main .db_main_right table th {
+	text-align: left;
+	padding: 12px 10px;
+	background: #e7e7e7;
+	border-right: 1px solid #fbe2e0;
+	color: #0085ba;
+}
+.dbmanager .db_main .db_main_right table th:last-child{
+	border-right:none;
+}
+.dbmanager .db_main .db_main_right table tr{
+	border-bottom:1px solid #ddd;
+	transition:all 0.2s ease;
+	-webkit-transition:all 0.2s ease;
+}
+.dbmanager .db_main .db_main_right table tr:nth-child(even) {
+    background: #f1f1f1;
+}
+/* .dbmanager .db_main .db_main_right table tr:nth-child(odd) {
+    background: #f8f8f8;
+} */
+.dbmanager .db_main .db_main_right table tr td {
+	padding: 15px 10px;
+	border-right: 1px solid #ddd;
+}
+.dbmanager .db_main .db_main_right table tr td:first-child {
+	font-weight: 700;
+}
+.dbmanager .db_main .db_main_right table tr td:last-child{
+	border-right: none;
+}
+.dbmanager .db_main .db_main_right table tr td.primary_number{
+	font-weight:700;
+	text-align:center;
+}
+.dbmanager .db_main .db_main_right table tr:hover{
+	box-shadow:0px 2px 2px #ddd;
+	-webkit-box-shadow:0px 2px 2px #ddd;
+	transition:all 0.2s ease;
+	-webkit-transition:all 0.2s ease;
+}
+.dbmanager .db_main .db_main_right table tr td input {
+	border: 1px solid #e9e9e9;
+	box-shadow: none !important;
+	-webkit-box-shadow: none !important;
+	background: #fff;
+}
+.dbmanager .db_main .db_main_right table th:first-child{
+	border-radius: 5px 0 0 0;
+}
+.dbmanager .db_main .db_main_right table th:last-child{
+	border-radius: 0 5px 0 0;
+}
+.dbmanager .db_main .db_main_left ul{
+	margin:0;
+	padding:0;
+}
+.dbmanager .db_main .db_main_left ul li .db_name{
+	font-weight:700;
+	display:block;
+	padding-bottom:5px;
+	padding-left:5px;
+	margin-top:10px;
+}
+.dbmanager .db_main .db_main_left ul li ul{
+	padding-left:15px;
+}
+.dbmanager .db_main .db_main_left ul li a{
+	text-decoration:none;
+	color:#404040;
+}
+.dbmanager .db_main .db_main_left ul li ul li{
+	position:relative;
+	margin:0;
+	padding: 5px 0;
+}
+.dbmanager .db_main .db_main_left ul li ul li a{
+	padding-left:20px;
+	display: block;
+}
+.dbmanager .db_main .db_main_left ul li ul li::before{
+	content:"";	
+	border-left:1px solid #222;
+	width:20px;
+	height: 100%;
+    position: absolute;
+}
+.dbmanager .db_main .db_main_left ul li ul li::after{
+	content:"";	
+	border-bottom:1px solid #222;
+	width:15px;
+	left: 0px;
+	top:15px;
+	position:absolute;
+}
+.dbmanager .db_main .db_main_right .right_tbls a{
+color: #235a81;
+cursor: pointer;
+outline: medium none;
+text-decoration: none;
+}
+.dbmanager .db_main .db_main_right .right_tbls .button {
+	border-radius: 30px;
+	vertical-align: middle;
+	border: 1px solid;
+}
+.db_main .active { font-weight: bold; font-size:16px}
+.dbmanager .db_main .db_main_left ul li a:hover{
+	font-weight: bold; 
+}
+.db_records { padding-top:20px}
+.ui-resizable-e{
+	cursor:col-resize;
+	/*width: 10px;*/
+}
+.db_records .btn_dv{
+	margin-bottom:30px;
+}
+.db_records .btn_dv .db_new_add::before {
+	content: "+";
+	border: 1px solid #fff;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	width: 15px;
+	height: 15px;
+	display: inline-block;
+	text-align: center;
+	/* margin-right: 5px; */
+	position: absolute;
+	left: 18px;
+	margin-top: 8px;
+	line-height: normal;
+}
+.db_records .btn_dv .db_new_add {
+	background: #0085ba;
+	color: #fff;
+	text-decoration: none;
+	position: relative;
+	padding: 0 20px;
+	padding-left: 42px;
+}
+.db_records .btn_dv a {
+	vertical-align: middle;
+	height: 36px;
+	font-weight: 700;
+	font-size: 14px;
+	font-family: Arial;
+	text-shadow: none;
+	line-height: 34px;
+	display: inline-block;
+	border-radius: 30px;
+	box-shadow: none;
+}
+#msg_bar { text-align:center; font-size:16px;}
+#msg_bar .error { color:#F00;}
+#msg_bar .success { color:#090;}
+.dbmanager .db_main .db_main_right #db_main_right_content .add-button {
+	background: #0085ba;
+	color: #fff;
+	padding: 10px 40px;
+	text-decoration: none;
+	font-family: Arial;
+	font-size: 14px;
+	position: relative;
+	border-radius: 30px;
+	line-height: normal;
+	border: none;
+	cursor: pointer;
+	vertical-align: middle;
+	font-weight: 700;
+}
+.dbmanager .db_main .db_main_right #db_main_right_content .custom_btn{
+	background: #0085ba;
+	color: #fff;
+	padding: 8px 30px;
+	text-decoration: none;
+	box-shadow: 0px 4px #046992;
+	-webkit-box-shadow: 0px 4px #046992;
+	font-family: Arial;
+	font-size: 14px;
+	position: relative;
+	border-radius: 7px;
+	line-height: normal;
+	border: none;
+	cursor:pointer;
+}
+.dbmanager .db_main .db_main_right #db_main_right_content .reset-button{
+	color:#0085ba;
+	cursor:pointer;
+	vertical-align: middle;
+}
+.dbmanager .db_main .db_main_right #db_main_right_content .bot_btn_dv {
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	padding: 15px 0px;
+	margin-top: 30px;
+	margin-bottom:20px;
+}
+.dbmanager .db_main .db_main_right table tr td.action_btn a{
+	display:inline-block;	
+}
+.dbmanager .db_main .db_main_right #db_main_right_content .back_btn_dv{
+	margin:30px 0px;
+}
+.dbmanager .db_main .db_main_right #db_main_right_content .back_btn_dv a{
+	background: #0085ba;
+	color: #fff;
+	padding: 8px 30px;
+	text-decoration: none;
+	box-shadow: 0px 4px #046992;
+	-webkit-box-shadow: 0px 4px #046992;
+	font-family: Arial;
+	font-size: 14px;
+	position: relative;
+	border-radius: 7px;
+	line-height: normal;
+	border: none;
+	cursor:pointer;
+}
+.dbmanager .db_main .db_main_right #db_main_right_content .add_form_dv{
+	margin-top:30px;
+}
+.mk_export_db{ float:right; margin-bottom:10px;}
+.db_records .btn_dv .dropBtn{
+	padding: 0 20px;
+	margin: 0 15px;
+}
+.db_records .btn_dv .emptyBtn{
+	padding: 0 20px;
+	background: #f9402a;
+border: 1px solid #f9402a;
+}
+.dbmanager .db_top .button:hover {
+    background: #f1f1f1;
+    border-color: #016087;
+	color: #016
+}
+#db_main_right_content a.button{
+    vertical-align: baseline;
+}

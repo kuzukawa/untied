@@ -1,0 +1,3063 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP File Manager\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-08-10 13:16+0530\n"
+"PO-Revision-Date: 2021-08-10 13:21+0530\n"
+"Last-Translator: admin <munishthedeveloper48@gmail.com>\n"
+"Language-Team: \n"
+"Language: te\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 3.0\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: classes/license.php:201 inc/license.php:42
+msgid "License Details"
+msgstr "లైసెన్స్ వివరాలు"
+
+#: classes/updates.php:41
+msgid ""
+"Your updates for <strong>WP File Manager - PRO</strong> plugin are disabled because your license has been expired."
+msgstr "మీ లైసెన్స్ గడువు ముగిసినందున <strong> WP ఫైల్ మేనేజర్ - PRO </strong> ప్లగ్ఇన్ కోసం మీ నవీకరణలు నిలిపివేయబడ్డాయి."
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:70
+msgid "DB Manager"
+msgstr "డిబి మేనేజర్"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:116
+msgid "Tables"
+msgstr "పట్టికలు"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:116 extensions/fm_dbmanager/inc/db_tables.php:56
+msgid "Create New Table"
+msgstr "క్రొత్త పట్టికను సృష్టించండి"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:123
+msgid "Browse:"
+msgstr "బ్రౌజ్ చేయండి:"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:123
+msgid "Browse"
+msgstr "బ్రౌజ్ చేయండి"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:123
+msgid "Insert:"
+msgstr "చొప్పించు:"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:123
+msgid "Insert"
+msgstr "చొప్పించు"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:123
+msgid "Delete Table:"
+msgstr "పట్టిక తొలగించు:"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:123 extensions/fm_dbmanager/fm_dbmanager.php:203
+msgid "Are you sure want to delete Table? Deleted Table may not be recovered. So please delete carefully."
+msgstr "మీరు ఖచ్చితంగా పట్టికను తొలగించాలనుకుంటున్నారా? తొలగించిన టేబుల్ తిరిగి పొందబడకపోవచ్చు. కాబట్టి దయచేసి జాగ్రత్తగా తొలగించండి."
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:123 extensions/fm_dbmanager/fm_dbmanager.php:203
+msgid "Drop"
+msgstr "డ్రాప్"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:123
+msgid "Empty Table:"
+msgstr "ఖాళీ పట్టిక:"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:123 extensions/fm_dbmanager/fm_dbmanager.php:204
+msgid "Are you sure want to empty Table? Table may not be recovered. So please delete carefully."
+msgstr "మీరు ఖచ్చితంగా టేబుల్‌ను ఖాళీ చేయాలనుకుంటున్నారా? పట్టిక పునరుద్ధరించబడకపోవచ్చు. కాబట్టి దయచేసి జాగ్రత్తగా తొలగించండి."
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:123 extensions/fm_dbmanager/fm_dbmanager.php:204 inc/settings.php:39
+#: inc/shortcode_generator.php:225
+msgid "Empty"
+msgstr "ఖాళీ"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:203
+msgid "ADD: "
+msgstr "జోడించు: "
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:203
+msgid "Add New"
+msgstr "కొత్తది జత పరచండి"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:203
+msgid "Delete Table: "
+msgstr "పట్టిక తొలగించు: "
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:204
+msgid "Empty Table: "
+msgstr "ఖాళీ పట్టిక: "
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:230 extensions/fm_dbmanager/fm_dbmanager.php:252
+msgid "Are you sure want to update? It will redirect you to updation form."
+msgstr "మీరు ఖచ్చితంగా అప్‌డేట్ చేయాలనుకుంటున్నారా? ఇది మిమ్మల్ని అప్‌డేషన్ ఫారమ్‌కి మళ్ళిస్తుంది."
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:230 extensions/fm_dbmanager/fm_dbmanager.php:252 inc/settings.php:33
+#: inc/shortcode_generator.php:219 inc/shortcode_listing.php:62
+msgid "Edit"
+msgstr "సవరించండి"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:231 extensions/fm_dbmanager/fm_dbmanager.php:253
+msgid "Are you sure want to delete? Deleted data may not be recovered. So please delete carefully."
+msgstr "మీరు ఖచ్చితంగా తొలగించాలనుకుంటున్నారా? తొలగించిన డేటా తిరిగి పొందబడకపోవచ్చు. కాబట్టి దయచేసి జాగ్రత్తగా తొలగించండి."
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:231 extensions/fm_dbmanager/fm_dbmanager.php:253 inc/backup.php:772
+#: inc/backup.php:782 inc/email.php:63 inc/email.php:164 inc/settings.php:34 inc/shortcode_generator.php:220
+#: inc/shortcode_listing.php:63 inc/wpfmlogs.php:65 inc/wpfmlogs.php:93 inc/wpfmlogs.php:149 inc/wpfmlogs.php:175
+#: inc/wpfmlogs.php:232 inc/wpfmlogs.php:258
+msgid "Delete"
+msgstr "తొలగించు"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:270
+msgid "First"
+msgstr "ప్రధమ"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:272 inc/shortcode_listing.php:112
+msgid "Prev"
+msgstr "పూర్వం"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:300 inc/shortcode_listing.php:113 inc/wpfmlogs.php:134 inc/wpfmlogs.php:217
+msgid "Next"
+msgstr "తరువాత"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:302
+msgid "Last"
+msgstr "చివరి"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:338 extensions/fm_dbmanager/fm_dbmanager.php:432
+#: extensions/fm_dbmanager/fm_dbmanager.php:487 extensions/fm_dbmanager/inc/db_tables.php:136
+msgid "You don't have permission to access this area."
+msgstr "ఈ ప్రాంతాన్ని యాక్సెస్ చేయడానికి మీకు అనుమతి లేదు."
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:353 extensions/fm_dbmanager/fm_dbmanager.php:448
+msgid "Column"
+msgstr "కాలమ్"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:354 extensions/fm_dbmanager/fm_dbmanager.php:449
+msgid "Value"
+msgstr "విలువ"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:380
+msgid "Reset"
+msgstr "రీసెట్ చేయండి"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:386
+msgid "Add"
+msgstr "జోడించు"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:409
+msgid "New Record Created"
+msgstr "కొత్త రికార్డు సృష్టించబడింది"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:411 extensions/fm_dbmanager/fm_dbmanager.php:417
+msgid "Unable to create new record"
+msgstr "కొత్త రికార్డు సృష్టించడం సాధ్యపడలేదు"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:441 extensions/fm_dbmanager/fm_dbmanager.php:529
+msgid "&larr; Back"
+msgstr "&larr;  తిరిగి"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:479
+msgid "Update"
+msgstr "అప్‌డేట్"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:511 extensions/fm_dbmanager/fm_dbmanager.php:533
+msgid "Record "
+msgstr "రికార్డు"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:511
+msgid "</strong> Updated Successfully"
+msgstr "</strong> విజయవంతంగా అప్‌డేట్ చేయబడింది"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:513 extensions/fm_dbmanager/fm_dbmanager.php:516
+msgid "Unable to Update record"
+msgstr "రికార్డును అప్‌డేట్ చేయడం సాధ్యపడలేదు"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:526
+msgid "Oops! Some thing went wrong! Please try again."
+msgstr "అయ్యో! ఎక్కడో తేడ జరిగింది! దయచేసి మళ్లీ ప్రయత్నించండి."
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:533
+msgid " Deleted successfully."
+msgstr "విజయవంతంగా తొలగించబడింది."
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:535
+msgid "Error occured while deleting a record."
+msgstr "రికార్డును తొలగిస్తున్నప్పుడు లోపం సంభవించింది."
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:584
+msgid "Table Created Successfully !"
+msgstr "పట్టిక విజయవంతంగా సృష్టించబడింది!"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:589
+msgid "Table Not Created !"
+msgstr "పట్టిక సృష్టించబడలేదు!"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:605 extensions/fm_dbmanager/fm_dbmanager.php:607
+msgid "Table <strong>"
+msgstr "<p> (పట్టిక <strong>"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:605 extensions/fm_dbmanager/fm_dbmanager.php:617
+msgid "</strong> Deleted Successfully!"
+msgstr "</strong> విజయవంతంగా తొలగించబడింది!"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:607 extensions/fm_dbmanager/fm_dbmanager.php:619
+msgid "</strong> Not Deleted!"
+msgstr "</strong> తొలగించబడలేదు!) </ p>"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:617 extensions/fm_dbmanager/fm_dbmanager.php:619
+msgid "Table records of <strong>"
+msgstr "యొక్క టేబుల్ రికార్డులు <strong>"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:689 file_folder_manager_pro.php:2900
+msgid "<div id=\"setting-error-settings_updated\" class=\"error settings-error notice\"><p><strong>"
+msgstr ""
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:695 file_folder_manager_pro.php:2906
+msgid "<div id=\"setting-error-settings_updated\" class=\"updated settings-error notice\"><p><strong>"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:9
+msgid "Table name:&nbsp;"
+msgstr "పట్టిక పేరు:&nbsp;"
+
+#: extensions/fm_dbmanager/inc/createTbl.php:19 extensions/fm_dbmanager/inc/createTbl.php:559
+msgid "Name"
+msgstr "పేరు"
+
+#: extensions/fm_dbmanager/inc/createTbl.php:20
+msgid "Type"
+msgstr "టైప్ చేయండి"
+
+#: extensions/fm_dbmanager/inc/createTbl.php:21
+msgid "Length/Values"
+msgstr "పొడవు / విలువలు"
+
+#: extensions/fm_dbmanager/inc/createTbl.php:22 inc/settings.php:218 inc/settings.php:226 inc/settings.php:284
+#: inc/shortcode_generator.php:349 inc/shortcode_generator.php:372 inc/shortcode_generator.php:393
+#: inc/shortcode_generator.php:401 inc/shortcode_generator.php:409 inc/shortcode_generator.php:434
+#: inc/shortcode_generator.php:442 inc/shortcode_generator.php:511 inc/shortcode_generator.php:534
+#: inc/shortcode_generator.php:543 inc/shortcode_generator.php:552 inc/shortcode_generator.php:577
+#: inc/shortcode_generator.php:585
+msgid "Default"
+msgstr "డిఫాల్ట్"
+
+#: extensions/fm_dbmanager/inc/createTbl.php:23
+msgid "Collation"
+msgstr "సంకలనం"
+
+#: extensions/fm_dbmanager/inc/createTbl.php:24
+msgid "Attributes"
+msgstr "గుణాలు"
+
+#: extensions/fm_dbmanager/inc/createTbl.php:25 inc/shortcode_generator.php:401 inc/shortcode_generator.php:409
+#: inc/shortcode_generator.php:543 inc/shortcode_generator.php:552
+msgid "Null"
+msgstr "శూన్య"
+
+#: extensions/fm_dbmanager/inc/createTbl.php:26
+msgid "Index"
+msgstr "సూచిక"
+
+#: extensions/fm_dbmanager/inc/createTbl.php:27
+msgid "A_I"
+msgstr "A_I"
+
+#: extensions/fm_dbmanager/inc/createTbl.php:28
+msgid "Comments"
+msgstr "వ్యాఖ్యలు"
+
+#: extensions/fm_dbmanager/inc/createTbl.php:37 extensions/fm_dbmanager/inc/createTbl.php:52
+msgid "INT"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:39 extensions/fm_dbmanager/inc/createTbl.php:90
+msgid "VARCHAR"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:41 extensions/fm_dbmanager/inc/createTbl.php:96
+msgid "TEXT"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:43 extensions/fm_dbmanager/inc/createTbl.php:76
+msgid "DATE"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:46
+msgid "TINYINT"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:48
+msgid "SMALLINT"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:50
+msgid "MEDIUMINT"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:54
+msgid "BIGINT"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:58
+msgid "DECIMAL"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:60
+msgid "FLOAT"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:62
+msgid "DOUBLE"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:64
+msgid "REAL"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:68
+msgid "BIT"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:70
+msgid "BOOLEAN"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:72
+msgid "SERIAL"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:78
+msgid "DATETIME"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:80
+msgid "TIMESTAMP"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:82
+msgid "TIME"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:84
+msgid "YEAR"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:88
+msgid "CHAR"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:94
+msgid "TINYTEXT"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:98
+msgid "MEDIUMTEXT"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:100
+msgid "LONGTEXT"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:104 extensions/fm_dbmanager/inc/createTbl.php:688
+msgid "BINARY"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:106
+msgid "VARBINARY"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:110
+msgid "TINYBLOB"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:112
+msgid "MEDIUMBLOB"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:114
+msgid "BLOB"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:116
+msgid "LONGBLOB"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:120
+msgid "ENUM"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:122
+msgid "SET"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:126
+msgid "GEOMETRY"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:128
+msgid "POINT"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:130
+msgid "LINESTRING"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:132
+msgid "POLYGON"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:134
+msgid "MULTIPOINT"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:136
+msgid "MULTILINESTRING"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:138
+msgid "MULTIPOLYGON"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:140
+msgid "GEOMETRYCOLLECTION"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:150 inc/shortcode_generator.php:372 inc/shortcode_generator.php:393
+#: inc/shortcode_generator.php:534
+msgid "None"
+msgstr "ఏదీ లేదు"
+
+#: extensions/fm_dbmanager/inc/createTbl.php:152
+msgid "As defined:"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:154
+msgid "NULL"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:156
+msgid "CURRENT_TIMESTAMP"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:165
+msgid "armscii8_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:167
+msgid "armscii8_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:171
+msgid "ascii_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:173
+msgid "ascii_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:177
+msgid "big5_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:179
+msgid "big5_chinese_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:183
+msgid "binary"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:187
+msgid "cp1250_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:189
+msgid "cp1250_croatian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:191
+msgid "cp1250_czech_cs"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:193
+msgid "cp1250_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:195
+msgid "cp1250_polish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:199
+msgid "cp1251_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:201
+msgid "cp1251_bulgarian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:203
+msgid "cp1251_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:205
+msgid "cp1251_general_cs"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:207
+msgid "cp1251_ukrainian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:211
+msgid "cp1256_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:213
+msgid "cp1256_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:217
+msgid "cp1257_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:219
+msgid "cp1257_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:221
+msgid "cp1257_lithuanian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:225
+msgid "cp850_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:227
+msgid "cp850_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:231
+msgid "cp852_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:233
+msgid "cp852_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:237
+msgid "cp866_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:239
+msgid "cp866_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:243
+msgid "cp932_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:245
+msgid "cp932_japanese_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:249
+msgid "dec8_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:251
+msgid "dec8_swedish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:255
+msgid "eucjpms_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:257
+msgid "eucjpms_japanese_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:261
+msgid "euckr_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:263
+msgid "euckr_korean_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:267
+msgid "gb2312_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:269
+msgid "gb2312_chinese_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:273
+msgid "gbk_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:275
+msgid "gbk_chinese_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:279
+msgid "geostd8_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:281
+msgid "geostd8_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:285
+msgid "greek_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:287
+msgid "greek_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:291
+msgid "hebrew_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:293
+msgid "hebrew_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:297
+msgid "hp8_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:299
+msgid "hp8_english_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:303
+msgid "keybcs2_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:305
+msgid "keybcs2_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:309
+msgid "koi8r_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:311
+msgid "koi8r_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:315
+msgid "koi8u_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:317
+msgid "koi8u_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:321
+msgid "latin1_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:323
+msgid "latin1_danish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:325
+msgid "latin1_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:327
+msgid "latin1_general_cs"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:329
+msgid "latin1_german1_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:331
+msgid "latin1_german2_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:333
+msgid "latin1_spanish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:335
+msgid "latin1_swedish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:339
+msgid "latin2_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:341
+msgid "latin2_croatian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:343
+msgid "latin2_czech_cs"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:345
+msgid "latin2_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:347
+msgid "latin2_hungarian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:351
+msgid "latin5_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:353
+msgid "latin5_turkish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:357
+msgid "latin7_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:359
+msgid "latin7_estonian_cs"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:361
+msgid "latin7_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:363
+msgid "latin7_general_cs"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:367
+msgid "macce_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:369
+msgid "macce_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:373
+msgid "macroman_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:375
+msgid "macroman_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:379
+msgid "sjis_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:381
+msgid "sjis_japanese_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:385
+msgid "swe7_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:387
+msgid "swe7_swedish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:391
+msgid "tis620_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:393
+msgid "tis620_thai_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:397
+msgid "ucs2_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:399
+msgid "ucs2_croatian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:401
+msgid "ucs2_czech_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:403
+msgid "ucs2_danish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:405
+msgid "ucs2_esperanto_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:407
+msgid "ucs2_estonian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:409
+msgid "ucs2_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:411
+msgid "ucs2_general_mysql500_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:413
+msgid "ucs2_german2_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:415
+msgid "ucs2_hungarian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:417
+msgid "ucs2_icelandic_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:419
+msgid "ucs2_latvian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:421
+msgid "ucs2_lithuanian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:423
+msgid "ucs2_persian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:425
+msgid "ucs2_polish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:427
+msgid "ucs2_roman_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:429
+msgid "ucs2_romanian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:431
+msgid "ucs2_sinhala_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:433
+msgid "ucs2_slovak_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:435
+msgid "ucs2_slovenian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:437
+msgid "ucs2_spanish2_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:439
+msgid "ucs2_spanish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:441
+msgid "ucs2_swedish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:443
+msgid "ucs2_turkish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:445
+msgid "ucs2_unicode_520_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:447
+msgid "ucs2_unicode_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:449
+msgid "ucs2_vietnamese_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:453
+msgid "ujis_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:455
+msgid "ujis_japanese_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:459
+msgid "utf16_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:461
+msgid "utf16_croatian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:463
+msgid "utf16_czech_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:465
+msgid "utf16_danish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:467
+msgid "utf16_esperanto_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:469
+msgid "utf16_estonian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:471
+msgid "utf16_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:473
+msgid "utf16_german2_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:475
+msgid "utf16_hungarian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:477
+msgid "utf16_icelandic_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:479
+msgid "utf16_latvian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:481
+msgid "utf16_lithuanian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:483
+msgid "utf16_persian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:485
+msgid "utf16_polish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:487
+msgid "utf16_roman_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:489
+msgid "utf16_romanian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:491
+msgid "utf16_sinhala_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:493
+msgid "utf16_slovak_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:495
+msgid "utf16_slovenian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:497
+msgid "utf16_spanish2_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:499
+msgid "utf16_spanish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:501
+msgid "utf16_swedish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:503
+msgid "utf16_turkish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:505
+msgid "utf16_unicode_520_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:507
+msgid "utf16_unicode_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:509
+msgid "utf16_vietnamese_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:513
+msgid "utf16le_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:515
+msgid "utf16le_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:519
+msgid "utf32_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:521
+msgid "utf32_croatian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:523
+msgid "utf32_czech_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:525
+msgid "utf32_danish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:527
+msgid "utf32_esperanto_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:529
+msgid "utf32_estonian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:531
+msgid "utf32_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:533
+msgid "utf32_german2_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:535
+msgid "utf32_hungarian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:537
+msgid "utf32_icelandic_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:539
+msgid "utf32_latvian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:541
+msgid "utf32_lithuanian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:543
+msgid "utf32_persian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:545
+msgid "utf32_polish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:547
+msgid "utf32_roman_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:549
+msgid "utf32_romanian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:551
+msgid "utf32_sinhala_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:553
+msgid "utf32_slovak_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:555
+msgid "utf32_slovenian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:557
+msgid "utf32_spanish2_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:559
+msgid "utf32_spanish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:561
+msgid "utf32_swedish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:563
+msgid "utf32_turkish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:565
+msgid "utf32_unicode_520_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:567
+msgid "utf32_unicode_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:569
+msgid "utf32_vietnamese_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:573
+msgid "utf8_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:575
+msgid "utf8_croatian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:577
+msgid "utf8_czech_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:579
+msgid "utf8_danish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:581
+msgid "utf8_esperanto_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:583
+msgid "utf8_estonian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:585
+msgid "utf8_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:587
+msgid "utf8_general_mysql500_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:589
+msgid "utf8_german2_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:591
+msgid "utf8_hungarian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:593
+msgid "utf8_icelandic_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:595
+msgid "utf8_latvian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:597
+msgid "utf8_lithuanian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:599
+msgid "utf8_persian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:601
+msgid "utf8_polish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:603
+msgid "utf8_roman_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:605
+msgid "utf8_romanian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:607
+msgid "utf8_sinhala_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:609
+msgid "utf8_slovak_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:611
+msgid "utf8_slovenian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:613
+msgid "utf8_spanish2_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:615
+msgid "utf8_spanish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:617
+msgid "utf8_swedish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:619
+msgid "utf8_turkish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:621
+msgid "utf8_unicode_520_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:623
+msgid "utf8_unicode_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:625
+msgid "utf8_vietnamese_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:629
+msgid "utf8mb4_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:631
+msgid "utf8mb4_croatian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:633
+msgid "utf8mb4_czech_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:635
+msgid "utf8mb4_danish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:637
+msgid "utf8mb4_esperanto_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:639
+msgid "utf8mb4_estonian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:641
+msgid "utf8mb4_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:643
+msgid "utf8mb4_german2_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:645
+msgid "utf8mb4_hungarian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:647
+msgid "utf8mb4_icelandic_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:649
+msgid "utf8mb4_latvian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:651
+msgid "utf8mb4_lithuanian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:653
+msgid "utf8mb4_persian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:655
+msgid "utf8mb4_polish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:657
+msgid "utf8mb4_roman_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:659
+msgid "utf8mb4_romanian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:661
+msgid "utf8mb4_sinhala_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:663
+msgid "utf8mb4_slovak_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:665
+msgid "utf8mb4_slovenian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:667
+msgid "utf8mb4_spanish2_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:669
+msgid "utf8mb4_spanish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:671
+msgid "utf8mb4_swedish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:673
+msgid "utf8mb4_turkish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:675
+msgid "utf8mb4_unicode_520_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:677
+msgid "utf8mb4_unicode_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:679
+msgid "utf8mb4_vietnamese_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:690
+msgid "UNSIGNED"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:692
+msgid "UNSIGNED ZEROFILL"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:694
+msgid "on update CURRENT_TIMESTAMP"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:705
+msgid "PRIMARY"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:707
+msgid "UNIQUE"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:709
+msgid "INDEX"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:711
+msgid "FULLTEXT"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:724
+msgid "Add Row"
+msgstr "అడ్డు వరుసను జోడించండి"
+
+#: extensions/fm_dbmanager/inc/createTbl.php:725
+msgid "Save"
+msgstr "సేవ్ చేయండి"
+
+#: extensions/fm_dbmanager/inc/db_tables.php:39
+msgid "Export Database"
+msgstr "ఎగుమతి డేటాబేస్"
+
+#: extensions/fm_dbmanager/inc/db_tables.php:45
+msgid "Host:"
+msgstr "హోస్ట్:"
+
+#: extensions/fm_dbmanager/inc/db_tables.php:49
+msgid "Database:"
+msgstr "డేటాబేస్:"
+
+#: extensions/fm_dbmanager/inc/db_tables.php:52
+msgid "Table:"
+msgstr "పట్టిక:"
+
+#: extensions/fm_shortcode_without_login/inc/shortcode.php:207 inc/shortcode.php:327
+msgid "This shortcode has been expired. Please contact with the site admin."
+msgstr "ఈ షార్ట్ కోడ్ గడువు ముగిసింది. దయచేసి సైట్ నిర్వాహకుడిని సంప్రదించండి."
+
+#: file_folder_manager_pro.php:197
+msgid "Database backup restored successfully."
+msgstr "డేటాబేస్ బ్యాకప్ విజయవంతంగా పునరుద్ధరించబడింది."
+
+#: file_folder_manager_pro.php:199
+msgid "Unable to restore DB backup."
+msgstr "DB బ్యాకప్‌ను పునరుద్ధరించడం సాధ్యం కాలేదు."
+
+#: file_folder_manager_pro.php:206
+msgid "Plugins backup restored successfully."
+msgstr "ప్లగిన్‌ల బ్యాకప్ విజయవంతంగా పునరుద్ధరించబడింది."
+
+#: file_folder_manager_pro.php:208
+msgid "Unable to restore plugins."
+msgstr "ప్లగిన్‌లను పునరుద్ధరించడం సాధ్యం కాలేదు."
+
+#: file_folder_manager_pro.php:215
+msgid "Themes backup restored successfully."
+msgstr "థీమ్స్ బ్యాకప్ విజయవంతంగా పునరుద్ధరించబడింది."
+
+#: file_folder_manager_pro.php:217
+msgid "Unable to restore themes."
+msgstr "థీమ్‌లను పునరుద్ధరించడం సాధ్యం కాలేదు."
+
+#: file_folder_manager_pro.php:224
+msgid "Uploads backup restored successfully."
+msgstr "అప్‌లోడ్ బ్యాకప్ విజయవంతంగా పునరుద్ధరించబడింది."
+
+#: file_folder_manager_pro.php:226
+msgid "Unable to restore uploads."
+msgstr "అప్‌లోడ్‌లను పునరుద్ధరించడం సాధ్యం కాలేదు."
+
+#: file_folder_manager_pro.php:233
+msgid "Others backup restored successfully."
+msgstr "ఇతరులు బ్యాకప్ విజయవంతంగా పునరుద్ధరించబడింది."
+
+#: file_folder_manager_pro.php:235
+msgid "Unable to restore others."
+msgstr "ఇతరులను పునరుద్ధరించడం సాధ్యం కాలేదు."
+
+#: file_folder_manager_pro.php:239
+msgid "Backup not found!"
+msgstr "బ్యాకప్ కనుగొనబడలేదు!"
+
+#: file_folder_manager_pro.php:243
+msgid "security token expired"
+msgstr "భద్రతా టోకెన్ గడువు ముగిసింది"
+
+#: file_folder_manager_pro.php:283
+msgid "Backup(s) removed successfully!"
+msgstr "బ్యాకప్ (లు) విజయవంతంగా తొలగించబడ్డాయి!"
+
+#: file_folder_manager_pro.php:285
+msgid "Unable to remove backup(s)!"
+msgstr "బ్యాకప్ (ల) ను తొలగించడం సాధ్యం కాలేదు!"
+
+#: file_folder_manager_pro.php:308
+msgid "Database backup done on date "
+msgstr "డేటాబేస్ బ్యాకప్ తేదీలో పూర్తయింది "
+
+#: file_folder_manager_pro.php:312
+msgid "Plugins backup done on date "
+msgstr "ప్లగిన్‌ల బ్యాకప్ తేదీన పూర్తయింది "
+
+#: file_folder_manager_pro.php:316
+msgid "Themes backup done on date "
+msgstr "థీమ్స్ బ్యాకప్ తేదీలో పూర్తయింది "
+
+#: file_folder_manager_pro.php:320
+msgid "Uploads backup done on date "
+msgstr "అప్‌లోడ్ చేసిన బ్యాకప్ తేదీ "
+
+#: file_folder_manager_pro.php:324
+msgid "Others backup done on date "
+msgstr "ఇతరులు బ్యాకప్ తేదీలో చేస్తారు"
+
+#: file_folder_manager_pro.php:328 file_folder_manager_pro.php:707 inc/wpfmlogs.php:49
+msgid "Logs"
+msgstr "లాగ్‌లు"
+
+#: file_folder_manager_pro.php:334
+msgid "No logs found!"
+msgstr "లాగ్‌లు ఏవీ కనుగొనబడలేదు!"
+
+#: file_folder_manager_pro.php:405
+msgid "Backup removed successfully!"
+msgstr "బ్యాకప్ విజయవంతంగా తొలగించబడింది!"
+
+#: file_folder_manager_pro.php:407
+msgid "Unable to removed backup!"
+msgstr "తీసివేసిన బ్యాకప్ సాధ్యం కాలేదు!"
+
+#: file_folder_manager_pro.php:430
+msgid "Nothing selected for backup"
+msgstr "బ్యాకప్ కోసం ఏదీ ఎంచుకోబడలేదు"
+
+#: file_folder_manager_pro.php:459
+msgid "Database backup done."
+msgstr "డేటాబేస్ బ్యాకప్ పూర్తయింది."
+
+#: file_folder_manager_pro.php:462
+msgid "Unable to create database backup."
+msgstr "డేటాబేస్ బ్యాకప్‌ను సృష్టించడం సాధ్యపడలేదు."
+
+#: file_folder_manager_pro.php:476
+msgid "Plugins backup done."
+msgstr "ప్లగిన్‌ల బ్యాకప్ పూర్తయింది."
+
+#: file_folder_manager_pro.php:479
+msgid "Plugins backup failed."
+msgstr "ప్లగిన్‌ల బ్యాకప్ విఫలమైంది."
+
+#: file_folder_manager_pro.php:488
+msgid "Themes backup done."
+msgstr "థీమ్స్ బ్యాకప్ పూర్తయింది."
+
+#: file_folder_manager_pro.php:491
+msgid "Themes backup failed."
+msgstr "థీమ్స్ బ్యాకప్ విఫలమైంది."
+
+#: file_folder_manager_pro.php:500
+msgid "Uploads backup done."
+msgstr "అప్‌లోడ్ బ్యాకప్ పూర్తయింది."
+
+#: file_folder_manager_pro.php:503
+msgid "Uploads backup failed."
+msgstr "అప్‌లోడ్ బ్యాకప్ విఫలమైంది."
+
+#: file_folder_manager_pro.php:512
+msgid "Others backup done."
+msgstr "ఇతరుల బ్యాకప్ పూర్తయింది."
+
+#: file_folder_manager_pro.php:515
+msgid "Others backup failed."
+msgstr "ఇతరుల బ్యాకప్ విఫలమైంది."
+
+#: file_folder_manager_pro.php:519 file_folder_manager_pro.php:523
+msgid "All done"
+msgstr "అన్నీ పూర్తయ్యాయి"
+
+#: file_folder_manager_pro.php:545
+msgid "Log(s) removed successfully!"
+msgstr "లాగ్ (లు) విజయవంతంగా తొలగించబడ్డాయి!"
+
+#: file_folder_manager_pro.php:547
+msgid "Unable to removed log(s)!"
+msgstr "లాగ్ (ల) ను తొలగించడం సాధ్యం కాలేదు!"
+
+#: file_folder_manager_pro.php:551 file_folder_manager_pro.php:3253 file_folder_manager_pro.php:3267
+msgid "Invalid security key!"
+msgstr "భద్రతా కీ చెల్లదు!"
+
+#: file_folder_manager_pro.php:586
+msgid "Required libraries installed successfully."
+msgstr "అవసరమైన లైబ్రరీలు విజయవంతంగా ఇన్‌స్టాల్ చేయబడ్డాయి."
+
+#: file_folder_manager_pro.php:589
+msgid "Unable to install Required libraries."
+msgstr "అవసరమైన లైబ్రరీలను ఇన్‌స్టాల్ చేయడం సాధ్యం కాలేదు."
+
+#: file_folder_manager_pro.php:683 file_folder_manager_pro.php:684
+msgid "WP File Manager"
+msgstr "WP ఫైల్ మేనేజర్"
+
+#: file_folder_manager_pro.php:691
+msgid "Settings"
+msgstr "సెట్టింగులు"
+
+#: file_folder_manager_pro.php:693
+msgid "Preferences"
+msgstr "ప్రాధాన్యతలు"
+
+#: file_folder_manager_pro.php:695 inc/email.php:25
+msgid "Email Notifications"
+msgstr "ఇమెయిల్ నోటిఫికేషన్‌లు"
+
+#: file_folder_manager_pro.php:698 inc/shortcode_generator.php:249
+msgid "Shortcode Generator"
+msgstr "షార్ట్ కోడ్ జనరేటర్"
+
+#: file_folder_manager_pro.php:701 inc/extensions.php:160
+msgid "Google Drive"
+msgstr "Google డిస్క్"
+
+#: file_folder_manager_pro.php:704
+msgid "Mobile"
+msgstr "మొబైల్"
+
+#: file_folder_manager_pro.php:706
+msgid "Addons"
+msgstr "యాడ్ఆన్స్"
+
+#: file_folder_manager_pro.php:708
+msgid "Backup"
+msgstr "బ్యాకప్"
+
+#: file_folder_manager_pro.php:709
+msgid "Existing Shortcode"
+msgstr "ఇప్పటికే ఉన్న షార్ట్ కోడ్"
+
+#: file_folder_manager_pro.php:711
+msgid "License"
+msgstr "లైసెన్స్"
+
+#: file_folder_manager_pro.php:808
+msgid "Type here to search list... "
+msgstr "శోధన జాబితా కోసం ఇక్కడ టైప్ చేయండి ... "
+
+#: file_folder_manager_pro.php:809
+msgid "Check all"
+msgstr "అన్ని తనిఖీ చేయండి"
+
+#: file_folder_manager_pro.php:810
+msgid "Uncheck all"
+msgstr "అన్నీ చెక్ చేయవద్దు"
+
+#: file_folder_manager_pro.php:811
+msgid "Invert select"
+msgstr "విలోమ ఎంపిక"
+
+#: file_folder_manager_pro.php:2752
+msgid "You don't have permission to access file manager."
+msgstr "ఫైల్ మేనేజర్‌ను యాక్సెస్ చేయడానికి మీకు అనుమతి లేదు."
+
+#: file_folder_manager_pro.php:2755
+msgid "Invalid shortcode!"
+msgstr "షార్ట్ కోడ్ చెల్లదు!"
+
+#: file_folder_manager_pro.php:2758
+msgid "Invalid security token!"
+msgstr "భద్రతా టోకెన్ చెల్లదు!"
+
+#: file_folder_manager_pro.php:2915
+msgid "Your File Manager PRO Order Details"
+msgstr "మీ ఫైల్ మేనేజర్ PRO ఆర్డర్ వివరాలు"
+
+#: file_folder_manager_pro.php:2915
+msgid "Order Details"
+msgstr "ఆర్డర్ వివరాలు"
+
+#: file_folder_manager_pro.php:2917
+msgid "Order ID: "
+msgstr "ఆర్డర్ గుర్తింపు సంఖ్యా: "
+
+#: file_folder_manager_pro.php:2918
+msgid "License Key: "
+msgstr "లైసెన్స్ కీ: "
+
+#: file_folder_manager_pro.php:2919
+msgid "&nbsp; Warning: Please don't share these details with anyone."
+msgstr "&nbsp; హెచ్చరిక: దయచేసి ఈ వివరాలను ఎవరితోనూ పంచుకోవద్దు."
+
+#: file_folder_manager_pro.php:3048
+msgid "<p>(Unable to execute php syntax checker due to server permissions.)</p>"
+msgstr "<p> (సర్వర్ అనుమతుల కారణంగా php సింటాక్స్ చెకర్‌ను అమలు చేయడం సాధ్యం కాలేదు.) </ p>"
+
+#: file_folder_manager_pro.php:3052
+msgid "<p>(File <strong>"
+msgstr "<p> (ఫైల్ <strong>"
+
+#: file_folder_manager_pro.php:3052
+msgid "</strong> not saved.)</p>"
+msgstr "</strong> సేవ్ చేయబడలేదు.) </ p>"
+
+#: file_folder_manager_pro.php:3222
+msgid "File doesn't exist to download."
+msgstr "డౌన్‌లోడ్ చేయడానికి ఫైల్ లేదు."
+
+#: file_folder_manager_pro.php:3227
+msgid "Invalid Security Code."
+msgstr "భద్రతా కోడ్ చెల్లదు."
+
+#: file_folder_manager_pro.php:3232
+msgid "Missing backup id."
+msgstr "బ్యాకప్ ఐడి లేదు."
+
+#: file_folder_manager_pro.php:3235
+msgid "Missing parameter type."
+msgstr "పరామితి రకం లేదు."
+
+#: file_folder_manager_pro.php:3238
+msgid "Missing required parameters."
+msgstr "అవసరమైన పారామితులు లేవు."
+
+#: inc/backup.php:583
+msgid "WP File Manager - Backup/Restore"
+msgstr "WP ఫైల్ మేనేజర్ - బ్యాకప్ / పునరుద్ధరించు"
+
+#: inc/backup.php:589
+msgid "Backup Options:"
+msgstr "బ్యాకప్ ఎంపికలు:"
+
+#: inc/backup.php:596
+msgid "Database Backup"
+msgstr "డేటాబేస్ బ్యాకప్"
+
+#: inc/backup.php:602
+msgid "Files Backup"
+msgstr "ఫైల్స్ బ్యాకప్"
+
+#: inc/backup.php:606
+msgid "Plugins"
+msgstr "ప్లగిన్లు"
+
+#: inc/backup.php:609
+msgid "Themes"
+msgstr "థీమ్స్"
+
+#: inc/backup.php:612
+msgid "Uploads"
+msgstr "అప్‌లోడ్‌లు"
+
+#: inc/backup.php:615
+msgid "Others (Any other directories found inside wp-content)"
+msgstr "ఇతరులు (wp- కంటెంట్ లోపల కనిపించే ఇతర డైరెక్టరీలు)"
+
+#: inc/backup.php:619
+msgid "Backup Now"
+msgstr "భద్రపరచు"
+
+#: inc/backup.php:627
+msgid "Time now"
+msgstr "ఇప్పుడు సమయం"
+
+#: inc/backup.php:637
+msgid "SUCCESS"
+msgstr "విజయం"
+
+#: inc/backup.php:639
+msgid "Backup successfully deleted."
+msgstr "బ్యాకప్ విజయవంతంగా తొలగించబడింది."
+
+#: inc/backup.php:640
+msgid "Ok"
+msgstr "అలాగే"
+
+#: inc/backup.php:655
+msgid "DELETE FILES"
+msgstr "ఫైళ్ళను తొలగించండి"
+
+#: inc/backup.php:657
+msgid "Are you sure you want to delete this backup?"
+msgstr "మీరు ఖచ్చితంగా ఈ బ్యాకప్‌ను తొలగించాలనుకుంటున్నారా?"
+
+#: inc/backup.php:658 inc/backup.php:677
+msgid "Cancel"
+msgstr "రద్దు చేయండి"
+
+#: inc/backup.php:659 inc/backup.php:678
+msgid "Confirm"
+msgstr "నిర్ధారించండి"
+
+#: inc/backup.php:674
+msgid "RESTORE FILES"
+msgstr "ఫైళ్ళను పునరుద్ధరించండి"
+
+#: inc/backup.php:676
+msgid "Are you sure you want to restore this backup?"
+msgstr "మీరు ఖచ్చితంగా ఈ బ్యాకప్‌ను పునరుద్ధరించాలనుకుంటున్నారా?"
+
+#: inc/backup.php:704
+msgid "Last Log Message"
+msgstr "చివరి లాగ్ సందేశం"
+
+#: inc/backup.php:707
+msgid "The backup apparently succeeded and is now complete."
+msgstr "బ్యాకప్ విజయవంతమైంది మరియు ఇప్పుడు పూర్తయింది."
+
+#: inc/backup.php:709
+msgid "No log message"
+msgstr "లాగ్ సందేశం లేదు"
+
+#: inc/backup.php:715
+msgid "Existing Backup(s)"
+msgstr "ఇప్పటికే ఉన్న బ్యాకప్ (లు)"
+
+#: inc/backup.php:723
+msgid "Backup Date"
+msgstr "బ్యాకప్ తేదీ"
+
+#: inc/backup.php:726
+msgid "Backup data (click to download)"
+msgstr "బ్యాకప్ డేటా (డౌన్‌లోడ్ చేయడానికి క్లిక్ చేయండి)"
+
+#: inc/backup.php:729 inc/shortcode_listing.php:45 inc/wpfmlogs.php:80 inc/wpfmlogs.php:162 inc/wpfmlogs.php:245
+msgid "Action"
+msgstr "చర్య"
+
+#: inc/backup.php:749
+msgid "Today"
+msgstr "నేడు"
+
+#: inc/backup.php:771
+msgid "Restore"
+msgstr "పునరుద్ధరించు"
+
+#: inc/backup.php:773
+msgid "View Log"
+msgstr "లాగ్ చూడండి"
+
+#: inc/backup.php:778
+msgid "Currently no backup(s) found."
+msgstr "ప్రస్తుతం బ్యాకప్ (లు) కనుగొనబడలేదు."
+
+#: inc/backup.php:781
+msgid "Actions upon selected backup(s)"
+msgstr "ఎంచుకున్న బ్యాకప్ (ల) పై చర్యలు"
+
+#: inc/backup.php:783
+msgid "Select All"
+msgstr "అన్ని ఎంచుకోండి"
+
+#: inc/backup.php:784
+msgid "Deselect"
+msgstr "ఎంపికను తీసివేయండి"
+
+#: inc/backup.php:786
+msgid "<strong>Note:</strong>Backup files will be under"
+msgstr "<strong> గమనిక: </strong> బ్యాకప్ ఫైల్‌లు కింద ఉంటాయి"
+
+#: inc/backup.php:803
+msgid "Backup is running, please wait"
+msgstr "బ్యాకప్ నడుస్తోంది, దయచేసి వేచి ఉండండి"
+
+#: inc/backup.php:902
+msgid "Select backup(s) to delete!"
+msgstr "తొలగించడానికి బ్యాకప్ (లు) ఎంచుకోండి!"
+
+#: inc/backup.php:904
+msgid "Are you sure want to remove selected backup(s)?"
+msgstr "మీరు ఖచ్చితంగా ఎంచుకున్న బ్యాకప్ (ల) ను తీసివేయాలనుకుంటున్నారా?"
+
+#: inc/email.php:6
+msgid "Saving please wait..."
+msgstr "సేవ్ చేయండి దయచేసి వేచి ఉండండి ..."
+
+#: inc/email.php:32 inc/root.php:30 inc/settings.php:9
+msgid "Settings saved."
+msgstr "సెట్టింగులు సేవ్ చేయబడ్డాయి."
+
+#: inc/email.php:32 inc/email.php:35 inc/root.php:30 inc/root.php:33 inc/settings.php:9 inc/settings.php:12
+msgid "Dismiss this notice."
+msgstr "ఈ నోటీసును తొలగించండి."
+
+#: inc/email.php:35 inc/settings.php:12
+msgid "Settings not saved."
+msgstr "సెట్టింగ్‌లు సేవ్ చేయబడలేదు."
+
+#: inc/email.php:44
+msgid "Enable?"
+msgstr "ప్రారంభించాలా?"
+
+#: inc/email.php:54
+msgid "Email Addresses"
+msgstr "ఇమెయిల్ చిరునామాలు"
+
+#: inc/email.php:71
+msgid "Add More <strong>+</strong>"
+msgstr "మరిన్ని జోడించండి<strong> + </strong>"
+
+#: inc/email.php:73
+msgid "This address is used for notification purposes, like theme/plugin notification."
+msgstr "థీమ్ / ప్లగిన్ నోటిఫికేషన్ వంటి నోటిఫికేషన్ ప్రయోజనాల కోసం ఈ చిరునామా ఉపయోగించబడుతుంది."
+
+#: inc/email.php:79
+msgid "Files Upload Notifications"
+msgstr "ఫైల్‌లు నోటిఫికేషన్‌లను అప్‌లోడ్ చేస్తాయి"
+
+#: inc/email.php:82 inc/email.php:108 inc/email.php:131
+msgid "Subject"
+msgstr "విషయం"
+
+#: inc/email.php:85
+msgid "Files Uploaded"
+msgstr "ఫైళ్ళు అప్‌లోడ్ చేయబడ్డాయి"
+
+#: inc/email.php:95 inc/email.php:119 inc/email.php:142
+msgid "Body"
+msgstr "శరీరం"
+
+#: inc/email.php:98 inc/email.php:122 inc/email.php:145
+msgid "Example:"
+msgstr "ఉదాహరణ:"
+
+#: inc/email.php:105
+msgid "Files Download Notifications"
+msgstr "ఫైల్స్ డౌన్‌లోడ్ నోటిఫికేషన్‌లు"
+
+#: inc/email.php:111
+msgid "Files Downloaded"
+msgstr "ఫైళ్ళు డౌన్‌లోడ్ చేయబడ్డాయి"
+
+#: inc/email.php:128
+msgid "Files Edit Notifications"
+msgstr "ఫైల్స్ నోటిఫికేషన్లను సవరించండి"
+
+#: inc/email.php:134
+msgid "Files Modified or Edited"
+msgstr "ఫైళ్ళు సవరించబడ్డాయి లేదా సవరించబడ్డాయి"
+
+#: inc/email.php:155 inc/root.php:87 inc/settings.php:703
+msgid "Save Changes"
+msgstr "మార్పులను ఊంచు"
+
+#: inc/email.php:186 inc/email.php:209
+msgid "All added email fields needs to filled and should have valid email address."
+msgstr "జోడించిన అన్ని ఇమెయిల్ ఫీల్డ్‌లు నింపాల్సిన అవసరం ఉంది మరియు చెల్లుబాటు అయ్యే ఇమెయిల్ చిరునామాను కలిగి ఉండాలి."
+
+#: inc/extensions.php:116
+msgid "Add-ons"
+msgstr "యాడ్-ఆన్‌లు"
+
+#: inc/extensions.php:121
+msgid "Box"
+msgstr "బాక్స్"
+
+#: inc/extensions.php:130 inc/extensions.php:149 inc/extensions.php:169 inc/extensions.php:188 inc/extensions.php:206
+#: inc/extensions.php:225
+msgid "Buy Now"
+msgstr "ఇప్పుడే కొనండి"
+
+#: inc/extensions.php:141
+msgid "DropBox"
+msgstr "డ్రాప్‌బాక్స్"
+
+#: inc/extensions.php:179
+msgid "OneDrive"
+msgstr "వన్‌డ్రైవ్"
+
+#: inc/extensions.php:198
+msgid "AWS S3"
+msgstr ""
+
+#: inc/extensions.php:216
+msgid "Git Hub"
+msgstr "గిట్ హబ్"
+
+#: inc/fm_shortcode_btn.php:8
+msgid "Insert File Manager Shortcode"
+msgstr "ఫైల్ మేనేజర్ షార్ట్ కోడ్‌ను చొప్పించండి"
+
+#: inc/fm_shortcode_btn.php:14
+msgid "Select Shortcode"
+msgstr "షార్ట్ కోడ్ ఎంచుకోండి"
+
+#: inc/fm_shortcode_btn.php:17
+msgid "Choose Shortcode"
+msgstr "షార్ట్ కోడ్ ఎంచుకోండి"
+
+#: inc/license.php:42
+msgid "Purchase New License"
+msgstr "కొత్త లైసెన్స్ కొనండి"
+
+#: inc/license.php:45
+msgid ""
+"To unlock updates, please enter your order id and license key below. If you don't have a license key, <a href="
+"\"https://filemanagerpro.io/file-manager-pricing/\" target=\"_blank\" class=\"page-title-action buy-link\" title="
+"\"click to buy License Key\">please see details & pricing</a>"
+msgstr ""
+"నవీకరణలను అన్‌లాక్ చేయడానికి, దయచేసి మీ ఆర్డర్ ఐడి మరియు లైసెన్స్ కీని క్రింద నమోదు చేయండి. మీకు లైసెన్స్ కీ లేకపోతే, <a href=\"https://filemanagerpro.io/"
+"file-manager-pricing/\" target=\"_blank\" class=\"page-title-action buy-link\" title=\"లైసెన్స్ కీని కొనుగోలు చేయడానికి క్లిక్ చేయండి"
+"\">దయచేసి వివరాలు & ధరలను చూడండి </a>"
+
+#: inc/license.php:50
+msgid "ORDER ID (#)"
+msgstr "ఆర్డర్ గుర్తింపు సంఖ్యా (#)"
+
+#: inc/license.php:54
+msgid "LICENSE KEY"
+msgstr "లైసెన్స్ కీ"
+
+#: inc/license.php:69
+msgid "PURCHASE DATE"
+msgstr "కొనిన తేదీ"
+
+#: inc/license.php:73
+msgid "EXPIRE DATE"
+msgstr "గడువు ముగియండి"
+
+#: inc/license.php:85
+msgid "If you have renewed your license already then click here to refresh!"
+msgstr "మీరు ఇప్పటికే మీ లైసెన్స్‌ను పునరుద్ధరించినట్లయితే, రిఫ్రెష్ చేయడానికి ఇక్కడ క్లిక్ చేయండి!"
+
+#: inc/license.php:97
+msgid "Deactivate"
+msgstr "నిష్క్రియం చేయండి"
+
+#: inc/license.php:102
+msgid "Click here to renew"
+msgstr "పునరుద్ధరించడానికి ఇక్కడ క్లిక్ చేయండి"
+
+#: inc/license.php:109
+msgid "Click Here To Renew License"
+msgstr "లైసెన్స్ పునరుద్ధరించడానికి ఇక్కడ క్లిక్ చేయండి"
+
+#: inc/license.php:159
+msgid "Are you sure you want to deactivate your license?"
+msgstr "మీరు ఖచ్చితంగా మీ లైసెన్స్‌ను నిష్క్రియం చేయాలనుకుంటున్నారా?"
+
+#: inc/popup.php:31
+msgid "File Manager Pro Update"
+msgstr "ఫైల్ మేనేజర్ ప్రో నవీకరణ"
+
+#: inc/popup.php:32
+msgid "File Manager Pro"
+msgstr "ఫైల్ మేనేజర్ ప్రో"
+
+#: inc/popup.php:36
+msgid "With File Manager Pro"
+msgstr "ఫైల్ మేనేజర్ ప్రోతో"
+
+#: inc/popup.php:36
+msgid "users will now be able to customise the existing shortcodes with the help of filters."
+msgstr "వినియోగదారులు ఇప్పుడు ఫిల్టర్‌ల సహాయంతో ఇప్పటికే ఉన్న షార్ట్‌కోడ్‌లను అనుకూలీకరించగలరు."
+
+#: inc/popup.php:36
+msgid "Click"
+msgstr "క్లిక్ చేయండి"
+
+#: inc/popup.php:36
+msgid "here"
+msgstr "ఇక్కడ"
+
+#: inc/popup.php:36
+msgid "to see documentation to support you in your transition"
+msgstr "మీ పరివర్తనలో మీకు మద్దతు ఇవ్వడానికి డాక్యుమెంటేషన్ చూడటానికి"
+
+#: inc/popup.php:36
+msgid "Happy Coding!"
+msgstr "హ్యాపీ కోడింగ్!"
+
+#: inc/popup.php:37
+msgid "View Shortcode Documentation"
+msgstr "షార్ట్ కోడ్ డాక్యుమెంటేషన్ చూడండి"
+
+#: inc/root.php:33
+msgid "You have not made any changes to be saved."
+msgstr "మీరు సేవ్ చేయడానికి ఎటువంటి మార్పులు చేయలేదు."
+
+#: inc/root.php:39
+msgid "Preferences - File Manager"
+msgstr "ప్రాధాన్యతలు - ఫైల్ మేనేజర్"
+
+#: inc/root.php:46
+msgid "Public Root Path"
+msgstr "పబ్లిక్ రూట్ మార్గం"
+
+#: inc/root.php:50
+msgid "File Manager Root Path, you can change according to your choice."
+msgstr "ఫైల్ మేనేజర్ రూట్ పాత్, మీరు మీ ఎంపిక ప్రకారం మార్చవచ్చు."
+
+#: inc/root.php:53 inc/settings.php:208 inc/settings.php:226 inc/settings.php:239 inc/shortcode_generator.php:425
+#: inc/shortcode_generator.php:442 inc/shortcode_generator.php:455 inc/shortcode_generator.php:568
+#: inc/shortcode_generator.php:585 inc/shortcode_generator.php:598
+msgid "Default:"
+msgstr "డిఫాల్ట్:"
+
+#: inc/root.php:55
+msgid "Please change this carefully, Wrong path can lead file manager plugin to go down."
+msgstr "దయచేసి దీన్ని జాగ్రత్తగా మార్చండి, తప్పు మార్గం ఫైల్ మేనేజర్ ప్లగ్ఇన్ క్రిందికి వెళ్ళడానికి దారితీస్తుంది."
+
+#: inc/root.php:60
+msgid "Enable Syntax Checker?"
+msgstr "సింటాక్స్ చెకర్‌ను ప్రారంభించాలా?"
+
+#: inc/root.php:63
+msgid ""
+"When the Syntax Checker is enabled, the code updates being made to PHP files will be checked for syntax errors. If a "
+"syntax error is found, the updates will not be saved and a message box will appear which will define the error found. "
+"This checker will help prevent website downtime issues due to syntax errors."
+msgstr ""
+"సింటాక్స్ చెకర్ ప్రారంభించబడినప్పుడు, PHP ఫైళ్ళకు కోడ్ నవీకరణలు సింటాక్స్ లోపాల కోసం తనిఖీ చేయబడతాయి. వాక్యనిర్మాణ లోపం కనుగొనబడితే, నవీకరణలు సేవ్ చేయబడవు మరియు "
+"సందేశ పెట్టె కనిపిస్తుంది, ఇది కనుగొనబడిన లోపాన్ని నిర్వచిస్తుంది. సింటాక్స్ లోపాల కారణంగా వెబ్‌సైట్ పనికిరాని సమస్యలను నివారించడానికి ఈ చెకర్ సహాయం చేస్తుంది."
+
+#: inc/root.php:68
+msgid "Enable Trash?"
+msgstr "ట్రాష్‌ను ప్రారంభించాలా?"
+
+#: inc/root.php:73
+msgid "After enabling trash, your files will go to trash folder."
+msgstr "ట్రాష్‌ను ప్రారంభించిన తర్వాత, మీ ఫైల్‌లు ట్రాష్ ఫోల్డర్‌కు వెళ్తాయి."
+
+#: inc/root.php:78
+msgid "Enable Files Upload to Media Library?"
+msgstr "మీడియా లైబ్రరీకి ఫైల్‌లను అప్‌లోడ్ చేయడాన్ని ప్రారంభించాలా?"
+
+#: inc/root.php:83
+msgid "After enabling this, uploaded images, pdfs and zip files will go to media library too."
+msgstr "దీన్ని ప్రారంభించిన తర్వాత, అప్‌లోడ్ చేసిన చిత్రాలు, పిడిఎఫ్‌లు మరియు జిప్ ఫైల్‌లు మీడియా లైబ్రరీకి కూడా వెళ్తాయి."
+
+#: inc/settings.php:18
+msgid "Settings - File Manager"
+msgstr "సెట్టింగులు - ఫైల్ మేనేజర్"
+
+#: inc/settings.php:19
+msgid "Settings will apply on"
+msgstr "సెట్టింగులు వర్తిస్తాయి"
+
+#: inc/settings.php:19
+msgid "shortcode."
+msgstr "చిన్న కోడ్."
+
+#: inc/settings.php:24 inc/shortcode_generator.php:210
+msgid "Make Directory"
+msgstr "డైరెక్టరీ చేయండి"
+
+#: inc/settings.php:25 inc/shortcode_generator.php:211
+msgid "Make File"
+msgstr "ఫైల్ చేయండి"
+
+#: inc/settings.php:26 inc/shortcode_generator.php:212
+msgid "Rename"
+msgstr "పేరు మార్చు"
+
+#: inc/settings.php:27 inc/shortcode_generator.php:213
+msgid "Duplicate"
+msgstr "నకిలీ"
+
+#: inc/settings.php:28 inc/shortcode_generator.php:214
+msgid "Paste"
+msgstr "అతికించండి"
+
+#: inc/settings.php:29 inc/shortcode_generator.php:215
+msgid "Archive"
+msgstr "ఆర్కైవ్"
+
+#: inc/settings.php:30 inc/shortcode_generator.php:216
+msgid "Extract"
+msgstr "సంగ్రహించు"
+
+#: inc/settings.php:31 inc/shortcode_generator.php:217 inc/shortcode_listing.php:61 inc/shortcode_listing.php:84
+#: inc/shortcode_listing.php:159 inc/shortcode_listing.php:175 inc/shortcode_listing.php:215
+msgid "Copy"
+msgstr "కాపీ"
+
+#: inc/settings.php:32 inc/shortcode_generator.php:218
+msgid "Cut"
+msgstr "కట్"
+
+#: inc/settings.php:35 inc/shortcode_generator.php:221
+msgid "Download"
+msgstr "డౌన్‌లోడ్ చేయండి"
+
+#: inc/settings.php:36 inc/shortcode_generator.php:222
+msgid "Upload"
+msgstr "అప్‌లోడ్ చేయండి"
+
+#: inc/settings.php:37 inc/shortcode_generator.php:223 inc/shortcode_listing.php:109
+msgid "Search"
+msgstr "వెతకండి"
+
+#: inc/settings.php:38 inc/shortcode_generator.php:224
+msgid "Info"
+msgstr "సమాచారం"
+
+#: inc/settings.php:40 inc/shortcode_generator.php:226
+msgid "Resize"
+msgstr "పరిమాణం మార్చండి"
+
+#: inc/settings.php:47 inc/shortcode_generator.php:147
+msgid "<strong>Saving Please wait...</strong>"
+msgstr "<strong> సేవ్ దయచేసి వేచి ఉండండి ... </ strong>"
+
+#: inc/settings.php:83
+msgid "General"
+msgstr "జనరల్"
+
+#: inc/settings.php:88
+msgid "Code Editor"
+msgstr "కోడ్ ఎడిటర్"
+
+#: inc/settings.php:93
+msgid "User Restrictions"
+msgstr "వాడుకరి పరిమితులు"
+
+#: inc/settings.php:98
+msgid "User Role Restrictions"
+msgstr "వాడుకరి పాత్ర పరిమితులు"
+
+#: inc/settings.php:104
+msgid "Frontend Access"
+msgstr "ఫ్రంటెండ్ యాక్సెస్"
+
+#: inc/settings.php:111
+msgid "Select User Roles to access WP File Manager"
+msgstr "WP ఫైల్ మేనేజర్‌ను యాక్సెస్ చేయడానికి యూజర్ పాత్రలను ఎంచుకోండి"
+
+#: inc/settings.php:124
+msgid "Allow user roles to access WP File Manager."
+msgstr "WP ఫైల్ మేనేజర్‌ను యాక్సెస్ చేయడానికి వినియోగదారు పాత్రలను అనుమతించండి."
+
+#: inc/settings.php:131
+msgid "Select User Roles to access DB Manager"
+msgstr "DB నిర్వాహికిని యాక్సెస్ చేయడానికి వినియోగదారు పాత్రలను ఎంచుకోండి"
+
+#: inc/settings.php:144
+msgid "Allow user roles to access DB Manager."
+msgstr "DB నిర్వాహికిని యాక్సెస్ చేయడానికి వినియోగదారు పాత్రలను అనుమతించండి."
+
+#: inc/settings.php:150
+msgid "Separate or Private Folder Access"
+msgstr "Seperate లేదా ప్రైవేట్ ఫోల్డర్ యాక్సెస్"
+
+#: inc/settings.php:152
+msgid ""
+"File Manager will access this folder path. Else, will access root directory. <strong>e.g wp-content/plugins</strong>. "
+"<br><strong>Note:</strong> Will be valid for all user roles."
+msgstr ""
+"ఫైల్ మేనేజర్ ఈ ఫోల్డర్ మార్గాన్ని యాక్సెస్ చేస్తుంది. లేకపోతే, రూట్ డైరెక్టరీని యాక్సెస్ చేస్తుంది. <strong> ఉదా. Wp- కంటెంట్ / ప్లగిన్లు </ strong>. <br> "
+"<strong> గమనిక: </ strong> అన్ని వినియోగదారు పాత్రలకు చెల్లుతుంది."
+
+#: inc/settings.php:157
+msgid "Maximum Upload Size"
+msgstr "గరిష్ట అప్‌లోడ్ పరిమాణం"
+
+#: inc/settings.php:159
+msgid "MB"
+msgstr ""
+
+#: inc/settings.php:159
+msgid "Allow users to upload file of maximum."
+msgstr "గరిష్టంగా ఫైల్‌ను అప్‌లోడ్ చేయడానికి వినియోగదారులను అనుమతించండి."
+
+#: inc/settings.php:163
+msgid "Notification Email"
+msgstr "నోటిఫికేషన్ ఇమెయిల్"
+
+#: inc/settings.php:165
+msgid "Sends Notifications to this email. <strong>Note:</strong> This will take admin email by default if kept empty."
+msgstr "ఈ ఇమెయిల్‌కు నోటిఫికేషన్‌లను పంపుతుంది. <strong> గమనిక: </ strong> ఇది ఖాళీగా ఉంటే ఇది డిఫాల్ట్‌గా నిర్వాహక ఇమెయిల్‌ను తీసుకుంటుంది."
+
+#: inc/settings.php:170
+msgid "Send Notifications to admin and save logs on file upload ?"
+msgstr "నిర్వాహకుడికి నోటిఫికేషన్లు పంపండి మరియు ఫైల్ అప్‌లోడ్‌లో లాగ్‌లను సేవ్ చేయాలా?"
+
+#: inc/settings.php:174
+msgid ""
+"Check to allow file upload notifications. Mail will be sent to admin. Click <a href=\"admin.php?page=wpfm-emails\" "
+"target=\"_blank\">here</a> to set notification email."
+msgstr ""
+"ఫైల్ అప్‌లోడ్ నోటిఫికేషన్‌లను అనుమతించడానికి తనిఖీ చేయండి. అడ్మిన్‌కు మెయిల్ పంపబడుతుంది. నోటిఫికేషన్ ఇమెయిల్‌ను సెట్ చేయడానికి <a href=\"admin.php?page=wpfm-"
+"emails\" target=\"_blank\"> ఇక్కడ </a> క్లిక్ చేయండి."
+
+#: inc/settings.php:174 inc/settings.php:183 inc/settings.php:192
+msgid ""
+"<strong>Note:</strong> This feature is using wp_mail(), Make sure <a href=\"https://developer.wordpress.org/reference/"
+"functions/wp_mail/\" title=\"Read More\" target=\"_blank\">wp_mail</a> is working."
+msgstr ""
+"<strong> గమనిక: </ strong> ఈ లక్షణం wp_mail () ను ఉపయోగిస్తుందని, <a href=\"https://developer.wordpress.org/reference/"
+"functions/wp_mail/\" title=\"ఇంకా చదవండి\" target=\"_blank\"> wp_mail </a> పనిచేస్తోంది."
+
+#: inc/settings.php:179
+msgid "Send Notifications to admin and save logs on file download ?"
+msgstr "నిర్వాహకుడికి నోటిఫికేషన్లు పంపండి మరియు ఫైల్ డౌన్‌లోడ్‌లో లాగ్‌లను సేవ్ చేయాలా?"
+
+#: inc/settings.php:183
+msgid ""
+"Check to allow file download notifications. Mail will be sent to admin. Click <a href=\"admin.php?page=wpfm-emails\" "
+"target=\"_blank\">here</a> to set notification email."
+msgstr ""
+"ఫైల్ డౌన్‌లోడ్ నోటిఫికేషన్‌లను అనుమతించడానికి తనిఖీ చేయండి. అడ్మిన్‌కు మెయిల్ పంపబడుతుంది. నోటిఫికేషన్ ఇమెయిల్‌ను సెట్ చేయడానికి <a href=\"admin.php?page=wpfm-"
+"emails\" target=\"_blank\"> ఇక్కడ </a> క్లిక్ చేయండి."
+
+#: inc/settings.php:188
+msgid "Send Notifications to admin and save logs on file edit ?"
+msgstr "నిర్వాహకుడికి నోటిఫికేషన్‌లను పంపండి మరియు ఫైల్ సవరణలో లాగ్‌లను సేవ్ చేయాలా?"
+
+#: inc/settings.php:192
+msgid ""
+"Check to allow file edit notifications. Mail will be sent to admin.  Click <a href=\"admin.php?page=wpfm-emails\" "
+"target=\"_blank\">here</a> to set notification email."
+msgstr ""
+"ఫైల్ సవరణ నోటిఫికేషన్లను అనుమతించడానికి తనిఖీ చేయండి. అడ్మిన్‌కు మెయిల్ పంపబడుతుంది. నోటిఫికేషన్ ఇమెయిల్‌ను సెట్ చేయడానికి <a href=\"admin.php?page=wpfm-"
+"emails\" target=\"_blank\"> ఇక్కడ </a> క్లిక్ చేయండి."
+
+#: inc/settings.php:198
+msgid "Select File Manager Language"
+msgstr "ఫైల్ మేనేజర్ భాషను ఎంచుకోండి"
+
+#: inc/settings.php:208 inc/shortcode_generator.php:425 inc/shortcode_generator.php:568
+msgid "English"
+msgstr "ఆంగ్ల"
+
+#: inc/settings.php:209
+msgid "You can select any language for File Manager."
+msgstr "మీరు ఫైల్ మేనేజర్ కోసం ఏదైనా భాషను ఎంచుకోవచ్చు."
+
+#: inc/settings.php:215
+msgid "Select File Manager Theme"
+msgstr "ఫైల్ మేనేజర్ థీమ్‌ను ఎంచుకోండి"
+
+#: inc/settings.php:227
+msgid "You can select any theme for File Manager."
+msgstr "మీరు ఫైల్ మేనేజర్ కోసం ఏదైనా థీమ్‌ను ఎంచుకోవచ్చు."
+
+#: inc/settings.php:233 inc/shortcode_generator.php:449 inc/shortcode_generator.php:592
+msgid "Files View"
+msgstr "ఫైల్స్ వీక్షణ"
+
+#: inc/settings.php:236 inc/settings.php:239 inc/shortcode_generator.php:452 inc/shortcode_generator.php:455
+#: inc/shortcode_generator.php:595 inc/shortcode_generator.php:598
+msgid "List"
+msgstr "జాబితా"
+
+#: inc/settings.php:237 inc/shortcode_generator.php:453 inc/shortcode_generator.php:596
+msgid "Icon"
+msgstr "ఐకాన్"
+
+#: inc/settings.php:240
+msgid "You can select any view for File Manager."
+msgstr "మీరు ఫైల్ మేనేజర్ కోసం ఏదైనా వీక్షణను ఎంచుకోవచ్చు."
+
+#: inc/settings.php:244
+msgid "Enable \"Insert File Manager Shortcode\" Button with Content Editor ?"
+msgstr "కంటెంట్ ఎడిటర్‌తో \"ఫైల్ మేనేజర్ షార్ట్‌కోడ్ చొప్పించు\" బటన్‌ను ప్రారంభించాలా?"
+
+#: inc/settings.php:248
+msgid "Enable \"Insert File Manager Shortcode\" button in edit page screen with classic editor."
+msgstr "క్లాసిక్ ఎడిటర్‌తో సవరణ పేజీ స్క్రీన్‌లో \"ఫైల్ మేనేజర్ షార్ట్‌కోడ్ చొప్పించు\" బటన్‌ను ప్రారంభించండి."
+
+#: inc/settings.php:252
+msgid "Disable Local File System ?"
+msgstr "స్థానిక ఫైల్ సిస్టమ్‌ను నిలిపివేయాలా?"
+
+#: inc/settings.php:256
+msgid "Check to disable Local File System in File Manager."
+msgstr "ఫైల్ మేనేజర్‌లో స్థానిక ఫైల్ సిస్టమ్‌ను నిలిపివేయడానికి తనిఖీ చేయండి."
+
+#: inc/settings.php:261
+msgid "Disable Database Manager ?"
+msgstr "డేటాబేస్ నిర్వాహికిని నిలిపివేయాలా?"
+
+#: inc/settings.php:265
+msgid "Check to disable Database Manager."
+msgstr "డేటాబేస్ నిర్వాహికిని నిలిపివేయడానికి తనిఖీ చేయండి."
+
+#: inc/settings.php:276
+msgid "Code editor allow fullscreen?"
+msgstr "కోడ్ ఎడిటర్ పూర్తి స్క్రీన్‌ను అనుమతించాలా?"
+
+#: inc/settings.php:277
+msgid "Check to allow fullscreen code editor"
+msgstr "పూర్తి స్క్రీన్ కోడ్ ఎడిటర్ను అనుమతించడానికి తనిఖీ చేయండి"
+
+#: inc/settings.php:281
+msgid "Select theme for Code Editor."
+msgstr "కోడ్ ఎడిటర్ కోసం థీమ్ను ఎంచుకోండి."
+
+#: inc/settings.php:289
+msgid ""
+"Select theme for Code Editor. For more information please visit <a href=\"http://codemirror.net/demo/theme.html\" "
+"target=\"_blank\">this link</a>."
+msgstr ""
+"కోడ్ ఎడిటర్ కోసం థీమ్‌ను ఎంచుకోండి. మరింత సమాచారం కోసం దయచేసి <a href=\"http://codemirror.net/demo/theme.html\" target=\"_blank\"> ఈ "
+"లింక్ </a> ని సందర్శించండి."
+
+#: inc/settings.php:298
+msgid "Disable or Ban WP File Manager Operations to User Roles"
+msgstr "వాడుకరి పాత్రలకు WP ఫైల్ మేనేజర్ ఆపరేషన్లను ఆపివేయి లేదా నిషేధించండి"
+
+#: inc/settings.php:299
+msgid "Select user role and disable operation."
+msgstr "యూజర్ పాత్ర మరియు డిసేబుల్ ఆపరేషన్ ఎంచుకోండి."
+
+#: inc/settings.php:304 inc/settings.php:491
+msgid "Click to Add Rules"
+msgstr "రూల్స్ జోడించండి క్లిక్ చేయండి"
+
+#: inc/settings.php:305
+msgid "Add rule for User Roles"
+msgstr "వాడుకరి పాత్రలకు నియమాన్ని జోడించండి"
+
+#: inc/settings.php:313 inc/settings.php:396
+msgid "If User role is"
+msgstr "వినియోగదారు పాత్ర ఉంటే"
+
+#: inc/settings.php:315 inc/settings.php:398
+msgid "Select User Role"
+msgstr "వినియోగదారు పాత్రను ఎంచుకోండి"
+
+#: inc/settings.php:320 inc/settings.php:406 inc/settings.php:508 inc/settings.php:589
+msgid "Then"
+msgstr "అప్పుడు"
+
+#: inc/settings.php:329 inc/settings.php:415 inc/settings.php:517 inc/settings.php:599
+msgid "Disable Operations"
+msgstr "ఆపరేషన్లను ఆపివేయి"
+
+#: inc/settings.php:342 inc/settings.php:435 inc/settings.php:528 inc/settings.php:620
+msgid "Separate or private folder access <strong>e.g wp-content/themes</strong> etc."
+msgstr "ప్రత్యేక లేదా ప్రైవేట్ ఫోల్డర్ యాక్సెస్ <strong> ఉదా. Wp- కంటెంట్ / థీమ్స్ </ strong> మొదలైనవి."
+
+#: inc/settings.php:345 inc/settings.php:353 inc/settings.php:361 inc/settings.php:438 inc/settings.php:446
+#: inc/settings.php:454 inc/settings.php:531 inc/settings.php:539 inc/settings.php:547 inc/settings.php:623
+#: inc/settings.php:631 inc/settings.php:639
+msgid "Note:"
+msgstr "గమనిక:"
+
+#: inc/settings.php:345 inc/settings.php:438 inc/settings.php:531 inc/settings.php:623
+msgid "It will overide \"Private Folder Access\" settings"
+msgstr "ఇది \"ప్రైవేట్ ఫోల్డర్ యాక్సెస్\" సెట్టింగులను అధిగమిస్తుంది"
+
+#: inc/settings.php:350 inc/settings.php:443 inc/settings.php:536 inc/settings.php:628
+msgid "Enter Folder or Files Paths That You want to <strong>Hide</strong> e.g wp-content/themes|wp-content/plugins."
+msgstr "మీరు <strong> దాచు </strong> ఉదా. Wp-content / theme | wp-content / plugins ను కోరుకునే ఫోల్డర్ లేదా ఫైల్స్ మార్గాలను నమోదు చేయండి."
+
+#: inc/settings.php:353 inc/settings.php:446 inc/settings.php:539 inc/settings.php:631
+msgid "Multiple separated by Vertical Bar (|)."
+msgstr "లంబ పట్టీ (|) ద్వారా బహుళ వేరు."
+
+#: inc/settings.php:358 inc/settings.php:451 inc/settings.php:544 inc/settings.php:636
+msgid "Enter file extensions which you want to Lock. <strong>e.g .php|.png|.css</strong> etc"
+msgstr "మీరు లాక్ చేయదలిచిన ఫైల్ పొడిగింపులను నమోదు చేయండి. <strong> ఉదా .php | .png | .css </strong> మొదలైనవి"
+
+#: inc/settings.php:361 inc/settings.php:454 inc/settings.php:547 inc/settings.php:639
+msgid ""
+"The extensions in the option are case sensitive and should be separated by vertical bar (|) without having white space "
+"between them. e.g. php,PHP"
+msgstr "ఎంపికలోని పొడిగింపులు కేస్ సెన్సిటివ్ మరియు వాటి మధ్య తెల్లని స్థలం లేకుండా నిలువు బార్ (|) ద్వారా వేరు చేయాలి. ఉదా. php, PHP"
+
+#: inc/settings.php:366 inc/settings.php:459 inc/settings.php:552 inc/settings.php:644
+msgid "Disable Toolbar and Context Menu"
+msgstr "ఉపకరణపట్టీ మరియు సందర్భ మెనుని నిలిపివేయండి"
+
+#: inc/settings.php:372 inc/settings.php:464 inc/settings.php:557 inc/settings.php:648
+msgid "Disable Toolbar"
+msgstr "ఉపకరణపట్టీని నిలిపివేయి"
+
+#: inc/settings.php:377 inc/settings.php:464 inc/settings.php:558 inc/settings.php:648
+msgid "Disable Context Menu"
+msgstr "సందర్భ మెనుని ఆపివేయి"
+
+#: inc/settings.php:385 inc/settings.php:473 inc/settings.php:567 inc/settings.php:654
+msgid "Remove"
+msgstr "తొలగించు"
+
+#: inc/settings.php:485
+msgid "Disable or Ban WP File Manager Operations to Users"
+msgstr "వినియోగదారులకు WP ఫైల్ మేనేజర్ ఆపరేషన్లను నిలిపివేయండి లేదా నిషేధించండి"
+
+#: inc/settings.php:486
+msgid "Select users and disable operation."
+msgstr "వినియోగదారులు ఎంచుకోండి మరియు ఆపరేషన్ ఆపరేట్."
+
+#: inc/settings.php:492
+msgid "Add rule for Users"
+msgstr "వినియోగదారుల కోసం నియమాన్ని జోడించండి"
+
+#: inc/settings.php:501 inc/settings.php:581
+msgid "If User is"
+msgstr "వాడుకరి అయితే"
+
+#: inc/settings.php:503 inc/settings.php:583
+msgid "Select User"
+msgstr "వినియోగదారుని ఎంచుకోండి"
+
+#: inc/settings.php:664
+msgid "Select the pages where you want to show the File Manager on Frontend"
+msgstr "మీరు ఫ్రంటెండ్‌లో ఫైల్ మేనేజర్‌ను చూపించదలిచిన పేజీలను ఎంచుకోండి"
+
+#: inc/settings.php:666
+msgid "Select Pages"
+msgstr "పేజీలను ఎంచుకోండి"
+
+#: inc/settings.php:676
+msgid "<strong>Note:</strong> It will not work if already using any File Manager shortcode in selected page editor."
+msgstr "<strong> గమనిక: </ strong> ఎంచుకున్న పేజీ ఎడిటర్‌లో ఇప్పటికే ఏదైనా ఫైల్ మేనేజర్ షార్ట్‌కోడ్‌ను ఉపయోగిస్తుంటే ఇది పనిచేయదు."
+
+#: inc/settings.php:680
+msgid "Display File Manager ?"
+msgstr "ఫైల్ మేనేజర్‌ను ప్రదర్శించాలా?"
+
+#: inc/settings.php:683
+msgid "After Content"
+msgstr "కంటెంట్ తరువాత"
+
+#: inc/settings.php:684
+msgid "Before Content"
+msgstr "కంటెంట్ ముందు"
+
+#: inc/settings.php:687
+msgid "Default: After Content"
+msgstr "డిఫాల్ట్: కంటెంట్ తర్వాత"
+
+#: inc/settings.php:691 inc/shortcode_listing.php:44
+msgid "Shortcode"
+msgstr "చిన్న కోడ్"
+
+#: inc/settings.php:693
+msgid "Paste the shortcode here"
+msgstr "షార్ట్ కోడ్‌ను ఇక్కడ అతికించండి"
+
+#: inc/settings.php:694
+msgid ""
+"You can generate new shortcode from the <a href='admin.php?page=wp_file_manager_existing_shortcodes'>Shortcode "
+"Generator</a> of File Manager."
+msgstr ""
+"ఫైల్ మేనేజర్ యొక్క <a href='admin.php?page=wp_file_manager_existing_shortcodes'> షార్ట్ కోడ్ జనరేటర్ </a> నుండి మీరు కొత్త షార్ట్ కోడ్‌ను "
+"రూపొందించవచ్చు."
+
+#: inc/settings.php:695
+msgid "Shortcode will work on selected pages. Help is given below to edit parameters:"
+msgstr "ఎంచుకున్న పేజీలలో షార్ట్ కోడ్ పని చేస్తుంది. పారామితులను సవరించడానికి సహాయం క్రింద ఇవ్వబడింది:"
+
+#: inc/settings.php:696
+msgid "Shortcode Help:"
+msgstr "షార్ట్ కోడ్ సహాయం:"
+
+#: inc/settings.php:696
+msgid "<a href='https://filemanagerpro.io/shortcodes/' target='_blank'>Documentation</a>"
+msgstr "<a href='https://filemanagerpro.io/shortcodes/' target='_blank'> డాక్యుమెంటేషన్ </a>"
+
+#: inc/settings.php:731 inc/settings.php:773
+msgid "Please select user from the previously added rule before adding new!"
+msgstr "క్రొత్తదాన్ని జోడించే ముందు దయచేసి గతంలో జోడించిన నియమం నుండి వినియోగదారుని ఎంచుకోండి!"
+
+#: inc/settings.php:833 inc/settings.php:847
+msgid "Please select user in the added user restriction rule before saving."
+msgstr "దయచేసి సేవ్ చేయడానికి ముందు జోడించిన వినియోగదారు పరిమితి నియమంలో వినియోగదారుని ఎంచుకోండి."
+
+#: inc/shortcode.php:114
+msgid "Welcome: "
+msgstr "స్వాగతం: "
+
+#: inc/shortcode.php:323 inc/shortcode_admin_control.php:115
+msgid "Sorry, you are not allowed to access this page."
+msgstr "క్షమించండి, ఈ పేజీని యాక్సెస్ చేయడానికి మీకు అనుమతి లేదు."
+
+#: inc/shortcode.php:330 inc/shortcode_admin_control.php:118
+msgid "Please login to access file manager."
+msgstr "ఫైల్ మేనేజర్‌ను యాక్సెస్ చేయడానికి దయచేసి లాగిన్ అవ్వండి."
+
+#: inc/shortcode_docs.php:11
+msgid "Shortcodes"
+msgstr "షార్ట్ కోడ్‌లు"
+
+#: inc/shortcode_generator.php:42 inc/shortcode_generator.php:55 inc/shortcode_generator.php:62
+msgid "Error in creating shortcode. Invalid shortcode."
+msgstr "షార్ట్ కోడ్ సృష్టించడంలో లోపం. షార్ట్ కోడ్ చెల్లదు."
+
+#: inc/shortcode_generator.php:250
+msgid "Click to get list of all shortcodes"
+msgstr "అన్ని షార్ట్‌కోడ్‌ల జాబితాను పొందడానికి క్లిక్ చేయండి"
+
+#: inc/shortcode_generator.php:250
+msgid "All Shortcodes"
+msgstr "అన్ని షార్ట్ కోడ్‌లు"
+
+#: inc/shortcode_generator.php:253
+msgid "Click to create new shortcode"
+msgstr "క్రొత్త షార్ట్‌కోడ్‌ను సృష్టించడానికి క్లిక్ చేయండి"
+
+#: inc/shortcode_generator.php:253 inc/shortcode_listing.php:24
+msgid "Generate New Shortcode"
+msgstr "క్రొత్త షార్ట్ కోడ్‌ను రూపొందించండి"
+
+#: inc/shortcode_generator.php:263
+msgid "Logged in users"
+msgstr "వినియోగదారులు లాగిన్ అయ్యారు"
+
+#: inc/shortcode_generator.php:269
+msgid "Non logged in users"
+msgstr "లాగిన్ కాని వినియోగదారులు"
+
+#: inc/shortcode_generator.php:275
+msgid "From existing shortcode"
+msgstr "ఇప్పటికే ఉన్న షార్ట్ కోడ్ నుండి"
+
+#: inc/shortcode_generator.php:288 inc/shortcode_generator.php:492 inc/shortcode_generator.php:635
+#, php-format
+msgid ""
+"Your shortcode <span style='background-color:#e5e5e5;'>%s</span> has been generated successfully. Copy this shortcode "
+"and paste it in your pages."
+msgstr ""
+"మీ షార్ట్ కోడ్ <span style='background-color:#e5e5e5;'>%s</span> విజయవంతంగా ఉత్పత్తి చేయబడింది. ఈ షార్ట్ కోడ్‌ను కాపీ చేసి మీ పేజీలలో అతికించండి."
+
+#: inc/shortcode_generator.php:290 inc/shortcode_generator.php:494
+msgid "Your shortcode settings has been updated successfully."
+msgstr "మీ షార్ట్ కోడ్ సెట్టింగులు విజయవంతంగా నవీకరించబడ్డాయి."
+
+#: inc/shortcode_generator.php:295 inc/shortcode_generator.php:498 inc/shortcode_generator.php:639
+msgid "Shortcode Title"
+msgstr "షార్ట్ కోడ్ శీర్షిక"
+
+#: inc/shortcode_generator.php:297 inc/shortcode_generator.php:500 inc/shortcode_generator.php:641
+msgid "Enter shortcode title"
+msgstr "షార్ట్ కోడ్ శీర్షికను నమోదు చేయండి"
+
+#: inc/shortcode_generator.php:298 inc/shortcode_generator.php:501 inc/shortcode_generator.php:642
+msgid "It is required to identify the shortcode you are going to use."
+msgstr "మీరు ఉపయోగించబోయే షార్ట్‌కోడ్‌ను గుర్తించడం అవసరం."
+
+#: inc/shortcode_generator.php:299 inc/shortcode_generator.php:502 inc/shortcode_generator.php:643
+#: inc/shortcode_generator.php:653
+msgid "This field can not be empty."
+msgstr "ఈ ఫీల్డ్ ఖాళీగా ఉండకూడదు."
+
+#: inc/shortcode_generator.php:300 inc/shortcode_generator.php:503 inc/shortcode_generator.php:644
+msgid "Title with this name already exists. Please choose another title."
+msgstr "ఈ పేరుతో శీర్షిక ఇప్పటికే ఉంది. దయచేసి మరొక శీర్షికను ఎంచుకోండి."
+
+#: inc/shortcode_generator.php:304
+msgid "Allowed Roles"
+msgstr "అనుమతించబడిన పాత్రలు"
+
+#: inc/shortcode_generator.php:318
+msgid "All"
+msgstr "అన్నీ"
+
+#: inc/shortcode_generator.php:338
+msgid "It will allow all roles to access file manager on front end. All will apply for all available user roles."
+msgstr "ఇది ఫ్రంట్ ఎండ్‌లో ఫైల్ మేనేజర్‌ను యాక్సెస్ చేయడానికి అన్ని పాత్రలను అనుమతిస్తుంది. అందుబాటులో ఉన్న అన్ని వినియోగదారు పాత్రలకు అన్నీ వర్తిస్తాయి."
+
+#: inc/shortcode_generator.php:339
+msgid "Please choose at least one user role."
+msgstr "దయచేసి కనీసం ఒక వినియోగదారు పాత్రను ఎంచుకోండి."
+
+#: inc/shortcode_generator.php:344 inc/shortcode_generator.php:507
+msgid "Access Folder"
+msgstr "ఫోల్డర్‌ను యాక్సెస్ చేయండి"
+
+#: inc/shortcode_generator.php:348 inc/shortcode_generator.php:510
+msgid "Path of the folder to display e.g wp-content/uploads"
+msgstr "ఉదా. Wp-content / uploads ప్రదర్శించడానికి ఫోల్డర్ యొక్క మార్గం"
+
+#: inc/shortcode_generator.php:349 inc/shortcode_generator.php:511
+msgid "Root directory"
+msgstr "రూట్ డైరెక్టరీ"
+
+#: inc/shortcode_generator.php:350 inc/shortcode_generator.php:512
+msgid ""
+"eg. You can put \"test\" as a name of folder which is located on root directory, or you can give path for sub folders "
+"as like \"wp-content/plugins\". If leave blank or empty it will access all folders on root directory. If you put * "
+"then it will auto creates user folders with their username."
+msgstr ""
+"ఉదా. మీరు \"పరీక్ష\" ను రూట్ డైరెక్టరీలో ఉన్న ఫోల్డర్ పేరుగా ఉంచవచ్చు లేదా మీరు \"wp-content / plugins\" వంటి ఉప ఫోల్డర్లకు మార్గం ఇవ్వవచ్చు. ఖాళీగా "
+"లేదా ఖాళీగా ఉంటే అది రూట్ డైరెక్టరీలోని అన్ని ఫోల్డర్‌లను యాక్సెస్ చేస్తుంది. మీరు * ఉంచితే అది వినియోగదారు ఫోల్డర్‌లను వారి వినియోగదారు పేరుతో ఆటో సృష్టిస్తుంది."
+
+#: inc/shortcode_generator.php:355 inc/shortcode_generator.php:517
+msgid "Allowed Operations"
+msgstr "అనుమతించిన ఆపరేషన్లు"
+
+#: inc/shortcode_generator.php:373 inc/shortcode_generator.php:535
+msgid "For all operations and to allow some operation you can choose operations name from the list."
+msgstr "అన్ని ఆపరేషన్ల కోసం మరియు కొంత ఆపరేషన్‌ను అనుమతించడానికి మీరు జాబితా నుండి ఆపరేషన్ల పేరును ఎంచుకోవచ్చు."
+
+#: inc/shortcode_generator.php:378
+msgid "Ban User IDs"
+msgstr "వినియోగదారు ID లను నిషేధించండి"
+
+#: inc/shortcode_generator.php:389 inc/wpfmlogs.php:76 inc/wpfmlogs.php:158 inc/wpfmlogs.php:241
+msgid "User ID"
+msgstr "వినియోగదారుని గుర్తింపు"
+
+#: inc/shortcode_generator.php:394
+msgid "To ban specific user from accessing file manager on frontend then you can choose the users from the list."
+msgstr "ఫ్రంటెండ్‌లో ఫైల్ మేనేజర్‌ని యాక్సెస్ చేయకుండా నిర్దిష్ట వినియోగదారుని నిషేధించడానికి మీరు జాబితా నుండి వినియోగదారులను ఎంచుకోవచ్చు."
+
+#: inc/shortcode_generator.php:398 inc/shortcode_generator.php:540
+msgid "Hide Files"
+msgstr "ఫైళ్ళను దాచు"
+
+#: inc/shortcode_generator.php:400
+msgid "Hide files from access folder e.g. wp-content/plugins,wp-config.php etc"
+msgstr "యాక్సెస్ ఫోల్డర్ నుండి ఫైళ్ళను దాచండి ఉదా. wp-content / plugins, wp-config.php etc"
+
+#: inc/shortcode_generator.php:402
+msgid ""
+"It will hide the files and folder mentioned here. <br><strong>Note:</strong> This option is case sensitive and should "
+"be comma(,) separated without having white space between them."
+msgstr ""
+"ఇది ఇక్కడ పేర్కొన్న ఫైల్స్ మరియు ఫోల్డర్‌ను దాచిపెడుతుంది.<br><strong> గమనిక:</strong> ఈ ఐచ్చికం కేస్ సెన్సిటివ్ మరియు వాటి మధ్య తెల్లని స్థలం లేకుండా కామా "
+"(,) గా వేరుచేయబడాలి."
+
+#: inc/shortcode_generator.php:406 inc/shortcode_generator.php:549
+msgid "Lock Extensions"
+msgstr "లాక్ పొడిగింపులు"
+
+#: inc/shortcode_generator.php:408 inc/shortcode_generator.php:551
+msgid "Restrict extensions e.g. .php,.css OR php,css"
+msgstr "పొడిగింపులను పరిమితం చేయండి ఉదా. .php, .css OR php, css"
+
+#: inc/shortcode_generator.php:410 inc/shortcode_generator.php:553
+msgid ""
+"It will lock files mentioned in commas without white space between them. You can lock more as like \".php,.css,.js\" "
+"etc.<br><span class=\"highlighted\"><strong>Note:</strong> The extensions in the option are case sensitive and should "
+"be comma(,) separated without having white space between them. e.g. php,PHP</span>"
+msgstr ""
+"ఇది కామాలో పేర్కొన్న ఫైళ్ళను వాటి మధ్య తెల్లని స్థలం లేకుండా లాక్ చేస్తుంది. మీరు \".php, .css, .js\" వంటి లాక్ చేయవచ్చు. <br> <span class = \"హైలైట్"
+"\"> <strong> గమనిక: </strong> ఎంపికలోని పొడిగింపులు కేస్ సెన్సిటివ్ మరియు కామాతో ఉండాలి (,) వాటి మధ్య తెల్లని స్థలం లేకుండా వేరు. ఉదా. php, PHP </"
+"span>"
+
+#: inc/shortcode_generator.php:415 inc/shortcode_generator.php:558
+msgid "Select Filemanager Language"
+msgstr "Filemanager భాష ఎంచుకోండి"
+
+#: inc/shortcode_generator.php:426 inc/shortcode_generator.php:569
+msgid "You can select any language for filemanager."
+msgstr "మీరు ఫైల్ మేనేజర్ కోసం ఏదైనా భాషను ఎంచుకోవచ్చు."
+
+#: inc/shortcode_generator.php:431 inc/shortcode_generator.php:574
+msgid "Select Filemanager Theme"
+msgstr "ఫైల్‌మేనేజర్ థీమ్‌ను ఎంచుకోండి"
+
+#: inc/shortcode_generator.php:443 inc/shortcode_generator.php:586
+msgid "You can select any theme for filemanager."
+msgstr "మీరు ఫైల్ మేనేజర్ కోసం ఏదైనా థీమ్‌ను ఎంచుకోవచ్చు."
+
+#: inc/shortcode_generator.php:456 inc/shortcode_generator.php:599
+msgid "You can select any view for filemanager."
+msgstr "మీరు ఫైల్ మేనేజర్ కోసం ఏదైనా వీక్షణను ఎంచుకోవచ్చు."
+
+#: inc/shortcode_generator.php:461 inc/shortcode_generator.php:603
+msgid "Date Format"
+msgstr "తేదీ ఫార్మాట్"
+
+#: inc/shortcode_generator.php:471 inc/shortcode_generator.php:613
+msgid "You can select any date format for filemanager modified date."
+msgstr "ఫైల్ మేనేజర్ సవరించిన తేదీ కోసం మీరు ఏదైనా తేదీ ఆకృతిని ఎంచుకోవచ్చు."
+
+#: inc/shortcode_generator.php:477 inc/shortcode_generator.php:619
+msgid "Update Shortcode"
+msgstr "షార్ట్ కోడ్‌ను నవీకరించండి"
+
+#: inc/shortcode_generator.php:477 inc/shortcode_generator.php:619 inc/shortcode_generator.php:659
+msgid "Generate Shortcode"
+msgstr "షార్ట్ కోడ్‌ను రూపొందించండి"
+
+#: inc/shortcode_generator.php:542
+msgid "Hide files from access folder e.g. test1,folder/test2 etc"
+msgstr "యాక్సెస్ ఫోల్డర్ నుండి ఫైళ్ళను దాచండి ఉదా. test1, ఫోల్డర్ / test2 మొదలైనవి"
+
+#: inc/shortcode_generator.php:544
+msgid ""
+"It will hide the files and folder mentioned here. Note: This option is case sensitive and should be comma(,) separated "
+"without having white space between them."
+msgstr "ఇది ఇక్కడ పేర్కొన్న ఫైల్స్ మరియు ఫోల్డర్‌ను దాచిపెడుతుంది. గమనిక: ఈ ఐచ్చికం కేస్ సెన్సిటివ్ మరియు వాటి మధ్య తెల్లని స్థలం లేకుండా కామా (,) వేరుచేయబడాలి."
+
+#: inc/shortcode_generator.php:648
+msgid "Generate New Shortcode from existing one"
+msgstr "ఇప్పటికే ఉన్న వాటి నుండి క్రొత్త షార్ట్ కోడ్‌ను రూపొందించండి"
+
+#: inc/shortcode_generator.php:651
+msgid "Paste the shortcode which you are using in your page/post"
+msgstr "మీరు ఉపయోగిస్తున్న షార్ట్ కోడ్‌ను మీ పేజీ / పోస్ట్‌లో అతికించండి"
+
+#: inc/shortcode_generator.php:652
+msgid "This will convert the existing shortcode to the new shortcode format."
+msgstr "ఇది ఇప్పటికే ఉన్న షార్ట్‌కోడ్‌ను కొత్త షార్ట్‌కోడ్ ఆకృతికి మారుస్తుంది."
+
+#: inc/shortcode_listing.php:23
+msgid "Existing Shortcode(s)"
+msgstr "ఇప్పటికే ఉన్న షార్ట్ కోడ్ (లు)"
+
+#: inc/shortcode_listing.php:24
+msgid "Click to go back to the shortcode generator"
+msgstr "షార్ట్ కోడ్ జనరేటర్కు తిరిగి వెళ్ళడానికి క్లిక్ చేయండి"
+
+#: inc/shortcode_listing.php:28
+msgid "Shortcode has been deleted successfully."
+msgstr "షార్ట్ కోడ్ విజయవంతంగా తొలగించబడింది."
+
+#: inc/shortcode_listing.php:30
+msgid "Shortcode(s) has been deleted successfully."
+msgstr "షార్ట్ కోడ్ (లు) విజయవంతంగా తొలగించబడ్డాయి."
+
+#: inc/shortcode_listing.php:43
+msgid "Title"
+msgstr "శీర్షిక"
+
+#: inc/shortcode_listing.php:61 inc/shortcode_listing.php:84 inc/shortcode_listing.php:160 inc/shortcode_listing.php:176
+#: inc/shortcode_listing.php:216
+msgid "Copy to clipboard"
+msgstr "క్లిప్‌బోర్డ్‌కు కాపీ చేయండి"
+
+#: inc/shortcode_listing.php:63
+msgid "Are you sure you want to delete this shortcode?"
+msgstr "మీరు ఖచ్చితంగా ఈ షార్ట్ కోడ్‌ను తొలగించాలనుకుంటున్నారా?"
+
+#: inc/shortcode_listing.php:64 inc/shortcode_listing.php:77
+msgid "Customize Shortcode"
+msgstr "షార్ట్ కోడ్‌ను అనుకూలీకరించండి"
+
+#: inc/shortcode_listing.php:87
+msgid ""
+"Copy above filter code and paste it in your theme's functions.php file or in your plugin file to customize shortcode "
+"values as per your requirement."
+msgstr "ఫిల్టర్ కోడ్ పైన కాపీ చేసి, మీ థీమ్ యొక్క functions.php ఫైల్‌లో లేదా మీ ప్లగిన్ ఫైల్‌లో అతికించండి."
+
+#: inc/shortcode_listing.php:106 inc/shortcode_listing.php:108
+msgid "Showing"
+msgstr "చూపుతోంది"
+
+#: inc/shortcode_listing.php:106 inc/shortcode_listing.php:108
+msgid "entries"
+msgstr "ఎంట్రీలు"
+
+#: inc/shortcode_listing.php:110
+msgid "No shortcode found"
+msgstr "షార్ట్ కోడ్ కనుగొనబడలేదు"
+
+#: inc/shortcode_listing.php:131
+msgid "Delete All Selected"
+msgstr "ఎంచుకున్నవన్నీ తొలగించండి"
+
+#: inc/shortcode_listing.php:170 inc/shortcode_listing.php:210
+msgid "Copied"
+msgstr "కాపీ చేయబడింది"
+
+#: inc/shortcode_listing.php:171 inc/shortcode_listing.php:211
+msgid "Copied to clipboard"
+msgstr "క్లిప్‌బోర్డ్‌కు కాపీ చేయబడింది"
+
+#: inc/shortcode_listing.php:221
+msgid "Are you sure you want to delete selected shortcode(s)?"
+msgstr "మీరు ఖచ్చితంగా ఎంచుకున్న షార్ట్ కోడ్ (ల) ను తొలగించాలనుకుంటున్నారా?"
+
+#: inc/shortcode_listing.php:229
+msgid "Please select atleast one shortcode from the list."
+msgstr "దయచేసి జాబితా నుండి కనీసం ఒక షార్ట్ కోడ్‌ను ఎంచుకోండి."
+
+#: inc/verify.php:9
+msgid "License Verification"
+msgstr "లైసెన్స్ ధృవీకరణ"
+
+#: inc/verify.php:11
+msgid ""
+"To unlock updates, please enter your order id and license key below. If you don't have a licence key, <a href="
+"\"https://filemanagerpro.io/product/file-manager/\" target=\"_blank\" class=\"page-title-action buy-link\" title="
+"\"click to buy Licence Key\">please see details & pricing</a>."
+msgstr ""
+"నవీకరణలను అన్‌లాక్ చేయడానికి, దయచేసి మీ ఆర్డర్ ఐడి మరియు లైసెన్స్ కీని క్రింద నమోదు చేయండి. మీకు లైసెన్స్ కీ లేకపోతే,  <a href=\"https://filemanagerpro.io/"
+"product/file-manager/\" target=\"_blank\" class=\"page-title-action buy-link\" title=\"లైసెన్స్ కీని కొనుగోలు చేయడానికి క్లిక్ చేయండి"
+"\"> దయచేసి వివరాలు & ధరలను చూడండి </a>."
+
+#: inc/verify.php:23
+msgid "ORDER ID (#) *"
+msgstr "ఆర్డర్ గుర్తింపు సంఖ్యా (#) *"
+
+#: inc/verify.php:24
+msgid "Please Check Your email for order ID."
+msgstr "ఆర్డర్ ID కోసం దయచేసి మీ ఇమెయిల్‌ను తనిఖీ చేయండి."
+
+#: inc/verify.php:27
+msgid "LICENCE KEY *"
+msgstr "లైసెన్స్ కీ *"
+
+#: inc/verify.php:28
+msgid "Please Check Your email for Licence Key."
+msgstr "లైసెన్స్ కీ కోసం దయచేసి మీ ఇమెయిల్‌ను తనిఖీ చేయండి."
+
+#: inc/wpfmlogs.php:51
+msgid ""
+"To enable logs, go to <a href=\"admin.php?page=wp_file_manager_settings\">General Settings Tab</a> -> Check \"Send "
+"Notifications to admin on file upload \" , \"Send Notifications to admin on file download\" and \"Send Notifications "
+"to admin on file edit\" options."
+msgstr ""
+"లాగ్‌లను ప్రారంభించడానికి, <a href=\"admin.php?page=wp_file_manager_settings\"> సాధారణ సెట్టింగ్‌ల ట్యాబ్ </a> -> \"ఫైల్ అప్‌లోడ్‌లో అడ్మిన్‌కు "
+"నోటిఫికేషన్‌లను పంపండి\", \"ఫైల్ డౌన్‌లోడ్‌లో నిర్వాహకుడికి నోటిఫికేషన్‌లను పంపండి\" మరియు \" \"ఫైల్ సవరణలో నిర్వాహకుడికి నోటిఫికేషన్లను పంపండి\" ఎంపికలు."
+
+#: inc/wpfmlogs.php:53 inc/wpfmlogs.php:61
+msgid "Edited Files"
+msgstr "ఫైళ్ళను సవరించారు"
+
+#: inc/wpfmlogs.php:54 inc/wpfmlogs.php:145
+msgid "Downloaded Files"
+msgstr "డౌన్‌లోడ్ చేసిన ఫైల్‌లు"
+
+#: inc/wpfmlogs.php:55
+msgid "Uploaded Files"
+msgstr "ఫైల్‌లు అప్‌లోడ్ చేయబడ్డాయి"
+
+#: inc/wpfmlogs.php:64 inc/wpfmlogs.php:148 inc/wpfmlogs.php:231
+msgid "Bulk Actions"
+msgstr "భారీ చర్యలు"
+
+#: inc/wpfmlogs.php:67 inc/wpfmlogs.php:151 inc/wpfmlogs.php:234
+msgid "Apply"
+msgstr "వర్తించు"
+
+#: inc/wpfmlogs.php:75 inc/wpfmlogs.php:157 inc/wpfmlogs.php:240
+msgid "Sr No."
+msgstr "మిస్టర్ నం."
+
+#: inc/wpfmlogs.php:77 inc/wpfmlogs.php:159 inc/wpfmlogs.php:242
+msgid "User Name"
+msgstr "వినియోగదారు పేరు"
+
+#: inc/wpfmlogs.php:78 inc/wpfmlogs.php:160 inc/wpfmlogs.php:243
+msgid "Files"
+msgstr "ఫైళ్లు"
+
+#: inc/wpfmlogs.php:79 inc/wpfmlogs.php:161 inc/wpfmlogs.php:244
+msgid "Date"
+msgstr "తేదీ"
+
+#: inc/wpfmlogs.php:93 inc/wpfmlogs.php:175 inc/wpfmlogs.php:258
+msgid "Are you sure want to delete?"
+msgstr "మీరు ఖచ్చితంగా తొలగించాలనుకుంటున్నారా?"
+
+#: inc/wpfmlogs.php:98 inc/wpfmlogs.php:180 inc/wpfmlogs.php:265
+msgid "No log(s) found!"
+msgstr "లాగ్ (లు) కనుగొనబడలేదు!"
+
+#: inc/wpfmlogs.php:108 inc/wpfmlogs.php:190 inc/wpfmlogs.php:275
+msgid "Showing "
+msgstr "చూపుతోంది"
+
+#: inc/wpfmlogs.php:108 inc/wpfmlogs.php:190 inc/wpfmlogs.php:275
+msgid " entries"
+msgstr "ఎంట్రీలు"
+
+#: inc/wpfmlogs.php:228
+msgid "Uploaded File"
+msgstr "అప్‌లోడ్ చేసిన ఫైల్"
+
+#: inc/wpfmlogs.php:374
+msgid "Are you sure want to remove selected log(s)?"
+msgstr "మీరు ఖచ్చితంగా ఎంచుకున్న లాగ్ (ల) ను తీసివేయాలనుకుంటున్నారా?"
+
+#: inc/wpfmlogs.php:395
+msgid "Please select delete action!"
+msgstr "దయచేసి తొలగింపు చర్యను ఎంచుకోండి!"
+
+#: js/jquery-ui.min.js:8 lib/jquery/jquery-ui-1.11.4.js:8
+msgid "'"
+msgstr ""
+
+#: lib/wpfilemanager.php:445
+msgid " WP File Manager PRO "
+msgstr "WP ఫైల్ మేనేజర్ PRO "
+
+#: plugin-update-checker/Puc/v4p5/Plugin/Ui.php:54
+msgid "View details"
+msgstr "వివరాలను చూడండి"
+
+#: plugin-update-checker/Puc/v4p5/Plugin/Ui.php:77
+#, php-format
+msgid "More information about %s"
+msgstr "%s గురించి మరింత సమాచారం "
+
+#: plugin-update-checker/Puc/v4p5/Plugin/Ui.php:128
+msgid "Check for updates"
+msgstr "తాజాకరణలకోసం ప్రయత్నించండి"
+
+#: plugin-update-checker/Puc/v4p5/Plugin/Ui.php:223
+#, php-format
+msgid "Unknown update checker status \"%s\""
+msgstr "తెలియని నవీకరణ చెకర్ స్థితి \"%s\""
+
+#: plugin-update-checker/Puc/v4p5/Vcs/PluginUpdateChecker.php:98
+msgid "There is no changelog available."
+msgstr "చేంజ్లాగ్ అందుబాటులో లేదు."
+
+#~ msgid "Manage your WP files."
+#~ msgstr "మీ WP ఫైళ్ళను నిర్వహించండి."
+
+#~ msgid "WP File Manager - PRO"
+#~ msgstr "WP ఫైల్ మేనేజర్ - PRO"
+
+#~ msgid "<span class=\"fm_console_error\">Nothing selected for backup</span>"
+#~ msgstr "<span class = \"fm_console_error\"> బ్యాకప్ కోసం ఏమీ ఎంచుకోలేదు </ span>"
+
+#~ msgid "<span class=\"fm_console_success\">Database backup done.</span>"
+#~ msgstr "<span class = \"fm_console_error\"> ఒకవేళ కూడా. </ span>"
+
+#~ msgid "<span class=\"fm_console_error\">Unable to create database backup.</span>"
+#~ msgstr "<span class = \"fm_console_error\"> డేటాబేస్ బ్యాకప్‌ను సృష్టించడం సాధ్యం కాలేదు. </ span>"
+
+#~ msgid "<span class=\"fm_console_success\">Plugins backup done.</span>"
+#~ msgstr "<span class = \"fm_console_success\"> ప్లగిన్‌ల బ్యాకప్ పూర్తయింది. </ span>"
+
+#~ msgid "<span class=\"fm_console_error\">Plugins backup failed.</span>"
+#~ msgstr "<span class = \"fm_console_error\"> ప్లగిన్‌ల బ్యాకప్ విఫలమైంది. </ span>"
+
+#~ msgid "<span class=\"fm_console_success\">Themes backup done.</span>"
+#~ msgstr "<span class = \"fm_console_success\"> థీమ్స్ బ్యాకప్ పూర్తయింది. </ span>"
+
+#~ msgid "<span class=\"fm_console_error\">Themes backup failed.</span>"
+#~ msgstr "<span class = \"fm_console_error\"> థీమ్స్ బ్యాకప్ విఫలమైంది. </ span>"
+
+#~ msgid "<span class=\"fm_console_success\">Uploads backup done.</span>"
+#~ msgstr "<span class = \"fm_console_success\"> అప్‌లోడ్ బ్యాకప్ పూర్తయింది. </ span>"
+
+#~ msgid "<span class=\"fm_console_error\">Uploads backup failed.</span>"
+#~ msgstr "<span class = \"fm_console_error\"> అప్‌లోడ్ బ్యాకప్ విఫలమైంది. </ span>"
+
+#~ msgid "<span class=\"fm_console_success\">Others backup done.</span>"
+#~ msgstr "<span class = \"fm_console_success\"> ఇతరులు బ్యాకప్ పూర్తయింది. </ span>"
+
+#~ msgid "<span class=\"fm_console_error\">Others backup failed.</span>"
+#~ msgstr "<span class = \"fm_console_error\"> ఇతరులు బ్యాకప్ విఫలమైంది. </ span>"
+
+#~ msgid "<span class=\"fm_console_success\">All done</span>"
+#~ msgstr "<span class = \"fm_console_success\"> అన్నీ పూర్తయ్యాయి </ span>"
+
+#~ msgid "Database"
+#~ msgstr "డేటాబేస్"
+
+#~ msgid "System Properties"
+#~ msgstr "సిస్టమ్ గుణాలు"
+
+#~ msgid "Donate"
+#~ msgstr "దానం"
+
+#~ msgid "Note: This is just a demo screenshot. To get settings please buy our pro version."
+#~ msgstr "గమనిక: ఇది కేవలం డెమో స్క్రీన్షాట్. సెట్టింగులను పొందడానికి దయచేసి మా అనుకూల సంస్కరణను కొనుగోలు చేయండి."
+
+#~ msgid "Buy PRO"
+#~ msgstr "PRO ను కొనండి"
+
+#~ msgid "Settings - General"
+#~ msgstr "సెట్టింగులు - జనరల్"
+
+#~ msgid ""
+#~ "Here admin can give access to user roles to use filemanager. Admin can set Default Access Folder and also control "
+#~ "upload size of filemanager."
+#~ msgstr ""
+#~ "ఇక్కడ నిర్వాహకుడు ఫైల్ మేనేజర్ను ఉపయోగించడానికి వినియోగదారు పాత్రలకు ప్రాప్తిని ఇవ్వవచ్చు. అడ్మిన్ డిఫాల్ట్ యాక్సెస్ ఫోల్డర్ సెట్ చేయవచ్చు మరియు ఫైల్ మేనేజర్ అప్లోడ్ "
+#~ "పరిమాణం నియంత్రించడానికి."
+
+#~ msgid "Settings - Code-editor"
+#~ msgstr "సెట్టింగులు - కోడ్ ఎడిటర్"
+
+#~ msgid ""
+#~ "File Manager has a code editor with multiple themes. You can select any theme for code editor. It will display when "
+#~ "you edit any file. Also you can allow fullscreen mode of code editor."
+#~ msgstr ""
+#~ "ఫైల్ మేనేజర్ బహుళ థీమ్స్తో ఒక కోడ్ ఎడిటర్ను కలిగి ఉంది. మీరు కోడ్ ఎడిటర్ కోసం ఏ థీమ్ ఎంచుకోవచ్చు. మీరు ఏదైనా ఫైల్ను సవరించినప్పుడు ఇది ప్రదర్శిస్తుంది. మీరు "
+#~ "కోడ్ ఎడిటర్ పూర్తిస్క్రీన్ మోడ్ను కూడా అనుమతించవచ్చు."
+
+#~ msgid "Code-editor View"
+#~ msgstr "కోడ్ ఎడిటర్ వీక్షణ"
+
+#~ msgid "Settings - User Restrictions"
+#~ msgstr "సెట్టింగులు - వాడుకరి పరిమితులు"
+
+#~ msgid ""
+#~ "Admin can restrict actions of any user. Also hide files and folders and can set different - different folders paths "
+#~ "for different users."
+#~ msgstr ""
+#~ "అడ్మిన్ ఏ యూజర్ యొక్క చర్యలు పరిమితం చేయవచ్చు. వేర్వేరు వినియోగదారుల కోసం వేర్వేరు ఫోల్డర్ల మార్గాలు - ఫైల్లను మరియు ఫోల్డర్లను కూడా దాచండి మరియు వివిధ సెట్ "
+#~ "చేయవచ్చు."
+
+#~ msgid "Settings - User Role Restrictions"
+#~ msgstr "సెట్టింగులు - వినియోగదారు పాత్ర పరిమితులు"
+
+#~ msgid ""
+#~ "Admin can restrict actions of any userrole. Also hide files and folders and can set different - different folders "
+#~ "paths for different users roles."
+#~ msgstr ""
+#~ "అడ్మిన్ ఏ వినియోగదారుని యొక్క చర్యలను నియంత్రించగలదు. విభిన్న వినియోగదారుల పాత్రలకు వేర్వేరు ఫోల్డర్ల మార్గాలు - ఫైల్లను మరియు ఫోల్డర్లను కూడా దాచండి మరియు "
+#~ "వివిధ సెట్ చేయవచ్చు."
+
+#~ msgid "File Manager - System Properties"
+#~ msgstr "ఫైల్ మేనేజర్ - సిస్టమ్ గుణాలు"
+
+#~ msgid "PHP version"
+#~ msgstr "PHP సంస్కరణ"
+
+#~ msgid "Maximum file upload size (upload_max_filesize)"
+#~ msgstr "గరిష్ట ఫైలు అప్లోడ్ పరిమాణం (upload_max_filesize)"
+
+#~ msgid "Post maximum file upload size (post_max_size)"
+#~ msgstr "గరిష్ట ఫైలు అప్లోడ్ పరిమాణం పోస్ట్ (post_max_size)"
+
+#~ msgid "Memory Limit (memory_limit)"
+#~ msgstr "మెమరీ పరిమితి (memory_limit)"
+
+#~ msgid "Timeout (max_execution_time)"
+#~ msgstr "సమయం ముగిసింది (max_execution_time)"
+
+#~ msgid "Browser and OS (HTTP_USER_AGENT)"
+#~ msgstr " బ్రౌజర్ మరియు OS (HTTP_USER_AGENT)"
+
+#~ msgid "Please contribute some donation, to make plugin more stable. You can pay amount of your choice."
+#~ msgstr "ప్లగ్ఇన్ మరింత స్థిరంగా చేయడానికి, కొంత విరాళం ఇవ్వండి. మీరు మీ ఎంపిక మొత్తం చెల్లించవచ్చు."
+
+#~ msgid "Note: This feature is using wp_mail(), Make sure wp_mail is working or not."
+#~ msgstr "గమనిక: ఈ లక్షణం wp_mail () వుపయోగిస్తుందో, wp_mail పనిచేస్తుందో లేదో నిర్ధారించుకోండి."
+
+#~ msgid "Check to allow fullscreen code editor. For more information please visit"
+#~ msgstr "పూర్తి స్క్రీన్ కోడ్ ఎడిటర్ను అనుమతించడానికి తనిఖీ చేయండి. మరింత సమాచారం కోసం దయచేసి సందర్శించండి"

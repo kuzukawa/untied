@@ -1,0 +1,94 @@
+/* view-list.css */
+/* Wrapper for list view */
+.theme-windows---10 .elfinder .elfinder-cwd-wrapper-list {
+  /* */
+}
+
+/* List view table */
+.theme-windows---10 .elfinder .elfinder-cwd-wrapper-list table {
+  /* */
+}
+
+/* Column headings */
+.theme-windows---10 .elfinder .elfinder-cwd-wrapper-list table thead tr td {
+  color: #43536a; 
+}
+
+.theme-windows---10 .elfinder .elfinder-cwd-wrapper-list table thead tr td:not(:last-child) {
+  border-right: 1px solid #e5e5e5;
+}
+
+/* Hovered column heading */
+.theme-windows---10 .elfinder .elfinder-cwd-wrapper-list table thead tr td.ui-state-hover:hover,
+.theme-windows---10 .elfinder .elfinder-cwd-wrapper-list table thead tr td:hover {
+  background: #d0dded !important;
+  color:#43536a !important;
+}
+
+/* Actively sorted column heading */
+.theme-windows---10 .elfinder .elfinder-cwd-wrapper-list table thead tr td.ui-state-active {
+  border-right: 1px solid #e5e5e5;  
+}
+
+/* Table heading icons (mainly the sorter) */
+.theme-windows---10 .elfinder .elfinder-cwd-wrapper-list table tr td .ui-icon {
+  /* */
+}
+
+/* Table heading sorter up */
+.theme-windows---10 .elfinder .elfinder-cwd-wrapper-list table tr.ui-state-default td .ui-icon-triangle-1-n:before {
+  /* */
+}
+
+/* Table heading sorter down */
+.theme-windows---10 .elfinder .elfinder-cwd-wrapper-list table tr.ui-state-default td .ui-icon-triangle-1-s:before {
+  /* */
+}
+
+/* Files */
+/* File */
+.theme-windows---10 .elfinder .elfinder-cwd-wrapper-list .elfinder-cwd-file td {
+  border: 1px solid transparent;
+}
+
+.theme-windows---10 .elfinder .elfinder-cwd-wrapper-list .elfinder-cwd-file td:not(:first-child) {
+  color: #9d9d9d;
+}
+
+/* Filename */
+.theme-windows---10 .elfinder .elfinder-cwd-wrapper-list .elfinder-cwd-file .elfinder-cwd-filename {
+  /* */
+}
+
+/* Hovered file */
+
+.theme-windows---10 .elfinder .elfinder-cwd-wrapper-list .elfinder-cwd-file:hover,
+.theme-windows---10 .elfinder .elfinder-cwd-wrapper-list .elfinder-cwd-file.ui-state-hover,          /* fix for 2.x */
+.theme-windows---10 .elfinder .elfinder-cwd-wrapper-list .elfinder-cwd-file.ui-state-hover:hover {   /* fix for 2.1 */
+  background: #e5f3ff;
+  border-color: #e5f3ff;
+}
+
+/* Selected file */
+.theme-windows---10 .elfinder .elfinder-cwd-wrapper-list .elfinder-cwd-file.ui-selected {
+  background: #cce8ff;
+}
+
+.theme-windows---10 .elfinder .elfinder-cwd-wrapper-list .elfinder-cwd-file.ui-selected td {
+  border-top: 1px solid #99d1ff;
+  border-bottom: 1px solid #99d1ff;
+  color : #fff;
+}
+
+.theme-windows---10 .elfinder .elfinder-cwd-wrapper-list .elfinder-cwd-file.ui-selected td:first-child {
+  border-left: 1px solid #99d1ff;
+}
+
+.theme-windows---10 .elfinder .elfinder-cwd-wrapper-list .elfinder-cwd-file.ui-selected td:last-child {
+  border-right: 1px solid #99d1ff;
+}
+
+/* Icons */
+.theme-windows---10 .elfinder .elfinder-cwd-wrapper-list .elfinder-cwd-file .elfinder-cwd-icon {
+  /* */
+}

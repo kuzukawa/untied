@@ -1,0 +1,29 @@
+.fm_pro_form{
+	padding:10px;
+}
+.thickbox-loading.fm-popup{
+	min-height: 300px;
+	height: 300px !important;
+}
+#TB_ajaxContent {
+	max-height: 80vh;
+	width: 100% !important;
+	height: inherit;
+	padding: 2px 0px 15px 0px !important;
+}
+#TB_ajaxContent .form-table th{
+	padding: 20px 20px 20px !important;
+}
+#TB_ajaxContent .form-table td {
+    line-height: 25px;
+}
+
+#TB_window.fm-popup{ width:500px !important; margin-left: inherit !important; transform: translate(-50%, 0);}
+#TB_window.fm-popup #TB_ajaxWindowTitle{ font-size: 16px; }
+#TB_window.fm-popup p.submit{ margin-top:0px; padding-top:0px;}
+
+#TB_window.fm-popup #TB_ajaxContent td{ padding-left:20px; padding-right:20px;  }
+
+@media(max-width:782px){
+    #TB_window.fm-popup #TB_ajaxContent tr:nth-child(2) th{ padding-top:0px !important;  }    
+}

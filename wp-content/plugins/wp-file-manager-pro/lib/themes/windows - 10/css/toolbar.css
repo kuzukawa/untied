@@ -1,0 +1,269 @@
+/* toolbar.css */
+/* Main toolbar wrapper */
+.theme-windows---10 .elfinder .elfinder-toolbar {
+  background:#fff;
+}
+
+/* Buttonset wrapper */
+.theme-windows---10 .elfinder .elfinder-toolbar .elfinder-buttonset {
+  /* */
+} 
+/* Buttonset wrapper for search field */
+.theme-windows---10 .elfinder .elfinder-button-search .elfinder-button-menu {
+  background: #fff !important;
+}
+/* Buttons */
+.theme-windows---10 .elfinder .elfinder-toolbar .elfinder-buttonset .elfinder-button {
+  border: 1px solid transparent;
+  -webkit-transition: background 0.3s, border 0.3s; /* Safari */
+  transition: background 0.3s, border 0.3s;
+}
+
+/* Hovered buttons */
+.theme-windows---10 .elfinder .elfinder-toolbar .elfinder-buttonset .elfinder-button:hover {
+  background: #cce8ff;
+  border: 1px solid #99d1ff;
+}
+
+/* Hovered buttons in search field */
+.theme-windows---10 .elfinder .elfinder-button-search .elfinder-button-menu .ui-button:hover {
+}
+
+/* Disabled buttons */
+.theme-windows---10 .elfinder .elfinder-toolbar .elfinder-buttonset .elfinder-button.ui-state-disabled {
+  /* */
+}
+
+/* Buttonset separator */
+.theme-windows---10 .elfinder .elfinder-toolbar .elfinder-buttonset .elfinder-toolbar-button-separator {
+  /* */
+}
+
+/* Button icons */
+.theme-windows---10 .elfinder .elfinder-toolbar .elfinder-buttonset .elfinder-button-icon {
+  opacity: 1;
+}
+ 
+
+/* Searchbar */
+.theme-windows---10 .elfinder-toolbar .elfinder-button-search {
+  /* */  
+  margin-right: 5px;
+  border-radius: 0;
+}
+
+/* Searchbar icons (search and close) */
+.theme-windows---10 .elfinder-toolbar .elfinder-button-search .ui-icon {
+  /* */
+}
+
+.theme-windows---10 .elfinder-toolbar .elfinder-button-search .ui-icon-search {
+  /* */   
+    background-image: url('../images/16px/black-search.png');
+    background-position: 7px 3px;
+}
+
+
+.theme-windows---10 .elfinder-toolbar .elfinder-button-search .ui-icon-close {
+  /* */
+  background-image: url('../images/16px/black-close.png');
+  background-position: 2px 3px;
+}
+
+/* Commands */
+.theme-windows---10 .elfinder .elfinder-toolbar .elfinder-buttonset .elfinder-button-icon {
+    background-color: transparent;
+    background-position: center center;
+    height: 16px;
+    width: 16px;
+  }
+
+  /* Back */
+  .theme-windows---10 .elfinder .elfinder-toolbar .elfinder-buttonset .elfinder-button-icon-back {
+    background-image: url('../images/16px/back.png');
+  }
+
+  /* Forward */
+  .theme-windows---10 .elfinder .elfinder-toolbar .elfinder-buttonset .elfinder-button-icon-forward {
+    background-image: url('../images/16px/forward.png');
+  }
+
+
+  .theme-windows---10 .elfinder .elfinder-toolbar .elfinder-buttonset .elfinder-button-icon-netmount {
+    background-image: url('../images/16px/netmount.png');
+  }
+
+  .theme-windows---10 .elfinder .elfinder-toolbar .elfinder-buttonset .elfinder-button-icon-up {
+    background-image: url('../images/16px/up.png');
+  }
+
+  .theme-windows---10 .elfinder .elfinder-toolbar .elfinder-buttonset .elfinder-button-icon-mkdir {
+    background-image: url('../images/16px/directory.png');
+  }
+
+  .theme-windows---10 .elfinder .elfinder-toolbar .elfinder-buttonset .elfinder-button-icon-mkfile {
+    background-image: url('../images/16px/file.png');
+  }
+
+  .theme-windows---10 .elfinder .elfinder-toolbar .elfinder-buttonset .elfinder-button-icon-upload {
+    background-image: url('../images/16px/upload.png');
+  }
+
+  .theme-windows---10 .elfinder .elfinder-toolbar .elfinder-buttonset .elfinder-button-icon-open {
+    background-image: url('../images/16px/open.png');
+  }
+
+  .theme-windows---10 .elfinder .elfinder-toolbar .elfinder-buttonset .elfinder-button-icon-download {
+    background-image: url('../images/16px/download.png');
+  }
+
+  .theme-windows---10 .elfinder .elfinder-toolbar .elfinder-buttonset .elfinder-button-icon-getfile {
+    background-image: url('../images/16px/getfile.png');
+  }
+
+  .theme-windows---10 .elfinder .elfinder-toolbar .elfinder-buttonset .elfinder-button-icon-info {
+    background-image: url('../images/16px/info.png');
+  }
+
+  .theme-windows---10 .elfinder .elfinder-toolbar .elfinder-buttonset .elfinder-button-icon-quicklook {
+    background-image: url('../images/16px/preview.png');
+  }
+
+  .theme-windows---10 .elfinder .elfinder-toolbar .elfinder-buttonset .elfinder-button-icon-copy {
+    background-image: url('../images/16px/copy.png');
+  }
+
+  .theme-windows---10 .elfinder .elfinder-toolbar .elfinder-buttonset .elfinder-button-icon-cut {
+    background-image: url('../images/16px/cut.png');
+  }
+
+  .theme-windows---10 .elfinder .elfinder-toolbar .elfinder-buttonset .elfinder-button-icon-paste {
+    background-image: url('../images/16px/paste.png');
+  }
+
+  .theme-windows---10 .elfinder .elfinder-toolbar .elfinder-buttonset .elfinder-button-icon-view {
+    background-image: url('../images/16px/view.png');
+  }
+
+  .theme-windows---10 .elfinder .elfinder-toolbar .elfinder-buttonset .elfinder-button-icon-view-list {
+    background-image: url('../images/16px/view-list.png');
+  }
+
+  .theme-windows---10 .elfinder .elfinder-toolbar .elfinder-buttonset .elfinder-button-icon-help {
+    background-image: url('../images/16px/help.png');
+  }
+
+
+  .theme-windows---10 .elfinder .elfinder-toolbar .elfinder-buttonset .elfinder-button-icon-duplicate {
+    background-image: url('../images/16px/duplicate.png');
+  }
+
+  .theme-windows---10 .elfinder .elfinder-toolbar .elfinder-buttonset .elfinder-button-icon-rm {
+    background-image: url('../images/16px/rm.png');
+  }
+
+  .theme-windows---10 .elfinder .elfinder-toolbar .elfinder-buttonset .elfinder-button-icon-edit {
+    background-image: url('../images/16px/edit.png');
+  }
+
+  .theme-windows---10 .elfinder .elfinder-toolbar .elfinder-buttonset .elfinder-button-icon-rename {
+    background-image: url('../images/16px/rename.png');
+  }
+
+  .theme-windows---10 .elfinder .elfinder-toolbar .elfinder-buttonset .elfinder-button-icon-archive {
+    background-image: url('../images/16px/archive.png');
+  }
+
+  .theme-windows---10 .elfinder .elfinder-toolbar .elfinder-buttonset .elfinder-button-icon-resize {
+    background-image: url('../images/16px/resize.png');
+  }
+
+  .theme-windows---10 .elfinder .elfinder-toolbar .elfinder-buttonset .elfinder-button-icon-extract {
+    background-image: url('../images/16px/extract.png');
+  }
+
+  .theme-windows---10 .elfinder .elfinder-toolbar .elfinder-buttonset .elfinder-button-icon-sort {
+    background-image: url('../images/16px/sort.png');
+  } 
+  .theme-windows---10 .elfinder .elfinder-toolbar .elfinder-buttonset .elfinder-button-icon-undo {
+    background-image: url('../images/16px/undo.png');
+  } 
+  .theme-windows---10 .elfinder .elfinder-toolbar .elfinder-buttonset .elfinder-button-icon-redo {
+    background-image: url('../images/16px/redo.png');
+  }  
+  .theme-windows---10 .elfinder .elfinder-toolbar .elfinder-buttonset .elfinder-button-icon-selectall {
+    background-image: url('../images/16px/select_all.png');
+  }  
+  .theme-windows---10 .elfinder .elfinder-toolbar .elfinder-buttonset .elfinder-button-icon-selectnone {
+    background-image: url('../images/16px/deselect_all.png');
+  }  
+  .theme-windows---10 .elfinder .elfinder-toolbar .elfinder-buttonset .elfinder-button-icon-selectinvert {
+    background-image: url('../images/16px/invert_selection.png');
+  }  
+  .theme-windows---10 .elfinder .elfinder-toolbar .elfinder-buttonset .elfinder-button-icon-empty {
+    background-image: url('../images/16px/clear_folder.png');
+  }
+  .theme-windows---10 .elfinder .elfinder-toolbar .elfinder-buttonset .elfinder-button-icon-fullscreen{
+    background-image: url('../images/16px/full-screen-icon.png');
+  }
+
+  /* Menus (e.g. for sorting) */
+  .theme-windows---10 .elfinder .elfinder-toolbar .elfinder-buttonset .elfinder-button-menu {
+    /* */
+  }
+
+  /* Menu items */
+  .theme-windows---10 .elfinder .elfinder-toolbar .elfinder-buttonset .elfinder-button-menu-item {
+    /* */
+  }
+
+  /* Selected items */
+  .theme-windows---10 .elfinder .elfinder-toolbar .elfinder-buttonset .elfinder-button-menu-item-selected {
+    /* */
+  }
+
+  /* Hovered items */
+  .theme-windows---10 .elfinder .elfinder-toolbar .elfinder-buttonset .elfinder-button-menu-item.ui-state-hover {
+    /* */
+  }
+
+  /* Menu item sorting ascending icon */
+  .theme-windows---10 .elfinder .elfinder-toolbar .elfinder-buttonset .elfinder-button-menu-item-selected.elfinder-menu-item-sort-asc .elfinder-menu-item-sort-dir {
+    /* */
+  }
+
+  /* Menu item sorting descending icon */
+  .theme-windows---10  .elfinder .elfinder-toolbar .elfinder-buttonset .elfinder-button-menu-item-selected.elfinder-menu-item-sort-desc .elfinder-menu-item-sort-dir {
+    /* */
+  }
+  .theme-windows---10 .elfinder .elfinder-button{padding: 3px;}
+  .theme-windows---10 .elfinder-cwd-view-list thead td .ui-resizable-handle {top: 4px !important;}
+
+  .theme-windows---10 .elfinder .elfinder-button-search input {
+    font-weight: 100;
+}
+/*---23-Dec---*/
+.theme-windows---10 .theme-windows---10 .elfinder-button-search input[type=text] {
+    box-sizing: border-box;
+    width: 100%;
+    height: 25px;
+    min-height: 25px;
+    padding: 0 20px;
+    line-height: 22px;
+    border: 0 solid;
+    border: 1px solid #aaa;
+    -moz-border-radius: 12px;
+    -webkit-border-radius: 12px;
+    border-radius: 12px;
+    outline: 0px solid;
+    background:transparent;
+}
+.theme-windows---10 .elfinder-button-search .ui-icon {
+  opacity: 1;
+  font-size: 12px !important;
+  line-height: 17px;
+  padding-left: 4px;
+}
+.theme-windows---10 .elfinder-button-search .ui-icon:before {
+  color: #000;
+}

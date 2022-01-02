@@ -1,0 +1,3350 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP File Manager\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-08-09 14:38+0530\n"
+"PO-Revision-Date: 2021-08-09 14:46+0530\n"
+"Last-Translator: admin <kajal.gill@mysenseinc.in>\n"
+"Language-Team: \n"
+"Language: cebuano\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 3.0\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: languages\n"
+"X-Poedit-SearchPath-1: .\n"
+
+#: classes/license.php:201 inc/license.php:42
+msgid "License Details"
+msgstr "Mga Detalye sa Lisensya"
+
+#: classes/updates.php:41
+msgid ""
+"Your updates for <strong>WP File Manager - PRO</strong> plugin are disabled "
+"because your license has been expired."
+msgstr ""
+"Ang imong mga pag-update alang sa <strong> WP File Manager - PRO </strong> "
+"plugin dili pinagana tungod kay natapos na ang imong lisensya."
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:70
+msgid "DB Manager"
+msgstr "Tagdumala sa DB"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:116
+msgid "Tables"
+msgstr "Mga lamesa"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:116
+#: extensions/fm_dbmanager/inc/db_tables.php:56
+msgid "Create New Table"
+msgstr "Paghimo Bag-ong Table"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:123
+msgid "Browse:"
+msgstr "Pag-browse:"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:123
+msgid "Browse"
+msgstr "Pag-browse"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:123
+msgid "Insert:"
+msgstr "Isuksok:"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:123
+msgid "Insert"
+msgstr "Isuksok"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:123
+msgid "Delete Table:"
+msgstr "Tangtanga ang Talaan:"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:123
+#: extensions/fm_dbmanager/fm_dbmanager.php:203
+msgid ""
+"Are you sure want to delete Table? Deleted Table may not be recovered. So "
+"please delete carefully."
+msgstr ""
+"Sigurado ba nga gusto nimong tangtangon ang Talaan? Ang gitangtang nga "
+"Talaan mahimong dili makuha. Mao nga palihug pag-delete."
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:123
+#: extensions/fm_dbmanager/fm_dbmanager.php:203
+msgid "Drop"
+msgstr "Paghulog"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:123
+msgid "Empty Table:"
+msgstr "Bakante nga Talaan:"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:123
+#: extensions/fm_dbmanager/fm_dbmanager.php:204
+msgid ""
+"Are you sure want to empty Table? Table may not be recovered. So please "
+"delete carefully."
+msgstr ""
+"Sigurado ka nga gusto nga haw-asan ang lamesa? Ang lamesa mahimong dili "
+"makuha. Mao nga palihug pag-delete."
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:123
+#: extensions/fm_dbmanager/fm_dbmanager.php:204 inc/settings.php:39
+#: inc/shortcode_generator.php:225
+msgid "Empty"
+msgstr "walay sulod"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:203
+msgid "ADD: "
+msgstr "ADD: "
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:203
+msgid "Add New"
+msgstr "Pagdugang Bag-o"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:203
+msgid "Delete Table: "
+msgstr "Tangtanga ang Talaan: "
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:204
+msgid "Empty Table: "
+msgstr "Bakante nga Talaan: "
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:230
+#: extensions/fm_dbmanager/fm_dbmanager.php:252
+msgid "Are you sure want to update? It will redirect you to updation form."
+msgstr ""
+"Sigurado ka ba nga mag-update? I-redirect ka kini sa porma sa pag-update."
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:230
+#: extensions/fm_dbmanager/fm_dbmanager.php:252 inc/settings.php:33
+#: inc/shortcode_generator.php:219 inc/shortcode_listing.php:62
+msgid "Edit"
+msgstr "Pag-edit"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:231
+#: extensions/fm_dbmanager/fm_dbmanager.php:253
+msgid ""
+"Are you sure want to delete? Deleted data may not be recovered. So please "
+"delete carefully."
+msgstr ""
+"Sigurado ba nga gusto nimong papason? Ang gitangtang nga datos mahimong dili "
+"makuha. Mao nga palihug pag-delete."
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:231
+#: extensions/fm_dbmanager/fm_dbmanager.php:253 inc/backup.php:772
+#: inc/backup.php:782 inc/email.php:63 inc/email.php:164 inc/settings.php:34
+#: inc/shortcode_generator.php:220 inc/shortcode_listing.php:63
+#: inc/wpfmlogs.php:65 inc/wpfmlogs.php:93 inc/wpfmlogs.php:149
+#: inc/wpfmlogs.php:175 inc/wpfmlogs.php:232 inc/wpfmlogs.php:258
+msgid "Delete"
+msgstr "Pagtangtang"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:270
+msgid "First"
+msgstr "Una"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:272 inc/shortcode_listing.php:112
+msgid "Prev"
+msgstr "Gihimo ni Pre"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:300 inc/shortcode_listing.php:113
+#: inc/wpfmlogs.php:134 inc/wpfmlogs.php:217
+msgid "Next"
+msgstr "Sunod"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:302
+msgid "Last"
+msgstr "Ang katapusan"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:338
+#: extensions/fm_dbmanager/fm_dbmanager.php:432
+#: extensions/fm_dbmanager/fm_dbmanager.php:487
+#: extensions/fm_dbmanager/inc/db_tables.php:136
+msgid "You don't have permission to access this area."
+msgstr "Wala ka’y pagtugot sa pag-access sa kini nga lugar."
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:353
+#: extensions/fm_dbmanager/fm_dbmanager.php:448
+msgid "Column"
+msgstr "Kolum"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:354
+#: extensions/fm_dbmanager/fm_dbmanager.php:449
+msgid "Value"
+msgstr "Bili"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:380
+msgid "Reset"
+msgstr "Pag-usab"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:386
+msgid "Add"
+msgstr "Idugang"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:409
+msgid "New Record Created"
+msgstr "Bag-ong Rekord Gibuhat"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:411
+#: extensions/fm_dbmanager/fm_dbmanager.php:417
+msgid "Unable to create new record"
+msgstr "Dili makahimo paghimo bag-ong rekord"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:441
+#: extensions/fm_dbmanager/fm_dbmanager.php:529
+msgid "&larr; Back"
+msgstr "& larr; Balik"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:479
+msgid "Update"
+msgstr "Pagbag-o"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:511
+#: extensions/fm_dbmanager/fm_dbmanager.php:533
+msgid "Record "
+msgstr "Pagrekord"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:511
+msgid "</strong> Updated Successfully"
+msgstr "</strong> Malampuson nga Gi-update"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:513
+#: extensions/fm_dbmanager/fm_dbmanager.php:516
+msgid "Unable to Update record"
+msgstr "Dili ma-update ang talaan"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:526
+msgid "Oops! Some thing went wrong! Please try again."
+msgstr "Oops! Ang pila ka butang nga nahimo’g daotan! Palihug pagsulay usab."
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:533
+msgid " Deleted successfully."
+msgstr "Malampuson nga gitangtang."
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:535
+msgid "Error occured while deleting a record."
+msgstr "Nahitabo ang sayup samtang gitangtang ang usa ka rekord."
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:584
+msgid "Table Created Successfully !"
+msgstr "Malampuson nga Gihimo ang Talaan!"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:589
+msgid "Table Not Created !"
+msgstr "Wala Gibuhat ang Talaan!"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:605
+#: extensions/fm_dbmanager/fm_dbmanager.php:607
+msgid "Table <strong>"
+msgstr "<p> (Talaan <strong>"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:605
+#: extensions/fm_dbmanager/fm_dbmanager.php:617
+msgid "</strong> Deleted Successfully!"
+msgstr "</strong> Malampuson nga gitangtang!"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:607
+#: extensions/fm_dbmanager/fm_dbmanager.php:619
+msgid "</strong> Not Deleted!"
+msgstr "</strong> Wala Gipapas!) </p>"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:617
+#: extensions/fm_dbmanager/fm_dbmanager.php:619
+msgid "Table records of <strong>"
+msgstr "Mga talaan sa talaan sa <strong>"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:689
+#: file_folder_manager_pro.php:2900
+msgid ""
+"<div id=\"setting-error-settings_updated\" class=\"error settings-error "
+"notice\"><p><strong>"
+msgstr ""
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:695
+#: file_folder_manager_pro.php:2906
+msgid ""
+"<div id=\"setting-error-settings_updated\" class=\"updated settings-error "
+"notice\"><p><strong>"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:9
+msgid "Table name:&nbsp;"
+msgstr "Ngalan sa lamesa:&nbsp;"
+
+#: extensions/fm_dbmanager/inc/createTbl.php:19
+#: extensions/fm_dbmanager/inc/createTbl.php:559
+msgid "Name"
+msgstr "Ngalan"
+
+#: extensions/fm_dbmanager/inc/createTbl.php:20
+msgid "Type"
+msgstr "Type"
+
+#: extensions/fm_dbmanager/inc/createTbl.php:21
+msgid "Length/Values"
+msgstr "Gitas-on / mga kantidad"
+
+#: extensions/fm_dbmanager/inc/createTbl.php:22 inc/settings.php:218
+#: inc/settings.php:226 inc/settings.php:284 inc/shortcode_generator.php:349
+#: inc/shortcode_generator.php:372 inc/shortcode_generator.php:393
+#: inc/shortcode_generator.php:401 inc/shortcode_generator.php:409
+#: inc/shortcode_generator.php:434 inc/shortcode_generator.php:442
+#: inc/shortcode_generator.php:511 inc/shortcode_generator.php:534
+#: inc/shortcode_generator.php:543 inc/shortcode_generator.php:552
+#: inc/shortcode_generator.php:577 inc/shortcode_generator.php:585
+msgid "Default"
+msgstr "Default"
+
+#: extensions/fm_dbmanager/inc/createTbl.php:23
+msgid "Collation"
+msgstr "Panagsama"
+
+#: extensions/fm_dbmanager/inc/createTbl.php:24
+msgid "Attributes"
+msgstr "Mga Kinaiya"
+
+#: extensions/fm_dbmanager/inc/createTbl.php:25 inc/shortcode_generator.php:401
+#: inc/shortcode_generator.php:409 inc/shortcode_generator.php:543
+#: inc/shortcode_generator.php:552
+msgid "Null"
+msgstr "Wala"
+
+#: extensions/fm_dbmanager/inc/createTbl.php:26
+msgid "Index"
+msgstr "Indeks"
+
+#: extensions/fm_dbmanager/inc/createTbl.php:27
+msgid "A_I"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:28
+msgid "Comments"
+msgstr "Mga Komento"
+
+#: extensions/fm_dbmanager/inc/createTbl.php:37
+#: extensions/fm_dbmanager/inc/createTbl.php:52
+msgid "INT"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:39
+#: extensions/fm_dbmanager/inc/createTbl.php:90
+msgid "VARCHAR"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:41
+#: extensions/fm_dbmanager/inc/createTbl.php:96
+msgid "TEXT"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:43
+#: extensions/fm_dbmanager/inc/createTbl.php:76
+msgid "DATE"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:46
+msgid "TINYINT"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:48
+msgid "SMALLINT"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:50
+msgid "MEDIUMINT"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:54
+msgid "BIGINT"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:58
+msgid "DECIMAL"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:60
+msgid "FLOAT"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:62
+msgid "DOUBLE"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:64
+msgid "REAL"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:68
+msgid "BIT"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:70
+msgid "BOOLEAN"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:72
+msgid "SERIAL"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:78
+msgid "DATETIME"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:80
+msgid "TIMESTAMP"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:82
+msgid "TIME"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:84
+msgid "YEAR"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:88
+msgid "CHAR"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:94
+msgid "TINYTEXT"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:98
+msgid "MEDIUMTEXT"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:100
+msgid "LONGTEXT"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:104
+#: extensions/fm_dbmanager/inc/createTbl.php:688
+msgid "BINARY"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:106
+msgid "VARBINARY"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:110
+msgid "TINYBLOB"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:112
+msgid "MEDIUMBLOB"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:114
+msgid "BLOB"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:116
+msgid "LONGBLOB"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:120
+msgid "ENUM"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:122
+msgid "SET"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:126
+msgid "GEOMETRY"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:128
+msgid "POINT"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:130
+msgid "LINESTRING"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:132
+msgid "POLYGON"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:134
+msgid "MULTIPOINT"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:136
+msgid "MULTILINESTRING"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:138
+msgid "MULTIPOLYGON"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:140
+msgid "GEOMETRYCOLLECTION"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:150
+#: inc/shortcode_generator.php:372 inc/shortcode_generator.php:393
+#: inc/shortcode_generator.php:534
+msgid "None"
+msgstr "Wala"
+
+#: extensions/fm_dbmanager/inc/createTbl.php:152
+msgid "As defined:"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:154
+msgid "NULL"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:156
+msgid "CURRENT_TIMESTAMP"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:165
+msgid "armscii8_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:167
+msgid "armscii8_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:171
+msgid "ascii_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:173
+msgid "ascii_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:177
+msgid "big5_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:179
+msgid "big5_chinese_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:183
+msgid "binary"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:187
+msgid "cp1250_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:189
+msgid "cp1250_croatian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:191
+msgid "cp1250_czech_cs"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:193
+msgid "cp1250_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:195
+msgid "cp1250_polish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:199
+msgid "cp1251_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:201
+msgid "cp1251_bulgarian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:203
+msgid "cp1251_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:205
+msgid "cp1251_general_cs"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:207
+msgid "cp1251_ukrainian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:211
+msgid "cp1256_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:213
+msgid "cp1256_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:217
+msgid "cp1257_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:219
+msgid "cp1257_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:221
+msgid "cp1257_lithuanian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:225
+msgid "cp850_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:227
+msgid "cp850_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:231
+msgid "cp852_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:233
+msgid "cp852_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:237
+msgid "cp866_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:239
+msgid "cp866_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:243
+msgid "cp932_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:245
+msgid "cp932_japanese_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:249
+msgid "dec8_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:251
+msgid "dec8_swedish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:255
+msgid "eucjpms_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:257
+msgid "eucjpms_japanese_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:261
+msgid "euckr_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:263
+msgid "euckr_korean_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:267
+msgid "gb2312_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:269
+msgid "gb2312_chinese_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:273
+msgid "gbk_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:275
+msgid "gbk_chinese_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:279
+msgid "geostd8_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:281
+msgid "geostd8_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:285
+msgid "greek_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:287
+msgid "greek_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:291
+msgid "hebrew_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:293
+msgid "hebrew_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:297
+msgid "hp8_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:299
+msgid "hp8_english_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:303
+msgid "keybcs2_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:305
+msgid "keybcs2_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:309
+msgid "koi8r_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:311
+msgid "koi8r_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:315
+msgid "koi8u_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:317
+msgid "koi8u_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:321
+msgid "latin1_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:323
+msgid "latin1_danish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:325
+msgid "latin1_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:327
+msgid "latin1_general_cs"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:329
+msgid "latin1_german1_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:331
+msgid "latin1_german2_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:333
+msgid "latin1_spanish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:335
+msgid "latin1_swedish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:339
+msgid "latin2_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:341
+msgid "latin2_croatian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:343
+msgid "latin2_czech_cs"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:345
+msgid "latin2_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:347
+msgid "latin2_hungarian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:351
+msgid "latin5_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:353
+msgid "latin5_turkish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:357
+msgid "latin7_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:359
+msgid "latin7_estonian_cs"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:361
+msgid "latin7_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:363
+msgid "latin7_general_cs"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:367
+msgid "macce_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:369
+msgid "macce_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:373
+msgid "macroman_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:375
+msgid "macroman_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:379
+msgid "sjis_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:381
+msgid "sjis_japanese_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:385
+msgid "swe7_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:387
+msgid "swe7_swedish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:391
+msgid "tis620_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:393
+msgid "tis620_thai_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:397
+msgid "ucs2_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:399
+msgid "ucs2_croatian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:401
+msgid "ucs2_czech_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:403
+msgid "ucs2_danish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:405
+msgid "ucs2_esperanto_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:407
+msgid "ucs2_estonian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:409
+msgid "ucs2_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:411
+msgid "ucs2_general_mysql500_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:413
+msgid "ucs2_german2_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:415
+msgid "ucs2_hungarian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:417
+msgid "ucs2_icelandic_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:419
+msgid "ucs2_latvian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:421
+msgid "ucs2_lithuanian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:423
+msgid "ucs2_persian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:425
+msgid "ucs2_polish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:427
+msgid "ucs2_roman_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:429
+msgid "ucs2_romanian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:431
+msgid "ucs2_sinhala_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:433
+msgid "ucs2_slovak_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:435
+msgid "ucs2_slovenian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:437
+msgid "ucs2_spanish2_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:439
+msgid "ucs2_spanish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:441
+msgid "ucs2_swedish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:443
+msgid "ucs2_turkish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:445
+msgid "ucs2_unicode_520_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:447
+msgid "ucs2_unicode_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:449
+msgid "ucs2_vietnamese_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:453
+msgid "ujis_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:455
+msgid "ujis_japanese_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:459
+msgid "utf16_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:461
+msgid "utf16_croatian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:463
+msgid "utf16_czech_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:465
+msgid "utf16_danish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:467
+msgid "utf16_esperanto_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:469
+msgid "utf16_estonian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:471
+msgid "utf16_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:473
+msgid "utf16_german2_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:475
+msgid "utf16_hungarian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:477
+msgid "utf16_icelandic_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:479
+msgid "utf16_latvian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:481
+msgid "utf16_lithuanian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:483
+msgid "utf16_persian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:485
+msgid "utf16_polish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:487
+msgid "utf16_roman_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:489
+msgid "utf16_romanian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:491
+msgid "utf16_sinhala_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:493
+msgid "utf16_slovak_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:495
+msgid "utf16_slovenian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:497
+msgid "utf16_spanish2_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:499
+msgid "utf16_spanish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:501
+msgid "utf16_swedish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:503
+msgid "utf16_turkish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:505
+msgid "utf16_unicode_520_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:507
+msgid "utf16_unicode_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:509
+msgid "utf16_vietnamese_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:513
+msgid "utf16le_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:515
+msgid "utf16le_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:519
+msgid "utf32_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:521
+msgid "utf32_croatian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:523
+msgid "utf32_czech_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:525
+msgid "utf32_danish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:527
+msgid "utf32_esperanto_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:529
+msgid "utf32_estonian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:531
+msgid "utf32_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:533
+msgid "utf32_german2_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:535
+msgid "utf32_hungarian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:537
+msgid "utf32_icelandic_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:539
+msgid "utf32_latvian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:541
+msgid "utf32_lithuanian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:543
+msgid "utf32_persian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:545
+msgid "utf32_polish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:547
+msgid "utf32_roman_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:549
+msgid "utf32_romanian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:551
+msgid "utf32_sinhala_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:553
+msgid "utf32_slovak_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:555
+msgid "utf32_slovenian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:557
+msgid "utf32_spanish2_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:559
+msgid "utf32_spanish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:561
+msgid "utf32_swedish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:563
+msgid "utf32_turkish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:565
+msgid "utf32_unicode_520_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:567
+msgid "utf32_unicode_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:569
+msgid "utf32_vietnamese_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:573
+msgid "utf8_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:575
+msgid "utf8_croatian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:577
+msgid "utf8_czech_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:579
+msgid "utf8_danish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:581
+msgid "utf8_esperanto_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:583
+msgid "utf8_estonian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:585
+msgid "utf8_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:587
+msgid "utf8_general_mysql500_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:589
+msgid "utf8_german2_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:591
+msgid "utf8_hungarian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:593
+msgid "utf8_icelandic_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:595
+msgid "utf8_latvian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:597
+msgid "utf8_lithuanian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:599
+msgid "utf8_persian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:601
+msgid "utf8_polish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:603
+msgid "utf8_roman_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:605
+msgid "utf8_romanian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:607
+msgid "utf8_sinhala_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:609
+msgid "utf8_slovak_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:611
+msgid "utf8_slovenian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:613
+msgid "utf8_spanish2_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:615
+msgid "utf8_spanish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:617
+msgid "utf8_swedish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:619
+msgid "utf8_turkish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:621
+msgid "utf8_unicode_520_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:623
+msgid "utf8_unicode_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:625
+msgid "utf8_vietnamese_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:629
+msgid "utf8mb4_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:631
+msgid "utf8mb4_croatian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:633
+msgid "utf8mb4_czech_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:635
+msgid "utf8mb4_danish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:637
+msgid "utf8mb4_esperanto_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:639
+msgid "utf8mb4_estonian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:641
+msgid "utf8mb4_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:643
+msgid "utf8mb4_german2_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:645
+msgid "utf8mb4_hungarian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:647
+msgid "utf8mb4_icelandic_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:649
+msgid "utf8mb4_latvian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:651
+msgid "utf8mb4_lithuanian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:653
+msgid "utf8mb4_persian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:655
+msgid "utf8mb4_polish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:657
+msgid "utf8mb4_roman_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:659
+msgid "utf8mb4_romanian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:661
+msgid "utf8mb4_sinhala_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:663
+msgid "utf8mb4_slovak_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:665
+msgid "utf8mb4_slovenian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:667
+msgid "utf8mb4_spanish2_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:669
+msgid "utf8mb4_spanish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:671
+msgid "utf8mb4_swedish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:673
+msgid "utf8mb4_turkish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:675
+msgid "utf8mb4_unicode_520_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:677
+msgid "utf8mb4_unicode_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:679
+msgid "utf8mb4_vietnamese_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:690
+msgid "UNSIGNED"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:692
+msgid "UNSIGNED ZEROFILL"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:694
+msgid "on update CURRENT_TIMESTAMP"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:705
+msgid "PRIMARY"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:707
+msgid "UNIQUE"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:709
+msgid "INDEX"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:711
+msgid "FULLTEXT"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:724
+msgid "Add Row"
+msgstr "Idugang ang Row"
+
+#: extensions/fm_dbmanager/inc/createTbl.php:725
+msgid "Save"
+msgstr "Pagtipig"
+
+#: extensions/fm_dbmanager/inc/db_tables.php:39
+msgid "Export Database"
+msgstr "I-export ang Database"
+
+#: extensions/fm_dbmanager/inc/db_tables.php:45
+msgid "Host:"
+msgstr "Tagbalay:"
+
+#: extensions/fm_dbmanager/inc/db_tables.php:49
+msgid "Database:"
+msgstr "Database:"
+
+#: extensions/fm_dbmanager/inc/db_tables.php:52
+msgid "Table:"
+msgstr "Talaan:"
+
+#: extensions/fm_shortcode_without_login/inc/shortcode.php:207
+#: inc/shortcode.php:327
+msgid "This shortcode has been expired. Please contact with the site admin."
+msgstr "Ang kini nga shortcode natapos na. Palihug kontaka ang admin sa site."
+
+#: file_folder_manager_pro.php:197
+msgid "Database backup restored successfully."
+msgstr "Malampuson nga gipahiuli ang pag-backup sa database."
+
+#: file_folder_manager_pro.php:199
+msgid "Unable to restore DB backup."
+msgstr "Dili mapahiuli ang pag-backup sa DB."
+
+#: file_folder_manager_pro.php:206
+msgid "Plugins backup restored successfully."
+msgstr "Malampuson nga gipahiuli ang pag-backup sa plugin."
+
+#: file_folder_manager_pro.php:208
+msgid "Unable to restore plugins."
+msgstr "Dili mabalik ang mga plugins."
+
+#: file_folder_manager_pro.php:215
+msgid "Themes backup restored successfully."
+msgstr "Malampuson nga gipahiuli ang pag-backup sa mga tema."
+
+#: file_folder_manager_pro.php:217
+msgid "Unable to restore themes."
+msgstr "Dili mapahiuli ang mga tema."
+
+#: file_folder_manager_pro.php:224
+msgid "Uploads backup restored successfully."
+msgstr "Malampuson nga napahiuli ang pag-upload sa backup."
+
+#: file_folder_manager_pro.php:226
+msgid "Unable to restore uploads."
+msgstr "Dili mapahiuli ang mga pag-upload."
+
+#: file_folder_manager_pro.php:233
+msgid "Others backup restored successfully."
+msgstr "Ang uban malampuson nga gipahiuli."
+
+#: file_folder_manager_pro.php:235
+msgid "Unable to restore others."
+msgstr "Dili mapahiuli ang uban."
+
+#: file_folder_manager_pro.php:239
+msgid "Backup not found!"
+msgstr "Wala makit-an ang pag-backup!"
+
+#: file_folder_manager_pro.php:243
+msgid "security token expired"
+msgstr "natapos na ang token sa seguridad"
+
+#: file_folder_manager_pro.php:283
+msgid "Backup(s) removed successfully!"
+msgstr "Malampuson nga gitangtang ang (mga) backup!"
+
+#: file_folder_manager_pro.php:285
+msgid "Unable to remove backup(s)!"
+msgstr "Dili makuha ang (mga) backup!"
+
+#: file_folder_manager_pro.php:308
+msgid "Database backup done on date "
+msgstr "Ang pag-backup sa database nahimo sa petsa "
+
+#: file_folder_manager_pro.php:312
+msgid "Plugins backup done on date "
+msgstr "Ang pag-backup sa plugin gihimo sa petsa "
+
+#: file_folder_manager_pro.php:316
+msgid "Themes backup done on date "
+msgstr "Ang pag-backup sa mga tema nahuman sa petsa "
+
+#: file_folder_manager_pro.php:320
+msgid "Uploads backup done on date "
+msgstr "Gi-upload ang backup nga nahimo sa petsa "
+
+#: file_folder_manager_pro.php:324
+msgid "Others backup done on date "
+msgstr "Ang uban backup gihimo sa petsa "
+
+#: file_folder_manager_pro.php:328 file_folder_manager_pro.php:707
+#: inc/wpfmlogs.php:49
+msgid "Logs"
+msgstr "Mga troso"
+
+#: file_folder_manager_pro.php:334
+msgid "No logs found!"
+msgstr "Wala nakit-an nga mga troso!"
+
+#: file_folder_manager_pro.php:405
+msgid "Backup removed successfully!"
+msgstr "Malampuson nga gitangtang ang pag-backup!"
+
+#: file_folder_manager_pro.php:407
+msgid "Unable to removed backup!"
+msgstr "Dili makuha ang pag-backup!"
+
+#: file_folder_manager_pro.php:430
+msgid "Nothing selected for backup"
+msgstr "Wala’y napili alang sa pag-backup"
+
+#: file_folder_manager_pro.php:459
+msgid "Database backup done."
+msgstr "Nahuman ang pag-backup sa database."
+
+#: file_folder_manager_pro.php:462
+msgid "Unable to create database backup."
+msgstr "Dili makahimo paghimo backup sa database."
+
+#: file_folder_manager_pro.php:476
+msgid "Plugins backup done."
+msgstr "Nahuman ang pag-backup sa plugin."
+
+#: file_folder_manager_pro.php:479
+msgid "Plugins backup failed."
+msgstr "Pakyas ang pag-backup sa plugin."
+
+#: file_folder_manager_pro.php:488
+msgid "Themes backup done."
+msgstr "Nahuman na ang pag-backup sa mga tema."
+
+#: file_folder_manager_pro.php:491
+msgid "Themes backup failed."
+msgstr "Napakyas ang pag-backup sa mga tema."
+
+#: file_folder_manager_pro.php:500
+msgid "Uploads backup done."
+msgstr "Nahuman na ang pag-upload."
+
+#: file_folder_manager_pro.php:503
+msgid "Uploads backup failed."
+msgstr "Napakyas ang pag-backup."
+
+#: file_folder_manager_pro.php:512
+msgid "Others backup done."
+msgstr "Nahuman na ang uban."
+
+#: file_folder_manager_pro.php:515
+msgid "Others backup failed."
+msgstr "Ang uban napakyas."
+
+#: file_folder_manager_pro.php:519 file_folder_manager_pro.php:523
+msgid "All done"
+msgstr "Tanan nahuman"
+
+#: file_folder_manager_pro.php:545
+msgid "Log(s) removed successfully!"
+msgstr "Malampuson nga gitangtang ang (mga) log!"
+
+#: file_folder_manager_pro.php:547
+msgid "Unable to removed log(s)!"
+msgstr "Dili makuha ang (mga) log!"
+
+#: file_folder_manager_pro.php:551 file_folder_manager_pro.php:3253
+#: file_folder_manager_pro.php:3267
+msgid "Invalid security key!"
+msgstr "Dili husto nga yawi sa seguridad!"
+
+#: file_folder_manager_pro.php:586
+msgid "Required libraries installed successfully."
+msgstr "Malampuson nga gi-install ang mga kinahanglan nga librarya."
+
+#: file_folder_manager_pro.php:589
+msgid "Unable to install Required libraries."
+msgstr "Dili ma-install ang Gikinahanglan nga mga librarya."
+
+#: file_folder_manager_pro.php:683 file_folder_manager_pro.php:684
+msgid "WP File Manager"
+msgstr "WP File Manager"
+
+#: file_folder_manager_pro.php:691
+msgid "Settings"
+msgstr "Mga setting"
+
+#: file_folder_manager_pro.php:693
+msgid "Preferences"
+msgstr "Mga gusto"
+
+#: file_folder_manager_pro.php:695 inc/email.php:25
+msgid "Email Notifications"
+msgstr "Mga Pahibalo sa Email"
+
+#: file_folder_manager_pro.php:698 inc/shortcode_generator.php:249
+msgid "Shortcode Generator"
+msgstr "Shortcode Generator"
+
+#: file_folder_manager_pro.php:701 inc/extensions.php:160
+msgid "Google Drive"
+msgstr "Google Drive"
+
+#: file_folder_manager_pro.php:704
+msgid "Mobile"
+msgstr "Mobile"
+
+#: file_folder_manager_pro.php:706
+msgid "Addons"
+msgstr "Mga addon"
+
+#: file_folder_manager_pro.php:708
+msgid "Backup"
+msgstr "Pag-backup"
+
+#: file_folder_manager_pro.php:709
+msgid "Existing Shortcode"
+msgstr "Adunay na Shortcode"
+
+#: file_folder_manager_pro.php:711
+msgid "License"
+msgstr "Lisensya"
+
+#: file_folder_manager_pro.php:808
+msgid "Type here to search list... "
+msgstr "Pag-type dinhi aron makapangita sa lista ... "
+
+#: file_folder_manager_pro.php:809
+msgid "Check all"
+msgstr "Susiha tanan"
+
+#: file_folder_manager_pro.php:810
+msgid "Uncheck all"
+msgstr "Uncheck tanan"
+
+#: file_folder_manager_pro.php:811
+msgid "Invert select"
+msgstr "Baliha ang kapilian"
+
+#: file_folder_manager_pro.php:2752
+msgid "You don't have permission to access file manager."
+msgstr "Wala ka’y pagtugot sa pag-access sa file manager."
+
+#: file_folder_manager_pro.php:2755
+msgid "Invalid shortcode!"
+msgstr "Dili husto nga shortcode!"
+
+#: file_folder_manager_pro.php:2758
+msgid "Invalid security token!"
+msgstr "Dili husto nga token sa seguridad!"
+
+#: file_folder_manager_pro.php:2915
+msgid "Your File Manager PRO Order Details"
+msgstr "Mga detalye sa Imong File Manager PRO"
+
+#: file_folder_manager_pro.php:2915
+msgid "Order Details"
+msgstr "Mga Detalye sa Order"
+
+#: file_folder_manager_pro.php:2917
+msgid "Order ID: "
+msgstr "Order ID:"
+
+#: file_folder_manager_pro.php:2918
+msgid "License Key: "
+msgstr "Lisensya sa Lisensya:"
+
+#: file_folder_manager_pro.php:2919
+msgid "&nbsp; Warning: Please don't share these details with anyone."
+msgstr ""
+"&nbsp; Pasidaan: Palihug ayaw ipaambit kini nga mga detalye sa bisan kinsa."
+
+#: file_folder_manager_pro.php:3048
+msgid ""
+"<p>(Unable to execute php syntax checker due to server permissions.)</p>"
+msgstr ""
+"<p> (Dili maipatuman ang php syntax checker tungod sa mga pagtugot sa "
+"server.) </p>"
+
+#: file_folder_manager_pro.php:3052
+msgid "<p>(File <strong>"
+msgstr "<p> (File <strong>"
+
+#: file_folder_manager_pro.php:3052
+msgid "</strong> not saved.)</p>"
+msgstr "</strong> wala maluwas.) </p>"
+
+#: file_folder_manager_pro.php:3222
+msgid "File doesn't exist to download."
+msgstr "Wala’y file aron ma-download."
+
+#: file_folder_manager_pro.php:3227
+msgid "Invalid Security Code."
+msgstr "Imbalido Code Security."
+
+#: file_folder_manager_pro.php:3232
+msgid "Missing backup id."
+msgstr "Nawala ang backup id."
+
+#: file_folder_manager_pro.php:3235
+msgid "Missing parameter type."
+msgstr "Nawala nga tipo sa parameter."
+
+#: file_folder_manager_pro.php:3238
+msgid "Missing required parameters."
+msgstr "Nawala nga kinahanglan nga mga parameter."
+
+#: inc/backup.php:583
+msgid "WP File Manager - Backup/Restore"
+msgstr "WP File Manager - Pag-backup / Pag-uli"
+
+#: inc/backup.php:589
+msgid "Backup Options:"
+msgstr "Mga Kapilian sa Pag-backup:"
+
+#: inc/backup.php:596
+msgid "Database Backup"
+msgstr "Pag-backup sa Database"
+
+#: inc/backup.php:602
+msgid "Files Backup"
+msgstr "Mga Pag-backup sa Files"
+
+#: inc/backup.php:606
+msgid "Plugins"
+msgstr "Mga plugins"
+
+#: inc/backup.php:609
+msgid "Themes"
+msgstr "Mga tema"
+
+#: inc/backup.php:612
+msgid "Uploads"
+msgstr "Nag-upload"
+
+#: inc/backup.php:615
+msgid "Others (Any other directories found inside wp-content)"
+msgstr ""
+"Ang uban (Bisan unsang uban pang mga direktoryo nga nakit-an sa sulud sa wp-"
+"content)"
+
+#: inc/backup.php:619
+msgid "Backup Now"
+msgstr "Pag-backup Karon"
+
+#: inc/backup.php:627
+msgid "Time now"
+msgstr "Oras karon"
+
+#: inc/backup.php:637
+msgid "SUCCESS"
+msgstr "KALAMPUSAN"
+
+#: inc/backup.php:639
+msgid "Backup successfully deleted."
+msgstr "Malampuson nga natapos ang pag-backup."
+
+#: inc/backup.php:640
+msgid "Ok"
+msgstr "Ok ra"
+
+#: inc/backup.php:655
+msgid "DELETE FILES"
+msgstr "TANGTANG NGA MGA SULAT"
+
+#: inc/backup.php:657
+msgid "Are you sure you want to delete this backup?"
+msgstr "Sigurado ka nga gusto nimong tangtangon kini nga pag-backup?"
+
+#: inc/backup.php:658 inc/backup.php:677
+msgid "Cancel"
+msgstr "Kanselahon"
+
+#: inc/backup.php:659 inc/backup.php:678
+msgid "Confirm"
+msgstr "Pagkumpirma"
+
+#: inc/backup.php:674
+msgid "RESTORE FILES"
+msgstr "I-RESTORE ANG MGA FILES"
+
+#: inc/backup.php:676
+msgid "Are you sure you want to restore this backup?"
+msgstr "Sigurado ka nga gusto nimo ibalik kini nga pag-backup?"
+
+#: inc/backup.php:704
+msgid "Last Log Message"
+msgstr "Katapusan nga Mensahe sa Log"
+
+#: inc/backup.php:707
+msgid "The backup apparently succeeded and is now complete."
+msgstr "Ang pag-backup dayag nga nagmalampuson ug karon nakompleto na."
+
+#: inc/backup.php:709
+msgid "No log message"
+msgstr "Wala’y mensahe sa log"
+
+#: inc/backup.php:715
+msgid "Existing Backup(s)"
+msgstr "Adunay na (mga) Pag-backup"
+
+#: inc/backup.php:723
+msgid "Backup Date"
+msgstr "Petsa sa Pag-backup"
+
+#: inc/backup.php:726
+msgid "Backup data (click to download)"
+msgstr "Data sa pag-backup (pag-klik aron ma-download)"
+
+#: inc/backup.php:729 inc/shortcode_listing.php:45 inc/wpfmlogs.php:80
+#: inc/wpfmlogs.php:162 inc/wpfmlogs.php:245
+msgid "Action"
+msgstr "Aksyon"
+
+#: inc/backup.php:749
+msgid "Today"
+msgstr "Karon"
+
+#: inc/backup.php:771
+msgid "Restore"
+msgstr "Iuli"
+
+#: inc/backup.php:773
+msgid "View Log"
+msgstr "Tan-awa ang Log"
+
+#: inc/backup.php:778
+msgid "Currently no backup(s) found."
+msgstr "Karon wala’y nakit-an nga (mga) backup."
+
+#: inc/backup.php:781
+msgid "Actions upon selected backup(s)"
+msgstr "Mga lihok sa mga napili nga backup (s)"
+
+#: inc/backup.php:783
+msgid "Select All"
+msgstr "Pilia ang Tanan"
+
+#: inc/backup.php:784
+msgid "Deselect"
+msgstr "Deselect"
+
+#: inc/backup.php:786
+msgid "<strong>Note:</strong>Backup files will be under"
+msgstr "<strong> Hinumdomi: </strong> Ang mga backup file maanaa sa ilalum"
+
+#: inc/backup.php:803
+msgid "Backup is running, please wait"
+msgstr "Nagdagan na ang pag-backup, palihug paghulat"
+
+#: inc/backup.php:902
+msgid "Select backup(s) to delete!"
+msgstr "Pilia ang (mga) backup aron mapapas!"
+
+#: inc/backup.php:904
+msgid "Are you sure want to remove selected backup(s)?"
+msgstr "Sigurado ka ba nga tangtangon ang mga napili nga (mga) backup?"
+
+#: inc/email.php:6
+msgid "Saving please wait..."
+msgstr "Pagdaginot palihug paghulat ..."
+
+#: inc/email.php:32 inc/root.php:30 inc/settings.php:9
+msgid "Settings saved."
+msgstr "Natipig ang mga setting."
+
+#: inc/email.php:32 inc/email.php:35 inc/root.php:30 inc/root.php:33
+#: inc/settings.php:9 inc/settings.php:12
+msgid "Dismiss this notice."
+msgstr "Isalikway ang pahibalo niini."
+
+#: inc/email.php:35 inc/settings.php:12
+msgid "Settings not saved."
+msgstr "Ang mga setting dili maluwas."
+
+#: inc/email.php:44
+msgid "Enable?"
+msgstr "Makahimo?"
+
+#: inc/email.php:54
+msgid "Email Addresses"
+msgstr "Mga Address sa Email"
+
+#: inc/email.php:71
+msgid "Add More <strong>+</strong>"
+msgstr "Pagdugang Dugang pa <strong> + </strong>"
+
+#: inc/email.php:73
+msgid ""
+"This address is used for notification purposes, like theme/plugin "
+"notification."
+msgstr ""
+"Gigamit kini nga adres alang sa mga katuyoan sa pagpahibalo, sama sa "
+"pahibalo sa tema / plugin."
+
+#: inc/email.php:79
+msgid "Files Upload Notifications"
+msgstr "Mga Abiso sa Pag-upload sa Mga File"
+
+#: inc/email.php:82 inc/email.php:108 inc/email.php:131
+msgid "Subject"
+msgstr "subject"
+
+#: inc/email.php:85
+msgid "Files Uploaded"
+msgstr "Gi-upload ang mga file"
+
+#: inc/email.php:95 inc/email.php:119 inc/email.php:142
+msgid "Body"
+msgstr "Lawas"
+
+#: inc/email.php:98 inc/email.php:122 inc/email.php:145
+msgid "Example:"
+msgstr "Panig-ingnan:"
+
+#: inc/email.php:105
+msgid "Files Download Notifications"
+msgstr "Mga Abiso sa Pag-download sa Mga File"
+
+#: inc/email.php:111
+msgid "Files Downloaded"
+msgstr "Gi-download ang mga file"
+
+#: inc/email.php:128
+msgid "Files Edit Notifications"
+msgstr "Mga Abiso sa Pag-edit sa Mga File"
+
+#: inc/email.php:134
+msgid "Files Modified or Edited"
+msgstr "Mga File nga Gibag-o o Gi-edit"
+
+#: inc/email.php:155 inc/root.php:87 inc/settings.php:703
+msgid "Save Changes"
+msgstr "Pagtipig Mga Pagbag-o"
+
+#: inc/email.php:186 inc/email.php:209
+msgid ""
+"All added email fields needs to filled and should have valid email address."
+msgstr ""
+"Ang tanan nga gidugang nga mga natad sa email kinahanglan nga pun-on ug "
+"kinahanglan adunay balido nga email address."
+
+#: inc/extensions.php:116
+msgid "Add-ons"
+msgstr "Add-ons"
+
+#: inc/extensions.php:121
+msgid "Box"
+msgstr "Kahon"
+
+#: inc/extensions.php:130 inc/extensions.php:149 inc/extensions.php:169
+#: inc/extensions.php:188 inc/extensions.php:206 inc/extensions.php:225
+msgid "Buy Now"
+msgstr "Pagpalit Karon"
+
+#: inc/extensions.php:141
+msgid "DropBox"
+msgstr "DropBox"
+
+#: inc/extensions.php:179
+msgid "OneDrive"
+msgstr "OneDrive"
+
+#: inc/extensions.php:198
+msgid "AWS S3"
+msgstr "AWS S3"
+
+#: inc/extensions.php:216
+msgid "Git Hub"
+msgstr "Git Hub"
+
+#: inc/fm_shortcode_btn.php:8
+msgid "Insert File Manager Shortcode"
+msgstr "Isulud ang Shortcode sa File Manager"
+
+#: inc/fm_shortcode_btn.php:14
+msgid "Select Shortcode"
+msgstr "Pilia ang Shortcode"
+
+#: inc/fm_shortcode_btn.php:17
+msgid "Choose Shortcode"
+msgstr "Pilia ang Shortcode"
+
+#: inc/license.php:42
+msgid "Purchase New License"
+msgstr "Pagpalit Bag-ong Lisensya"
+
+#: inc/license.php:45
+msgid ""
+"To unlock updates, please enter your order id and license key below. If you "
+"don't have a license key, <a href=\"https://filemanagerpro.io/file-manager-"
+"pricing/\" target=\"_blank\" class=\"page-title-action buy-link\" title="
+"\"click to buy License Key\">please see details & pricing</a>"
+msgstr ""
+"Aron maablihan ang mga pag-update, palihug isulud ang imong order id ug "
+"lisensya key sa ubus. Kung wala ka usa ka yawi sa lisensya, <a href = "
+"\"https://filemanagerpro.io/file-manager-pricing/\" target = \"_ blank\" "
+"class = \"page-title-action buy-link\" title = \" pag-klik aron mapalit ang "
+"Lisensya nga Susi \"> palihug tan-awa ang mga detalye ug pagpresyo </a>"
+
+#: inc/license.php:50
+msgid "ORDER ID (#)"
+msgstr "ORDER ID (#)"
+
+#: inc/license.php:54
+msgid "LICENSE KEY"
+msgstr "LISENSYA KEY"
+
+#: inc/license.php:69
+msgid "PURCHASE DATE"
+msgstr "PETSA SA PAGPALIT"
+
+#: inc/license.php:73
+msgid "EXPIRE DATE"
+msgstr "EXPIRE DATE"
+
+#: inc/license.php:85
+msgid "If you have renewed your license already then click here to refresh!"
+msgstr ""
+"Kung imong gibag-o ang imong lisensya unya pag-klik dinhi aron ma-refresh!"
+
+#: inc/license.php:97
+msgid "Deactivate"
+msgstr "I-deactivate"
+
+#: inc/license.php:102
+msgid "Click here to renew"
+msgstr "Pag-klik dinhi aron mabag-o"
+
+#: inc/license.php:109
+msgid "Click Here To Renew License"
+msgstr "Pag-klik Dinhi Aron Pagbag-o sa Lisensya"
+
+#: inc/license.php:159
+msgid "Are you sure you want to deactivate your license?"
+msgstr "Sigurado ba ka nga gusto nimo i-deactivate ang imong lisensya?"
+
+#: inc/popup.php:31
+msgid "File Manager Pro Update"
+msgstr "Pag-update sa File Manager Pro"
+
+#: inc/popup.php:32
+msgid "File Manager Pro"
+msgstr "File Manager Pro"
+
+#: inc/popup.php:36
+msgid "With File Manager Pro"
+msgstr "Uban sa File Manager Pro"
+
+#: inc/popup.php:36
+msgid ""
+"users will now be able to customise the existing shortcodes with the help of "
+"filters."
+msgstr ""
+"mahimo na ipasadya sa mga mogamit ang karon nga adunay mga shortcode nga "
+"adunay tabang sa mga pagsala."
+
+#: inc/popup.php:36
+msgid "Click"
+msgstr "Pag-klik"
+
+#: inc/popup.php:36
+msgid "here"
+msgstr "dinhi"
+
+#: inc/popup.php:36
+msgid "to see documentation to support you in your transition"
+msgstr ""
+"aron makit-an ang dokumentasyon nga makasuporta kanimo sa imong pagbalhin"
+
+#: inc/popup.php:36
+msgid "Happy Coding!"
+msgstr "Malipayon nga Coding!"
+
+#: inc/popup.php:37
+msgid "View Shortcode Documentation"
+msgstr "Pagtan-aw sa Dokumentasyon sa Shortcode"
+
+#: inc/root.php:33
+msgid "You have not made any changes to be saved."
+msgstr "Wala ka’y gihimo nga mga pagbag-o aron maluwas."
+
+#: inc/root.php:39
+msgid "Preferences - File Manager"
+msgstr "Mga gusto - File Manager"
+
+#: inc/root.php:46
+msgid "Public Root Path"
+msgstr "Public Root Path"
+
+#: inc/root.php:50
+msgid "File Manager Root Path, you can change according to your choice."
+msgstr "File Manager Root Path, mahimo nimo mabag-o sumala sa imong gusto."
+
+#: inc/root.php:53 inc/settings.php:208 inc/settings.php:226
+#: inc/settings.php:239 inc/shortcode_generator.php:425
+#: inc/shortcode_generator.php:442 inc/shortcode_generator.php:455
+#: inc/shortcode_generator.php:568 inc/shortcode_generator.php:585
+#: inc/shortcode_generator.php:598
+msgid "Default:"
+msgstr "Default:"
+
+#: inc/root.php:55
+msgid ""
+"Please change this carefully, Wrong path can lead file manager plugin to go "
+"down."
+msgstr ""
+"Palihug usba kini nga pag-ayo, ang sayup nga agianan mahimong magdala sa "
+"file manager plugin nga manaog."
+
+#: inc/root.php:60
+msgid "Enable Syntax Checker?"
+msgstr "Paglihok sa Syntax Checker?"
+
+#: inc/root.php:63
+msgid ""
+"When the Syntax Checker is enabled, the code updates being made to PHP files "
+"will be checked for syntax errors. If a syntax error is found, the updates "
+"will not be saved and a message box will appear which will define the error "
+"found. This checker will help prevent website downtime issues due to syntax "
+"errors."
+msgstr ""
+"Kung gipaandar ang Syntax Checker, ang mga pag-update sa code nga gihimo sa "
+"mga file sa PHP masusi kung adunay mga sayup nga syntax. Kung nakit-an ang "
+"usa ka sayup nga sayup, ang mga pag-update dili maluwas ug usa ka kahon sa "
+"mensahe ang makita nga magpasabut sa nakit-an nga sayup. Makatabang ang "
+"checker nga mapugngan ang mga isyu sa downtime sa website tungod sa mga "
+"sayup sa syntax."
+
+#: inc/root.php:68
+msgid "Enable Trash?"
+msgstr "Pagpalihok sa Basurahan?"
+
+#: inc/root.php:73
+msgid "After enabling trash, your files will go to trash folder."
+msgstr ""
+"Pagkahuman nga mahimo ang basurahan, ang imong mga file moadto sa folder nga "
+"basurahan."
+
+#: inc/root.php:78
+msgid "Enable Files Upload to Media Library?"
+msgstr "Pag-agda sa mga File nga Mag-upload sa Media Library?"
+
+#: inc/root.php:83
+msgid ""
+"After enabling this, uploaded images, pdfs and zip files will go to media "
+"library too."
+msgstr ""
+"Pagkahuman nga mahimo kini, ang mga gi-upload nga mga imahe, mga pdfs ug mga "
+"zip file moadto usab sa media library."
+
+#: inc/settings.php:18
+msgid "Settings - File Manager"
+msgstr "Mga setting - File Manager"
+
+#: inc/settings.php:19
+msgid "Settings will apply on"
+msgstr "Ang mga setting magamit"
+
+#: inc/settings.php:19
+msgid "shortcode."
+msgstr "shortcode."
+
+#: inc/settings.php:24 inc/shortcode_generator.php:210
+msgid "Make Directory"
+msgstr "Paghimo Directory"
+
+#: inc/settings.php:25 inc/shortcode_generator.php:211
+msgid "Make File"
+msgstr "Paghimo File"
+
+#: inc/settings.php:26 inc/shortcode_generator.php:212
+msgid "Rename"
+msgstr "Igngalan usab"
+
+#: inc/settings.php:27 inc/shortcode_generator.php:213
+msgid "Duplicate"
+msgstr "Pagdoble"
+
+#: inc/settings.php:28 inc/shortcode_generator.php:214
+msgid "Paste"
+msgstr "Ipapilit"
+
+#: inc/settings.php:29 inc/shortcode_generator.php:215
+msgid "Archive"
+msgstr "Arkibo"
+
+#: inc/settings.php:30 inc/shortcode_generator.php:216
+msgid "Extract"
+msgstr "Kinuha"
+
+#: inc/settings.php:31 inc/shortcode_generator.php:217
+#: inc/shortcode_listing.php:61 inc/shortcode_listing.php:84
+#: inc/shortcode_listing.php:159 inc/shortcode_listing.php:175
+#: inc/shortcode_listing.php:215
+msgid "Copy"
+msgstr "Kopya"
+
+#: inc/settings.php:32 inc/shortcode_generator.php:218
+msgid "Cut"
+msgstr "Pagputol"
+
+#: inc/settings.php:35 inc/shortcode_generator.php:221
+msgid "Download"
+msgstr "Pag-download"
+
+#: inc/settings.php:36 inc/shortcode_generator.php:222
+msgid "Upload"
+msgstr "Pag-upload"
+
+#: inc/settings.php:37 inc/shortcode_generator.php:223
+#: inc/shortcode_listing.php:109
+msgid "Search"
+msgstr "Pagpangita"
+
+#: inc/settings.php:38 inc/shortcode_generator.php:224
+msgid "Info"
+msgstr "Impormasyon"
+
+#: inc/settings.php:40 inc/shortcode_generator.php:226
+msgid "Resize"
+msgstr "Pagbag-o usab"
+
+#: inc/settings.php:47 inc/shortcode_generator.php:147
+msgid "<strong>Saving Please wait...</strong>"
+msgstr "<strong> Pagtipig Palihug maghulat ... </strong>"
+
+#: inc/settings.php:83
+msgid "General"
+msgstr "Kinatibuk-ang"
+
+#: inc/settings.php:88
+msgid "Code Editor"
+msgstr "Code Editor"
+
+#: inc/settings.php:93
+msgid "User Restrictions"
+msgstr "Mga Pagdili sa Gumagamit"
+
+#: inc/settings.php:98
+msgid "User Role Restrictions"
+msgstr "Mga Paghulagway sa Papel sa Gumagamit"
+
+#: inc/settings.php:104
+msgid "Frontend Access"
+msgstr "Pag-access sa Frontend"
+
+#: inc/settings.php:111
+msgid "Select User Roles to access WP File Manager"
+msgstr ""
+"Pilia ang Mga Katungdanan sa Gumagamit aron ma-access ang WP File Manager"
+
+#: inc/settings.php:124
+msgid "Allow user roles to access WP File Manager."
+msgstr ""
+"Tugoti ang mga katungdanan sa gumagamit nga ma-access ang WP File Manager."
+
+#: inc/settings.php:131
+msgid "Select User Roles to access DB Manager"
+msgstr "Pilia ang Mga Katungdanan sa Gumagamit aron ma-access ang DB Manager"
+
+#: inc/settings.php:144
+msgid "Allow user roles to access DB Manager."
+msgstr "Tugoti ang mga katungdanan sa gumagamit nga ma-access ang DB Manager."
+
+#: inc/settings.php:150
+msgid "Separate or Private Folder Access"
+msgstr "Bulag o Pribado nga Pag-access sa Folder"
+
+#: inc/settings.php:152
+msgid ""
+"File Manager will access this folder path. Else, will access root directory. "
+"<strong>e.g wp-content/plugins</strong>. <br><strong>Note:</strong> Will be "
+"valid for all user roles."
+msgstr ""
+"Ig-access sa file Manager kini nga agianan sa folder. Lain pa, ma-access ang "
+"direktoryo sa root. <strong> pananglitan wp-content / plugins </strong>. "
+"<br> <strong> Hinumdomi: </strong> Magamit alang sa tanan nga tahas sa "
+"gumagamit."
+
+#: inc/settings.php:157
+msgid "Maximum Upload Size"
+msgstr "Maximum nga Kadako sa Pag-upload"
+
+#: inc/settings.php:159
+msgid "MB"
+msgstr "MB"
+
+#: inc/settings.php:159
+msgid "Allow users to upload file of maximum."
+msgstr "Tugoti ang mga ninggamit nga mag-upload og file nga labing kadaghan."
+
+#: inc/settings.php:163
+msgid "Notification Email"
+msgstr "Email sa Pagpahibalo"
+
+#: inc/settings.php:165
+msgid ""
+"Sends Notifications to this email. <strong>Note:</strong> This will take "
+"admin email by default if kept empty."
+msgstr ""
+"Nagpadala Mga Pahibalo sa kini nga email. <strong> Hinumdomi: </strong> "
+"Kuhaon niini ang email sa admin ingon default kung huptan nga wala’y sulod."
+
+#: inc/settings.php:170
+msgid "Send Notifications to admin and save logs on file upload ?"
+msgstr ""
+"Gipadala ang Mga Pahibalo aron madumala ug i-save ang mga troso sa pag-"
+"upload sa file?"
+
+#: inc/settings.php:174
+msgid ""
+"Check to allow file upload notifications. Mail will be sent to admin. Click "
+"<a href=\"admin.php?page=wpfm-emails\" target=\"_blank\">here</a> to set "
+"notification email."
+msgstr ""
+"Susihon aron matugotan ang mga pahibalo sa pag-upload sa file. Ipadala ang "
+"mail sa admin. Pag-klik sa <a href=\"admin.php?page=wpfm-emails\" target="
+"\"_blank\"> dinhi </a> aron itakda ang email sa pagpahibalo."
+
+#: inc/settings.php:174 inc/settings.php:183 inc/settings.php:192
+msgid ""
+"<strong>Note:</strong> This feature is using wp_mail(), Make sure <a href="
+"\"https://developer.wordpress.org/reference/functions/wp_mail/\" title="
+"\"Read More\" target=\"_blank\">wp_mail</a> is working."
+msgstr ""
+"<strong> Hinumdomi: </strong> Ang kini nga dagway naggamit wp_mail (), "
+"Siguruha nga <a href = \"https://developer.wordpress.org/referensi/function/"
+"wp_mail/\" titulo = \"Basaha Labi pa\" target = \" _blank \"> wp_mail </a> "
+"nagtrabaho."
+
+#: inc/settings.php:179
+msgid "Send Notifications to admin and save logs on file download ?"
+msgstr ""
+"Ipadala ang Mga Pahibalo aron madumala ug i-save ang mga troso sa pag-"
+"download sa file?"
+
+#: inc/settings.php:183
+msgid ""
+"Check to allow file download notifications. Mail will be sent to admin. "
+"Click <a href=\"admin.php?page=wpfm-emails\" target=\"_blank\">here</a> to "
+"set notification email."
+msgstr ""
+"Susihon aron matugotan ang mga pahibalo sa pag-download sa file. Ipadala ang "
+"mail sa admin. Pag-klik sa <a href=\"admin.php?page=wpfm-emails\" target="
+"\"_blank\"> dinhi </a> aron itakda ang email sa pagpahibalo."
+
+#: inc/settings.php:188
+msgid "Send Notifications to admin and save logs on file edit ?"
+msgstr ""
+"Gipadala ang Mga Pahibalo aron madumala ug i-save ang mga troso sa pag-edit "
+"sa file?"
+
+#: inc/settings.php:192
+msgid ""
+"Check to allow file edit notifications. Mail will be sent to admin.  Click "
+"<a href=\"admin.php?page=wpfm-emails\" target=\"_blank\">here</a> to set "
+"notification email."
+msgstr ""
+"Susihon aron matugotan ang mga pahibalo sa pag-edit sa file. Ipadala ang "
+"mail sa admin. Pag-klik sa <a href=\"admin.php?page=wpfm-emails\" target="
+"\"_blank\"> dinhi </a> aron itakda ang email sa pagpahibalo."
+
+#: inc/settings.php:198
+msgid "Select File Manager Language"
+msgstr "Pilia ang Pinulongan sa Tigdumala sa File"
+
+#: inc/settings.php:208 inc/shortcode_generator.php:425
+#: inc/shortcode_generator.php:568
+msgid "English"
+msgstr "English"
+
+#: inc/settings.php:209
+msgid "You can select any language for File Manager."
+msgstr "Mahimo ka makapili bisan unsang sinultian alang sa File Manager."
+
+#: inc/settings.php:215
+msgid "Select File Manager Theme"
+msgstr "Pilia ang Tema sa File Manager"
+
+#: inc/settings.php:227
+msgid "You can select any theme for File Manager."
+msgstr "Mahimo ka makapili bisan unsang hilisgutan alang sa File Manager."
+
+#: inc/settings.php:233 inc/shortcode_generator.php:449
+#: inc/shortcode_generator.php:592
+msgid "Files View"
+msgstr "Pagtan-aw sa Files"
+
+#: inc/settings.php:236 inc/settings.php:239 inc/shortcode_generator.php:452
+#: inc/shortcode_generator.php:455 inc/shortcode_generator.php:595
+#: inc/shortcode_generator.php:598
+msgid "List"
+msgstr "Lista"
+
+#: inc/settings.php:237 inc/shortcode_generator.php:453
+#: inc/shortcode_generator.php:596
+msgid "Icon"
+msgstr "Icon"
+
+#: inc/settings.php:240
+msgid "You can select any view for File Manager."
+msgstr "Mahimo ka makapili bisan unsang pagtan-aw alang sa File Manager."
+
+#: inc/settings.php:244
+msgid "Enable \"Insert File Manager Shortcode\" Button with Content Editor ?"
+msgstr ""
+"Gipalihok ang \"Butang nga Sulud sa File Manager Shortcode\" nga sulud sa "
+"Editor sa Sulud?"
+
+#: inc/settings.php:248
+msgid ""
+"Enable \"Insert File Manager Shortcode\" button in edit page screen with "
+"classic editor."
+msgstr ""
+"Pag-aktibo sa butnga nga \"Isulud ang Shortcode File Manager\" sa pag-edit "
+"sa panid sa panid uban ang klasiko nga editor."
+
+#: inc/settings.php:252
+msgid "Disable Local File System ?"
+msgstr "I-disable ang Local File System?"
+
+#: inc/settings.php:256
+msgid "Check to disable Local File System in File Manager."
+msgstr "Susihon aron mapugngan ang Local File System sa File Manager."
+
+#: inc/settings.php:261
+msgid "Disable Database Manager ?"
+msgstr "I-disable ang Database Manager?"
+
+#: inc/settings.php:265
+msgid "Check to disable Database Manager."
+msgstr "Susihon aron ma-disable ang Database Manager."
+
+#: inc/settings.php:276
+msgid "Code editor allow fullscreen?"
+msgstr "Gitugot sa editor sa Code ang fullscreen?"
+
+#: inc/settings.php:277
+msgid "Check to allow fullscreen code editor"
+msgstr "Susiha aron makadawat sa editor sa fullscreen code"
+
+#: inc/settings.php:281
+msgid "Select theme for Code Editor."
+msgstr "Pagpili sa tema alang sa Code Editor."
+
+#: inc/settings.php:289
+msgid ""
+"Select theme for Code Editor. For more information please visit <a href="
+"\"http://codemirror.net/demo/theme.html\" target=\"_blank\">this link</a>."
+msgstr ""
+"Pagpili tema alang sa Code Editor. Alang sa dugang nga kasayuran palihug "
+"bisitaha ang <a href=\"http://codemirror.net/demo/theme.html\" target="
+"\"_blank\"> kini nga link </a>."
+
+#: inc/settings.php:298
+msgid "Disable or Ban WP File Manager Operations to User Roles"
+msgstr ""
+"Paglikay o Pagdili sa WP File Manager Operations ngadto sa Mga Tabang sa "
+"Gumagamit"
+
+#: inc/settings.php:299
+msgid "Select user role and disable operation."
+msgstr "Pagpili sa tiggamit sa gumagamit ug pag-disable sa operasyon."
+
+#: inc/settings.php:304 inc/settings.php:491
+msgid "Click to Add Rules"
+msgstr "I-klik aron makadugang sa mga lagda"
+
+#: inc/settings.php:305
+msgid "Add rule for User Roles"
+msgstr "Idugang ang lagda alang sa Mga Tabang sa Gumagamit"
+
+#: inc/settings.php:313 inc/settings.php:396
+msgid "If User role is"
+msgstr "Kung ang katungdanan sa User mao"
+
+#: inc/settings.php:315 inc/settings.php:398
+msgid "Select User Role"
+msgstr "Pilia ang Role sa Gumagamit"
+
+#: inc/settings.php:320 inc/settings.php:406 inc/settings.php:508
+#: inc/settings.php:589
+msgid "Then"
+msgstr "Dayon"
+
+#: inc/settings.php:329 inc/settings.php:415 inc/settings.php:517
+#: inc/settings.php:599
+msgid "Disable Operations"
+msgstr "Paglikay sa Operations"
+
+#: inc/settings.php:342 inc/settings.php:435 inc/settings.php:528
+#: inc/settings.php:620
+msgid ""
+"Separate or private folder access <strong>e.g wp-content/themes</strong> etc."
+msgstr ""
+"Pagbulag o pribado nga pag-access sa folder <strong> pananglitan wp-sulud / "
+"tema </strong> ug uban pa."
+
+#: inc/settings.php:345 inc/settings.php:353 inc/settings.php:361
+#: inc/settings.php:438 inc/settings.php:446 inc/settings.php:454
+#: inc/settings.php:531 inc/settings.php:539 inc/settings.php:547
+#: inc/settings.php:623 inc/settings.php:631 inc/settings.php:639
+msgid "Note:"
+msgstr "Hinumdomi:"
+
+#: inc/settings.php:345 inc/settings.php:438 inc/settings.php:531
+#: inc/settings.php:623
+msgid "It will overide \"Private Folder Access\" settings"
+msgstr "Kini molapas sa mga setting nga \"Private Folder Access\""
+
+#: inc/settings.php:350 inc/settings.php:443 inc/settings.php:536
+#: inc/settings.php:628
+msgid ""
+"Enter Folder or Files Paths That You want to <strong>Hide</strong> e.g wp-"
+"content/themes|wp-content/plugins."
+msgstr ""
+"Pagsulud sa mga Folder o Files Paths nga Gusto Nimo nga <strong> Itago </"
+"strong>e.g wp-content/themes|wp-content/plugins."
+
+#: inc/settings.php:353 inc/settings.php:446 inc/settings.php:539
+#: inc/settings.php:631
+msgid "Multiple separated by Vertical Bar (|)."
+msgstr "Daghang gibulag sa Vertical Bar (|)."
+
+#: inc/settings.php:358 inc/settings.php:451 inc/settings.php:544
+#: inc/settings.php:636
+msgid ""
+"Enter file extensions which you want to Lock. <strong>e.g .php|.png|.css</"
+"strong> etc"
+msgstr ""
+"Pagsulud sa mga extension sa file nga gusto nimo i-Lock. <strong> eg .php | ."
+"png | .css </strong> etc."
+
+#: inc/settings.php:361 inc/settings.php:454 inc/settings.php:547
+#: inc/settings.php:639
+msgid ""
+"The extensions in the option are case sensitive and should be separated by "
+"vertical bar (|) without having white space between them. e.g. php,PHP"
+msgstr ""
+"Ang mga extension sa kapilian sensitibo sa kaso ug kinahanglan bulagon sa "
+"bertikal nga bar (|) nga wala’y puti nga wanang taliwala nila. pananglitan "
+"php, PHP"
+
+#: inc/settings.php:366 inc/settings.php:459 inc/settings.php:552
+#: inc/settings.php:644
+msgid "Disable Toolbar and Context Menu"
+msgstr "I-disable ang Toolbar ug Menu sa Konteksto"
+
+#: inc/settings.php:372 inc/settings.php:464 inc/settings.php:557
+#: inc/settings.php:648
+msgid "Disable Toolbar"
+msgstr "I-disable ang Toolbar"
+
+#: inc/settings.php:377 inc/settings.php:464 inc/settings.php:558
+#: inc/settings.php:648
+msgid "Disable Context Menu"
+msgstr "I-disable ang Menu sa Konteksto"
+
+#: inc/settings.php:385 inc/settings.php:473 inc/settings.php:567
+#: inc/settings.php:654
+msgid "Remove"
+msgstr "Kuhaa"
+
+#: inc/settings.php:485
+msgid "Disable or Ban WP File Manager Operations to Users"
+msgstr ""
+"I-disable o I-ban ang Mga Pagpalihok sa WP File Manager sa mga Gumagamit"
+
+#: inc/settings.php:486
+msgid "Select users and disable operation."
+msgstr "Pagpili sa mga tiggamit ug pag-disable sa operasyon."
+
+#: inc/settings.php:492
+msgid "Add rule for Users"
+msgstr "Idugang ang lagda alang sa mga tiggamit"
+
+#: inc/settings.php:501 inc/settings.php:581
+msgid "If User is"
+msgstr "Kon ang Gumagamit"
+
+#: inc/settings.php:503 inc/settings.php:583
+msgid "Select User"
+msgstr "Pilia ang Gigamit"
+
+#: inc/settings.php:664
+msgid "Select the pages where you want to show the File Manager on Frontend"
+msgstr ""
+"Pilia ang mga panid kung diin nimo gusto ipakita ang File Manager sa Frontend"
+
+#: inc/settings.php:666
+msgid "Select Pages"
+msgstr "Pagpili Mga Panid"
+
+#: inc/settings.php:676
+msgid ""
+"<strong>Note:</strong> It will not work if already using any File Manager "
+"shortcode in selected page editor."
+msgstr ""
+"<strong> Hinumdomi: </strong> Dili kini molihok kung gigamit na ang bisan "
+"unsang shortcode nga File Manager sa gipili nga editor sa panid."
+
+#: inc/settings.php:680
+msgid "Display File Manager ?"
+msgstr "Ipakita ang Tigdumala sa File?"
+
+#: inc/settings.php:683
+msgid "After Content"
+msgstr "Pagkahuman sa Sulud"
+
+#: inc/settings.php:684
+msgid "Before Content"
+msgstr "Sa wala pa ang Sulud"
+
+#: inc/settings.php:687
+msgid "Default: After Content"
+msgstr "Default: Pagkahuman sa Sulud"
+
+#: inc/settings.php:691 inc/shortcode_listing.php:44
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: inc/settings.php:693
+msgid "Paste the shortcode here"
+msgstr "Ipapilit dinhi ang shortcode"
+
+#: inc/settings.php:694
+msgid ""
+"You can generate new shortcode from the <a href='admin.php?"
+"page=wp_file_manager_existing_shortcodes'>Shortcode Generator</a> of File "
+"Manager."
+msgstr ""
+"Makahimo ka bag-ong shortcode gikan sa <a href='admin.php?"
+"page=wp_file_manager_existing_shortcodes'>Generator sa Shortcode</a> sa File "
+"Manager"
+
+#: inc/settings.php:695
+msgid ""
+"Shortcode will work on selected pages. Help is given below to edit "
+"parameters:"
+msgstr ""
+"Ang Shortcode magtrabaho sa mga napili nga panid. Gihatag ang tabang sa ubus "
+"aron ma-edit ang mga parameter:"
+
+#: inc/settings.php:696
+msgid "Shortcode Help:"
+msgstr "Tabang sa Shortcode:"
+
+#: inc/settings.php:696
+msgid ""
+"<a href='https://filemanagerpro.io/shortcodes/' "
+"target='_blank'>Documentation</a>"
+msgstr ""
+"<a href='https://filemanagerpro.io/shortcodes/' target='_blank'> "
+"Dokumentasyon </a>"
+
+#: inc/settings.php:731 inc/settings.php:773
+msgid "Please select user from the previously added rule before adding new!"
+msgstr ""
+"Palihug pilia ang tiggamit gikan sa kaniadto nga gidugang nga lagda sa wala "
+"pa pagdugang bag-o!"
+
+#: inc/settings.php:833 inc/settings.php:847
+msgid "Please select user in the added user restriction rule before saving."
+msgstr ""
+"Palihug pilia ang tiggamit sa gidugang nga lagda sa pagdili sa gumagamit sa "
+"wala pa magtipig."
+
+#: inc/shortcode.php:114
+msgid "Welcome: "
+msgstr "Malipayon nga pag-abut:"
+
+#: inc/shortcode.php:323 inc/shortcode_admin_control.php:115
+msgid "Sorry, you are not allowed to access this page."
+msgstr "Pasensya, dili ka gitugotan nga maka-access sa kini nga panid."
+
+#: inc/shortcode.php:330 inc/shortcode_admin_control.php:118
+msgid "Please login to access file manager."
+msgstr "Palihug pag-login aron ma-access ang file manager."
+
+#: inc/shortcode_docs.php:11
+msgid "Shortcodes"
+msgstr "Mga Shortcode"
+
+#: inc/shortcode_generator.php:42 inc/shortcode_generator.php:55
+#: inc/shortcode_generator.php:62
+msgid "Error in creating shortcode. Invalid shortcode."
+msgstr "Sayup sa pagmugna og shortcode. Dili husto nga shortcode."
+
+#: inc/shortcode_generator.php:250
+msgid "Click to get list of all shortcodes"
+msgstr "Pag-klik aron makakuha lista sa tanan nga mga shortcode"
+
+#: inc/shortcode_generator.php:250
+msgid "All Shortcodes"
+msgstr "Tanan nga mga Shortcode"
+
+#: inc/shortcode_generator.php:253
+msgid "Click to create new shortcode"
+msgstr "Pag-klik aron makahimo bag-ong shortcode"
+
+#: inc/shortcode_generator.php:253 inc/shortcode_listing.php:24
+msgid "Generate New Shortcode"
+msgstr "Paghimo Bag-ong Shortcode"
+
+#: inc/shortcode_generator.php:263
+msgid "Logged in users"
+msgstr "Nag-log in nga mga ninggamit"
+
+#: inc/shortcode_generator.php:269
+msgid "Non logged in users"
+msgstr "Dili nag-log in nga mga ninggamit"
+
+#: inc/shortcode_generator.php:275
+msgid "From existing shortcode"
+msgstr "Gikan sa adunay na shortcode"
+
+#: inc/shortcode_generator.php:288 inc/shortcode_generator.php:492
+#: inc/shortcode_generator.php:635
+#, php-format
+msgid ""
+"Your shortcode <span style='background-color:#e5e5e5;'>%s</span> has been "
+"generated successfully. Copy this shortcode and paste it in your pages."
+msgstr ""
+"Ang imong shortcode <span style = 'background-color: # e5e5e5;'>% s </span> "
+"malampuson nga nahimo. Kopyaha kini nga shortcode ug i-paste kini sa imong "
+"mga panid."
+
+#: inc/shortcode_generator.php:290 inc/shortcode_generator.php:494
+msgid "Your shortcode settings has been updated successfully."
+msgstr "Malampuson nga na-update ang imong mga setting sa shortcode."
+
+#: inc/shortcode_generator.php:295 inc/shortcode_generator.php:498
+#: inc/shortcode_generator.php:639
+msgid "Shortcode Title"
+msgstr "Pamagat sa Shortcode"
+
+#: inc/shortcode_generator.php:297 inc/shortcode_generator.php:500
+#: inc/shortcode_generator.php:641
+msgid "Enter shortcode title"
+msgstr "Pagsulod shortcode titulo"
+
+#: inc/shortcode_generator.php:298 inc/shortcode_generator.php:501
+#: inc/shortcode_generator.php:642
+msgid "It is required to identify the shortcode you are going to use."
+msgstr "Gikinahanglan nga mahibal-an ang shortcode nga imong gamiton."
+
+#: inc/shortcode_generator.php:299 inc/shortcode_generator.php:502
+#: inc/shortcode_generator.php:643 inc/shortcode_generator.php:653
+msgid "This field can not be empty."
+msgstr "Kini nga uma dili mahimo nga wala’y sulod."
+
+#: inc/shortcode_generator.php:300 inc/shortcode_generator.php:503
+#: inc/shortcode_generator.php:644
+msgid "Title with this name already exists. Please choose another title."
+msgstr ""
+"Ang ulohan nga adunay kini nga ngalan anaa na. Palihug pagpili ubang titulo."
+
+#: inc/shortcode_generator.php:304
+msgid "Allowed Roles"
+msgstr "Gitugotan nga Mga Papel"
+
+#: inc/shortcode_generator.php:318
+msgid "All"
+msgstr "Tanan"
+
+#: inc/shortcode_generator.php:338
+msgid ""
+"It will allow all roles to access file manager on front end. All will apply "
+"for all available user roles."
+msgstr ""
+"Tugotan kini ang tanan nga mga tahas nga ma-access ang file manager sa "
+"atubangang bahin. Ang tanan mag-apply alang sa tanan nga magamit nga mga "
+"katungdanan sa gumagamit."
+
+#: inc/shortcode_generator.php:339
+msgid "Please choose at least one user role."
+msgstr "Palihug pagpili bisan usa ka papel sa tiggamit."
+
+#: inc/shortcode_generator.php:344 inc/shortcode_generator.php:507
+msgid "Access Folder"
+msgstr "Pag-access sa Folder"
+
+#: inc/shortcode_generator.php:348 inc/shortcode_generator.php:510
+msgid "Path of the folder to display e.g wp-content/uploads"
+msgstr "Dalan sa folder aron ipakita ang hal wp-content/uploads"
+
+#: inc/shortcode_generator.php:349 inc/shortcode_generator.php:511
+msgid "Root directory"
+msgstr "Direktoryo sa gamot"
+
+#: inc/shortcode_generator.php:350 inc/shortcode_generator.php:512
+msgid ""
+"eg. You can put \"test\" as a name of folder which is located on root "
+"directory, or you can give path for sub folders as like \"wp-content/plugins"
+"\". If leave blank or empty it will access all folders on root directory. If "
+"you put * then it will auto creates user folders with their username."
+msgstr ""
+"pananglitan Mahimo nimong ibutang ang \"pagsulay\" ingon usa ka ngalan sa "
+"folder nga nahimutang sa direktoryo sa root, o mahimo nimo hatagan ang "
+"agianan alang sa mga sub folder sama sa \"wp-content / plugins\". Kung "
+"ibilin nga blangko o walay sulod kini ma-access ang tanan nga mga folder sa "
+"root Directory. Kung gibutang nimo ang * unya awtomatikong maghimo kini mga "
+"folder sa mga tiggamit gamit ang ilang username."
+
+#: inc/shortcode_generator.php:355 inc/shortcode_generator.php:517
+msgid "Allowed Operations"
+msgstr "Gitugotan ang mga Pagpalihok"
+
+#: inc/shortcode_generator.php:373 inc/shortcode_generator.php:535
+msgid ""
+"For all operations and to allow some operation you can choose operations "
+"name from the list."
+msgstr ""
+"Alang sa tanan nga mga operasyon ug pagtugot sa pipila nga operasyon mahimo "
+"ka makapili sa ngalan sa operasyon gikan sa lista."
+
+#: inc/shortcode_generator.php:378
+msgid "Ban User IDs"
+msgstr "Pagdili sa mga ID sa Gumagamit"
+
+#: inc/shortcode_generator.php:389 inc/wpfmlogs.php:76 inc/wpfmlogs.php:158
+#: inc/wpfmlogs.php:241
+msgid "User ID"
+msgstr "User ID"
+
+#: inc/shortcode_generator.php:394
+msgid ""
+"To ban specific user from accessing file manager on frontend then you can "
+"choose the users from the list."
+msgstr ""
+"Aron did-an ang piho nga mogamit gikan sa pag-access sa file manager sa "
+"frontend unya mapili nimo ang mga ninggamit gikan sa lista."
+
+#: inc/shortcode_generator.php:398 inc/shortcode_generator.php:540
+msgid "Hide Files"
+msgstr "Itago ang mga File"
+
+#: inc/shortcode_generator.php:400
+msgid "Hide files from access folder e.g. wp-content/plugins,wp-config.php etc"
+msgstr ""
+"Itago ang mga file gikan sa access folder pananglitan wp-content / plugins, "
+"wp-config.php ug uban pa"
+
+#: inc/shortcode_generator.php:402
+msgid ""
+"It will hide the files and folder mentioned here. <br><strong>Note:</strong> "
+"This option is case sensitive and should be comma(,) separated without "
+"having white space between them."
+msgstr ""
+"Itago niini ang mga file ug folder nga gihisgutan dinhi. <br> <strong> "
+"Hinumdomi: </strong> Kini nga kapilian sensitibo sa kaso ug kinahanglan nga "
+"gibulag ang koma (,) nga wala sa taliwala nila ang puti nga wanang."
+
+#: inc/shortcode_generator.php:406 inc/shortcode_generator.php:549
+msgid "Lock Extensions"
+msgstr "Mga Extension sa Lock"
+
+#: inc/shortcode_generator.php:408 inc/shortcode_generator.php:551
+msgid "Restrict extensions e.g. .php,.css OR php,css"
+msgstr "Pagdili mga ekstensyon eg .php, .css OR php, css"
+
+#: inc/shortcode_generator.php:410 inc/shortcode_generator.php:553
+msgid ""
+"It will lock files mentioned in commas without white space between them. You "
+"can lock more as like \".php,.css,.js\" etc.<br><span class=\"highlighted"
+"\"><strong>Note:</strong> The extensions in the option are case sensitive "
+"and should be comma(,) separated without having white space between them. e."
+"g. php,PHP</span>"
+msgstr ""
+"I-lock niini ang mga file nga gihisgutan sa mga kuwit nga wala’y puti nga "
+"wanang sa taliwala nila. Mahimo nimo ma-lock ang labi ka sama sa \".php, ."
+"css, .js\" ug uban pa. <br> <span class = \"naka-highlight\"> <strong> "
+"Hinumdomi: </strong> Ang mga extension sa kapilian sensitibo sa kaso ug "
+"kinahanglan nga koma (,) nagbulag nga wala puti nga wanang taliwala nila. "
+"pananglitan php, PHP </span>"
+
+#: inc/shortcode_generator.php:415 inc/shortcode_generator.php:558
+msgid "Select Filemanager Language"
+msgstr "Pilia ang Sinultian sa Filemanager"
+
+#: inc/shortcode_generator.php:426 inc/shortcode_generator.php:569
+msgid "You can select any language for filemanager."
+msgstr "Mahimo ka makapili bisan unsang sinultian alang sa filemanager."
+
+#: inc/shortcode_generator.php:431 inc/shortcode_generator.php:574
+msgid "Select Filemanager Theme"
+msgstr "Pilia ang Tema sa Filemanager"
+
+#: inc/shortcode_generator.php:443 inc/shortcode_generator.php:586
+msgid "You can select any theme for filemanager."
+msgstr "Mahimo ka makapili bisan unsang tema alang sa filemanager."
+
+#: inc/shortcode_generator.php:456 inc/shortcode_generator.php:599
+msgid "You can select any view for filemanager."
+msgstr "Mahimo ka makapili bisan unsang pagtan-aw alang sa filemanager."
+
+#: inc/shortcode_generator.php:461 inc/shortcode_generator.php:603
+msgid "Date Format"
+msgstr "Pormat sa Petsa"
+
+#: inc/shortcode_generator.php:471 inc/shortcode_generator.php:613
+msgid "You can select any date format for filemanager modified date."
+msgstr ""
+"Mahimo ka makapili bisan unsang format sa petsa alang sa filemanager nga "
+"giusab nga petsa."
+
+#: inc/shortcode_generator.php:477 inc/shortcode_generator.php:619
+msgid "Update Shortcode"
+msgstr "Pag-update sa Shortcode"
+
+#: inc/shortcode_generator.php:477 inc/shortcode_generator.php:619
+#: inc/shortcode_generator.php:659
+msgid "Generate Shortcode"
+msgstr "Paghimo Shortcode"
+
+#: inc/shortcode_generator.php:542
+msgid "Hide files from access folder e.g. test1,folder/test2 etc"
+msgstr ""
+"Itago ang mga file gikan sa access folder pananglitan . test1,folder/test2 "
+"etc"
+
+#: inc/shortcode_generator.php:544
+msgid ""
+"It will hide the files and folder mentioned here. Note: This option is case "
+"sensitive and should be comma(,) separated without having white space "
+"between them."
+msgstr ""
+"Itago niini ang mga file ug folder nga gihisgutan dinhi. Hinumdomi: Kini nga "
+"kapilian sensitibo sa kaso ug kinahanglan nga koma (,) bulagon nga wala puti "
+"nga wanang taliwala nila."
+
+#: inc/shortcode_generator.php:648
+msgid "Generate New Shortcode from existing one"
+msgstr "Paghimo Bag-ong Shortcode gikan sa adunay na usa"
+
+#: inc/shortcode_generator.php:651
+msgid "Paste the shortcode which you are using in your page/post"
+msgstr "I-paste ang shortcode nga imong gigamit sa imong panid / post"
+
+#: inc/shortcode_generator.php:652
+msgid "This will convert the existing shortcode to the new shortcode format."
+msgstr ""
+"Kini ang magbag-o sa kasamtangan nga shortcode sa bag-ong format sa "
+"shortcode."
+
+#: inc/shortcode_listing.php:23
+msgid "Existing Shortcode(s)"
+msgstr "Adunay na (mga) Shortcode"
+
+#: inc/shortcode_listing.php:24
+msgid "Click to go back to the shortcode generator"
+msgstr "Pag-klik aron makabalik sa generator sa shortcode"
+
+#: inc/shortcode_listing.php:28
+msgid "Shortcode has been deleted successfully."
+msgstr "Malampuson nga gitangtang ang Shortcode."
+
+#: inc/shortcode_listing.php:30
+msgid "Shortcode(s) has been deleted successfully."
+msgstr "Malampuson nga na-delete ang (mga) Shortcode."
+
+#: inc/shortcode_listing.php:43
+msgid "Title"
+msgstr "Titulo"
+
+#: inc/shortcode_listing.php:61 inc/shortcode_listing.php:84
+#: inc/shortcode_listing.php:160 inc/shortcode_listing.php:176
+#: inc/shortcode_listing.php:216
+msgid "Copy to clipboard"
+msgstr "Kopya sa clipboard"
+
+#: inc/shortcode_listing.php:63
+msgid "Are you sure you want to delete this shortcode?"
+msgstr "Sigurado ka nga gusto nimong tangtangon ang kini nga shortcode?"
+
+#: inc/shortcode_listing.php:64 inc/shortcode_listing.php:77
+msgid "Customize Shortcode"
+msgstr "Ipasadya ang Shortcode"
+
+#: inc/shortcode_listing.php:87
+msgid ""
+"Copy above filter code and paste it in your theme's functions.php file or in "
+"your plugin file to customize shortcode values as per your requirement."
+msgstr ""
+"Kopyaha sa ibabaw ang filter code ug i-paste kini sa function.php file sa "
+"imong tema o sa imong file nga plugin aron ipasadya ang mga kantidad sa "
+"shortcode sumala sa imong kinahanglanon."
+
+#: inc/shortcode_listing.php:106 inc/shortcode_listing.php:108
+msgid "Showing"
+msgstr "Nagpakita"
+
+#: inc/shortcode_listing.php:106 inc/shortcode_listing.php:108
+msgid "entries"
+msgstr "mga entry"
+
+#: inc/shortcode_listing.php:110
+msgid "No shortcode found"
+msgstr "Wala nakit-an nga shortcode"
+
+#: inc/shortcode_listing.php:131
+msgid "Delete All Selected"
+msgstr "Tangtanga ang Tanan nga Napili"
+
+#: inc/shortcode_listing.php:170 inc/shortcode_listing.php:210
+msgid "Copied"
+msgstr "Gikopya"
+
+#: inc/shortcode_listing.php:171 inc/shortcode_listing.php:211
+msgid "Copied to clipboard"
+msgstr "Gikopya sa clipboard"
+
+#: inc/shortcode_listing.php:221
+msgid "Are you sure you want to delete selected shortcode(s)?"
+msgstr ""
+"Sigurado ba nga gusto nimong matangtang ang (mga) pinili nga shortcode?"
+
+#: inc/shortcode_listing.php:229
+msgid "Please select atleast one shortcode from the list."
+msgstr "Palihug pagpili atleast usa ka shortcode gikan sa lista."
+
+#: inc/verify.php:9
+msgid "License Verification"
+msgstr "Pagpanghimatuud sa Lisensya"
+
+#: inc/verify.php:11
+msgid ""
+"To unlock updates, please enter your order id and license key below. If you "
+"don't have a licence key, <a href=\"https://filemanagerpro.io/product/file-"
+"manager/\" target=\"_blank\" class=\"page-title-action buy-link\" title="
+"\"click to buy Licence Key\">please see details & pricing</a>."
+msgstr ""
+"Aron maablihan ang mga pag-update, palihug isulud ang imong order id ug "
+"lisensya key sa ubus. Kung wala ka usa ka yawi sa lisensya, <a href = "
+"\"https://filemanagerpro.io/product/file-manager/\" target = \"_ blank\" "
+"class = \"page-title-action buy-link\" title = \" pag-klik aron mapalit ang "
+"Lisensya nga Susi \"> palihug tan-awa ang mga detalye ug pagpresyo </a>."
+
+#: inc/verify.php:23
+msgid "ORDER ID (#) *"
+msgstr "ORDER ID (#) *"
+
+#: inc/verify.php:24
+msgid "Please Check Your email for order ID."
+msgstr "Palihug Susihon ang Imong email alang sa order ID."
+
+#: inc/verify.php:27
+msgid "LICENCE KEY *"
+msgstr "LISENSYA KEY *"
+
+#: inc/verify.php:28
+msgid "Please Check Your email for Licence Key."
+msgstr "Palihug Susihon ang Imong email alang sa Lisensya sa Lisensya."
+
+#: inc/wpfmlogs.php:51
+msgid ""
+"To enable logs, go to <a href=\"admin.php?page=wp_file_manager_settings"
+"\">General Settings Tab</a> -> Check \"Send Notifications to admin on file "
+"upload \" , \"Send Notifications to admin on file download\" and \"Send "
+"Notifications to admin on file edit\" options."
+msgstr ""
+"Aron mapalihok ang mga troso, pag-adto sa <a href=\"admin.php?"
+"page=wp_file_manager_settings\"> Pangkalahatang Tab sa Mga Setting </a> -> "
+"Susihon ang \"Pagpadala Mga Abiso sa admin sa pag-upload sa file\", "
+"\"Magpadala Mga Abiso sa admin sa pag-download sa file\" ug Mga kapilian nga "
+"\"Magpadala og Mga Pahibalo sa admin sa pag-edit sa file.\""
+
+#: inc/wpfmlogs.php:53 inc/wpfmlogs.php:61
+msgid "Edited Files"
+msgstr "Mga Gi-edit nga File"
+
+#: inc/wpfmlogs.php:54 inc/wpfmlogs.php:145
+msgid "Downloaded Files"
+msgstr "Gi-download nga Mga File"
+
+#: inc/wpfmlogs.php:55
+msgid "Uploaded Files"
+msgstr "Gi-upload nga Mga File"
+
+#: inc/wpfmlogs.php:64 inc/wpfmlogs.php:148 inc/wpfmlogs.php:231
+msgid "Bulk Actions"
+msgstr "Daghang mga Lihok"
+
+#: inc/wpfmlogs.php:67 inc/wpfmlogs.php:151 inc/wpfmlogs.php:234
+msgid "Apply"
+msgstr "Pag-apply"
+
+#: inc/wpfmlogs.php:75 inc/wpfmlogs.php:157 inc/wpfmlogs.php:240
+msgid "Sr No."
+msgstr "Ang Sr No."
+
+#: inc/wpfmlogs.php:77 inc/wpfmlogs.php:159 inc/wpfmlogs.php:242
+msgid "User Name"
+msgstr "Ngalan sa Gumagamit"
+
+#: inc/wpfmlogs.php:78 inc/wpfmlogs.php:160 inc/wpfmlogs.php:243
+msgid "Files"
+msgstr "Mga file"
+
+#: inc/wpfmlogs.php:79 inc/wpfmlogs.php:161 inc/wpfmlogs.php:244
+msgid "Date"
+msgstr "Petsa"
+
+#: inc/wpfmlogs.php:93 inc/wpfmlogs.php:175 inc/wpfmlogs.php:258
+msgid "Are you sure want to delete?"
+msgstr "Sigurado ba nga gusto nimong papason?"
+
+#: inc/wpfmlogs.php:98 inc/wpfmlogs.php:180 inc/wpfmlogs.php:265
+msgid "No log(s) found!"
+msgstr "Wala (mga) troso nga nakit-an!"
+
+#: inc/wpfmlogs.php:108 inc/wpfmlogs.php:190 inc/wpfmlogs.php:275
+msgid "Showing "
+msgstr "Nagpakita"
+
+#: inc/wpfmlogs.php:108 inc/wpfmlogs.php:190 inc/wpfmlogs.php:275
+msgid " entries"
+msgstr "mga entry"
+
+#: inc/wpfmlogs.php:228
+msgid "Uploaded File"
+msgstr "Gi-upload nga File"
+
+#: inc/wpfmlogs.php:374
+msgid "Are you sure want to remove selected log(s)?"
+msgstr "Sigurado ka ba nga tangtangon ang mga pinili nga (mga) log?"
+
+#: inc/wpfmlogs.php:395
+msgid "Please select delete action!"
+msgstr "Palihug pilia ang pagtangtang sa aksyon!"
+
+#: js/jquery-ui.min.js:8 lib/jquery/jquery-ui-1.11.4.js:8
+msgid "'"
+msgstr ""
+
+#: lib/wpfilemanager.php:445
+msgid " WP File Manager PRO "
+msgstr "Ang WP File Manager PRO"
+
+#: plugin-update-checker/Puc/v4p5/Plugin/Ui.php:54
+msgid "View details"
+msgstr "Tan-awa ang mga detalye"
+
+#: plugin-update-checker/Puc/v4p5/Plugin/Ui.php:77
+#, php-format
+msgid "More information about %s"
+msgstr "Dugang nga kasayuran bahin sa %s"
+
+#: plugin-update-checker/Puc/v4p5/Plugin/Ui.php:128
+msgid "Check for updates"
+msgstr "Susihon kung adunay mga update"
+
+#: plugin-update-checker/Puc/v4p5/Plugin/Ui.php:223
+#, php-format
+msgid "Unknown update checker status \"%s\""
+msgstr "Wala mahibal-an ang kahimtang sa checker sa update \"%s\""
+
+#: plugin-update-checker/Puc/v4p5/Vcs/PluginUpdateChecker.php:98
+msgid "There is no changelog available."
+msgstr "Wala’y magamit nga changelog."
+
+#~ msgid "Manage your WP files."
+#~ msgstr "Pagdumala sa imong mga file sa WP."
+
+#~ msgid "WP File Manager - PRO"
+#~ msgstr "WP File Manager - PRO"
+
+#~ msgid "<span class=\"fm_console_error\">Nothing selected for backup</span>"
+#~ msgstr ""
+#~ "<span class=\"fm_console_error\">Wala’y gipili alang sa pag-backup </span>"
+
+#~ msgid "<span class=\"fm_console_success\">Database backup done.</span>"
+#~ msgstr ""
+#~ "<span class=\"fm_console_success\">Nahuman ang pag-backup sa database.</"
+#~ "span>"
+
+#~ msgid ""
+#~ "<span class=\"fm_console_error\">Unable to create database backup.</span>"
+#~ msgstr ""
+#~ "<span class=\"fm_console_error\">Dili makahimo paghimo backup sa database."
+#~ "</span>"
+
+#~ msgid "<span class=\"fm_console_success\">Plugins backup done.</span>"
+#~ msgstr ""
+#~ "<span class=\"fm_console_success\">Nahuman ang pag-backup sa plugin.</"
+#~ "span>"
+
+#~ msgid "<span class=\"fm_console_error\">Plugins backup failed.</span>"
+#~ msgstr ""
+#~ "<span class=\"fm_console_error\">Pakyas ang pag-backup sa plugin.</span>"
+
+#~ msgid "<span class=\"fm_console_success\">Themes backup done.</span>"
+#~ msgstr ""
+#~ "<span class=\"fm_console_success\">Nahuman na ang pag-backup sa mga tema."
+#~ "</span>"
+
+#~ msgid "<span class=\"fm_console_error\">Themes backup failed.</span>"
+#~ msgstr ""
+#~ "<span class=\"fm_console_error\">Napakyas ang pag-backup sa mga tema.</"
+#~ "span>"
+
+#~ msgid "<span class=\"fm_console_success\">Uploads backup done.</span>"
+#~ msgstr ""
+#~ "<span class=\"fm_console_success\">Nahuman na ang pag-upload.</span>"
+
+#~ msgid "<span class=\"fm_console_error\">Uploads backup failed.</span>"
+#~ msgstr ""
+#~ "<span class=\"fm_console_error\">Napakyas ang pag-backup sa mga upload.</"
+#~ "span>"
+
+#~ msgid "<span class=\"fm_console_success\">Others backup done.</span>"
+#~ msgstr ""
+#~ "<span class=\"fm_console_success\">Nahuman na ang pag-backup.</span>"
+
+#~ msgid "<span class=\"fm_console_error\">Others backup failed.</span>"
+#~ msgstr "<span class=\"fm_console_error\">Ang uban wala mag-backup.</span>"
+
+#~ msgid "<span class=\"fm_console_success\">All done</span>"
+#~ msgstr "<span class=\"fm_console_success\">Tanan nahuman</span>"
+
+#~ msgid "Database"
+#~ msgstr "Database"
+
+#~ msgid "System Properties"
+#~ msgstr "Sistema sa Kinaiyahan"
+
+#~ msgid "Donate"
+#~ msgstr "Donate"
+
+#~ msgid ""
+#~ "Note: This is just a demo screenshot. To get settings please buy our pro "
+#~ "version."
+#~ msgstr ""
+#~ "Mubo nga sulat: Kini usa lamang ka screenshot sa demo. Aron makuha ang "
+#~ "mga setting palihug palita ang among pro nga bersyon."
+
+#~ msgid "Buy PRO"
+#~ msgstr "Pagpalit PRO"
+
+#~ msgid "Settings - General"
+#~ msgstr "Mga Setting - Heneral"
+
+#~ msgid ""
+#~ "Here admin can give access to user roles to use filemanager. Admin can "
+#~ "set Default Access Folder and also control upload size of filemanager."
+#~ msgstr ""
+#~ "Ang admin dinhi makahatag sa access sa mga papel sa user aron magamit ang "
+#~ "filemanager. Ang Admin mahimo magtakda sa Default Access Folder ug usab "
+#~ "kontrolon ang upload nga sukod sa filemanager."
+
+#~ msgid "Settings - Code-editor"
+#~ msgstr "Mga Setting - Code-editor"
+
+#~ msgid ""
+#~ "File Manager has a code editor with multiple themes. You can select any "
+#~ "theme for code editor. It will display when you edit any file. Also you "
+#~ "can allow fullscreen mode of code editor."
+#~ msgstr ""
+#~ "Ang File Manager adunay editor sa code nga dunay daghang mga tema. "
+#~ "Makapili ka sa bisan unsang tema alang sa editor sa code. Ipakita kini sa "
+#~ "dihang mag-edit ka sa bisan unsang file. Mahimo usab nimo tugotan ang "
+#~ "fullscreen mode sa code editor."
+
+#~ msgid "Code-editor View"
+#~ msgstr "View sa Code-editor"
+
+#~ msgid "Settings - User Restrictions"
+#~ msgstr "Mga Setting - Mga Pagpanghilawas sa Gumagamit"
+
+#~ msgid ""
+#~ "Admin can restrict actions of any user. Also hide files and folders and "
+#~ "can set different - different folders paths for different users."
+#~ msgstr ""
+#~ "Ang Admin mahimong makapugong sa mga lihok sa bisan kinsa nga tiggamit. "
+#~ "Usba usab ang mga file ug mga folder ug maka-set sa lain-laing mga lain-"
+#~ "laing mga folder sa mga dalan alang sa lain-laing mga tiggamit."
+
+#~ msgid "Settings - User Role Restrictions"
+#~ msgstr "Mga Setting - Mga Gikinahanglan nga Mga Paghukom sa Tanan"
+
+#~ msgid ""
+#~ "Admin can restrict actions of any userrole. Also hide files and folders "
+#~ "and can set different - different folders paths for different users roles."
+#~ msgstr ""
+#~ "Ang Admin mahimong makapugong sa mga lihok sa bisan unsang userrole. Usba "
+#~ "usab ang mga file ug mga folder ug maka-set sa lain-laing mga lain-laing "
+#~ "mga folder sa mga dalan alang sa nagkalain-laing papel sa tiggamit."
+
+#~ msgid "File Manager - System Properties"
+#~ msgstr "File Manager - System Properties"
+
+#~ msgid "PHP version"
+#~ msgstr "PHP version"
+
+#~ msgid "Maximum file upload size (upload_max_filesize)"
+#~ msgstr ""
+#~ "Ang kinadak-ang gidak-on sa pag-upload sa file (upload_max_filesize)"
+
+#~ msgid "Post maximum file upload size (post_max_size)"
+#~ msgstr "Pag-upload sa gidak-on sa gidak-on sa upload (post_max_size)"
+
+#~ msgid "Memory Limit (memory_limit)"
+#~ msgstr "Limitahan sa Memoryal (memory_limit)"
+
+#~ msgid "Timeout (max_execution_time)"
+#~ msgstr "Timeout (max_execution_time)"
+
+#~ msgid "Browser and OS (HTTP_USER_AGENT)"
+#~ msgstr "Browser ug OS (HTTP_USER_AGENT)"
+
+#~ msgid ""
+#~ "Please contribute some donation, to make plugin more stable. You can pay "
+#~ "amount of your choice."
+#~ msgstr ""
+#~ "Palihug pagtampo og pipila nga donasyon, aron mahimo ang plugin nga mas "
+#~ "lig-on. Makabayad ka sa kantidad nga imong pilion."
+
+#~ msgid ""
+#~ "Note: This feature is using wp_mail(), Make sure wp_mail is working or "
+#~ "not."
+#~ msgstr ""
+#~ "Mubo nga sulat: Kini nga feature naggamit sa wp_mail (), Siguroha nga ang "
+#~ "wp_mail nagtrabaho o dili."
+
+#~ msgid ""
+#~ "Check to allow fullscreen code editor. For more information please visit"
+#~ msgstr ""
+#~ "Susiha aron makadawat sa editor sa fullscreen code. Alang sa dugang "
+#~ "kasayuran palihog duawon"

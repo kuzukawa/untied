@@ -1,0 +1,134 @@
+/**
+ * elFinder Theme Template
+ * @author lokothodida
+ */
+
+/* Reset */
+@import url('reset.css');
+
+/* Google Fonts */
+@import url('//fonts.googleapis.com/css?family=Open+Sans:300');
+
+/* Main features of the whole UI */
+@import url('main.css');
+
+/* Icons */
+@import url('icons.css');
+
+/* Toolbar (top panel) */
+@import url('toolbar.css');
+
+/* Navbar (left panel) */
+@import url('navbar.css');
+
+/* Views (List and Thumbnail) */
+@import url('view-list.css');
+@import url('view-thumbnail.css');
+
+/* Context menu */
+@import url('contextmenu.css');
+
+/* (Modal) Dialogs */
+@import url('dialog.css');
+
+/* Status Bar */
+@import url('statusbar.css');
+
+
+.theme-windows---10 .elfinder .elfinder-button-search input {
+font-weight: 100;
+}
+.theme-windows---10 .elfinder .elfinder-button-search-menu {
+	top: 15px !important;
+}
+.theme-windows---10 .ui-widget-content.elfinder-edit-editor{
+	width:auto;
+}
+.theme-windows---10 .std42-dialog .ui-dialog-titlebar .elfinder-titlebar-button .ui-icon {
+	background-image: url("../images/ui-icons_default_theme256x240.png");
+}
+.theme-windows---10 .std42-dialog .ui-dialog-titlebar .elfinder-titlebar-button.elfinder-titlebar-button-right .ui-icon.ui-icon-closethick{
+	display:none;
+}
+
+.theme-windows---10 .elfinder.elfinder-rtl .elfinder-navbar {
+    border-left: 1px solid #e5e5e5;
+}
+.theme-windows---10 .elfinder.elfinder-ltr .elfinder-navbar {
+    border-right: 1px solid #e5e5e5;
+}
+
+.theme-windows---10 .std42-dialog, 
+.theme-windows---10 .std42-dialog .ui-widget-content {
+    background-color: #fff;
+    background-clip: content-box !important; 
+}
+
+.theme-windows---10 .elfinder .elfinder-dialog .ui-dialog-titlebar-close {
+    top: 7px;
+    left: -7px;
+    margin-top: -10px;
+}
+
+.theme-windows---10 .ui-button.ui-state-active:hover {
+    background: #217dbb;
+    color: #fff;
+    border: none;
+}
+/*---23-Dec----*/
+.theme-windows---10 .elfinder-cwd table tr:nth-child(odd) {
+    background-color: #edf3fe !important;
+}
+.theme-windows---10 .elfinder-cwd table tr:nth-child(even) {
+    background-color: #fff; 
+} 
+.theme-windows---10 .elfinder-navbar-icon:before {
+    color: #e8c346 !important;
+}
+.theme-windows---10 .elfinder .elfinder-toolbar .elfinder-buttonset .elfinder-button.ui-state-disabled .elfinder-button-icon:before,
+.theme-windows---10 .elfinder .elfinder-toolbar .elfinder-buttonset .elfinder-button .elfinder-button-icon:before {
+    opacity: 0 !important;
+}
+.theme-windows---10 .elfinder-statusbar {
+    background: #fff !important;
+    color: #000 !important;
+}
+.theme-windows---10 table.elfinder-info-tb a.mk_elfinder_share_button button.button.button-primary {
+    background: #00669b !important;
+    color:#fff !important;
+    border:none !important;
+    border-radius: 5px !important;
+}
+.theme-windows---10 .elfinder-cwd table td.ui-state-hover, 
+.theme-windows---10 .elfinder-button-menu .ui-state-hover {
+    background: #3875d7 !important;
+    color: #fff !important;
+}
+.theme-windows---10 .elfinder-ltr .elfinder-cwd table td {
+    vertical-align: middle !important;
+}
+.theme-windows---10 .elfinder-workzone {
+     background: transparent !important;
+}
+.theme-windows---10 .elfinder-cwd-wrapper::-webkit-scrollbar-thumb,
+.theme-windows---10 .elfinder-navbar.ui-resizable::-webkit-scrollbar-thumb {
+    background-color: #e8e8ec !important;
+    outline: none !important;
+    box-shadow: none !important;
+    border: none !important;
+}
+.theme-windows---10 .elfinder-button-search input[type=text] {
+    box-sizing: border-box;
+    width: 100%;
+    height: 25px;
+    min-height: 25px;
+    padding: 0 20px;
+    line-height: 22px;
+    border: 0 solid;
+    border: 1px solid #aaa;
+    -moz-border-radius: 12px;
+    -webkit-border-radius: 12px;
+    border-radius: 12px;
+    outline: 0px solid;
+    background: transparent;
+}

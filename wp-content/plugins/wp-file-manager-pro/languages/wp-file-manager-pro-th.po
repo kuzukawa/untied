@@ -1,0 +1,3239 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP File Manager\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-08-10 13:22+0530\n"
+"PO-Revision-Date: 2021-08-10 13:26+0530\n"
+"Last-Translator: admin <munishthedeveloper48@gmail.com>\n"
+"Language-Team: \n"
+"Language: th\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.0\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: classes/license.php:201 inc/license.php:42
+msgid "License Details"
+msgstr "รายละเอียดใบอนุญาต"
+
+#: classes/updates.php:41
+msgid ""
+"Your updates for <strong>WP File Manager - PRO</strong> plugin are disabled because your license "
+"has been expired."
+msgstr "การอัปเดตสำหรับปลั๊กอิน <strong>WP File Manager - PRO</strong> ถูกปิดใช้งานเนื่องจากใบอนุญาตของคุณหมดอายุ"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:70
+msgid "DB Manager"
+msgstr "ตัวจัดการฐานข้อมูล"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:116
+msgid "Tables"
+msgstr "โต๊ะ"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:116 extensions/fm_dbmanager/inc/db_tables.php:56
+msgid "Create New Table"
+msgstr "สร้างตารางใหม่"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:123
+msgid "Browse:"
+msgstr "เรียกดู:"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:123
+msgid "Browse"
+msgstr "เรียกดู"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:123
+msgid "Insert:"
+msgstr "แทรก:"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:123
+msgid "Insert"
+msgstr "แทรก"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:123
+msgid "Delete Table:"
+msgstr "ลบตาราง:"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:123 extensions/fm_dbmanager/fm_dbmanager.php:203
+msgid ""
+"Are you sure want to delete Table? Deleted Table may not be recovered. So please delete carefully."
+msgstr "คุณแน่ใจหรือไม่ว่าต้องการลบตาราง ไม่สามารถกู้คืนตารางที่ถูกลบได้ ดังนั้นโปรดลบอย่างระมัดระวัง"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:123 extensions/fm_dbmanager/fm_dbmanager.php:203
+msgid "Drop"
+msgstr "หยด"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:123
+msgid "Empty Table:"
+msgstr "โต๊ะว่าง:"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:123 extensions/fm_dbmanager/fm_dbmanager.php:204
+msgid "Are you sure want to empty Table? Table may not be recovered. So please delete carefully."
+msgstr "คุณแน่ใจหรือไม่ว่าต้องการล้างตาราง ไม่สามารถกู้คืนตารางได้ ดังนั้นโปรดลบอย่างระมัดระวัง"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:123 extensions/fm_dbmanager/fm_dbmanager.php:204
+#: inc/settings.php:39 inc/shortcode_generator.php:225
+msgid "Empty"
+msgstr "ว่างเปล่า"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:203
+msgid "ADD: "
+msgstr "เพิ่ม: "
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:203
+msgid "Add New"
+msgstr "เพิ่มใหม่"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:203
+msgid "Delete Table: "
+msgstr "ลบตาราง: "
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:204
+msgid "Empty Table: "
+msgstr "โต๊ะว่าง: "
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:230 extensions/fm_dbmanager/fm_dbmanager.php:252
+msgid "Are you sure want to update? It will redirect you to updation form."
+msgstr "คุณแน่ใจหรือว่าต้องการอัปเดต มันจะเปลี่ยนเส้นทางคุณไปยังแบบฟอร์มการอัพเดท"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:230 extensions/fm_dbmanager/fm_dbmanager.php:252
+#: inc/settings.php:33 inc/shortcode_generator.php:219 inc/shortcode_listing.php:62
+msgid "Edit"
+msgstr "แก้ไข"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:231 extensions/fm_dbmanager/fm_dbmanager.php:253
+msgid "Are you sure want to delete? Deleted data may not be recovered. So please delete carefully."
+msgstr "คุณแน่ใจหรือไม่ว่าต้องการลบ ข้อมูลที่ถูกลบไม่สามารถกู้คืนได้ ดังนั้นโปรดลบอย่างระมัดระวัง"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:231 extensions/fm_dbmanager/fm_dbmanager.php:253
+#: inc/backup.php:772 inc/backup.php:782 inc/email.php:63 inc/email.php:164 inc/settings.php:34
+#: inc/shortcode_generator.php:220 inc/shortcode_listing.php:63 inc/wpfmlogs.php:65
+#: inc/wpfmlogs.php:93 inc/wpfmlogs.php:149 inc/wpfmlogs.php:175 inc/wpfmlogs.php:232
+#: inc/wpfmlogs.php:258
+msgid "Delete"
+msgstr "ลบ"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:270
+msgid "First"
+msgstr "อันดับแรก"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:272 inc/shortcode_listing.php:112
+msgid "Prev"
+msgstr "ก่อนหน้า"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:300 inc/shortcode_listing.php:113 inc/wpfmlogs.php:134
+#: inc/wpfmlogs.php:217
+msgid "Next"
+msgstr "ถัดไป"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:302
+msgid "Last"
+msgstr "ล่าสุด"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:338 extensions/fm_dbmanager/fm_dbmanager.php:432
+#: extensions/fm_dbmanager/fm_dbmanager.php:487 extensions/fm_dbmanager/inc/db_tables.php:136
+msgid "You don't have permission to access this area."
+msgstr "คุณไม่ได้รับอนุญาตให้เข้าถึงพื้นที่นี้"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:353 extensions/fm_dbmanager/fm_dbmanager.php:448
+msgid "Column"
+msgstr "คอลัมน์"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:354 extensions/fm_dbmanager/fm_dbmanager.php:449
+msgid "Value"
+msgstr "ค่า"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:380
+msgid "Reset"
+msgstr "รีเซ็ต"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:386
+msgid "Add"
+msgstr "เพิ่ม"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:409
+msgid "New Record Created"
+msgstr "เร็กคอร์ดใหม่ สร้างแล้ว"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:411 extensions/fm_dbmanager/fm_dbmanager.php:417
+msgid "Unable to create new record"
+msgstr "สร้างบันทึกใหม่ไม่ได้"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:441 extensions/fm_dbmanager/fm_dbmanager.php:529
+msgid "&larr; Back"
+msgstr "&larr; กลับ"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:479
+msgid "Update"
+msgstr "อัปเดต"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:511 extensions/fm_dbmanager/fm_dbmanager.php:533
+msgid "Record "
+msgstr "บันทึก"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:511
+msgid "</strong> Updated Successfully"
+msgstr "</strong> อัปเดตเรียบร้อยแล้ว"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:513 extensions/fm_dbmanager/fm_dbmanager.php:516
+msgid "Unable to Update record"
+msgstr "ไม่สามารถอัปเดตบันทึก"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:526
+msgid "Oops! Some thing went wrong! Please try again."
+msgstr "อ๊ะ! อะไรบางอย่างผิดปกติ! กรุณาลองอีกครั้ง."
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:533
+msgid " Deleted successfully."
+msgstr "ลบเรียบร้อยแล้ว"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:535
+msgid "Error occured while deleting a record."
+msgstr "เกิดข้อผิดพลาดขณะลบเรกคอร์ด"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:584
+msgid "Table Created Successfully !"
+msgstr "สร้างตารางสำเร็จแล้ว !"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:589
+msgid "Table Not Created !"
+msgstr "ไม่ได้สร้างตาราง !"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:605 extensions/fm_dbmanager/fm_dbmanager.php:607
+msgid "Table <strong>"
+msgstr "<p>(ตาราง <strong>"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:605 extensions/fm_dbmanager/fm_dbmanager.php:617
+msgid "</strong> Deleted Successfully!"
+msgstr "</strong> ลบเรียบร้อยแล้ว!"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:607 extensions/fm_dbmanager/fm_dbmanager.php:619
+msgid "</strong> Not Deleted!"
+msgstr "</strong> ไม่ถูกลบ!)</p>"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:617 extensions/fm_dbmanager/fm_dbmanager.php:619
+msgid "Table records of <strong>"
+msgstr "บันทึกตารางของ <strong>"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:689 file_folder_manager_pro.php:2900
+msgid "<div id=\"setting-error-settings_updated\" class=\"error settings-error notice\"><p><strong>"
+msgstr ""
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:695 file_folder_manager_pro.php:2906
+msgid "<div id=\"setting-error-settings_updated\" class=\"updated settings-error notice\"><p><strong>"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:9
+msgid "Table name:&nbsp;"
+msgstr "ชื่อตาราง:&nbsp;"
+
+#: extensions/fm_dbmanager/inc/createTbl.php:19 extensions/fm_dbmanager/inc/createTbl.php:559
+msgid "Name"
+msgstr "ชื่อ"
+
+#: extensions/fm_dbmanager/inc/createTbl.php:20
+msgid "Type"
+msgstr "พิมพ์"
+
+#: extensions/fm_dbmanager/inc/createTbl.php:21
+msgid "Length/Values"
+msgstr "ความยาว/ค่า"
+
+#: extensions/fm_dbmanager/inc/createTbl.php:22 inc/settings.php:218 inc/settings.php:226
+#: inc/settings.php:284 inc/shortcode_generator.php:349 inc/shortcode_generator.php:372
+#: inc/shortcode_generator.php:393 inc/shortcode_generator.php:401 inc/shortcode_generator.php:409
+#: inc/shortcode_generator.php:434 inc/shortcode_generator.php:442 inc/shortcode_generator.php:511
+#: inc/shortcode_generator.php:534 inc/shortcode_generator.php:543 inc/shortcode_generator.php:552
+#: inc/shortcode_generator.php:577 inc/shortcode_generator.php:585
+msgid "Default"
+msgstr "ค่าเริ่มต้น"
+
+#: extensions/fm_dbmanager/inc/createTbl.php:23
+msgid "Collation"
+msgstr "การเรียง"
+
+#: extensions/fm_dbmanager/inc/createTbl.php:24
+msgid "Attributes"
+msgstr "คุณลักษณะ"
+
+#: extensions/fm_dbmanager/inc/createTbl.php:25 inc/shortcode_generator.php:401
+#: inc/shortcode_generator.php:409 inc/shortcode_generator.php:543 inc/shortcode_generator.php:552
+msgid "Null"
+msgstr "โมฆะ"
+
+#: extensions/fm_dbmanager/inc/createTbl.php:26
+msgid "Index"
+msgstr "ดัชนี"
+
+#: extensions/fm_dbmanager/inc/createTbl.php:27
+msgid "A_I"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:28
+msgid "Comments"
+msgstr "ความคิดเห็น"
+
+#: extensions/fm_dbmanager/inc/createTbl.php:37 extensions/fm_dbmanager/inc/createTbl.php:52
+msgid "INT"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:39 extensions/fm_dbmanager/inc/createTbl.php:90
+msgid "VARCHAR"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:41 extensions/fm_dbmanager/inc/createTbl.php:96
+msgid "TEXT"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:43 extensions/fm_dbmanager/inc/createTbl.php:76
+msgid "DATE"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:46
+msgid "TINYINT"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:48
+msgid "SMALLINT"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:50
+msgid "MEDIUMINT"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:54
+msgid "BIGINT"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:58
+msgid "DECIMAL"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:60
+msgid "FLOAT"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:62
+msgid "DOUBLE"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:64
+msgid "REAL"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:68
+msgid "BIT"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:70
+msgid "BOOLEAN"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:72
+msgid "SERIAL"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:78
+msgid "DATETIME"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:80
+msgid "TIMESTAMP"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:82
+msgid "TIME"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:84
+msgid "YEAR"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:88
+msgid "CHAR"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:94
+msgid "TINYTEXT"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:98
+msgid "MEDIUMTEXT"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:100
+msgid "LONGTEXT"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:104 extensions/fm_dbmanager/inc/createTbl.php:688
+msgid "BINARY"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:106
+msgid "VARBINARY"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:110
+msgid "TINYBLOB"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:112
+msgid "MEDIUMBLOB"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:114
+msgid "BLOB"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:116
+msgid "LONGBLOB"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:120
+msgid "ENUM"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:122
+msgid "SET"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:126
+msgid "GEOMETRY"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:128
+msgid "POINT"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:130
+msgid "LINESTRING"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:132
+msgid "POLYGON"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:134
+msgid "MULTIPOINT"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:136
+msgid "MULTILINESTRING"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:138
+msgid "MULTIPOLYGON"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:140
+msgid "GEOMETRYCOLLECTION"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:150 inc/shortcode_generator.php:372
+#: inc/shortcode_generator.php:393 inc/shortcode_generator.php:534
+msgid "None"
+msgstr "ไม่มี"
+
+#: extensions/fm_dbmanager/inc/createTbl.php:152
+msgid "As defined:"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:154
+msgid "NULL"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:156
+msgid "CURRENT_TIMESTAMP"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:165
+msgid "armscii8_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:167
+msgid "armscii8_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:171
+msgid "ascii_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:173
+msgid "ascii_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:177
+msgid "big5_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:179
+msgid "big5_chinese_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:183
+msgid "binary"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:187
+msgid "cp1250_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:189
+msgid "cp1250_croatian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:191
+msgid "cp1250_czech_cs"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:193
+msgid "cp1250_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:195
+msgid "cp1250_polish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:199
+msgid "cp1251_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:201
+msgid "cp1251_bulgarian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:203
+msgid "cp1251_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:205
+msgid "cp1251_general_cs"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:207
+msgid "cp1251_ukrainian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:211
+msgid "cp1256_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:213
+msgid "cp1256_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:217
+msgid "cp1257_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:219
+msgid "cp1257_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:221
+msgid "cp1257_lithuanian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:225
+msgid "cp850_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:227
+msgid "cp850_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:231
+msgid "cp852_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:233
+msgid "cp852_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:237
+msgid "cp866_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:239
+msgid "cp866_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:243
+msgid "cp932_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:245
+msgid "cp932_japanese_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:249
+msgid "dec8_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:251
+msgid "dec8_swedish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:255
+msgid "eucjpms_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:257
+msgid "eucjpms_japanese_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:261
+msgid "euckr_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:263
+msgid "euckr_korean_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:267
+msgid "gb2312_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:269
+msgid "gb2312_chinese_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:273
+msgid "gbk_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:275
+msgid "gbk_chinese_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:279
+msgid "geostd8_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:281
+msgid "geostd8_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:285
+msgid "greek_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:287
+msgid "greek_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:291
+msgid "hebrew_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:293
+msgid "hebrew_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:297
+msgid "hp8_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:299
+msgid "hp8_english_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:303
+msgid "keybcs2_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:305
+msgid "keybcs2_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:309
+msgid "koi8r_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:311
+msgid "koi8r_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:315
+msgid "koi8u_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:317
+msgid "koi8u_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:321
+msgid "latin1_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:323
+msgid "latin1_danish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:325
+msgid "latin1_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:327
+msgid "latin1_general_cs"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:329
+msgid "latin1_german1_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:331
+msgid "latin1_german2_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:333
+msgid "latin1_spanish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:335
+msgid "latin1_swedish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:339
+msgid "latin2_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:341
+msgid "latin2_croatian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:343
+msgid "latin2_czech_cs"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:345
+msgid "latin2_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:347
+msgid "latin2_hungarian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:351
+msgid "latin5_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:353
+msgid "latin5_turkish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:357
+msgid "latin7_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:359
+msgid "latin7_estonian_cs"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:361
+msgid "latin7_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:363
+msgid "latin7_general_cs"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:367
+msgid "macce_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:369
+msgid "macce_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:373
+msgid "macroman_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:375
+msgid "macroman_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:379
+msgid "sjis_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:381
+msgid "sjis_japanese_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:385
+msgid "swe7_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:387
+msgid "swe7_swedish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:391
+msgid "tis620_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:393
+msgid "tis620_thai_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:397
+msgid "ucs2_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:399
+msgid "ucs2_croatian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:401
+msgid "ucs2_czech_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:403
+msgid "ucs2_danish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:405
+msgid "ucs2_esperanto_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:407
+msgid "ucs2_estonian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:409
+msgid "ucs2_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:411
+msgid "ucs2_general_mysql500_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:413
+msgid "ucs2_german2_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:415
+msgid "ucs2_hungarian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:417
+msgid "ucs2_icelandic_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:419
+msgid "ucs2_latvian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:421
+msgid "ucs2_lithuanian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:423
+msgid "ucs2_persian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:425
+msgid "ucs2_polish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:427
+msgid "ucs2_roman_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:429
+msgid "ucs2_romanian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:431
+msgid "ucs2_sinhala_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:433
+msgid "ucs2_slovak_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:435
+msgid "ucs2_slovenian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:437
+msgid "ucs2_spanish2_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:439
+msgid "ucs2_spanish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:441
+msgid "ucs2_swedish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:443
+msgid "ucs2_turkish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:445
+msgid "ucs2_unicode_520_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:447
+msgid "ucs2_unicode_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:449
+msgid "ucs2_vietnamese_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:453
+msgid "ujis_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:455
+msgid "ujis_japanese_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:459
+msgid "utf16_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:461
+msgid "utf16_croatian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:463
+msgid "utf16_czech_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:465
+msgid "utf16_danish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:467
+msgid "utf16_esperanto_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:469
+msgid "utf16_estonian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:471
+msgid "utf16_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:473
+msgid "utf16_german2_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:475
+msgid "utf16_hungarian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:477
+msgid "utf16_icelandic_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:479
+msgid "utf16_latvian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:481
+msgid "utf16_lithuanian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:483
+msgid "utf16_persian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:485
+msgid "utf16_polish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:487
+msgid "utf16_roman_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:489
+msgid "utf16_romanian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:491
+msgid "utf16_sinhala_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:493
+msgid "utf16_slovak_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:495
+msgid "utf16_slovenian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:497
+msgid "utf16_spanish2_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:499
+msgid "utf16_spanish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:501
+msgid "utf16_swedish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:503
+msgid "utf16_turkish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:505
+msgid "utf16_unicode_520_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:507
+msgid "utf16_unicode_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:509
+msgid "utf16_vietnamese_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:513
+msgid "utf16le_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:515
+msgid "utf16le_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:519
+msgid "utf32_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:521
+msgid "utf32_croatian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:523
+msgid "utf32_czech_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:525
+msgid "utf32_danish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:527
+msgid "utf32_esperanto_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:529
+msgid "utf32_estonian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:531
+msgid "utf32_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:533
+msgid "utf32_german2_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:535
+msgid "utf32_hungarian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:537
+msgid "utf32_icelandic_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:539
+msgid "utf32_latvian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:541
+msgid "utf32_lithuanian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:543
+msgid "utf32_persian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:545
+msgid "utf32_polish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:547
+msgid "utf32_roman_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:549
+msgid "utf32_romanian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:551
+msgid "utf32_sinhala_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:553
+msgid "utf32_slovak_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:555
+msgid "utf32_slovenian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:557
+msgid "utf32_spanish2_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:559
+msgid "utf32_spanish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:561
+msgid "utf32_swedish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:563
+msgid "utf32_turkish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:565
+msgid "utf32_unicode_520_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:567
+msgid "utf32_unicode_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:569
+msgid "utf32_vietnamese_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:573
+msgid "utf8_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:575
+msgid "utf8_croatian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:577
+msgid "utf8_czech_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:579
+msgid "utf8_danish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:581
+msgid "utf8_esperanto_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:583
+msgid "utf8_estonian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:585
+msgid "utf8_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:587
+msgid "utf8_general_mysql500_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:589
+msgid "utf8_german2_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:591
+msgid "utf8_hungarian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:593
+msgid "utf8_icelandic_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:595
+msgid "utf8_latvian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:597
+msgid "utf8_lithuanian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:599
+msgid "utf8_persian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:601
+msgid "utf8_polish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:603
+msgid "utf8_roman_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:605
+msgid "utf8_romanian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:607
+msgid "utf8_sinhala_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:609
+msgid "utf8_slovak_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:611
+msgid "utf8_slovenian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:613
+msgid "utf8_spanish2_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:615
+msgid "utf8_spanish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:617
+msgid "utf8_swedish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:619
+msgid "utf8_turkish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:621
+msgid "utf8_unicode_520_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:623
+msgid "utf8_unicode_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:625
+msgid "utf8_vietnamese_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:629
+msgid "utf8mb4_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:631
+msgid "utf8mb4_croatian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:633
+msgid "utf8mb4_czech_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:635
+msgid "utf8mb4_danish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:637
+msgid "utf8mb4_esperanto_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:639
+msgid "utf8mb4_estonian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:641
+msgid "utf8mb4_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:643
+msgid "utf8mb4_german2_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:645
+msgid "utf8mb4_hungarian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:647
+msgid "utf8mb4_icelandic_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:649
+msgid "utf8mb4_latvian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:651
+msgid "utf8mb4_lithuanian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:653
+msgid "utf8mb4_persian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:655
+msgid "utf8mb4_polish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:657
+msgid "utf8mb4_roman_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:659
+msgid "utf8mb4_romanian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:661
+msgid "utf8mb4_sinhala_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:663
+msgid "utf8mb4_slovak_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:665
+msgid "utf8mb4_slovenian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:667
+msgid "utf8mb4_spanish2_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:669
+msgid "utf8mb4_spanish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:671
+msgid "utf8mb4_swedish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:673
+msgid "utf8mb4_turkish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:675
+msgid "utf8mb4_unicode_520_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:677
+msgid "utf8mb4_unicode_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:679
+msgid "utf8mb4_vietnamese_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:690
+msgid "UNSIGNED"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:692
+msgid "UNSIGNED ZEROFILL"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:694
+msgid "on update CURRENT_TIMESTAMP"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:705
+msgid "PRIMARY"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:707
+msgid "UNIQUE"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:709
+msgid "INDEX"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:711
+msgid "FULLTEXT"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:724
+msgid "Add Row"
+msgstr "เพิ่มแถว"
+
+#: extensions/fm_dbmanager/inc/createTbl.php:725
+msgid "Save"
+msgstr "บันทึก"
+
+#: extensions/fm_dbmanager/inc/db_tables.php:39
+msgid "Export Database"
+msgstr "ส่งออกฐานข้อมูล"
+
+#: extensions/fm_dbmanager/inc/db_tables.php:45
+msgid "Host:"
+msgstr "เจ้าภาพ:"
+
+#: extensions/fm_dbmanager/inc/db_tables.php:49
+msgid "Database:"
+msgstr "ฐานข้อมูล:"
+
+#: extensions/fm_dbmanager/inc/db_tables.php:52
+msgid "Table:"
+msgstr "โต๊ะ:"
+
+#: extensions/fm_shortcode_without_login/inc/shortcode.php:207 inc/shortcode.php:327
+msgid "This shortcode has been expired. Please contact with the site admin."
+msgstr "รหัสย่อนี้หมดอายุแล้ว โปรดติดต่อผู้ดูแลเว็บไซต์"
+
+#: file_folder_manager_pro.php:197
+msgid "Database backup restored successfully."
+msgstr "กู้คืนการสำรองฐานข้อมูลเรียบร้อยแล้ว"
+
+#: file_folder_manager_pro.php:199
+msgid "Unable to restore DB backup."
+msgstr "ไม่สามารถกู้คืนข้อมูลสำรอง DB"
+
+#: file_folder_manager_pro.php:206
+msgid "Plugins backup restored successfully."
+msgstr "สำรองข้อมูลปลั๊กอินสำเร็จแล้ว"
+
+#: file_folder_manager_pro.php:208
+msgid "Unable to restore plugins."
+msgstr "ไม่สามารถกู้คืนปลั๊กอินได้"
+
+#: file_folder_manager_pro.php:215
+msgid "Themes backup restored successfully."
+msgstr "สำรองข้อมูลธีมสำเร็จแล้ว"
+
+#: file_folder_manager_pro.php:217
+msgid "Unable to restore themes."
+msgstr "ไม่สามารถกู้คืนธีมได้"
+
+#: file_folder_manager_pro.php:224
+msgid "Uploads backup restored successfully."
+msgstr "กู้คืนข้อมูลสำรองการอัปโหลดสำเร็จแล้ว"
+
+#: file_folder_manager_pro.php:226
+msgid "Unable to restore uploads."
+msgstr "ไม่สามารถกู้คืนการอัปโหลด"
+
+#: file_folder_manager_pro.php:233
+msgid "Others backup restored successfully."
+msgstr "กู้คืนข้อมูลสำรองอื่นสำเร็จแล้ว"
+
+#: file_folder_manager_pro.php:235
+msgid "Unable to restore others."
+msgstr "ไม่สามารถกู้คืนผู้อื่นได้"
+
+#: file_folder_manager_pro.php:239
+msgid "Backup not found!"
+msgstr "ไม่พบข้อมูลสำรอง!"
+
+#: file_folder_manager_pro.php:243
+msgid "security token expired"
+msgstr "โทเค็นความปลอดภัยหมดอายุ"
+
+#: file_folder_manager_pro.php:283
+msgid "Backup(s) removed successfully!"
+msgstr "ลบข้อมูลสำรองเรียบร้อยแล้ว!"
+
+#: file_folder_manager_pro.php:285
+msgid "Unable to remove backup(s)!"
+msgstr "ไม่สามารถลบข้อมูลสำรองได้!"
+
+#: file_folder_manager_pro.php:308
+msgid "Database backup done on date "
+msgstr "สำรองข้อมูลฐานข้อมูลเสร็จในวันที่ "
+
+#: file_folder_manager_pro.php:312
+msgid "Plugins backup done on date "
+msgstr "การสำรองข้อมูลปลั๊กอินเสร็จสิ้นในวันที่ "
+
+#: file_folder_manager_pro.php:316
+msgid "Themes backup done on date "
+msgstr "การสำรองข้อมูลธีมเสร็จสิ้นในวันที่ "
+
+#: file_folder_manager_pro.php:320
+msgid "Uploads backup done on date "
+msgstr "อัปโหลดการสำรองข้อมูลเสร็จสิ้นในวันที่ "
+
+#: file_folder_manager_pro.php:324
+msgid "Others backup done on date "
+msgstr "การสำรองข้อมูลอื่น ๆ เสร็จสิ้นในวันที่ "
+
+#: file_folder_manager_pro.php:328 file_folder_manager_pro.php:707 inc/wpfmlogs.php:49
+msgid "Logs"
+msgstr "บันทึก"
+
+#: file_folder_manager_pro.php:334
+msgid "No logs found!"
+msgstr "ไม่พบบันทึก!"
+
+#: file_folder_manager_pro.php:405
+msgid "Backup removed successfully!"
+msgstr "ลบข้อมูลสำรองเรียบร้อยแล้ว!"
+
+#: file_folder_manager_pro.php:407
+msgid "Unable to removed backup!"
+msgstr "ลบข้อมูลสำรองไม่ได้!"
+
+#: file_folder_manager_pro.php:430
+msgid "Nothing selected for backup"
+msgstr "ไม่ได้เลือกไว้สำหรับการสำรองข้อมูล"
+
+#: file_folder_manager_pro.php:459
+msgid "Database backup done."
+msgstr "สำรองข้อมูลฐานข้อมูลเรียบร้อยแล้ว"
+
+#: file_folder_manager_pro.php:462
+msgid "Unable to create database backup."
+msgstr "ไม่สามารถสร้างการสำรองฐานข้อมูล"
+
+#: file_folder_manager_pro.php:476
+msgid "Plugins backup done."
+msgstr "สำรองข้อมูลปลั๊กอินเสร็จแล้ว"
+
+#: file_folder_manager_pro.php:479
+msgid "Plugins backup failed."
+msgstr "การสำรองข้อมูลปลั๊กอินล้มเหลว"
+
+#: file_folder_manager_pro.php:488
+msgid "Themes backup done."
+msgstr "สำรองข้อมูลธีมเสร็จแล้ว"
+
+#: file_folder_manager_pro.php:491
+msgid "Themes backup failed."
+msgstr "การสำรองข้อมูลธีมล้มเหลว"
+
+#: file_folder_manager_pro.php:500
+msgid "Uploads backup done."
+msgstr "อัปโหลดสำรองข้อมูลเสร็จแล้ว"
+
+#: file_folder_manager_pro.php:503
+msgid "Uploads backup failed."
+msgstr "การสำรองข้อมูลการอัปโหลดล้มเหลว"
+
+#: file_folder_manager_pro.php:512
+msgid "Others backup done."
+msgstr "สำรองข้อมูลอื่นเสร็จแล้ว"
+
+#: file_folder_manager_pro.php:515
+msgid "Others backup failed."
+msgstr "การสำรองข้อมูลอื่นล้มเหลว"
+
+#: file_folder_manager_pro.php:519 file_folder_manager_pro.php:523
+msgid "All done"
+msgstr "เสร็จเรียบร้อย"
+
+#: file_folder_manager_pro.php:545
+msgid "Log(s) removed successfully!"
+msgstr "ลบบันทึกสำเร็จแล้ว!"
+
+#: file_folder_manager_pro.php:547
+msgid "Unable to removed log(s)!"
+msgstr "ไม่สามารถลบบันทึกได้!"
+
+#: file_folder_manager_pro.php:551 file_folder_manager_pro.php:3253 file_folder_manager_pro.php:3267
+msgid "Invalid security key!"
+msgstr "คีย์ความปลอดภัยไม่ถูกต้อง!"
+
+#: file_folder_manager_pro.php:586
+msgid "Required libraries installed successfully."
+msgstr "ติดตั้งไลบรารีที่จำเป็นสำเร็จแล้ว"
+
+#: file_folder_manager_pro.php:589
+msgid "Unable to install Required libraries."
+msgstr "ไม่สามารถติดตั้งไลบรารีที่จำเป็น"
+
+#: file_folder_manager_pro.php:683 file_folder_manager_pro.php:684
+msgid "WP File Manager"
+msgstr "ตัวจัดการไฟล์ WP"
+
+#: file_folder_manager_pro.php:691
+msgid "Settings"
+msgstr "การตั้งค่า"
+
+#: file_folder_manager_pro.php:693
+msgid "Preferences"
+msgstr "การตั้งค่า"
+
+#: file_folder_manager_pro.php:695 inc/email.php:25
+msgid "Email Notifications"
+msgstr "การแจ้งเตือนทางอีเมล"
+
+#: file_folder_manager_pro.php:698 inc/shortcode_generator.php:249
+msgid "Shortcode Generator"
+msgstr "ตัวสร้างรหัสย่อ"
+
+#: file_folder_manager_pro.php:701 inc/extensions.php:160
+msgid "Google Drive"
+msgstr "Google ไดรฟ์"
+
+#: file_folder_manager_pro.php:704
+msgid "Mobile"
+msgstr "มือถือ"
+
+#: file_folder_manager_pro.php:706
+msgid "Addons"
+msgstr "ส่วนเสริม"
+
+#: file_folder_manager_pro.php:708
+msgid "Backup"
+msgstr "สำรอง"
+
+#: file_folder_manager_pro.php:709
+msgid "Existing Shortcode"
+msgstr "รหัสย่อที่มีอยู่"
+
+#: file_folder_manager_pro.php:711
+msgid "License"
+msgstr "ใบอนุญาต"
+
+#: file_folder_manager_pro.php:808
+msgid "Type here to search list... "
+msgstr "พิมพ์ที่นี่เพื่อค้นหารายการ... "
+
+#: file_folder_manager_pro.php:809
+msgid "Check all"
+msgstr "ตรวจสอบทั้งหมด"
+
+#: file_folder_manager_pro.php:810
+msgid "Uncheck all"
+msgstr "ยกเลิกการเลือกทั้งหมด"
+
+#: file_folder_manager_pro.php:811
+msgid "Invert select"
+msgstr "สลับการเลือก"
+
+#: file_folder_manager_pro.php:2752
+msgid "You don't have permission to access file manager."
+msgstr "คุณไม่มีสิทธิ์เข้าถึงตัวจัดการไฟล์"
+
+#: file_folder_manager_pro.php:2755
+msgid "Invalid shortcode!"
+msgstr "รหัสย่อไม่ถูกต้อง!"
+
+#: file_folder_manager_pro.php:2758
+msgid "Invalid security token!"
+msgstr "รหัสความปลอดภัยไม่ถูกต้อง."
+
+#: file_folder_manager_pro.php:2915
+msgid "Your File Manager PRO Order Details"
+msgstr "รายละเอียดการสั่งซื้อตัวจัดการไฟล์ PRO ของคุณ"
+
+#: file_folder_manager_pro.php:2915
+msgid "Order Details"
+msgstr "รายละเอียดการสั่งซื้อ"
+
+#: file_folder_manager_pro.php:2917
+msgid "Order ID: "
+msgstr "รหัสคำสั่งซื้อ: "
+
+#: file_folder_manager_pro.php:2918
+msgid "License Key: "
+msgstr "รหัสใบอนุญาต: "
+
+#: file_folder_manager_pro.php:2919
+msgid "&nbsp; Warning: Please don't share these details with anyone."
+msgstr "&nbsp; คำเตือน: โปรดอย่าเปิดเผยรายละเอียดเหล่านี้กับใคร"
+
+#: file_folder_manager_pro.php:3048
+msgid "<p>(Unable to execute php syntax checker due to server permissions.)</p>"
+msgstr "<p>(ไม่สามารถดำเนินการตรวจสอบไวยากรณ์ php เนื่องจากได้รับอนุญาตจากเซิร์ฟเวอร์)</p>"
+
+#: file_folder_manager_pro.php:3052
+msgid "<p>(File <strong>"
+msgstr "<p>(ไฟล์ <strong>"
+
+#: file_folder_manager_pro.php:3052
+msgid "</strong> not saved.)</p>"
+msgstr "</strong> ไม่ถูกบันทึก)</p>"
+
+#: file_folder_manager_pro.php:3222
+msgid "File doesn't exist to download."
+msgstr "ไม่มีไฟล์ให้ดาวน์โหลด"
+
+#: file_folder_manager_pro.php:3227
+msgid "Invalid Security Code."
+msgstr "รหัสความปลอดภัยไม่ถูกต้อง."
+
+#: file_folder_manager_pro.php:3232
+msgid "Missing backup id."
+msgstr "ไม่มีรหัสสำรอง"
+
+#: file_folder_manager_pro.php:3235
+msgid "Missing parameter type."
+msgstr "ไม่มีประเภทพารามิเตอร์"
+
+#: file_folder_manager_pro.php:3238
+msgid "Missing required parameters."
+msgstr "ไม่มีพารามิเตอร์ที่จำเป็น"
+
+#: inc/backup.php:583
+msgid "WP File Manager - Backup/Restore"
+msgstr "WP File Manager - สำรอง/กู้คืน"
+
+#: inc/backup.php:589
+msgid "Backup Options:"
+msgstr "ตัวเลือกการสำรองข้อมูล:"
+
+#: inc/backup.php:596
+msgid "Database Backup"
+msgstr "สำรองฐานข้อมูล"
+
+#: inc/backup.php:602
+msgid "Files Backup"
+msgstr "ไฟล์สำรอง"
+
+#: inc/backup.php:606
+msgid "Plugins"
+msgstr "ปลั๊กอิน"
+
+#: inc/backup.php:609
+msgid "Themes"
+msgstr "ธีม"
+
+#: inc/backup.php:612
+msgid "Uploads"
+msgstr "อัพโหลด"
+
+#: inc/backup.php:615
+msgid "Others (Any other directories found inside wp-content)"
+msgstr "อื่น ๆ (ไดเร็กทอรีอื่น ๆ ที่พบใน wp-content)"
+
+#: inc/backup.php:619
+msgid "Backup Now"
+msgstr "การสำรองข้อมูลในขณะนี้"
+
+#: inc/backup.php:627
+msgid "Time now"
+msgstr "เวลาในขณะนี้"
+
+#: inc/backup.php:637
+msgid "SUCCESS"
+msgstr "ความสำเร็จ"
+
+#: inc/backup.php:639
+msgid "Backup successfully deleted."
+msgstr "ลบข้อมูลสำรองเรียบร้อยแล้ว"
+
+#: inc/backup.php:640
+msgid "Ok"
+msgstr "ตกลง"
+
+#: inc/backup.php:655
+msgid "DELETE FILES"
+msgstr "ลบไฟล์"
+
+#: inc/backup.php:657
+msgid "Are you sure you want to delete this backup?"
+msgstr "คุณแน่ใจหรือไม่ว่าต้องการลบข้อมูลสำรองนี้"
+
+#: inc/backup.php:658 inc/backup.php:677
+msgid "Cancel"
+msgstr "ยกเลิก"
+
+#: inc/backup.php:659 inc/backup.php:678
+msgid "Confirm"
+msgstr "ยืนยัน"
+
+#: inc/backup.php:674
+msgid "RESTORE FILES"
+msgstr "กู้คืนไฟล์"
+
+#: inc/backup.php:676
+msgid "Are you sure you want to restore this backup?"
+msgstr "คุณแน่ใจหรือไม่ว่าต้องการคืนค่าข้อมูลสำรองนี้"
+
+#: inc/backup.php:704
+msgid "Last Log Message"
+msgstr "ข้อความบันทึกล่าสุด"
+
+#: inc/backup.php:707
+msgid "The backup apparently succeeded and is now complete."
+msgstr "เห็นได้ชัดว่าการสำรองข้อมูลสำเร็จและตอนนี้เสร็จสมบูรณ์แล้ว"
+
+#: inc/backup.php:709
+msgid "No log message"
+msgstr "ไม่มีข้อความบันทึก"
+
+#: inc/backup.php:715
+msgid "Existing Backup(s)"
+msgstr "ข้อมูลสำรองที่มีอยู่"
+
+#: inc/backup.php:723
+msgid "Backup Date"
+msgstr "วันที่สำรอง"
+
+#: inc/backup.php:726
+msgid "Backup data (click to download)"
+msgstr "สำรองข้อมูล (คลิกเพื่อดาวน์โหลด)"
+
+#: inc/backup.php:729 inc/shortcode_listing.php:45 inc/wpfmlogs.php:80 inc/wpfmlogs.php:162
+#: inc/wpfmlogs.php:245
+msgid "Action"
+msgstr "หนังบู๊"
+
+#: inc/backup.php:749
+msgid "Today"
+msgstr "วันนี้"
+
+#: inc/backup.php:771
+msgid "Restore"
+msgstr "คืนค่า"
+
+#: inc/backup.php:773
+msgid "View Log"
+msgstr "ดูบันทึก"
+
+#: inc/backup.php:778
+msgid "Currently no backup(s) found."
+msgstr "ไม่พบข้อมูลสำรองในขณะนี้"
+
+#: inc/backup.php:781
+msgid "Actions upon selected backup(s)"
+msgstr "การดำเนินการกับข้อมูลสำรองที่เลือก"
+
+#: inc/backup.php:783
+msgid "Select All"
+msgstr "เลือกทั้งหมด"
+
+#: inc/backup.php:784
+msgid "Deselect"
+msgstr "ยกเลิกการเลือก"
+
+#: inc/backup.php:786
+msgid "<strong>Note:</strong>Backup files will be under"
+msgstr "<strong>หมายเหตุ:</strong>ไฟล์สำรองจะอยู่ภายใต้"
+
+#: inc/backup.php:803
+msgid "Backup is running, please wait"
+msgstr "กำลังสำรองข้อมูล โปรดรอสักครู่"
+
+#: inc/backup.php:902
+msgid "Select backup(s) to delete!"
+msgstr "เลือกข้อมูลสำรองที่จะลบ!"
+
+#: inc/backup.php:904
+msgid "Are you sure want to remove selected backup(s)?"
+msgstr "คุณแน่ใจหรือไม่ว่าต้องการลบข้อมูลสำรองที่เลือก"
+
+#: inc/email.php:6
+msgid "Saving please wait..."
+msgstr "กำลังบันทึก โปรดรอสักครู่..."
+
+#: inc/email.php:32 inc/root.php:30 inc/settings.php:9
+msgid "Settings saved."
+msgstr "การตั้งค่าที่บันทึกไว้."
+
+#: inc/email.php:32 inc/email.php:35 inc/root.php:30 inc/root.php:33 inc/settings.php:9
+#: inc/settings.php:12
+msgid "Dismiss this notice."
+msgstr "ปิดประกาศนี้"
+
+#: inc/email.php:35 inc/settings.php:12
+msgid "Settings not saved."
+msgstr "ไม่ได้บันทึกการตั้งค่า"
+
+#: inc/email.php:44
+msgid "Enable?"
+msgstr "เปิดใช้งาน?"
+
+#: inc/email.php:54
+msgid "Email Addresses"
+msgstr "ที่อยู่อีเมล"
+
+#: inc/email.php:71
+msgid "Add More <strong>+</strong>"
+msgstr "เพิ่ม <strong>+</strong>"
+
+#: inc/email.php:73
+msgid "This address is used for notification purposes, like theme/plugin notification."
+msgstr "ที่อยู่นี้ใช้เพื่อวัตถุประสงค์ในการแจ้งเตือน เช่น การแจ้งเตือนเกี่ยวกับธีม/ปลั๊กอิน"
+
+#: inc/email.php:79
+msgid "Files Upload Notifications"
+msgstr "การแจ้งเตือนการอัพโหลดไฟล์"
+
+#: inc/email.php:82 inc/email.php:108 inc/email.php:131
+msgid "Subject"
+msgstr "เรื่อง"
+
+#: inc/email.php:85
+msgid "Files Uploaded"
+msgstr "ไฟล์ที่อัพโหลด"
+
+#: inc/email.php:95 inc/email.php:119 inc/email.php:142
+msgid "Body"
+msgstr "ร่างกาย"
+
+#: inc/email.php:98 inc/email.php:122 inc/email.php:145
+msgid "Example:"
+msgstr "ตัวอย่าง:"
+
+#: inc/email.php:105
+msgid "Files Download Notifications"
+msgstr "ดาวน์โหลดไฟล์ การแจ้งเตือน"
+
+#: inc/email.php:111
+msgid "Files Downloaded"
+msgstr "ไฟล์ที่ดาวน์โหลด"
+
+#: inc/email.php:128
+msgid "Files Edit Notifications"
+msgstr "การแจ้งเตือนการแก้ไขไฟล์"
+
+#: inc/email.php:134
+msgid "Files Modified or Edited"
+msgstr "ไฟล์ที่ถูกดัดแปลงหรือแก้ไข"
+
+#: inc/email.php:155 inc/root.php:87 inc/settings.php:703
+msgid "Save Changes"
+msgstr "บันทึกการเปลี่ยนแปลง"
+
+#: inc/email.php:186 inc/email.php:209
+msgid "All added email fields needs to filled and should have valid email address."
+msgstr "ต้องกรอกข้อมูลในฟิลด์อีเมลที่เพิ่มทั้งหมดและควรมีที่อยู่อีเมลที่ถูกต้อง"
+
+#: inc/extensions.php:116
+msgid "Add-ons"
+msgstr "ส่วนเสริม"
+
+#: inc/extensions.php:121
+msgid "Box"
+msgstr "กล่อง"
+
+#: inc/extensions.php:130 inc/extensions.php:149 inc/extensions.php:169 inc/extensions.php:188
+#: inc/extensions.php:206 inc/extensions.php:225
+msgid "Buy Now"
+msgstr "ซื้อเลย"
+
+#: inc/extensions.php:141
+msgid "DropBox"
+msgstr ""
+
+#: inc/extensions.php:179
+msgid "OneDrive"
+msgstr ""
+
+#: inc/extensions.php:198
+msgid "AWS S3"
+msgstr ""
+
+#: inc/extensions.php:216
+msgid "Git Hub"
+msgstr ""
+
+#: inc/fm_shortcode_btn.php:8
+msgid "Insert File Manager Shortcode"
+msgstr "แทรกรหัสย่อตัวจัดการไฟล์"
+
+#: inc/fm_shortcode_btn.php:14
+msgid "Select Shortcode"
+msgstr "เลือกรหัสย่อ"
+
+#: inc/fm_shortcode_btn.php:17
+msgid "Choose Shortcode"
+msgstr "เลือกรหัสย่อ"
+
+#: inc/license.php:42
+msgid "Purchase New License"
+msgstr "ซื้อใบอนุญาตใหม่"
+
+#: inc/license.php:45
+msgid ""
+"To unlock updates, please enter your order id and license key below. If you don't have a license "
+"key, <a href=\"https://filemanagerpro.io/file-manager-pricing/\" target=\"_blank\" class=\"page-"
+"title-action buy-link\" title=\"click to buy License Key\">please see details & pricing</a>"
+msgstr ""
+"หากต้องการปลดล็อกการอัปเดต โปรดป้อนรหัสคำสั่งซื้อและรหัสใบอนุญาตด้านล่าง หากคุณไม่มีรหัสใบอนุญาต <a href=\"https://"
+"filemanagerpro.io/file-manager-pricing/\" target=\"_blank\" class=\"page-title-action buy-link\" "
+"title=\" คลิกเพื่อซื้อรหัสใบอนุญาต\">โปรดดูรายละเอียดและราคา</a>"
+
+#: inc/license.php:50
+msgid "ORDER ID (#)"
+msgstr "รหัสคำสั่งซื้อ (#)"
+
+#: inc/license.php:54
+msgid "LICENSE KEY"
+msgstr "คีย์ใบอนุญาต"
+
+#: inc/license.php:69
+msgid "PURCHASE DATE"
+msgstr "วันที่ซื้อ"
+
+#: inc/license.php:73
+msgid "EXPIRE DATE"
+msgstr "วันที่หมดอายุ"
+
+#: inc/license.php:85
+msgid "If you have renewed your license already then click here to refresh!"
+msgstr "หากคุณได้ต่ออายุใบอนุญาตแล้ว คลิกที่นี่เพื่อรีเฟรช!"
+
+#: inc/license.php:97
+msgid "Deactivate"
+msgstr "ปิดการใช้งาน"
+
+#: inc/license.php:102
+msgid "Click here to renew"
+msgstr "คลิกที่นี่เพื่อต่ออายุ"
+
+#: inc/license.php:109
+msgid "Click Here To Renew License"
+msgstr "คลิกที่นี่เพื่อต่ออายุใบอนุญาต"
+
+#: inc/license.php:159
+msgid "Are you sure you want to deactivate your license?"
+msgstr "คุณแน่ใจหรือไม่ว่าต้องการปิดใช้งานใบอนุญาตของคุณ"
+
+#: inc/popup.php:31
+msgid "File Manager Pro Update"
+msgstr "ตัวจัดการไฟล์ Pro อัปเดต"
+
+#: inc/popup.php:32
+msgid "File Manager Pro"
+msgstr "ตัวจัดการไฟล์ Pro"
+
+#: inc/popup.php:36
+msgid "With File Manager Pro"
+msgstr "ด้วยตัวจัดการไฟล์ Pro"
+
+#: inc/popup.php:36
+msgid "users will now be able to customise the existing shortcodes with the help of filters."
+msgstr "ผู้ใช้จะสามารถปรับแต่งรหัสย่อที่มีอยู่ได้ด้วยความช่วยเหลือของตัวกรอง"
+
+#: inc/popup.php:36
+msgid "Click"
+msgstr "คลิก"
+
+#: inc/popup.php:36
+msgid "here"
+msgstr "ที่นี่"
+
+#: inc/popup.php:36
+msgid "to see documentation to support you in your transition"
+msgstr "เพื่อดูเอกสารสนับสนุนคุณในการเปลี่ยนแปลงของคุณ"
+
+#: inc/popup.php:36
+msgid "Happy Coding!"
+msgstr "มีความสุขในการเข้ารหัส!"
+
+#: inc/popup.php:37
+msgid "View Shortcode Documentation"
+msgstr "ดูเอกสารรหัสย่อ"
+
+#: inc/root.php:33
+msgid "You have not made any changes to be saved."
+msgstr "คุณยังไม่ได้ทำการเปลี่ยนแปลงใด ๆ เพื่อบันทึก"
+
+#: inc/root.php:39
+msgid "Preferences - File Manager"
+msgstr "ค่ากำหนด - ตัวจัดการไฟล์"
+
+#: inc/root.php:46
+msgid "Public Root Path"
+msgstr "เส้นทางรูตสาธารณะ"
+
+#: inc/root.php:50
+msgid "File Manager Root Path, you can change according to your choice."
+msgstr "File Manager Root Path คุณสามารถเปลี่ยนได้ตามต้องการ"
+
+#: inc/root.php:53 inc/settings.php:208 inc/settings.php:226 inc/settings.php:239
+#: inc/shortcode_generator.php:425 inc/shortcode_generator.php:442 inc/shortcode_generator.php:455
+#: inc/shortcode_generator.php:568 inc/shortcode_generator.php:585 inc/shortcode_generator.php:598
+msgid "Default:"
+msgstr "ค่าเริ่มต้น:"
+
+#: inc/root.php:55
+msgid "Please change this carefully, Wrong path can lead file manager plugin to go down."
+msgstr "โปรดเปลี่ยนอย่างระมัดระวัง เส้นทางที่ไม่ถูกต้องอาจทำให้ปลั๊กอินตัวจัดการไฟล์ลงไปได้"
+
+#: inc/root.php:60
+msgid "Enable Syntax Checker?"
+msgstr "เปิดใช้งานตัวตรวจสอบไวยากรณ์หรือไม่"
+
+#: inc/root.php:63
+msgid ""
+"When the Syntax Checker is enabled, the code updates being made to PHP files will be checked for "
+"syntax errors. If a syntax error is found, the updates will not be saved and a message box will "
+"appear which will define the error found. This checker will help prevent website downtime issues "
+"due to syntax errors."
+msgstr ""
+"เมื่อเปิดใช้งานตัวตรวจสอบไวยากรณ์ การอัปเดตโค้ดที่ทำกับไฟล์ PHP จะถูกตรวจสอบหาข้อผิดพลาดทางไวยากรณ์ "
+"หากพบข้อผิดพลาดทางไวยากรณ์ การอัปเดตจะไม่ถูกบันทึกและกล่องข้อความจะปรากฏขึ้นซึ่งจะกำหนดข้อผิดพลาดที่พบ "
+"ตัวตรวจสอบนี้จะช่วยป้องกันปัญหาการหยุดทำงานของเว็บไซต์เนื่องจากข้อผิดพลาดทางไวยากรณ์"
+
+#: inc/root.php:68
+msgid "Enable Trash?"
+msgstr "เปิดใช้งานถังขยะหรือไม่"
+
+#: inc/root.php:73
+msgid "After enabling trash, your files will go to trash folder."
+msgstr "หลังจากเปิดใช้งานถังขยะ ไฟล์ของคุณจะไปที่โฟลเดอร์ถังขยะ"
+
+#: inc/root.php:78
+msgid "Enable Files Upload to Media Library?"
+msgstr "เปิดใช้งานการอัปโหลดไฟล์ไปยัง Media Library หรือไม่"
+
+#: inc/root.php:83
+msgid "After enabling this, uploaded images, pdfs and zip files will go to media library too."
+msgstr "หลังจากเปิดใช้งานสิ่งนี้ รูปภาพที่อัปโหลด ไฟล์ PDF และ zip จะไปที่ไลบรารีสื่อด้วย"
+
+#: inc/settings.php:18
+msgid "Settings - File Manager"
+msgstr "การตั้งค่า - ตัวจัดการไฟล์"
+
+#: inc/settings.php:19
+msgid "Settings will apply on"
+msgstr "การตั้งค่าจะมีผลกับ"
+
+#: inc/settings.php:19
+msgid "shortcode."
+msgstr "รหัสย่อ"
+
+#: inc/settings.php:24 inc/shortcode_generator.php:210
+msgid "Make Directory"
+msgstr "สร้างไดเรกทอรี"
+
+#: inc/settings.php:25 inc/shortcode_generator.php:211
+msgid "Make File"
+msgstr "สร้างไฟล์"
+
+#: inc/settings.php:26 inc/shortcode_generator.php:212
+msgid "Rename"
+msgstr "เปลี่ยนชื่อ"
+
+#: inc/settings.php:27 inc/shortcode_generator.php:213
+msgid "Duplicate"
+msgstr "ทำซ้ำ"
+
+#: inc/settings.php:28 inc/shortcode_generator.php:214
+msgid "Paste"
+msgstr "แปะ"
+
+#: inc/settings.php:29 inc/shortcode_generator.php:215
+msgid "Archive"
+msgstr "คลังเก็บเอกสารสำคัญ"
+
+#: inc/settings.php:30 inc/shortcode_generator.php:216
+msgid "Extract"
+msgstr "สารสกัด"
+
+#: inc/settings.php:31 inc/shortcode_generator.php:217 inc/shortcode_listing.php:61
+#: inc/shortcode_listing.php:84 inc/shortcode_listing.php:159 inc/shortcode_listing.php:175
+#: inc/shortcode_listing.php:215
+msgid "Copy"
+msgstr "สำเนา"
+
+#: inc/settings.php:32 inc/shortcode_generator.php:218
+msgid "Cut"
+msgstr "ตัด"
+
+#: inc/settings.php:35 inc/shortcode_generator.php:221
+msgid "Download"
+msgstr "ดาวน์โหลด"
+
+#: inc/settings.php:36 inc/shortcode_generator.php:222
+msgid "Upload"
+msgstr "ที่อัพโหลด"
+
+#: inc/settings.php:37 inc/shortcode_generator.php:223 inc/shortcode_listing.php:109
+msgid "Search"
+msgstr "ค้นหา"
+
+#: inc/settings.php:38 inc/shortcode_generator.php:224
+msgid "Info"
+msgstr "ข้อมูล"
+
+#: inc/settings.php:40 inc/shortcode_generator.php:226
+msgid "Resize"
+msgstr "ปรับขนาด"
+
+#: inc/settings.php:47 inc/shortcode_generator.php:147
+msgid "<strong>Saving Please wait...</strong>"
+msgstr "<strong>กำลังบันทึก โปรดรอสักครู่...</strong>"
+
+#: inc/settings.php:83
+msgid "General"
+msgstr "ทั่วไป"
+
+#: inc/settings.php:88
+msgid "Code Editor"
+msgstr "ตัวแก้ไขโค้ด"
+
+#: inc/settings.php:93
+msgid "User Restrictions"
+msgstr "ข้อจำกัดของผู้ใช้"
+
+#: inc/settings.php:98
+msgid "User Role Restrictions"
+msgstr "การจำกัดบทบาทของผู้ใช้"
+
+#: inc/settings.php:104
+msgid "Frontend Access"
+msgstr "การเข้าถึงส่วนหน้า"
+
+#: inc/settings.php:111
+msgid "Select User Roles to access WP File Manager"
+msgstr "เลือกบทบาทผู้ใช้เพื่อเข้าถึง WP File Manager"
+
+#: inc/settings.php:124
+msgid "Allow user roles to access WP File Manager."
+msgstr "อนุญาตให้บทบาทผู้ใช้เข้าถึง WP File Manager"
+
+#: inc/settings.php:131
+msgid "Select User Roles to access DB Manager"
+msgstr "เลือกบทบาทของผู้ใช้เพื่อเข้าถึง DB Manager"
+
+#: inc/settings.php:144
+msgid "Allow user roles to access DB Manager."
+msgstr "อนุญาตให้บทบาทของผู้ใช้เข้าถึง DB Manager"
+
+#: inc/settings.php:150
+msgid "Separate or Private Folder Access"
+msgstr "การเข้าถึงโฟลเดอร์แยกหรือส่วนตัว"
+
+#: inc/settings.php:152
+msgid ""
+"File Manager will access this folder path. Else, will access root directory. <strong>e.g wp-content/"
+"plugins</strong>. <br><strong>Note:</strong> Will be valid for all user roles."
+msgstr ""
+"ตัวจัดการไฟล์จะเข้าถึงเส้นทางโฟลเดอร์นี้ มิฉะนั้นจะเข้าถึงไดเรกทอรีราก <strong>เช่น wp-content/plugins</strong> "
+"<br><strong>หมายเหตุ:</strong> จะใช้ได้กับทุกบทบาทของผู้ใช้"
+
+#: inc/settings.php:157
+msgid "Maximum Upload Size"
+msgstr "ขนาดอัพโหลดสูงสุด"
+
+#: inc/settings.php:159
+msgid "MB"
+msgstr ""
+
+#: inc/settings.php:159
+msgid "Allow users to upload file of maximum."
+msgstr "อนุญาตให้ผู้ใช้อัปโหลดไฟล์สูงสุด"
+
+#: inc/settings.php:163
+msgid "Notification Email"
+msgstr "อีเมลแจ้งเตือน"
+
+#: inc/settings.php:165
+msgid ""
+"Sends Notifications to this email. <strong>Note:</strong> This will take admin email by default if "
+"kept empty."
+msgstr ""
+"ส่งการแจ้งเตือนไปยังอีเมลนี้ <strong>หมายเหตุ:</strong> การดำเนินการนี้จะใช้อีเมลของผู้ดูแลระบบโดยค่าเริ่มต้นหากเว้นว่างไว้"
+
+#: inc/settings.php:170
+msgid "Send Notifications to admin and save logs on file upload ?"
+msgstr "ส่งการแจ้งเตือนไปยังผู้ดูแลระบบและบันทึกล็อกในการอัปโหลดไฟล์ ?"
+
+#: inc/settings.php:174
+msgid ""
+"Check to allow file upload notifications. Mail will be sent to admin. Click <a href=\"admin.php?"
+"page=wpfm-emails\" target=\"_blank\">here</a> to set notification email."
+msgstr ""
+"เลือกเพื่ออนุญาตการแจ้งเตือนการอัปโหลดไฟล์ จดหมายจะถูกส่งไปยังผู้ดูแลระบบ คลิก <a href=\"admin.php?page=wpfm-emails"
+"\" target=\"_blank\">ที่นี่</a> เพื่อตั้งค่าอีเมลแจ้งเตือน"
+
+#: inc/settings.php:174 inc/settings.php:183 inc/settings.php:192
+msgid ""
+"<strong>Note:</strong> This feature is using wp_mail(), Make sure <a href=\"https://developer."
+"wordpress.org/reference/functions/wp_mail/\" title=\"Read More\" target=\"_blank\">wp_mail</a> is "
+"working."
+msgstr ""
+"<strong>หมายเหตุ:</strong> คุณลักษณะนี้ใช้ wp_mail() ตรวจสอบให้แน่ใจว่า <a href=\"https://developer."
+"wordpress.org/reference/functions/wp_mail/\" title=\"อ่านเพิ่มเติม\" target=\" _blank\">wp_mail</a> "
+"กำลังทำงาน"
+
+#: inc/settings.php:179
+msgid "Send Notifications to admin and save logs on file download ?"
+msgstr "ส่งการแจ้งเตือนไปยังผู้ดูแลระบบและบันทึกล็อกในการดาวน์โหลดไฟล์ ?"
+
+#: inc/settings.php:183
+msgid ""
+"Check to allow file download notifications. Mail will be sent to admin. Click <a href=\"admin.php?"
+"page=wpfm-emails\" target=\"_blank\">here</a> to set notification email."
+msgstr ""
+"เลือกเพื่ออนุญาตการแจ้งเตือนการดาวน์โหลดไฟล์ จดหมายจะถูกส่งไปยังผู้ดูแลระบบ คลิก <a href=\"admin.php?page=wpfm-"
+"emails\" target=\"_blank\">ที่นี่</a> เพื่อตั้งค่าอีเมลแจ้งเตือน"
+
+#: inc/settings.php:188
+msgid "Send Notifications to admin and save logs on file edit ?"
+msgstr "ส่งการแจ้งเตือนไปยังผู้ดูแลระบบและบันทึกบันทึกในการแก้ไขไฟล์ ?"
+
+#: inc/settings.php:192
+msgid ""
+"Check to allow file edit notifications. Mail will be sent to admin.  Click <a href=\"admin.php?"
+"page=wpfm-emails\" target=\"_blank\">here</a> to set notification email."
+msgstr ""
+"เลือกเพื่ออนุญาตการแจ้งเตือนการแก้ไขไฟล์ จดหมายจะถูกส่งไปยังผู้ดูแลระบบ คลิก <a href=\"admin.php?page=wpfm-emails"
+"\" target=\"_blank\">ที่นี่</a> เพื่อตั้งค่าอีเมลแจ้งเตือน"
+
+#: inc/settings.php:198
+msgid "Select File Manager Language"
+msgstr "เลือกภาษาของตัวจัดการไฟล์"
+
+#: inc/settings.php:208 inc/shortcode_generator.php:425 inc/shortcode_generator.php:568
+msgid "English"
+msgstr "ภาษาอังกฤษ"
+
+#: inc/settings.php:209
+msgid "You can select any language for File Manager."
+msgstr "คุณสามารถเลือกภาษาใดก็ได้สำหรับตัวจัดการไฟล์"
+
+#: inc/settings.php:215
+msgid "Select File Manager Theme"
+msgstr "เลือกธีมตัวจัดการไฟล์"
+
+#: inc/settings.php:227
+msgid "You can select any theme for File Manager."
+msgstr "คุณสามารถเลือกธีมใดก็ได้สำหรับตัวจัดการไฟล์"
+
+#: inc/settings.php:233 inc/shortcode_generator.php:449 inc/shortcode_generator.php:592
+msgid "Files View"
+msgstr "ดูไฟล์"
+
+#: inc/settings.php:236 inc/settings.php:239 inc/shortcode_generator.php:452
+#: inc/shortcode_generator.php:455 inc/shortcode_generator.php:595 inc/shortcode_generator.php:598
+msgid "List"
+msgstr "รายการ"
+
+#: inc/settings.php:237 inc/shortcode_generator.php:453 inc/shortcode_generator.php:596
+msgid "Icon"
+msgstr "ไอคอน"
+
+#: inc/settings.php:240
+msgid "You can select any view for File Manager."
+msgstr "คุณสามารถเลือกมุมมองใดก็ได้สำหรับตัวจัดการไฟล์"
+
+#: inc/settings.php:244
+msgid "Enable \"Insert File Manager Shortcode\" Button with Content Editor ?"
+msgstr "เปิดใช้งานปุ่ม \"แทรกรหัสย่อตัวจัดการไฟล์\" ด้วยตัวแก้ไขเนื้อหา ?"
+
+#: inc/settings.php:248
+msgid "Enable \"Insert File Manager Shortcode\" button in edit page screen with classic editor."
+msgstr "เปิดใช้งานปุ่ม \"แทรกรหัสย่อของตัวจัดการไฟล์\" ในหน้าจอแก้ไขหน้าด้วยตัวแก้ไขแบบคลาสสิก"
+
+#: inc/settings.php:252
+msgid "Disable Local File System ?"
+msgstr "ปิดการใช้งานระบบไฟล์ในเครื่อง ?"
+
+#: inc/settings.php:256
+msgid "Check to disable Local File System in File Manager."
+msgstr "เลือกเพื่อปิดใช้งาน Local File System ในตัวจัดการไฟล์"
+
+#: inc/settings.php:261
+msgid "Disable Database Manager ?"
+msgstr "ปิดการใช้งานตัวจัดการฐานข้อมูล ?"
+
+#: inc/settings.php:265
+msgid "Check to disable Database Manager."
+msgstr "เลือกเพื่อปิดใช้งานตัวจัดการฐานข้อมูล"
+
+#: inc/settings.php:276
+msgid "Code editor allow fullscreen?"
+msgstr "ตัวแก้ไขโค้ดอนุญาตให้แสดงเต็มหน้าจอหรือไม่"
+
+#: inc/settings.php:277
+msgid "Check to allow fullscreen code editor"
+msgstr "เลือกเพื่ออนุญาตโปรแกรมแก้ไขโค้ดแบบเต็มหน้าจอ"
+
+#: inc/settings.php:281
+msgid "Select theme for Code Editor."
+msgstr "เลือกธีมสำหรับตัวแก้ไขโค้ด"
+
+#: inc/settings.php:289
+msgid ""
+"Select theme for Code Editor. For more information please visit <a href=\"http://codemirror.net/"
+"demo/theme.html\" target=\"_blank\">this link</a>."
+msgstr ""
+"เลือกธีมสำหรับตัวแก้ไขโค้ด สำหรับข้อมูลเพิ่มเติม โปรดไปที่<a href=\"http://codemirror.net/demo/theme.html\" "
+"target=\"_blank\">ลิงก์นี้</a>"
+
+#: inc/settings.php:298
+msgid "Disable or Ban WP File Manager Operations to User Roles"
+msgstr "ปิดใช้งานหรือห้ามการทำงานของตัวจัดการไฟล์ WP ให้กับบทบาทผู้ใช้"
+
+#: inc/settings.php:299
+msgid "Select user role and disable operation."
+msgstr "เลือกบทบาทของผู้ใช้และปิดใช้งานการดำเนินการ"
+
+#: inc/settings.php:304 inc/settings.php:491
+msgid "Click to Add Rules"
+msgstr "คลิกเพื่อเพิ่มกฎ"
+
+#: inc/settings.php:305
+msgid "Add rule for User Roles"
+msgstr "เพิ่มกฎสำหรับบทบาทของผู้ใช้"
+
+#: inc/settings.php:313 inc/settings.php:396
+msgid "If User role is"
+msgstr "หากบทบาทของผู้ใช้คือ"
+
+#: inc/settings.php:315 inc/settings.php:398
+msgid "Select User Role"
+msgstr "เลือกบทบาทของผู้ใช้"
+
+#: inc/settings.php:320 inc/settings.php:406 inc/settings.php:508 inc/settings.php:589
+msgid "Then"
+msgstr "แล้ว"
+
+#: inc/settings.php:329 inc/settings.php:415 inc/settings.php:517 inc/settings.php:599
+msgid "Disable Operations"
+msgstr "ปิดการทำงาน Operation"
+
+#: inc/settings.php:342 inc/settings.php:435 inc/settings.php:528 inc/settings.php:620
+msgid "Separate or private folder access <strong>e.g wp-content/themes</strong> etc."
+msgstr "การเข้าถึงโฟลเดอร์แยกหรือส่วนตัว <strong>เช่น wp-content/themes</strong> เป็นต้น"
+
+#: inc/settings.php:345 inc/settings.php:353 inc/settings.php:361 inc/settings.php:438
+#: inc/settings.php:446 inc/settings.php:454 inc/settings.php:531 inc/settings.php:539
+#: inc/settings.php:547 inc/settings.php:623 inc/settings.php:631 inc/settings.php:639
+msgid "Note:"
+msgstr "บันทึก:"
+
+#: inc/settings.php:345 inc/settings.php:438 inc/settings.php:531 inc/settings.php:623
+msgid "It will overide \"Private Folder Access\" settings"
+msgstr "มันจะแทนที่การตั้งค่า \"การเข้าถึงโฟลเดอร์ส่วนตัว\""
+
+#: inc/settings.php:350 inc/settings.php:443 inc/settings.php:536 inc/settings.php:628
+msgid ""
+"Enter Folder or Files Paths That You want to <strong>Hide</strong> e.g wp-content/themes|wp-content/"
+"plugins."
+msgstr "ป้อนเส้นทางโฟลเดอร์หรือไฟล์ที่คุณต้องการ <strong>ซ่อน</strong> เช่น wp-content/themes|wp-content/plugins"
+
+#: inc/settings.php:353 inc/settings.php:446 inc/settings.php:539 inc/settings.php:631
+msgid "Multiple separated by Vertical Bar (|)."
+msgstr "หลายรายการคั่นด้วยแถบแนวตั้ง (|)"
+
+#: inc/settings.php:358 inc/settings.php:451 inc/settings.php:544 inc/settings.php:636
+msgid "Enter file extensions which you want to Lock. <strong>e.g .php|.png|.css</strong> etc"
+msgstr "ป้อนนามสกุลไฟล์ที่คุณต้องการล็อก <strong>เช่น .php|.png|.css</strong> เป็นต้น"
+
+#: inc/settings.php:361 inc/settings.php:454 inc/settings.php:547 inc/settings.php:639
+msgid ""
+"The extensions in the option are case sensitive and should be separated by vertical bar (|) without "
+"having white space between them. e.g. php,PHP"
+msgstr ""
+"ส่วนขยายในตัวเลือกต้องคำนึงถึงตัวพิมพ์เล็กและตัวพิมพ์ใหญ่และควรคั่นด้วยแถบแนวตั้ง (|) โดยไม่มีช่องว่างระหว่างกัน เช่น. php,PHP"
+
+#: inc/settings.php:366 inc/settings.php:459 inc/settings.php:552 inc/settings.php:644
+msgid "Disable Toolbar and Context Menu"
+msgstr "ปิดการใช้งานแถบเครื่องมือและเมนูบริบท"
+
+#: inc/settings.php:372 inc/settings.php:464 inc/settings.php:557 inc/settings.php:648
+msgid "Disable Toolbar"
+msgstr "ปิดการใช้งานแถบเครื่องมือ"
+
+#: inc/settings.php:377 inc/settings.php:464 inc/settings.php:558 inc/settings.php:648
+msgid "Disable Context Menu"
+msgstr "ปิดการใช้งานเมนูบริบท"
+
+#: inc/settings.php:385 inc/settings.php:473 inc/settings.php:567 inc/settings.php:654
+msgid "Remove"
+msgstr "ลบ"
+
+#: inc/settings.php:485
+msgid "Disable or Ban WP File Manager Operations to Users"
+msgstr "ปิดการใช้งานหรือห้ามการทำงานของตัวจัดการไฟล์ WP ให้กับผู้ใช้"
+
+#: inc/settings.php:486
+msgid "Select users and disable operation."
+msgstr "เลือกผู้ใช้และปิดการทำงาน"
+
+#: inc/settings.php:492
+msgid "Add rule for Users"
+msgstr "เพิ่มกฎสำหรับผู้ใช้"
+
+#: inc/settings.php:501 inc/settings.php:581
+msgid "If User is"
+msgstr "เพิ่มกฎสำหรับผู้ใช้"
+
+#: inc/settings.php:503 inc/settings.php:583
+msgid "Select User"
+msgstr "เลือกผู้ใช้"
+
+#: inc/settings.php:664
+msgid "Select the pages where you want to show the File Manager on Frontend"
+msgstr "เลือกหน้าที่คุณต้องการแสดง File Manager บน Frontend"
+
+#: inc/settings.php:666
+msgid "Select Pages"
+msgstr "เลือกหน้า"
+
+#: inc/settings.php:676
+msgid ""
+"<strong>Note:</strong> It will not work if already using any File Manager shortcode in selected "
+"page editor."
+msgstr "<strong>หมายเหตุ:</strong> จะใช้ไม่ได้หากใช้รหัสย่อของตัวจัดการไฟล์ในตัวแก้ไขหน้าที่เลือกอยู่แล้ว"
+
+#: inc/settings.php:680
+msgid "Display File Manager ?"
+msgstr "ตัวจัดการไฟล์แสดง ?"
+
+#: inc/settings.php:683
+msgid "After Content"
+msgstr "หลังเนื้อหา"
+
+#: inc/settings.php:684
+msgid "Before Content"
+msgstr "ก่อนเนื้อหา"
+
+#: inc/settings.php:687
+msgid "Default: After Content"
+msgstr "ค่าเริ่มต้น: หลังเนื้อหา"
+
+#: inc/settings.php:691 inc/shortcode_listing.php:44
+msgid "Shortcode"
+msgstr "รหัสย่อ"
+
+#: inc/settings.php:693
+msgid "Paste the shortcode here"
+msgstr "วางรหัสย่อที่นี่"
+
+#: inc/settings.php:694
+msgid ""
+"You can generate new shortcode from the <a href='admin.php?"
+"page=wp_file_manager_existing_shortcodes'>Shortcode Generator</a> of File Manager."
+msgstr ""
+"คุณสามารถสร้างรหัสย่อใหม่ได้จาก <a href='admin.php?page=wp_file_manager_existing_shortcodes'>ตัวสร้างรหัสย่อ</"
+"a> ของตัวจัดการไฟล์"
+
+#: inc/settings.php:695
+msgid "Shortcode will work on selected pages. Help is given below to edit parameters:"
+msgstr "รหัสย่อจะทำงานบนหน้าที่เลือก ความช่วยเหลือได้รับด้านล่างเพื่อแก้ไขพารามิเตอร์:"
+
+#: inc/settings.php:696
+msgid "Shortcode Help:"
+msgstr "ความช่วยเหลือเกี่ยวกับรหัสย่อ:"
+
+#: inc/settings.php:696
+msgid "<a href='https://filemanagerpro.io/shortcodes/' target='_blank'>Documentation</a>"
+msgstr "<a href='https://filemanagerpro.io/shortcodes/' target='_blank'>เอกสารประกอบ</a>"
+
+#: inc/settings.php:731 inc/settings.php:773
+msgid "Please select user from the previously added rule before adding new!"
+msgstr "โปรดเลือกผู้ใช้จากกฎที่เพิ่มไว้ก่อนหน้านี้ก่อนที่จะเพิ่มใหม่!"
+
+#: inc/settings.php:833 inc/settings.php:847
+msgid "Please select user in the added user restriction rule before saving."
+msgstr "โปรดเลือกผู้ใช้ในกฎการจำกัดผู้ใช้ที่เพิ่มก่อนบันทึก"
+
+#: inc/shortcode.php:114
+msgid "Welcome: "
+msgstr "ยินดีต้อนรับ: "
+
+#: inc/shortcode.php:323 inc/shortcode_admin_control.php:115
+msgid "Sorry, you are not allowed to access this page."
+msgstr "ขออภัย คุณไม่ได้รับอนุญาตให้เข้าถึงหน้านี้"
+
+#: inc/shortcode.php:330 inc/shortcode_admin_control.php:118
+msgid "Please login to access file manager."
+msgstr "กรุณาเข้าสู่ระบบเพื่อเข้าถึงตัวจัดการไฟล์"
+
+#: inc/shortcode_docs.php:11
+msgid "Shortcodes"
+msgstr "รหัสย่อ"
+
+#: inc/shortcode_generator.php:42 inc/shortcode_generator.php:55 inc/shortcode_generator.php:62
+msgid "Error in creating shortcode. Invalid shortcode."
+msgstr "เกิดข้อผิดพลาดในการสร้างรหัสย่อ รหัสย่อไม่ถูกต้อง"
+
+#: inc/shortcode_generator.php:250
+msgid "Click to get list of all shortcodes"
+msgstr "คลิกเพื่อรับรายการรหัสย่อทั้งหมด"
+
+#: inc/shortcode_generator.php:250
+msgid "All Shortcodes"
+msgstr "รหัสย่อทั้งหมด"
+
+#: inc/shortcode_generator.php:253
+msgid "Click to create new shortcode"
+msgstr "คลิกเพื่อสร้างรหัสย่อใหม่"
+
+#: inc/shortcode_generator.php:253 inc/shortcode_listing.php:24
+msgid "Generate New Shortcode"
+msgstr "สร้างรหัสย่อใหม่"
+
+#: inc/shortcode_generator.php:263
+msgid "Logged in users"
+msgstr "ผู้ใช้ที่เข้าสู่ระบบ"
+
+#: inc/shortcode_generator.php:269
+msgid "Non logged in users"
+msgstr "ผู้ใช้ที่ไม่ได้เข้าสู่ระบบ"
+
+#: inc/shortcode_generator.php:275
+msgid "From existing shortcode"
+msgstr "จากรหัสย่อที่มีอยู่"
+
+#: inc/shortcode_generator.php:288 inc/shortcode_generator.php:492 inc/shortcode_generator.php:635
+#, php-format
+msgid ""
+"Your shortcode <span style='background-color:#e5e5e5;'>%s</span> has been generated successfully. "
+"Copy this shortcode and paste it in your pages."
+msgstr ""
+"รหัสย่อ <span style='background-color:#e5e5e5;'>%s</span> ของคุณถูกสร้างขึ้นเรียบร้อยแล้ว "
+"คัดลอกรหัสย่อนี้แล้ววางลงในหน้าเว็บของคุณ"
+
+#: inc/shortcode_generator.php:290 inc/shortcode_generator.php:494
+msgid "Your shortcode settings has been updated successfully."
+msgstr "อัปเดตการตั้งค่ารหัสย่อของคุณเรียบร้อยแล้ว"
+
+#: inc/shortcode_generator.php:295 inc/shortcode_generator.php:498 inc/shortcode_generator.php:639
+msgid "Shortcode Title"
+msgstr "ชื่อย่อ"
+
+#: inc/shortcode_generator.php:297 inc/shortcode_generator.php:500 inc/shortcode_generator.php:641
+msgid "Enter shortcode title"
+msgstr "ใส่ชื่อย่อ"
+
+#: inc/shortcode_generator.php:298 inc/shortcode_generator.php:501 inc/shortcode_generator.php:642
+msgid "It is required to identify the shortcode you are going to use."
+msgstr "จำเป็นต้องระบุรหัสย่อที่คุณจะใช้"
+
+#: inc/shortcode_generator.php:299 inc/shortcode_generator.php:502 inc/shortcode_generator.php:643
+#: inc/shortcode_generator.php:653
+msgid "This field can not be empty."
+msgstr "ฟิลด์นี้ไม่สามารถเว้นว่างได้"
+
+#: inc/shortcode_generator.php:300 inc/shortcode_generator.php:503 inc/shortcode_generator.php:644
+msgid "Title with this name already exists. Please choose another title."
+msgstr "มีชื่อที่ใช้ชื่อนี้แล้ว โปรดเลือกชื่ออื่น"
+
+#: inc/shortcode_generator.php:304
+msgid "Allowed Roles"
+msgstr "บทบาทที่อนุญาต"
+
+#: inc/shortcode_generator.php:318
+msgid "All"
+msgstr "ทั้งหมด"
+
+#: inc/shortcode_generator.php:338
+msgid ""
+"It will allow all roles to access file manager on front end. All will apply for all available user "
+"roles."
+msgstr "จะอนุญาตให้ทุกบทบาทเข้าถึงตัวจัดการไฟล์ที่ส่วนหน้า ทั้งหมดจะนำไปใช้กับบทบาทของผู้ใช้ที่มีอยู่ทั้งหมด"
+
+#: inc/shortcode_generator.php:339
+msgid "Please choose at least one user role."
+msgstr "โปรดเลือกบทบาทของผู้ใช้อย่างน้อยหนึ่งบทบาท"
+
+#: inc/shortcode_generator.php:344 inc/shortcode_generator.php:507
+msgid "Access Folder"
+msgstr "เข้าถึงโฟลเดอร์"
+
+#: inc/shortcode_generator.php:348 inc/shortcode_generator.php:510
+msgid "Path of the folder to display e.g wp-content/uploads"
+msgstr "เส้นทางของโฟลเดอร์ที่จะแสดง เช่น wp-content/uploads"
+
+#: inc/shortcode_generator.php:349 inc/shortcode_generator.php:511
+msgid "Root directory"
+msgstr "ไดเรกทอรีราก"
+
+#: inc/shortcode_generator.php:350 inc/shortcode_generator.php:512
+msgid ""
+"eg. You can put \"test\" as a name of folder which is located on root directory, or you can give "
+"path for sub folders as like \"wp-content/plugins\". If leave blank or empty it will access all "
+"folders on root directory. If you put * then it will auto creates user folders with their username."
+msgstr ""
+"เช่น. คุณสามารถใส่ \"test\" เป็นชื่อโฟลเดอร์ที่อยู่บนไดเร็กทอรี root หรือคุณสามารถกำหนดเส้นทางสำหรับโฟลเดอร์ย่อยได้เช่น "
+"\"wp-content/plugins\" หากปล่อยว่างหรือว่างไว้ ระบบจะเข้าถึงโฟลเดอร์ทั้งหมดในไดเร็กทอรีราก หากคุณใส่ * "
+"มันจะสร้างโฟลเดอร์ผู้ใช้ด้วยชื่อผู้ใช้โดยอัตโนมัติ"
+
+#: inc/shortcode_generator.php:355 inc/shortcode_generator.php:517
+msgid "Allowed Operations"
+msgstr "อนุญาตให้ดำเนินการ"
+
+#: inc/shortcode_generator.php:373 inc/shortcode_generator.php:535
+msgid "For all operations and to allow some operation you can choose operations name from the list."
+msgstr "สำหรับการดำเนินการทั้งหมดและเพื่ออนุญาตให้ดำเนินการบางอย่าง คุณสามารถเลือกชื่อการดำเนินการจากรายการได้"
+
+#: inc/shortcode_generator.php:378
+msgid "Ban User IDs"
+msgstr "แบน ID ผู้ใช้"
+
+#: inc/shortcode_generator.php:389 inc/wpfmlogs.php:76 inc/wpfmlogs.php:158 inc/wpfmlogs.php:241
+msgid "User ID"
+msgstr "ID ผู้ใช้"
+
+#: inc/shortcode_generator.php:394
+msgid ""
+"To ban specific user from accessing file manager on frontend then you can choose the users from the "
+"list."
+msgstr "หากต้องการแบนผู้ใช้บางรายไม่ให้เข้าถึงตัวจัดการไฟล์ที่ส่วนหน้า คุณสามารถเลือกผู้ใช้จากรายการได้"
+
+#: inc/shortcode_generator.php:398 inc/shortcode_generator.php:540
+msgid "Hide Files"
+msgstr "ซ่อนไฟล์"
+
+#: inc/shortcode_generator.php:400
+msgid "Hide files from access folder e.g. wp-content/plugins,wp-config.php etc"
+msgstr "ซ่อนไฟล์จากโฟลเดอร์การเข้าถึงเช่น wp-content/plugins,wp-config.php เป็นต้น"
+
+#: inc/shortcode_generator.php:402
+msgid ""
+"It will hide the files and folder mentioned here. <br><strong>Note:</strong> This option is case "
+"sensitive and should be comma(,) separated without having white space between them."
+msgstr ""
+"มันจะซ่อนไฟล์และโฟลเดอร์ที่กล่าวถึงที่นี่ <br><strong>หมายเหตุ:</strong> "
+"ตัวเลือกนี้คำนึงถึงขนาดตัวพิมพ์และควรคั่นด้วยเครื่องหมายจุลภาค (,) โดยไม่มีช่องว่างระหว่างตัวเลือก"
+
+#: inc/shortcode_generator.php:406 inc/shortcode_generator.php:549
+msgid "Lock Extensions"
+msgstr "ล็อคส่วนขยาย"
+
+#: inc/shortcode_generator.php:408 inc/shortcode_generator.php:551
+msgid "Restrict extensions e.g. .php,.css OR php,css"
+msgstr "จำกัดส่วนขยายเช่น .php,.css หรือ php,css"
+
+#: inc/shortcode_generator.php:410 inc/shortcode_generator.php:553
+msgid ""
+"It will lock files mentioned in commas without white space between them. You can lock more as like "
+"\".php,.css,.js\" etc.<br><span class=\"highlighted\"><strong>Note:</strong> The extensions in the "
+"option are case sensitive and should be comma(,) separated without having white space between them. "
+"e.g. php,PHP</span>"
+msgstr ""
+"มันจะล็อกไฟล์ที่กล่าวถึงในเครื่องหมายจุลภาคโดยไม่มีช่องว่างระหว่างกัน คุณสามารถล็อกได้มากขึ้นเช่น \".php,.css,.js\" "
+"เป็นต้น<br><span class=\"highlighted\"><strong>หมายเหตุ:</strong> "
+"ส่วนขยายในตัวเลือกจะคำนึงถึงขนาดตัวพิมพ์และควรเป็นเครื่องหมายจุลภาค (,) แยกออกจากกันโดยไม่มีช่องว่างระหว่างกัน เช่น. "
+"php,PHP</span>"
+
+#: inc/shortcode_generator.php:415 inc/shortcode_generator.php:558
+msgid "Select Filemanager Language"
+msgstr "เลือกภาษาของตัวจัดการไฟล์"
+
+#: inc/shortcode_generator.php:426 inc/shortcode_generator.php:569
+msgid "You can select any language for filemanager."
+msgstr "คุณสามารถเลือกภาษาใดก็ได้สำหรับตัวจัดการไฟล์"
+
+#: inc/shortcode_generator.php:431 inc/shortcode_generator.php:574
+msgid "Select Filemanager Theme"
+msgstr "เลือกธีมตัวจัดการไฟล์"
+
+#: inc/shortcode_generator.php:443 inc/shortcode_generator.php:586
+msgid "You can select any theme for filemanager."
+msgstr "คุณสามารถเลือกธีมใดก็ได้สำหรับตัวจัดการไฟล์"
+
+#: inc/shortcode_generator.php:456 inc/shortcode_generator.php:599
+msgid "You can select any view for filemanager."
+msgstr "คุณสามารถเลือกมุมมองใดก็ได้สำหรับตัวจัดการไฟล์"
+
+#: inc/shortcode_generator.php:461 inc/shortcode_generator.php:603
+msgid "Date Format"
+msgstr "รูปแบบวันที่"
+
+#: inc/shortcode_generator.php:471 inc/shortcode_generator.php:613
+msgid "You can select any date format for filemanager modified date."
+msgstr "คุณสามารถเลือกรูปแบบวันที่ใดก็ได้สำหรับวันที่แก้ไขตัวจัดการไฟล์"
+
+#: inc/shortcode_generator.php:477 inc/shortcode_generator.php:619
+msgid "Update Shortcode"
+msgstr "อัปเดตรหัสย่อ"
+
+#: inc/shortcode_generator.php:477 inc/shortcode_generator.php:619 inc/shortcode_generator.php:659
+msgid "Generate Shortcode"
+msgstr "สร้างรหัสย่อ"
+
+#: inc/shortcode_generator.php:542
+msgid "Hide files from access folder e.g. test1,folder/test2 etc"
+msgstr "ซ่อนไฟล์จากโฟลเดอร์การเข้าถึงเช่น test1,folder/test2 เป็นต้น"
+
+#: inc/shortcode_generator.php:544
+msgid ""
+"It will hide the files and folder mentioned here. Note: This option is case sensitive and should be "
+"comma(,) separated without having white space between them."
+msgstr ""
+"มันจะซ่อนไฟล์และโฟลเดอร์ที่กล่าวถึงที่นี่ หมายเหตุ: ตัวเลือกนี้คำนึงถึงขนาดตัวพิมพ์และควรคั่นด้วยเครื่องหมายจุลภาค (,) "
+"โดยไม่มีช่องว่างระหว่างตัวเลือก"
+
+#: inc/shortcode_generator.php:648
+msgid "Generate New Shortcode from existing one"
+msgstr "สร้างรหัสย่อใหม่จากรหัสที่มีอยู่"
+
+#: inc/shortcode_generator.php:651
+msgid "Paste the shortcode which you are using in your page/post"
+msgstr "วางรหัสย่อที่คุณใช้ในหน้า/โพสต์ของคุณ"
+
+#: inc/shortcode_generator.php:652
+msgid "This will convert the existing shortcode to the new shortcode format."
+msgstr "การดำเนินการนี้จะแปลงรหัสย่อที่มีอยู่เป็นรูปแบบรหัสย่อใหม่"
+
+#: inc/shortcode_listing.php:23
+msgid "Existing Shortcode(s)"
+msgstr "รหัสย่อที่มีอยู่"
+
+#: inc/shortcode_listing.php:24
+msgid "Click to go back to the shortcode generator"
+msgstr "คลิกเพื่อกลับไปยังโปรแกรมสร้างรหัสย่อ"
+
+#: inc/shortcode_listing.php:28
+msgid "Shortcode has been deleted successfully."
+msgstr "ลบรหัสย่อเรียบร้อยแล้ว"
+
+#: inc/shortcode_listing.php:30
+msgid "Shortcode(s) has been deleted successfully."
+msgstr "ลบรหัสย่อสำเร็จแล้ว"
+
+#: inc/shortcode_listing.php:43
+msgid "Title"
+msgstr "ชื่อ"
+
+#: inc/shortcode_listing.php:61 inc/shortcode_listing.php:84 inc/shortcode_listing.php:160
+#: inc/shortcode_listing.php:176 inc/shortcode_listing.php:216
+msgid "Copy to clipboard"
+msgstr "คัดลอกไปที่คลิปบอร์ด"
+
+#: inc/shortcode_listing.php:63
+msgid "Are you sure you want to delete this shortcode?"
+msgstr "คุณแน่ใจหรือไม่ว่าต้องการลบรหัสย่อนี้"
+
+#: inc/shortcode_listing.php:64 inc/shortcode_listing.php:77
+msgid "Customize Shortcode"
+msgstr "ปรับแต่งรหัสย่อ"
+
+#: inc/shortcode_listing.php:87
+msgid ""
+"Copy above filter code and paste it in your theme's functions.php file or in your plugin file to "
+"customize shortcode values as per your requirement."
+msgstr ""
+"คัดลอกโค้ดตัวกรองด้านบนแล้ววางลงในไฟล์ functions.php "
+"ของธีมของคุณหรือในไฟล์ปลั๊กอินของคุณเพื่อปรับแต่งค่ารหัสย่อตามความต้องการของคุณ"
+
+#: inc/shortcode_listing.php:106 inc/shortcode_listing.php:108
+msgid "Showing"
+msgstr "กำลังแสดง"
+
+#: inc/shortcode_listing.php:106 inc/shortcode_listing.php:108
+msgid "entries"
+msgstr "รายการ"
+
+#: inc/shortcode_listing.php:110
+msgid "No shortcode found"
+msgstr "ไม่พบรหัสย่อ"
+
+#: inc/shortcode_listing.php:131
+msgid "Delete All Selected"
+msgstr "ลบที่เลือกทั้งหมด"
+
+#: inc/shortcode_listing.php:170 inc/shortcode_listing.php:210
+msgid "Copied"
+msgstr "คัดลอกแล้ว"
+
+#: inc/shortcode_listing.php:171 inc/shortcode_listing.php:211
+msgid "Copied to clipboard"
+msgstr "คัดลอกไปยังคลิปบอร์ดแล้ว"
+
+#: inc/shortcode_listing.php:221
+msgid "Are you sure you want to delete selected shortcode(s)?"
+msgstr "คุณแน่ใจหรือไม่ว่าต้องการลบรหัสย่อที่เลือก"
+
+#: inc/shortcode_listing.php:229
+msgid "Please select atleast one shortcode from the list."
+msgstr "โปรดเลือกรหัสย่ออย่างน้อยหนึ่งรายการจากรายการ"
+
+#: inc/verify.php:9
+msgid "License Verification"
+msgstr "การตรวจสอบใบอนุญาต"
+
+#: inc/verify.php:11
+msgid ""
+"To unlock updates, please enter your order id and license key below. If you don't have a licence "
+"key, <a href=\"https://filemanagerpro.io/product/file-manager/\" target=\"_blank\" class=\"page-"
+"title-action buy-link\" title=\"click to buy Licence Key\">please see details & pricing</a>."
+msgstr ""
+"หากต้องการปลดล็อกการอัปเดต โปรดป้อนรหัสคำสั่งซื้อและรหัสใบอนุญาตด้านล่าง หากคุณไม่มีรหัสใบอนุญาต <a href=\"https://"
+"filemanagerpro.io/product/file-manager/\" target=\"_blank\" class=\"page-title-action buy-link\" "
+"title=\" คลิกเพื่อซื้อรหัสใบอนุญาต\">โปรดดูรายละเอียดและราคา</a>"
+
+#: inc/verify.php:23
+msgid "ORDER ID (#) *"
+msgstr "รหัสคำสั่งซื้อ (#) *"
+
+#: inc/verify.php:24
+msgid "Please Check Your email for order ID."
+msgstr "โปรดตรวจสอบอีเมลของคุณสำหรับรหัสคำสั่งซื้อ"
+
+#: inc/verify.php:27
+msgid "LICENCE KEY *"
+msgstr "คีย์ใบอนุญาต *"
+
+#: inc/verify.php:28
+msgid "Please Check Your email for Licence Key."
+msgstr "โปรดตรวจสอบอีเมลของคุณสำหรับรหัสใบอนุญาต"
+
+#: inc/wpfmlogs.php:51
+msgid ""
+"To enable logs, go to <a href=\"admin.php?page=wp_file_manager_settings\">General Settings Tab</a> -"
+"> Check \"Send Notifications to admin on file upload \" , \"Send Notifications to admin on file "
+"download\" and \"Send Notifications to admin on file edit\" options."
+msgstr ""
+"หากต้องการเปิดใช้งานบันทึก ให้ไปที่ <a href=\"admin.php?page=wp_file_manager_settings\">แท็บการตั้งค่าทั่วไป</a> -"
+"> เลือก \"ส่งการแจ้งเตือนไปยังผู้ดูแลระบบในการอัปโหลดไฟล์ \" , \"ส่งการแจ้งเตือนไปยังผู้ดูแลระบบเมื่อดาวน์โหลดไฟล์\" และ "
+"ตัวเลือก \"ส่งการแจ้งเตือนไปยังผู้ดูแลระบบในการแก้ไขไฟล์\""
+
+#: inc/wpfmlogs.php:53 inc/wpfmlogs.php:61
+msgid "Edited Files"
+msgstr "ไฟล์ที่แก้ไข"
+
+#: inc/wpfmlogs.php:54 inc/wpfmlogs.php:145
+msgid "Downloaded Files"
+msgstr "ไฟล์ที่ดาวน์โหลด"
+
+#: inc/wpfmlogs.php:55
+msgid "Uploaded Files"
+msgstr "ไฟล์ที่อัพโหลด"
+
+#: inc/wpfmlogs.php:64 inc/wpfmlogs.php:148 inc/wpfmlogs.php:231
+msgid "Bulk Actions"
+msgstr "การดำเนินการเป็นกลุ่ม"
+
+#: inc/wpfmlogs.php:67 inc/wpfmlogs.php:151 inc/wpfmlogs.php:234
+msgid "Apply"
+msgstr "นำมาใช้"
+
+#: inc/wpfmlogs.php:75 inc/wpfmlogs.php:157 inc/wpfmlogs.php:240
+msgid "Sr No."
+msgstr "นายเลขที่"
+
+#: inc/wpfmlogs.php:77 inc/wpfmlogs.php:159 inc/wpfmlogs.php:242
+msgid "User Name"
+msgstr "ชื่อผู้ใช้"
+
+#: inc/wpfmlogs.php:78 inc/wpfmlogs.php:160 inc/wpfmlogs.php:243
+msgid "Files"
+msgstr "ไฟล์"
+
+#: inc/wpfmlogs.php:79 inc/wpfmlogs.php:161 inc/wpfmlogs.php:244
+msgid "Date"
+msgstr "วันที่"
+
+#: inc/wpfmlogs.php:93 inc/wpfmlogs.php:175 inc/wpfmlogs.php:258
+msgid "Are you sure want to delete?"
+msgstr "คุณแน่ใจหรือไม่ว่าต้องการลบ"
+
+#: inc/wpfmlogs.php:98 inc/wpfmlogs.php:180 inc/wpfmlogs.php:265
+msgid "No log(s) found!"
+msgstr "ไม่พบบันทึก!"
+
+#: inc/wpfmlogs.php:108 inc/wpfmlogs.php:190 inc/wpfmlogs.php:275
+msgid "Showing "
+msgstr "กำลังแสดง"
+
+#: inc/wpfmlogs.php:108 inc/wpfmlogs.php:190 inc/wpfmlogs.php:275
+msgid " entries"
+msgstr "รายการ"
+
+#: inc/wpfmlogs.php:228
+msgid "Uploaded File"
+msgstr "ไฟล์ที่อัพโหลด"
+
+#: inc/wpfmlogs.php:374
+msgid "Are you sure want to remove selected log(s)?"
+msgstr "คุณแน่ใจหรือไม่ว่าต้องการลบบันทึกที่เลือก"
+
+#: inc/wpfmlogs.php:395
+msgid "Please select delete action!"
+msgstr "โปรดเลือกการดำเนินการลบ!"
+
+#: js/jquery-ui.min.js:8 lib/jquery/jquery-ui-1.11.4.js:8
+msgid "'"
+msgstr ""
+
+#: lib/wpfilemanager.php:445
+msgid " WP File Manager PRO "
+msgstr "ตัวจัดการไฟล์ WP PRO "
+
+#: plugin-update-checker/Puc/v4p5/Plugin/Ui.php:54
+msgid "View details"
+msgstr "ดูรายละเอียด"
+
+#: plugin-update-checker/Puc/v4p5/Plugin/Ui.php:77
+#, php-format
+msgid "More information about %s"
+msgstr "ข้อมูลเพิ่มเติมเกี่ยวกับ %s"
+
+#: plugin-update-checker/Puc/v4p5/Plugin/Ui.php:128
+msgid "Check for updates"
+msgstr "ตรวจสอบสำหรับการอัพเดต"
+
+#: plugin-update-checker/Puc/v4p5/Plugin/Ui.php:223
+#, php-format
+msgid "Unknown update checker status \"%s\""
+msgstr "สถานะตัวตรวจสอบการอัปเดตที่ไม่รู้จัก \"%s\""
+
+#: plugin-update-checker/Puc/v4p5/Vcs/PluginUpdateChecker.php:98
+msgid "There is no changelog available."
+msgstr "ไม่มีบันทึกการเปลี่ยนแปลง"
+
+#~ msgid "Manage your WP files."
+#~ msgstr "จัดการไฟล์ WP ของคุณ"
+
+#~ msgid "WP File Manager - PRO"
+#~ msgstr "ตัวจัดการไฟล์ WP - PRO"
+
+#~ msgid "<span class=\"fm_console_error\">Nothing selected for backup</span>"
+#~ msgstr "<span class=\"fm_console_error\">ไม่ได้เลือกไว้สำหรับการสำรองข้อมูล</span>"
+
+#~ msgid "<span class=\"fm_console_success\">Database backup done.</span>"
+#~ msgstr "<span class=\"fm_console_success\">สำรองข้อมูลฐานข้อมูลเรียบร้อยแล้ว</span>"
+
+#~ msgid "<span class=\"fm_console_error\">Unable to create database backup.</span>"
+#~ msgstr "<span class=\"fm_console_error\">สร้างการสำรองฐานข้อมูลไม่ได้</span>"
+
+#~ msgid "<span class=\"fm_console_success\">Plugins backup done.</span>"
+#~ msgstr "<span class=\"fm_console_success\">สำรองข้อมูลปลั๊กอินเสร็จแล้ว</span>"
+
+#~ msgid "<span class=\"fm_console_error\">Plugins backup failed.</span>"
+#~ msgstr "<span class=\"fm_console_error\">การสำรองข้อมูลปลั๊กอินล้มเหลว</span>"
+
+#~ msgid "<span class=\"fm_console_success\">Themes backup done.</span>"
+#~ msgstr "<span class=\"fm_console_success\">สำรองข้อมูลธีมเสร็จแล้ว</span>"
+
+#~ msgid "<span class=\"fm_console_error\">Themes backup failed.</span>"
+#~ msgstr "<span class=\"fm_console_error\">การสำรองข้อมูลธีมล้มเหลว</span>"
+
+#~ msgid "<span class=\"fm_console_success\">Uploads backup done.</span>"
+#~ msgstr "<span class=\"fm_console_success\">อัปโหลดการสำรองข้อมูลเสร็จแล้ว</span>"
+
+#~ msgid "<span class=\"fm_console_error\">Uploads backup failed.</span>"
+#~ msgstr "<span class=\"fm_console_error\">การสำรองข้อมูลการอัปโหลดล้มเหลว</span>"
+
+#~ msgid "<span class=\"fm_console_success\">Others backup done.</span>"
+#~ msgstr "<span class=\"fm_console_success\">สำรองข้อมูลอื่นๆ เรียบร้อยแล้ว</span>"
+
+#~ msgid "<span class=\"fm_console_error\">Others backup failed.</span>"
+#~ msgstr "<span class=\"fm_console_error\">การสำรองข้อมูลอื่นๆ ล้มเหลว</span>"
+
+#~ msgid "<span class=\"fm_console_success\">All done</span>"
+#~ msgstr "<span class=\"fm_console_success\">เสร็จสิ้น</span>"
+
+#~ msgid "Database"
+#~ msgstr "ฐานข้อมูล"
+
+#~ msgid "<span class=\"fm_console_error\">Security Issue.</span>"
+#~ msgstr "<span class=\"fm_console_error\">ปัญหาด้านความปลอดภัย</span>"
+
+#~ msgid "System Properties"
+#~ msgstr "คุณสมบัติของระบบ"
+
+#~ msgid "Backup / Restore"
+#~ msgstr "สำรอง / กู้คืน"
+
+#~ msgid "Donate"
+#~ msgstr "บริจาค"
+
+#~ msgid "WP File Manager Contribution"
+#~ msgstr "การสนับสนุนตัวจัดการไฟล์ WP"
+
+#~ msgid "Note: These are demo screenshots. Please buy File Manager pro to Logs functions."
+#~ msgstr "หมายเหตุ: นี่เป็นภาพหน้าจอสาธิต โปรดซื้อฟังก์ชัน File Manager pro to Logs"
+
+#~ msgid "Buy PRO"
+#~ msgstr "ซื้อโปร"
+
+#~ msgid "Download Files Logs"
+#~ msgstr "ดาวน์โหลดไฟล์บันทึก"
+
+#~ msgid "Upload Files Logs"
+#~ msgstr "อัปโหลดไฟล์บันทึก"
+
+#~ msgid "Note: This is just a demo screenshot. To get settings please buy our pro version."
+#~ msgstr "หมายเหตุ: นี่เป็นเพียงภาพหน้าจอสาธิตเท่านั้น หากต้องการตั้งค่าโปรดซื้อเวอร์ชัน Pro ของเรา"
+
+#~ msgid ""
+#~ "Here admin can give access to user roles to use filemanager. Admin can set Default Access Folder "
+#~ "and also control upload size of filemanager."
+#~ msgstr ""
+#~ "ที่นี่ผู้ดูแลระบบสามารถให้สิทธิ์การเข้าถึงบทบาทผู้ใช้เพื่อใช้ filemanager "
+#~ "ผู้ดูแลระบบสามารถตั้งค่าโฟลเดอร์การเข้าถึงข้อมูลเริ่มต้นและควบคุมขนาดการอัพโหลดไฟล์ได้"
+
+#~ msgid "Settings - Code-editor"
+#~ msgstr "การตั้งค่า - Code-editor"
+
+#~ msgid ""
+#~ "File Manager has a code editor with multiple themes. You can select any theme for code editor. "
+#~ "It will display when you edit any file. Also you can allow fullscreen mode of code editor."
+#~ msgstr ""
+#~ "ตัวจัดการไฟล์มีตัวแก้ไขโค้ดที่มีหลายธีม คุณสามารถเลือกธีมสำหรับโปรแกรมแก้ไขโค้ดได้ จะปรากฏขึ้นเมื่อคุณแก้ไขไฟล์ใด ๆ "
+#~ "นอกจากนี้คุณสามารถอนุญาตให้ใช้โหมดเต็มหน้าจอของตัวแก้ไขโค้ด"
+
+#~ msgid ""
+#~ "Admin can restrict actions of any user. Also hide files and folders and can set different - "
+#~ "different folders paths for different users."
+#~ msgstr ""
+#~ "ผู้ดูแลระบบสามารถ จำกัด การดำเนินการของผู้ใช้รายใดก็ได้ "
+#~ "ซ่อนไฟล์และโฟลเดอร์และสามารถตั้งค่าเส้นทางโฟลเดอร์ที่แตกต่างกันไปสำหรับผู้ใช้ที่แตกต่างกัน"
+
+#~ msgid ""
+#~ "Admin can restrict actions of any userrole. Also hide files and folders and can set different - "
+#~ "different folders paths for different users roles."
+#~ msgstr ""
+#~ "ผู้ดูแลระบบสามารถ จำกัด การดำเนินการของ userrol ใดก็ได้ "
+#~ "ซ่อนไฟล์และโฟลเดอร์และสามารถตั้งค่าเส้นทางโฟลเดอร์ที่ต่างกันสำหรับบทบาทผู้ใช้ที่แตกต่างกัน"
+
+#~ msgid "USE:"
+#~ msgstr "ใช้:"
+
+#~ msgid ""
+#~ "<code>[wp_file_manager_admin]</code> -> It will show file manager on front end. You can control "
+#~ "all settings from file manager settings. It will work same as backend WP File Manager."
+#~ msgstr ""
+#~ "<code>[wp_file_manager_admin]</code> -> มันจะแสดงตัวจัดการไฟล์ที่ส่วนหน้า "
+#~ "คุณสามารถควบคุมการตั้งค่าทั้งหมดได้จากการตั้งค่าตัวจัดการไฟล์ มันจะทำงานเหมือนกับตัวจัดการไฟล์ WP แบ็กเอนด์"
+
+#~ msgid ""
+#~ "<code>[wp_file_manager]</code> -> It will show file manager on front end. But only Administrator "
+#~ "can access it and will control from file manager settings."
+#~ msgstr ""
+#~ "<code>[wp_file_manager]</code> -> มันจะแสดงตัวจัดการไฟล์ที่ส่วนหน้า "
+#~ "แต่มีเพียงผู้ดูแลระบบเท่านั้นที่สามารถเข้าถึงได้และจะควบคุมจากการตั้งค่าตัวจัดการไฟล์"
+
+#~ msgid ""
+#~ "<code>[wp_file_manager view=\"list\" lang=\"en\" theme=\"light\" dateformat=\"d M, Y h:i A\" "
+#~ "allowed_roles=\"editor,author\" access_folder=\"wp-content/plugins\" write = \"true\" read = "
+#~ "\"false\" hide_files = \"kumar,abc.php\" lock_extensions=\".php,.css\" allowed_operations="
+#~ "\"upload,download\" ban_user_ids=\"2,3\"]"
+#~ msgstr ""
+#~ "<code>[wp_file_manager view=\"list\" lang=\"en\" theme=\"light\" dateformat=\"d M, Y h:i A\" "
+#~ "allowed_roles=\"editor,author\" access_folder=\"wp-content/plugins\" write = \"true\" read = "
+#~ "\"false\" hide_files = \"kumar,abc.php\" lock_extensions=\".php,.css\" allowed_operations="
+#~ "\"upload,download\" ban_user_ids=\"2,3\"]"
+
+#~ msgid "Parameters:"
+#~ msgstr "พารามิเตอร์:"
+
+#~ msgid "-> for access to write files permissions, note: true/false, default: false"
+#~ msgstr "-> สำหรับการเข้าถึงการเขียนสิทธิ์ในการเขียนไฟล์ หมายเหตุ: จริง/เท็จ ค่าเริ่มต้น: false"
+
+#~ msgid "-> for access to read files permission, note: true/false, default: true"
+#~ msgstr "-> สำหรับการเข้าถึงสิทธิ์ในการอ่านไฟล์ หมายเหตุ: จริง/เท็จ ค่าเริ่มต้น: true"
+
+#~ msgid "-> it will hide mentioned here. Note: seprated by comma(,). Default: Null"
+#~ msgstr "-> มันจะซ่อนที่กล่าวถึงที่นี่ หมายเหตุ: คั่นด้วยเครื่องหมายจุลภาค (,) ค่าเริ่มต้น: Null"
+
+#~ msgid ""
+#~ "-> It will lock mentioned in commas. you can lock more as like \".php,.css,.js\" etc. Default: "
+#~ "Null"
+#~ msgstr ""
+#~ "-> มันจะล็อคที่กล่าวถึงในเครื่องหมายจุลภาค คุณสามารถล็อคได้มากขึ้นเช่น \".php,.css,.js\" เป็นต้น ค่าเริ่มต้น: Null"
+
+#~ msgid "Rename a file or folder"
+#~ msgstr "เปลี่ยนชื่อไฟล์หรือโฟลเดอร์"
+
+#~ msgid "Duplicate or clone a folder or file"
+#~ msgstr "ทำซ้ำหรือโคลนโฟลเดอร์หรือไฟล์"
+
+#~ msgid "Ban"
+#~ msgstr "ห้าม"
+
+#~ msgid "To make a archive or zip"
+#~ msgstr "ในการสร้างไฟล์เก็บถาวรหรือ zip"
+
+#~ msgid "Extract archive or zipped file"
+#~ msgstr "แตกไฟล์เก็บถาวรหรือไฟล์ซิป"
+
+#~ msgid "Copy files or folders"
+#~ msgstr "คัดลอกไฟล์หรือโฟลเดอร์"
+
+#~ msgid "Simple cut a file or folder"
+#~ msgstr "ตัดไฟล์หรือโฟลเดอร์อย่างง่าย"
+
+#~ msgid "Edit a file"
+#~ msgstr "แก้ไขไฟล์"
+
+#~ msgid "Remove or delete files and folders"
+#~ msgstr "ลบหรือลบไฟล์และโฟลเดอร์"
+
+#~ msgid "Info of file"
+#~ msgstr "ข้อมูลของไฟล์"
+
+#~ msgid "Help"
+#~ msgstr "ช่วยด้วย"
+
+#~ msgid ""
+#~ "->  It will ban particular users by just putting their ids seprated by commas(,). If user is Ban "
+#~ "then they will not able to access wp file manager on front end."
+#~ msgstr ""
+#~ "-> มันจะแบนผู้ใช้บางคนโดยเพียงแค่ใส่รหัสของพวกเขาคั่นด้วยเครื่องหมายจุลภาค (,) หากผู้ใช้ถูกแบน "
+#~ "พวกเขาจะเข้าถึงตัวจัดการไฟล์ wp ที่ส่วนหน้าไม่ได้"
+
+#~ msgid "-> Filemanager UI View. Default: grid"
+#~ msgstr "-> มุมมอง UI ตัวจัดการไฟล์ ค่าเริ่มต้น: grid"
+
+#~ msgid "-> File Modified or Create date format. Default: d M, Y h:i A"
+#~ msgstr "-> ไฟล์ที่แก้ไขหรือสร้างรูปแบบวันที่ ค่าเริ่มต้น: d M, Y h:i A"
+
+#~ msgid "-> File manager Language. Default: English(en)"
+#~ msgstr "-> ภาษาของตัวจัดการไฟล์ ค่าเริ่มต้น: English(en)"
+
+#~ msgid "-> File Manager Theme. Default: Light"
+#~ msgstr "-> ภาษาของตัวจัดการไฟล์ ค่าเริ่มต้น: English(en)"
+
+#~ msgid "File Manager - System Properties"
+#~ msgstr "ตัวจัดการไฟล์ - คุณสมบัติของระบบ"
+
+#~ msgid "PHP version"
+#~ msgstr "เวอร์ชัน PHP"
+
+#~ msgid "Maximum file upload size (upload_max_filesize)"
+#~ msgstr "ขนาดการอัปโหลดไฟล์สูงสุด (upload_max_filesize)"
+
+#~ msgid "Post maximum file upload size (post_max_size)"
+#~ msgstr "ขนาดไฟล์อัพโหลดสูงสุด (post_max_size)"
+
+#~ msgid "Memory Limit (memory_limit)"
+#~ msgstr "หน่วยความจำ จำกัด (memory_limit)"
+
+#~ msgid "Timeout (max_execution_time)"
+#~ msgstr "หมดเวลา (max_execution_time)"
+
+#~ msgid "Browser and OS (HTTP_USER_AGENT)"
+#~ msgstr "เบราว์เซอร์และระบบปฏิบัติการ (HTTP_USER_AGENT)"
+
+#~ msgid "Change Theme Here:"
+#~ msgstr "เปลี่ยนธีมที่นี่:"
+
+#~ msgid "Dark"
+#~ msgstr "มืด"
+
+#~ msgid "Light"
+#~ msgstr "เบา"
+
+#~ msgid "Gray"
+#~ msgstr "สีเทา"
+
+#~ msgid ""
+#~ "We love making new friends! Subscribe below and we promise to\n"
+#~ "    keep you up-to-date with our latest new plugins, updates,\n"
+#~ "    awesome deals and a few special offers."
+#~ msgstr ""
+#~ "เราชอบหาเพื่อนใหม่! สมัครสมาชิกด้านล่างและเราสัญญาว่าจะ\n"
+#~ "    แจ้งให้คุณทราบเกี่ยวกับปลั๊กอิน อัปเดต ใหม่ล่าสุดของเรา\n"
+#~ "    ข้อเสนอสุดพิเศษและข้อเสนอพิเศษไม่กี่อย่าง"
+
+#~ msgid "Please Enter First Name."
+#~ msgstr "กรุณาใส่ชื่อ."
+
+#~ msgid "Please Enter Last Name."
+#~ msgstr "กรุณาใส่นามสกุล"
+
+#~ msgid "Verify"
+#~ msgstr "ยืนยัน"
+
+#~ msgid "No Thanks"
+#~ msgstr "ไม่เป็นไรขอบคุณ"
+
+#~ msgid "Terms of Service"
+#~ msgstr "เงื่อนไขการให้บริการ"
+
+#~ msgid "Privacy Policy"
+#~ msgstr "นโยบายความเป็นส่วนตัว"
+
+#~ msgid "Saving..."
+#~ msgstr "ประหยัด..."
+
+#~ msgid "OK"
+#~ msgstr "ตกลง"
+
+#~ msgid ""
+#~ "Please contribute some donation, to make plugin more stable. You can pay amount of your choice."
+#~ msgstr "โปรดบริจาคเงินเพื่อทำให้ปลั๊กอินมีเสถียรภาพมากขึ้น คุณสามารถจ่ายเงินตามที่คุณต้องการได้"

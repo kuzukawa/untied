@@ -1,0 +1,161 @@
+/* dialog.css */
+/* Dialog wrapper */
+.theme-windows---10 .elfinder .elfinder-dialog {
+  /* */
+}
+
+/* Dialog title */
+.theme-windows---10 .elfinder .elfinder-dialog .ui-dialog-titlebar { 
+  padding: 3px 0 3px 6px;
+  height: 30px;
+  box-sizing: border-box;
+  background: #dee1e6; 
+}
+
+/* Close button */
+.theme-windows---10 .elfinder .elfinder-dialog .ui-dialog-titlebar-close,
+.theme-windows---10 .elfinder .elfinder-dialog .elfinder-titlebar-minimize,
+.theme-windows---10 .elfinder .elfinder-dialog .elfinder-titlebar-full{
+  background: url('../images/win_10_sprite_icon.png');
+  right: 0;
+  border-radius: 0;
+  margin-top: -13px;
+  -webkit-transition: background 0.3s; /* Safari */
+  transition: background-image 0.3s;
+  height: 29px;
+  width: 44px;
+}
+.theme-windows---10 .elfinder .elfinder-dialog .elfinder-titlebar-minimize{
+   background-position: -89px 0px;
+}
+.theme-windows---10 .elfinder .elfinder-dialog .elfinder-titlebar-minimize:hover{
+  background-position: -89px -31px;
+}
+.theme-windows---10 .elfinder .elfinder-dialog .elfinder-titlebar-full{
+  background-position: -45px 0px;
+}
+.theme-windows---10 .elfinder .elfinder-dialog .elfinder-titlebar-full:hover{
+  background-position: -45px -31px;
+}
+.theme-windows---10 .elfinder .elfinder-dialog .ui-dialog-titlebar-close:hover {
+  background-position: 0px -31px;
+}
+.theme-windows---10 .std42-dialog .ui-dialog-titlebar .elfinder-titlebar-button.elfinder-titlebar-button-right {
+  left: 1px;
+  top: 8px;
+  padding: 0px !important;
+}
+/* Dialog content */
+.theme-windows---10 .elfinder .elfinder-dialog.elfinder-dialog-edit .ui-dialog-content {
+  /* */
+  padding: 0;
+}
+
+/* Tabs */
+/* Tabs wrapper */
+.theme-windows---10 .elfinder .elfinder-dialog .ui-tabs-nav {
+  /* */
+}
+
+/* Normal tab */
+.theme-windows---10 .elfinder .elfinder-dialog .ui-tabs-nav .ui-state-default {
+  /* */
+}
+
+/* Current tab */
+.theme-windows---10 .elfinder .elfinder-dialog .ui-tabs-nav .ui-tabs-selected {
+  /* */
+}
+
+/* Active tab */
+.theme-windows---10 .elfinder .elfinder-dialog .ui-tabs-nav li:active {
+  /* */
+ }
+ .theme-windows---10 .elfinder .ui-state-active {
+	/* background: #1979CA none repeat scroll 0 0;	 */
+	/*background: #009688 none repeat scroll 0 0;	*/
+}
+/* Icons */
+/* Dialog icon (e.g. for error messages) */
+.theme-windows---10 .elfinder .elfinder-dialog .elfinder-dialog-icon {
+  /* */
+}
+
+/* Error icon */
+.theme-windows---10 .elfinder .elfinder-dialog .elfinder-dialog-icon-error {
+  /* */
+}
+
+/* Confirmation icon */
+.theme-windows---10 .elfinder .elfinder-dialog .elfinder-dialog-icon-confirm {
+  /* */
+}
+
+/* Footer */
+.theme-windows---10 .elfinder .elfinder-dialog .ui-dialog-buttonpane {
+  /* */
+  background-clip: border-box !important; 
+  background:#ededed;
+}
+
+/* Buttonset (wrapper) */
+.theme-windows---10 .elfinder .elfinder-dialog .ui-dialog-buttonpane .ui-dialog-buttonset {
+  /* */
+}
+
+/* Button */
+.theme-windows---10 .elfinder .elfinder-dialog .ui-dialog-buttonpane .ui-dialog-buttonset .ui-button {
+  /* */
+}
+
+/* Styling specific types of dialogs */
+/* Error */
+.theme-windows---10 .elfinder .elfinder-dialog-error {
+  /* */
+}
+
+/* Confirm */
+.theme-windows---10 .elfinder .elfinder-dialog-confirm {
+  /* */
+}
+
+/* File editing */
+.theme-windows---10 .elfinder .elfinder-dialog .elfinder-file-edit {
+  /* */
+}
+
+/* File information */
+/* Title */
+.theme-windows---10 .elfinder .elfinder-dialog .elfinder-info-title {
+  /* */
+}
+
+/* Table */
+.theme-windows---10 .elfinder .elfinder-dialog .elfinder-info-tb {
+  /* */
+}
+
+/* File upload (including dropbox) */
+.theme-windows---10 .elfinder .elfinder-dialog .elfinder-upload-dropbox,
+.theme-windows---10 .elfinder .elfinder-dialog .elfinder-upload-dialog-or {
+  /* */
+}
+.theme-windows---10 .elfinder .elfinder-button-search.ui-state-active{background: transparent;}
+
+/*---23-Dec---*/
+
+.theme-windows---10 .elfinder .elfinder-dialog .ui-dialog-titlebar span.elfinder-dialog-title {
+  color:#000;
+}
+
+
+/*--- 5 Jan ---*/
+.theme-windows---10 .elfinder .elfinder-dialog .elfinder-titlebar-minimize .ui-icon.ui-icon-minusthick,
+.theme-windows---10 .elfinder .elfinder-dialog .elfinder-titlebar-full .ui-icon.ui-icon-plusthick,
+.theme-windows---10 .elfinder .elfinder-dialog .ui-dialog-titlebar-close .ui-icon.ui-icon-closethick,
+.theme-windows---10 .elfinder .elfinder-dialog .elfinder-titlebar-full .ui-icon.ui-icon-arrowreturnthick-1-s{ background: inherit; } 
+
+.theme-windows---10 .elfinder-cwd-wrapper .elfinder-cwd-file.ui-corner-all:hover .ui-state-active,
+.theme-windows---10 .elfinder-cwd-wrapper .elfinder-cwd-file.ui-corner-all .ui-state-active:hover{ color: inherit; }
+
+.theme-windows---10 .elfinder-cwd-wrapper .elfinder-cwd-file.ui-corner-all.ui-selected:hover .ui-state-hover.ui-state-active{ color: #fff; } 

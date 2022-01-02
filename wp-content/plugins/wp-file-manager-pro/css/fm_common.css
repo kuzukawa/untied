@@ -1,0 +1,13 @@
+.toplevel_page_wp_file_manager .wp-menu-image img{
+    width: 23px;
+    padding-top: 5px !important;
+}
+.wrap .elfinder .elfinder-workzone .elfinder-cwd-wrapper.ui-droppable table thead tr td:last-child .ui-icon {
+    display: none;
+}
+.setting_pro_wrap .setting_pro_tab_content .frm_grp select {
+    background: #fff url('../images/line-angle-down.svg') !important;
+    background-repeat: no-repeat !important;
+    background-position: center right 10px !important;
+    background-size: 12px !important;
+}

@@ -1,0 +1,3336 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP File Manager\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-08-09 15:36+0530\n"
+"PO-Revision-Date: 2021-08-09 15:42+0530\n"
+"Last-Translator: admin <kajal.gill@mysenseinc.in>\n"
+"Language-Team: \n"
+"Language: eu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 3.0\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: classes/license.php:201 inc/license.php:42
+msgid "License Details"
+msgstr "Lizentziaren xehetasunak"
+
+#: classes/updates.php:41
+msgid ""
+"Your updates for <strong>WP File Manager - PRO</strong> plugin are disabled "
+"because your license has been expired."
+msgstr ""
+"<strong> WP File Manager - PRO </strong> pluginaren eguneratzeak desgaituta "
+"daude lizentzia iraungi delako."
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:70
+msgid "DB Manager"
+msgstr "DB kudeatzailea"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:116
+msgid "Tables"
+msgstr "Mahaiak"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:116
+#: extensions/fm_dbmanager/inc/db_tables.php:56
+msgid "Create New Table"
+msgstr "Sortu taula berria"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:123
+msgid "Browse:"
+msgstr "Arakatu:"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:123
+msgid "Browse"
+msgstr "Arakatu"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:123
+msgid "Insert:"
+msgstr "Txertatu:"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:123
+msgid "Insert"
+msgstr "Txertatu"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:123
+msgid "Delete Table:"
+msgstr "Ezabatu taula:"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:123
+#: extensions/fm_dbmanager/fm_dbmanager.php:203
+msgid ""
+"Are you sure want to delete Table? Deleted Table may not be recovered. So "
+"please delete carefully."
+msgstr ""
+"Ziur zaude Taula ezabatu nahi duzula? Baliteke ezabatutako taula "
+"berreskuratzea. Beraz, mesedez ezabatu arretaz."
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:123
+#: extensions/fm_dbmanager/fm_dbmanager.php:203
+msgid "Drop"
+msgstr "Tanta"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:123
+msgid "Empty Table:"
+msgstr "Taula hutsa:"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:123
+#: extensions/fm_dbmanager/fm_dbmanager.php:204
+msgid ""
+"Are you sure want to empty Table? Table may not be recovered. So please "
+"delete carefully."
+msgstr ""
+"Ziur zaude Mahaia hustu nahi duzula? Baliteke taula ez berreskuratzea. "
+"Beraz, mesedez ezabatu arretaz."
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:123
+#: extensions/fm_dbmanager/fm_dbmanager.php:204 inc/settings.php:39
+#: inc/shortcode_generator.php:225
+msgid "Empty"
+msgstr "Hutsik"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:203
+msgid "ADD: "
+msgstr "GEHITU: "
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:203
+msgid "Add New"
+msgstr "Gehitu berria"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:203
+msgid "Delete Table: "
+msgstr "Ezabatu taula: "
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:204
+msgid "Empty Table: "
+msgstr "Taula hutsa: "
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:230
+#: extensions/fm_dbmanager/fm_dbmanager.php:252
+msgid "Are you sure want to update? It will redirect you to updation form."
+msgstr ""
+"Ziur zaude eguneratu nahi duzula? Eguneratze inprimakira birbideratuko zaitu."
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:230
+#: extensions/fm_dbmanager/fm_dbmanager.php:252 inc/settings.php:33
+#: inc/shortcode_generator.php:219 inc/shortcode_listing.php:62
+msgid "Edit"
+msgstr "Editatu"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:231
+#: extensions/fm_dbmanager/fm_dbmanager.php:253
+msgid ""
+"Are you sure want to delete? Deleted data may not be recovered. So please "
+"delete carefully."
+msgstr ""
+"Ziur zaude ezabatu nahi duzula? Baliteke ezabatutako datuak berreskuratzea. "
+"Beraz, mesedez ezabatu arretaz."
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:231
+#: extensions/fm_dbmanager/fm_dbmanager.php:253 inc/backup.php:772
+#: inc/backup.php:782 inc/email.php:63 inc/email.php:164 inc/settings.php:34
+#: inc/shortcode_generator.php:220 inc/shortcode_listing.php:63
+#: inc/wpfmlogs.php:65 inc/wpfmlogs.php:93 inc/wpfmlogs.php:149
+#: inc/wpfmlogs.php:175 inc/wpfmlogs.php:232 inc/wpfmlogs.php:258
+msgid "Delete"
+msgstr "Ezabatu"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:270
+msgid "First"
+msgstr "Lehenengoa"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:272 inc/shortcode_listing.php:112
+msgid "Prev"
+msgstr "Aurrekoa"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:300 inc/shortcode_listing.php:113
+#: inc/wpfmlogs.php:134 inc/wpfmlogs.php:217
+msgid "Next"
+msgstr "Hurrengoa"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:302
+msgid "Last"
+msgstr "Azkena"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:338
+#: extensions/fm_dbmanager/fm_dbmanager.php:432
+#: extensions/fm_dbmanager/fm_dbmanager.php:487
+#: extensions/fm_dbmanager/inc/db_tables.php:136
+msgid "You don't have permission to access this area."
+msgstr "Ez duzu baimenik eremu honetara sartzeko."
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:353
+#: extensions/fm_dbmanager/fm_dbmanager.php:448
+msgid "Column"
+msgstr "Zutabea"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:354
+#: extensions/fm_dbmanager/fm_dbmanager.php:449
+msgid "Value"
+msgstr "Balioa"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:380
+msgid "Reset"
+msgstr "Berrezarri"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:386
+msgid "Add"
+msgstr "Gehitu"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:409
+msgid "New Record Created"
+msgstr "Disko berria sortu da"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:411
+#: extensions/fm_dbmanager/fm_dbmanager.php:417
+msgid "Unable to create new record"
+msgstr "Ezin da erregistro berria sortu"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:441
+#: extensions/fm_dbmanager/fm_dbmanager.php:529
+msgid "&larr; Back"
+msgstr "&larr; Itzuli"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:479
+msgid "Update"
+msgstr "Eguneratu"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:511
+#: extensions/fm_dbmanager/fm_dbmanager.php:533
+msgid "Record "
+msgstr "Grabatu"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:511
+msgid "</strong> Updated Successfully"
+msgstr "</strong> Behar bezala eguneratu da"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:513
+#: extensions/fm_dbmanager/fm_dbmanager.php:516
+msgid "Unable to Update record"
+msgstr "Ezin da eguneratu erregistroa"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:526
+msgid "Oops! Some thing went wrong! Please try again."
+msgstr "Aupa! Gauza batzuk gaizki atera dira! Saiatu berriro mesedez."
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:533
+msgid " Deleted successfully."
+msgstr "Behar bezala ezabatu da."
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:535
+msgid "Error occured while deleting a record."
+msgstr "Errore bat gertatu da erregistro bat ezabatzean."
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:584
+msgid "Table Created Successfully !"
+msgstr "Taula ongi sortu da!"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:589
+msgid "Table Not Created !"
+msgstr "Taula ez da sortu!"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:605
+#: extensions/fm_dbmanager/fm_dbmanager.php:607
+msgid "Table <strong>"
+msgstr "<p> (Taula <strong>"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:605
+#: extensions/fm_dbmanager/fm_dbmanager.php:617
+msgid "</strong> Deleted Successfully!"
+msgstr "</strong> Behar bezala ezabatu da!"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:607
+#: extensions/fm_dbmanager/fm_dbmanager.php:619
+msgid "</strong> Not Deleted!"
+msgstr "</strong> Ez da ezabatu!) </p>"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:617
+#: extensions/fm_dbmanager/fm_dbmanager.php:619
+msgid "Table records of <strong>"
+msgstr "Taulako <strong> erregistroak"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:689
+#: file_folder_manager_pro.php:2900
+msgid ""
+"<div id=\"setting-error-settings_updated\" class=\"error settings-error "
+"notice\"><p><strong>"
+msgstr ""
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:695
+#: file_folder_manager_pro.php:2906
+msgid ""
+"<div id=\"setting-error-settings_updated\" class=\"updated settings-error "
+"notice\"><p><strong>"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:9
+msgid "Table name:&nbsp;"
+msgstr "Taularen izena:&nbsp;"
+
+#: extensions/fm_dbmanager/inc/createTbl.php:19
+#: extensions/fm_dbmanager/inc/createTbl.php:559
+msgid "Name"
+msgstr "Izena"
+
+#: extensions/fm_dbmanager/inc/createTbl.php:20
+msgid "Type"
+msgstr "Mota"
+
+#: extensions/fm_dbmanager/inc/createTbl.php:21
+msgid "Length/Values"
+msgstr "Luzera / Balioak"
+
+#: extensions/fm_dbmanager/inc/createTbl.php:22 inc/settings.php:218
+#: inc/settings.php:226 inc/settings.php:284 inc/shortcode_generator.php:349
+#: inc/shortcode_generator.php:372 inc/shortcode_generator.php:393
+#: inc/shortcode_generator.php:401 inc/shortcode_generator.php:409
+#: inc/shortcode_generator.php:434 inc/shortcode_generator.php:442
+#: inc/shortcode_generator.php:511 inc/shortcode_generator.php:534
+#: inc/shortcode_generator.php:543 inc/shortcode_generator.php:552
+#: inc/shortcode_generator.php:577 inc/shortcode_generator.php:585
+msgid "Default"
+msgstr "Lehenetsia"
+
+#: extensions/fm_dbmanager/inc/createTbl.php:23
+msgid "Collation"
+msgstr "Kolazio"
+
+#: extensions/fm_dbmanager/inc/createTbl.php:24
+msgid "Attributes"
+msgstr "Atributuak"
+
+#: extensions/fm_dbmanager/inc/createTbl.php:25 inc/shortcode_generator.php:401
+#: inc/shortcode_generator.php:409 inc/shortcode_generator.php:543
+#: inc/shortcode_generator.php:552
+msgid "Null"
+msgstr "Nulo"
+
+#: extensions/fm_dbmanager/inc/createTbl.php:26
+msgid "Index"
+msgstr "Aurkibidea"
+
+#: extensions/fm_dbmanager/inc/createTbl.php:27
+msgid "A_I"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:28
+msgid "Comments"
+msgstr "Iruzkinak"
+
+#: extensions/fm_dbmanager/inc/createTbl.php:37
+#: extensions/fm_dbmanager/inc/createTbl.php:52
+msgid "INT"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:39
+#: extensions/fm_dbmanager/inc/createTbl.php:90
+msgid "VARCHAR"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:41
+#: extensions/fm_dbmanager/inc/createTbl.php:96
+msgid "TEXT"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:43
+#: extensions/fm_dbmanager/inc/createTbl.php:76
+msgid "DATE"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:46
+msgid "TINYINT"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:48
+msgid "SMALLINT"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:50
+msgid "MEDIUMINT"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:54
+msgid "BIGINT"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:58
+msgid "DECIMAL"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:60
+msgid "FLOAT"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:62
+msgid "DOUBLE"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:64
+msgid "REAL"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:68
+msgid "BIT"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:70
+msgid "BOOLEAN"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:72
+msgid "SERIAL"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:78
+msgid "DATETIME"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:80
+msgid "TIMESTAMP"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:82
+msgid "TIME"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:84
+msgid "YEAR"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:88
+msgid "CHAR"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:94
+msgid "TINYTEXT"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:98
+msgid "MEDIUMTEXT"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:100
+msgid "LONGTEXT"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:104
+#: extensions/fm_dbmanager/inc/createTbl.php:688
+msgid "BINARY"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:106
+msgid "VARBINARY"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:110
+msgid "TINYBLOB"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:112
+msgid "MEDIUMBLOB"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:114
+msgid "BLOB"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:116
+msgid "LONGBLOB"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:120
+msgid "ENUM"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:122
+msgid "SET"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:126
+msgid "GEOMETRY"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:128
+msgid "POINT"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:130
+msgid "LINESTRING"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:132
+msgid "POLYGON"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:134
+msgid "MULTIPOINT"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:136
+msgid "MULTILINESTRING"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:138
+msgid "MULTIPOLYGON"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:140
+msgid "GEOMETRYCOLLECTION"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:150
+#: inc/shortcode_generator.php:372 inc/shortcode_generator.php:393
+#: inc/shortcode_generator.php:534
+msgid "None"
+msgstr "Bat ere ez"
+
+#: extensions/fm_dbmanager/inc/createTbl.php:152
+msgid "As defined:"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:154
+msgid "NULL"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:156
+msgid "CURRENT_TIMESTAMP"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:165
+msgid "armscii8_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:167
+msgid "armscii8_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:171
+msgid "ascii_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:173
+msgid "ascii_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:177
+msgid "big5_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:179
+msgid "big5_chinese_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:183
+msgid "binary"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:187
+msgid "cp1250_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:189
+msgid "cp1250_croatian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:191
+msgid "cp1250_czech_cs"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:193
+msgid "cp1250_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:195
+msgid "cp1250_polish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:199
+msgid "cp1251_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:201
+msgid "cp1251_bulgarian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:203
+msgid "cp1251_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:205
+msgid "cp1251_general_cs"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:207
+msgid "cp1251_ukrainian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:211
+msgid "cp1256_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:213
+msgid "cp1256_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:217
+msgid "cp1257_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:219
+msgid "cp1257_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:221
+msgid "cp1257_lithuanian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:225
+msgid "cp850_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:227
+msgid "cp850_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:231
+msgid "cp852_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:233
+msgid "cp852_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:237
+msgid "cp866_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:239
+msgid "cp866_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:243
+msgid "cp932_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:245
+msgid "cp932_japanese_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:249
+msgid "dec8_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:251
+msgid "dec8_swedish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:255
+msgid "eucjpms_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:257
+msgid "eucjpms_japanese_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:261
+msgid "euckr_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:263
+msgid "euckr_korean_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:267
+msgid "gb2312_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:269
+msgid "gb2312_chinese_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:273
+msgid "gbk_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:275
+msgid "gbk_chinese_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:279
+msgid "geostd8_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:281
+msgid "geostd8_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:285
+msgid "greek_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:287
+msgid "greek_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:291
+msgid "hebrew_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:293
+msgid "hebrew_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:297
+msgid "hp8_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:299
+msgid "hp8_english_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:303
+msgid "keybcs2_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:305
+msgid "keybcs2_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:309
+msgid "koi8r_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:311
+msgid "koi8r_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:315
+msgid "koi8u_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:317
+msgid "koi8u_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:321
+msgid "latin1_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:323
+msgid "latin1_danish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:325
+msgid "latin1_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:327
+msgid "latin1_general_cs"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:329
+msgid "latin1_german1_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:331
+msgid "latin1_german2_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:333
+msgid "latin1_spanish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:335
+msgid "latin1_swedish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:339
+msgid "latin2_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:341
+msgid "latin2_croatian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:343
+msgid "latin2_czech_cs"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:345
+msgid "latin2_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:347
+msgid "latin2_hungarian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:351
+msgid "latin5_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:353
+msgid "latin5_turkish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:357
+msgid "latin7_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:359
+msgid "latin7_estonian_cs"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:361
+msgid "latin7_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:363
+msgid "latin7_general_cs"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:367
+msgid "macce_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:369
+msgid "macce_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:373
+msgid "macroman_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:375
+msgid "macroman_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:379
+msgid "sjis_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:381
+msgid "sjis_japanese_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:385
+msgid "swe7_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:387
+msgid "swe7_swedish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:391
+msgid "tis620_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:393
+msgid "tis620_thai_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:397
+msgid "ucs2_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:399
+msgid "ucs2_croatian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:401
+msgid "ucs2_czech_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:403
+msgid "ucs2_danish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:405
+msgid "ucs2_esperanto_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:407
+msgid "ucs2_estonian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:409
+msgid "ucs2_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:411
+msgid "ucs2_general_mysql500_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:413
+msgid "ucs2_german2_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:415
+msgid "ucs2_hungarian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:417
+msgid "ucs2_icelandic_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:419
+msgid "ucs2_latvian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:421
+msgid "ucs2_lithuanian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:423
+msgid "ucs2_persian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:425
+msgid "ucs2_polish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:427
+msgid "ucs2_roman_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:429
+msgid "ucs2_romanian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:431
+msgid "ucs2_sinhala_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:433
+msgid "ucs2_slovak_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:435
+msgid "ucs2_slovenian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:437
+msgid "ucs2_spanish2_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:439
+msgid "ucs2_spanish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:441
+msgid "ucs2_swedish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:443
+msgid "ucs2_turkish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:445
+msgid "ucs2_unicode_520_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:447
+msgid "ucs2_unicode_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:449
+msgid "ucs2_vietnamese_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:453
+msgid "ujis_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:455
+msgid "ujis_japanese_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:459
+msgid "utf16_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:461
+msgid "utf16_croatian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:463
+msgid "utf16_czech_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:465
+msgid "utf16_danish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:467
+msgid "utf16_esperanto_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:469
+msgid "utf16_estonian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:471
+msgid "utf16_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:473
+msgid "utf16_german2_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:475
+msgid "utf16_hungarian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:477
+msgid "utf16_icelandic_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:479
+msgid "utf16_latvian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:481
+msgid "utf16_lithuanian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:483
+msgid "utf16_persian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:485
+msgid "utf16_polish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:487
+msgid "utf16_roman_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:489
+msgid "utf16_romanian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:491
+msgid "utf16_sinhala_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:493
+msgid "utf16_slovak_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:495
+msgid "utf16_slovenian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:497
+msgid "utf16_spanish2_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:499
+msgid "utf16_spanish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:501
+msgid "utf16_swedish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:503
+msgid "utf16_turkish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:505
+msgid "utf16_unicode_520_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:507
+msgid "utf16_unicode_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:509
+msgid "utf16_vietnamese_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:513
+msgid "utf16le_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:515
+msgid "utf16le_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:519
+msgid "utf32_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:521
+msgid "utf32_croatian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:523
+msgid "utf32_czech_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:525
+msgid "utf32_danish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:527
+msgid "utf32_esperanto_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:529
+msgid "utf32_estonian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:531
+msgid "utf32_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:533
+msgid "utf32_german2_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:535
+msgid "utf32_hungarian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:537
+msgid "utf32_icelandic_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:539
+msgid "utf32_latvian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:541
+msgid "utf32_lithuanian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:543
+msgid "utf32_persian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:545
+msgid "utf32_polish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:547
+msgid "utf32_roman_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:549
+msgid "utf32_romanian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:551
+msgid "utf32_sinhala_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:553
+msgid "utf32_slovak_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:555
+msgid "utf32_slovenian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:557
+msgid "utf32_spanish2_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:559
+msgid "utf32_spanish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:561
+msgid "utf32_swedish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:563
+msgid "utf32_turkish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:565
+msgid "utf32_unicode_520_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:567
+msgid "utf32_unicode_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:569
+msgid "utf32_vietnamese_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:573
+msgid "utf8_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:575
+msgid "utf8_croatian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:577
+msgid "utf8_czech_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:579
+msgid "utf8_danish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:581
+msgid "utf8_esperanto_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:583
+msgid "utf8_estonian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:585
+msgid "utf8_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:587
+msgid "utf8_general_mysql500_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:589
+msgid "utf8_german2_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:591
+msgid "utf8_hungarian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:593
+msgid "utf8_icelandic_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:595
+msgid "utf8_latvian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:597
+msgid "utf8_lithuanian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:599
+msgid "utf8_persian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:601
+msgid "utf8_polish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:603
+msgid "utf8_roman_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:605
+msgid "utf8_romanian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:607
+msgid "utf8_sinhala_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:609
+msgid "utf8_slovak_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:611
+msgid "utf8_slovenian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:613
+msgid "utf8_spanish2_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:615
+msgid "utf8_spanish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:617
+msgid "utf8_swedish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:619
+msgid "utf8_turkish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:621
+msgid "utf8_unicode_520_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:623
+msgid "utf8_unicode_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:625
+msgid "utf8_vietnamese_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:629
+msgid "utf8mb4_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:631
+msgid "utf8mb4_croatian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:633
+msgid "utf8mb4_czech_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:635
+msgid "utf8mb4_danish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:637
+msgid "utf8mb4_esperanto_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:639
+msgid "utf8mb4_estonian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:641
+msgid "utf8mb4_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:643
+msgid "utf8mb4_german2_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:645
+msgid "utf8mb4_hungarian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:647
+msgid "utf8mb4_icelandic_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:649
+msgid "utf8mb4_latvian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:651
+msgid "utf8mb4_lithuanian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:653
+msgid "utf8mb4_persian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:655
+msgid "utf8mb4_polish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:657
+msgid "utf8mb4_roman_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:659
+msgid "utf8mb4_romanian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:661
+msgid "utf8mb4_sinhala_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:663
+msgid "utf8mb4_slovak_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:665
+msgid "utf8mb4_slovenian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:667
+msgid "utf8mb4_spanish2_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:669
+msgid "utf8mb4_spanish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:671
+msgid "utf8mb4_swedish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:673
+msgid "utf8mb4_turkish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:675
+msgid "utf8mb4_unicode_520_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:677
+msgid "utf8mb4_unicode_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:679
+msgid "utf8mb4_vietnamese_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:690
+msgid "UNSIGNED"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:692
+msgid "UNSIGNED ZEROFILL"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:694
+msgid "on update CURRENT_TIMESTAMP"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:705
+msgid "PRIMARY"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:707
+msgid "UNIQUE"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:709
+msgid "INDEX"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:711
+msgid "FULLTEXT"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:724
+msgid "Add Row"
+msgstr "Gehitu errenkada"
+
+#: extensions/fm_dbmanager/inc/createTbl.php:725
+msgid "Save"
+msgstr "Gorde"
+
+#: extensions/fm_dbmanager/inc/db_tables.php:39
+msgid "Export Database"
+msgstr "Esportatu datu basea"
+
+#: extensions/fm_dbmanager/inc/db_tables.php:45
+msgid "Host:"
+msgstr "Ostalaria:"
+
+#: extensions/fm_dbmanager/inc/db_tables.php:49
+msgid "Database:"
+msgstr "Datu basea:"
+
+#: extensions/fm_dbmanager/inc/db_tables.php:52
+msgid "Table:"
+msgstr "Taula:"
+
+#: extensions/fm_shortcode_without_login/inc/shortcode.php:207
+#: inc/shortcode.php:327
+msgid "This shortcode has been expired. Please contact with the site admin."
+msgstr ""
+"Shortcode hau iraungi egin da. Mesedez, jarri harremanetan guneko "
+"administratzailearekin."
+
+#: file_folder_manager_pro.php:197
+msgid "Database backup restored successfully."
+msgstr "Datu basearen segurtasun kopia behar bezala berrezarri da."
+
+#: file_folder_manager_pro.php:199
+msgid "Unable to restore DB backup."
+msgstr "Ezin da DB babeskopia leheneratu."
+
+#: file_folder_manager_pro.php:206
+msgid "Plugins backup restored successfully."
+msgstr "Pluginen segurtasun kopia behar bezala berrezarri da."
+
+#: file_folder_manager_pro.php:208
+msgid "Unable to restore plugins."
+msgstr "Ezin dira pluginak leheneratu."
+
+#: file_folder_manager_pro.php:215
+msgid "Themes backup restored successfully."
+msgstr "Gaien segurtasun kopia behar bezala berrezarri da."
+
+#: file_folder_manager_pro.php:217
+msgid "Unable to restore themes."
+msgstr "Ezin dira gaiak leheneratu."
+
+#: file_folder_manager_pro.php:224
+msgid "Uploads backup restored successfully."
+msgstr "Kargak babeskopiak behar bezala berrezarri dira."
+
+#: file_folder_manager_pro.php:226
+msgid "Unable to restore uploads."
+msgstr "Ezin dira kargak leheneratu."
+
+#: file_folder_manager_pro.php:233
+msgid "Others backup restored successfully."
+msgstr "Beste segurtasun kopia batzuk ongi zaharberritu dira."
+
+#: file_folder_manager_pro.php:235
+msgid "Unable to restore others."
+msgstr "Ezin dira beste batzuk leheneratu."
+
+#: file_folder_manager_pro.php:239
+msgid "Backup not found!"
+msgstr "Babeskopia ez da aurkitu!"
+
+#: file_folder_manager_pro.php:243
+msgid "security token expired"
+msgstr "segurtasun token iraungi da"
+
+#: file_folder_manager_pro.php:283
+msgid "Backup(s) removed successfully!"
+msgstr "Babeskopiak behar bezala kendu dira!"
+
+#: file_folder_manager_pro.php:285
+msgid "Unable to remove backup(s)!"
+msgstr "Ezin dira segurtasun kopiak kendu!"
+
+#: file_folder_manager_pro.php:308
+msgid "Database backup done on date "
+msgstr "Datu-basearen babeskopia egunean egin da "
+
+#: file_folder_manager_pro.php:312
+msgid "Plugins backup done on date "
+msgstr "Pluginen segurtasun kopia egunean egin da "
+
+#: file_folder_manager_pro.php:316
+msgid "Themes backup done on date "
+msgstr "Gaien segurtasun kopia egunean egina "
+
+#: file_folder_manager_pro.php:320
+msgid "Uploads backup done on date "
+msgstr "Kargatutako segurtasun kopiak egunean egin dira "
+
+#: file_folder_manager_pro.php:324
+msgid "Others backup done on date "
+msgstr "Beste kopia batzuk egunean egindakoak "
+
+#: file_folder_manager_pro.php:328 file_folder_manager_pro.php:707
+#: inc/wpfmlogs.php:49
+msgid "Logs"
+msgstr "Erregistroak"
+
+#: file_folder_manager_pro.php:334
+msgid "No logs found!"
+msgstr "Ez da egunkaririk aurkitu!"
+
+#: file_folder_manager_pro.php:405
+msgid "Backup removed successfully!"
+msgstr "Babeskopia behar bezala kendu da!"
+
+#: file_folder_manager_pro.php:407
+msgid "Unable to removed backup!"
+msgstr "Ezin da kendu babeskopia!"
+
+#: file_folder_manager_pro.php:430
+msgid "Nothing selected for backup"
+msgstr "Ez da ezer hautatu babeskopia egiteko"
+
+#: file_folder_manager_pro.php:459
+msgid "Database backup done."
+msgstr "Datu-basearen babeskopia egin da."
+
+#: file_folder_manager_pro.php:462
+msgid "Unable to create database backup."
+msgstr "Ezin da datu basearen segurtasun kopia sortu."
+
+#: file_folder_manager_pro.php:476
+msgid "Plugins backup done."
+msgstr "Pluginen babeskopia egin da."
+
+#: file_folder_manager_pro.php:479
+msgid "Plugins backup failed."
+msgstr "Pluginen segurtasun kopiak huts egin du."
+
+#: file_folder_manager_pro.php:488
+msgid "Themes backup done."
+msgstr "Gaien babeskopia egin da."
+
+#: file_folder_manager_pro.php:491
+msgid "Themes backup failed."
+msgstr "Gaien segurtasun kopiak huts egin du."
+
+#: file_folder_manager_pro.php:500
+msgid "Uploads backup done."
+msgstr "Kargatutako segurtasun kopia egin da."
+
+#: file_folder_manager_pro.php:503
+msgid "Uploads backup failed."
+msgstr "Ezin izan da kargatzearen segurtasun kopia egin."
+
+#: file_folder_manager_pro.php:512
+msgid "Others backup done."
+msgstr "Beste kopia batzuk egin dira."
+
+#: file_folder_manager_pro.php:515
+msgid "Others backup failed."
+msgstr "Beste batzuek segurtasun kopia huts egin dute."
+
+#: file_folder_manager_pro.php:519 file_folder_manager_pro.php:523
+msgid "All done"
+msgstr "Dena eginda"
+
+#: file_folder_manager_pro.php:545
+msgid "Log(s) removed successfully!"
+msgstr "Egunkariak behar bezala kendu dira!"
+
+#: file_folder_manager_pro.php:547
+msgid "Unable to removed log(s)!"
+msgstr "Ezin dira egunkariak kendu!"
+
+#: file_folder_manager_pro.php:551 file_folder_manager_pro.php:3253
+#: file_folder_manager_pro.php:3267
+msgid "Invalid security key!"
+msgstr "Segurtasun gako baliogabea!"
+
+#: file_folder_manager_pro.php:586
+msgid "Required libraries installed successfully."
+msgstr "Beharrezko liburutegiak behar bezala instalatu dira."
+
+#: file_folder_manager_pro.php:589
+msgid "Unable to install Required libraries."
+msgstr "Ezin dira beharrezko liburutegiak instalatu."
+
+#: file_folder_manager_pro.php:683 file_folder_manager_pro.php:684
+msgid "WP File Manager"
+msgstr "WP fitxategi kudeatzailea"
+
+#: file_folder_manager_pro.php:691
+msgid "Settings"
+msgstr "ezarpenak"
+
+#: file_folder_manager_pro.php:693
+msgid "Preferences"
+msgstr "Lehentasunak"
+
+#: file_folder_manager_pro.php:695 inc/email.php:25
+msgid "Email Notifications"
+msgstr "Posta elektroniko bidezko jakinarazpenak"
+
+#: file_folder_manager_pro.php:698 inc/shortcode_generator.php:249
+msgid "Shortcode Generator"
+msgstr "Shortcode Generator"
+
+#: file_folder_manager_pro.php:701 inc/extensions.php:160
+msgid "Google Drive"
+msgstr ""
+
+#: file_folder_manager_pro.php:704
+msgid "Mobile"
+msgstr "Mugikorra"
+
+#: file_folder_manager_pro.php:706
+msgid "Addons"
+msgstr "Gehigarriak"
+
+#: file_folder_manager_pro.php:708
+msgid "Backup"
+msgstr "Babeskopia"
+
+#: file_folder_manager_pro.php:709
+msgid "Existing Shortcode"
+msgstr "Lehendik dagoen kode laburra"
+
+#: file_folder_manager_pro.php:711
+msgid "License"
+msgstr "Lizentzia"
+
+#: file_folder_manager_pro.php:808
+msgid "Type here to search list... "
+msgstr "Idatzi hemen bilaketa zerrendan ... "
+
+#: file_folder_manager_pro.php:809
+msgid "Check all"
+msgstr "Begiratu guztiak"
+
+#: file_folder_manager_pro.php:810
+msgid "Uncheck all"
+msgstr "Desmarkatu guztiak"
+
+#: file_folder_manager_pro.php:811
+msgid "Invert select"
+msgstr "Alderantzikatu hautatu"
+
+#: file_folder_manager_pro.php:2752
+msgid "You don't have permission to access file manager."
+msgstr "Ez duzu baimenik fitxategi kudeatzailea atzitzeko."
+
+#: file_folder_manager_pro.php:2755
+msgid "Invalid shortcode!"
+msgstr "Kode labur baliogabea!"
+
+#: file_folder_manager_pro.php:2758
+msgid "Invalid security token!"
+msgstr "Segurtasun token baliogabea!"
+
+#: file_folder_manager_pro.php:2915
+msgid "Your File Manager PRO Order Details"
+msgstr "Zure File Manager PRO eskaera xehetasunak"
+
+#: file_folder_manager_pro.php:2915
+msgid "Order Details"
+msgstr "Eskaeraren xehetasunak"
+
+#: file_folder_manager_pro.php:2917
+msgid "Order ID: "
+msgstr "Eskaeraren IDa: "
+
+#: file_folder_manager_pro.php:2918
+msgid "License Key: "
+msgstr "Lizentzia gakoa: "
+
+#: file_folder_manager_pro.php:2919
+msgid "&nbsp; Warning: Please don't share these details with anyone."
+msgstr "&nbsp; Abisua: mesedez, ez partekatu xehetasun horiek inorekin."
+
+#: file_folder_manager_pro.php:3048
+msgid ""
+"<p>(Unable to execute php syntax checker due to server permissions.)</p>"
+msgstr ""
+"<p> (Ezin da php sintaxiaren egiaztatzailea exekutatu zerbitzariaren "
+"baimenengatik.) </p>"
+
+#: file_folder_manager_pro.php:3052
+msgid "<p>(File <strong>"
+msgstr "<p> (Fitxategia <strong>"
+
+#: file_folder_manager_pro.php:3052
+msgid "</strong> not saved.)</p>"
+msgstr "</strong> ez da gorde.) </p>"
+
+#: file_folder_manager_pro.php:3222
+msgid "File doesn't exist to download."
+msgstr "Ez dago fitxategia deskargatzeko."
+
+#: file_folder_manager_pro.php:3227
+msgid "Invalid Security Code."
+msgstr "Segurtasun kodea baliogabea."
+
+#: file_folder_manager_pro.php:3232
+msgid "Missing backup id."
+msgstr "Babeskopiaren IDa falta da."
+
+#: file_folder_manager_pro.php:3235
+msgid "Missing parameter type."
+msgstr "Parametro mota falta da."
+
+#: file_folder_manager_pro.php:3238
+msgid "Missing required parameters."
+msgstr "Beharrezko parametroak falta dira."
+
+#: inc/backup.php:583
+msgid "WP File Manager - Backup/Restore"
+msgstr "WP File Manager - Backup / Restore"
+
+#: inc/backup.php:589
+msgid "Backup Options:"
+msgstr "Babeskopien aukerak:"
+
+#: inc/backup.php:596
+msgid "Database Backup"
+msgstr "Datu basearen babeskopia"
+
+#: inc/backup.php:602
+msgid "Files Backup"
+msgstr "Fitxategien babeskopia"
+
+#: inc/backup.php:606
+msgid "Plugins"
+msgstr "Pluginak"
+
+#: inc/backup.php:609
+msgid "Themes"
+msgstr "Gaiak"
+
+#: inc/backup.php:612
+msgid "Uploads"
+msgstr "Kargak"
+
+#: inc/backup.php:615
+msgid "Others (Any other directories found inside wp-content)"
+msgstr "Beste batzuk (wp-content barruan aurkitutako beste edozein direktorio)"
+
+#: inc/backup.php:619
+msgid "Backup Now"
+msgstr "Babeskopia orain"
+
+#: inc/backup.php:627
+msgid "Time now"
+msgstr "Ordua"
+
+#: inc/backup.php:637
+msgid "SUCCESS"
+msgstr "ARRAKASTA"
+
+#: inc/backup.php:639
+msgid "Backup successfully deleted."
+msgstr "Babeskopiak behar bezala ezabatu dira."
+
+#: inc/backup.php:640
+msgid "Ok"
+msgstr "Ados"
+
+#: inc/backup.php:655
+msgid "DELETE FILES"
+msgstr "EZABATU FITXATEGIAK"
+
+#: inc/backup.php:657
+msgid "Are you sure you want to delete this backup?"
+msgstr "Ziur zaude segurtasun kopia hau ezabatu nahi duzula?"
+
+#: inc/backup.php:658 inc/backup.php:677
+msgid "Cancel"
+msgstr "Utzi"
+
+#: inc/backup.php:659 inc/backup.php:678
+msgid "Confirm"
+msgstr "Berretsi"
+
+#: inc/backup.php:674
+msgid "RESTORE FILES"
+msgstr "FITXATEGIAK BERRESKURATU"
+
+#: inc/backup.php:676
+msgid "Are you sure you want to restore this backup?"
+msgstr "Ziur zaude segurtasun kopia hau leheneratu nahi duzula?"
+
+#: inc/backup.php:704
+msgid "Last Log Message"
+msgstr "Azken erregistro mezua"
+
+#: inc/backup.php:707
+msgid "The backup apparently succeeded and is now complete."
+msgstr "Badirudi babeskopiak arrakasta izan duela eta amaitu dela."
+
+#: inc/backup.php:709
+msgid "No log message"
+msgstr "Ez dago egunkari mezurik"
+
+#: inc/backup.php:715
+msgid "Existing Backup(s)"
+msgstr "Dauden segurtasun kopiak"
+
+#: inc/backup.php:723
+msgid "Backup Date"
+msgstr "Babeskopia-data"
+
+#: inc/backup.php:726
+msgid "Backup data (click to download)"
+msgstr "Babeskopia datuak (egin klik deskargatzeko)"
+
+#: inc/backup.php:729 inc/shortcode_listing.php:45 inc/wpfmlogs.php:80
+#: inc/wpfmlogs.php:162 inc/wpfmlogs.php:245
+msgid "Action"
+msgstr "Ekintza"
+
+#: inc/backup.php:749
+msgid "Today"
+msgstr "Gaur"
+
+#: inc/backup.php:771
+msgid "Restore"
+msgstr "Berreskuratu"
+
+#: inc/backup.php:773
+msgid "View Log"
+msgstr "Ikusi erregistroa"
+
+#: inc/backup.php:778
+msgid "Currently no backup(s) found."
+msgstr "Une honetan ez da babeskopiarik aurkitu."
+
+#: inc/backup.php:781
+msgid "Actions upon selected backup(s)"
+msgstr "Aukeratutako segurtasun kopien gaineko ekintzak"
+
+#: inc/backup.php:783
+msgid "Select All"
+msgstr "Hautatu guztiak"
+
+#: inc/backup.php:784
+msgid "Deselect"
+msgstr "Desautatu"
+
+#: inc/backup.php:786
+msgid "<strong>Note:</strong>Backup files will be under"
+msgstr "<strong> Oharra: </strong> Babeskopien fitxategiak azpian egongo dira"
+
+#: inc/backup.php:803
+msgid "Backup is running, please wait"
+msgstr "Babeskopiak martxan daude, itxaron mesedez"
+
+#: inc/backup.php:902
+msgid "Select backup(s) to delete!"
+msgstr "Aukeratu ezabatu beharreko segurtasun kopiak!"
+
+#: inc/backup.php:904
+msgid "Are you sure want to remove selected backup(s)?"
+msgstr "Ziur zaude hautatutako segurtasun kopiak kendu nahi dituzula?"
+
+#: inc/email.php:6
+msgid "Saving please wait..."
+msgstr "Gordetzen mesedez itxaron ..."
+
+#: inc/email.php:32 inc/root.php:30 inc/settings.php:9
+msgid "Settings saved."
+msgstr "Ezarpenak gorde dira."
+
+#: inc/email.php:32 inc/email.php:35 inc/root.php:30 inc/root.php:33
+#: inc/settings.php:9 inc/settings.php:12
+msgid "Dismiss this notice."
+msgstr "Baztertu ohar hau."
+
+#: inc/email.php:35 inc/settings.php:12
+msgid "Settings not saved."
+msgstr "Ezarpenak ez dira gorde."
+
+#: inc/email.php:44
+msgid "Enable?"
+msgstr "Gaitu?"
+
+#: inc/email.php:54
+msgid "Email Addresses"
+msgstr "Helbide elektronikoak"
+
+#: inc/email.php:71
+msgid "Add More <strong>+</strong>"
+msgstr "Gehitu gehiago <strong>+</strong>"
+
+#: inc/email.php:73
+msgid ""
+"This address is used for notification purposes, like theme/plugin "
+"notification."
+msgstr ""
+"Helbide hau jakinarazpenetarako erabiltzen da, adibidez, gaiaren / "
+"pluginaren jakinarazpena."
+
+#: inc/email.php:79
+msgid "Files Upload Notifications"
+msgstr "Fitxategiak kargatzeko jakinarazpenak"
+
+#: inc/email.php:82 inc/email.php:108 inc/email.php:131
+msgid "Subject"
+msgstr "Gaia"
+
+#: inc/email.php:85
+msgid "Files Uploaded"
+msgstr "Kargatutako fitxategiak"
+
+#: inc/email.php:95 inc/email.php:119 inc/email.php:142
+msgid "Body"
+msgstr "Gorputza"
+
+#: inc/email.php:98 inc/email.php:122 inc/email.php:145
+msgid "Example:"
+msgstr "Adibidez:"
+
+#: inc/email.php:105
+msgid "Files Download Notifications"
+msgstr "Fitxategiak deskargatzeko jakinarazpenak"
+
+#: inc/email.php:111
+msgid "Files Downloaded"
+msgstr "Deskargatutako fitxategiak"
+
+#: inc/email.php:128
+msgid "Files Edit Notifications"
+msgstr "Fitxategiak editatu jakinarazpenak"
+
+#: inc/email.php:134
+msgid "Files Modified or Edited"
+msgstr "Fitxategiak aldatu edo editatu"
+
+#: inc/email.php:155 inc/root.php:87 inc/settings.php:703
+msgid "Save Changes"
+msgstr "Aldaketak gorde"
+
+#: inc/email.php:186 inc/email.php:209
+msgid ""
+"All added email fields needs to filled and should have valid email address."
+msgstr ""
+"Gehitutako mezu elektronikoen eremu guztiak bete behar dira eta baliozko "
+"helbide elektronikoa izan behar dute."
+
+#: inc/extensions.php:116
+msgid "Add-ons"
+msgstr "Gehigarriak"
+
+#: inc/extensions.php:121
+msgid "Box"
+msgstr "Kutxa"
+
+#: inc/extensions.php:130 inc/extensions.php:149 inc/extensions.php:169
+#: inc/extensions.php:188 inc/extensions.php:206 inc/extensions.php:225
+msgid "Buy Now"
+msgstr "Erosi orain"
+
+#: inc/extensions.php:141
+msgid "DropBox"
+msgstr ""
+
+#: inc/extensions.php:179
+msgid "OneDrive"
+msgstr ""
+
+#: inc/extensions.php:198
+msgid "AWS S3"
+msgstr ""
+
+#: inc/extensions.php:216
+msgid "Git Hub"
+msgstr ""
+
+#: inc/fm_shortcode_btn.php:8
+msgid "Insert File Manager Shortcode"
+msgstr "Txertatu Fitxategi kudeatzailearen kode laburra"
+
+#: inc/fm_shortcode_btn.php:14
+msgid "Select Shortcode"
+msgstr "Aukeratu Shortcode"
+
+#: inc/fm_shortcode_btn.php:17
+msgid "Choose Shortcode"
+msgstr "Aukeratu Shortcode"
+
+#: inc/license.php:42
+msgid "Purchase New License"
+msgstr "Erosi lizentzia berria"
+
+#: inc/license.php:45
+msgid ""
+"To unlock updates, please enter your order id and license key below. If you "
+"don't have a license key, <a href=\"https://filemanagerpro.io/file-manager-"
+"pricing/\" target=\"_blank\" class=\"page-title-action buy-link\" title="
+"\"click to buy License Key\">please see details & pricing</a>"
+msgstr ""
+"Eguneratzeak desblokeatzeko, sartu zure eskaeraren IDa eta lizentzia gakoa "
+"behean. Lizentzia gakorik ez baduzu, <a href=\"https://filemanagerpro.io/"
+"file-manager-pricing/\" target=\"_blank\" class=\"page-title-action buy-link"
+"\" title=\"egin klik Lizentzia gakoa erosteko\"> ikusi xehetasunak eta "
+"prezioak </a>"
+
+#: inc/license.php:50
+msgid "ORDER ID (#)"
+msgstr "ESKAERA IDa (#)"
+
+#: inc/license.php:54
+msgid "LICENSE KEY"
+msgstr "LIZENTZIAREN GAKOA"
+
+#: inc/license.php:69
+msgid "PURCHASE DATE"
+msgstr "EROSKETA DATA"
+
+#: inc/license.php:73
+msgid "EXPIRE DATE"
+msgstr "EXPIRE DATA"
+
+#: inc/license.php:85
+msgid "If you have renewed your license already then click here to refresh!"
+msgstr "Lizentzia berritu baduzu, egin klik hemen freskatzeko!"
+
+#: inc/license.php:97
+msgid "Deactivate"
+msgstr "Desaktibatu"
+
+#: inc/license.php:102
+msgid "Click here to renew"
+msgstr "Egin klik hemen berritzeko"
+
+#: inc/license.php:109
+msgid "Click Here To Renew License"
+msgstr "Egin klik hemen lizentzia berritzeko"
+
+#: inc/license.php:159
+msgid "Are you sure you want to deactivate your license?"
+msgstr "Ziur lizentzia desaktibatu nahi duzula?"
+
+#: inc/popup.php:31
+msgid "File Manager Pro Update"
+msgstr "File Manager Pro eguneratzea"
+
+#: inc/popup.php:32
+msgid "File Manager Pro"
+msgstr "File Manager Pro"
+
+#: inc/popup.php:36
+msgid "With File Manager Pro"
+msgstr "File Manager Pro-rekin"
+
+#: inc/popup.php:36
+msgid ""
+"users will now be able to customise the existing shortcodes with the help of "
+"filters."
+msgstr ""
+"erabiltzaileek lehendik dauden kode laburrak pertsonalizatzeko aukera izango "
+"dute iragazkien laguntzarekin."
+
+#: inc/popup.php:36
+msgid "Click"
+msgstr "Egin klik"
+
+#: inc/popup.php:36
+msgid "here"
+msgstr "hemen"
+
+#: inc/popup.php:36
+msgid "to see documentation to support you in your transition"
+msgstr "zure trantsizioan laguntzeko dokumentazioa ikusteko"
+
+#: inc/popup.php:36
+msgid "Happy Coding!"
+msgstr "Kodetze zoriontsua!"
+
+#: inc/popup.php:37
+msgid "View Shortcode Documentation"
+msgstr "Ikusi Shortcode dokumentazioa"
+
+#: inc/root.php:33
+msgid "You have not made any changes to be saved."
+msgstr "Ez duzu gordetzeko aldaketarik egin."
+
+#: inc/root.php:39
+msgid "Preferences - File Manager"
+msgstr "Hobespenak - Fitxategi kudeatzailea"
+
+#: inc/root.php:46
+msgid "Public Root Path"
+msgstr "Erro Publikoa"
+
+#: inc/root.php:50
+msgid "File Manager Root Path, you can change according to your choice."
+msgstr ""
+"Fitxategi kudeatzailearen erro bidea, zure aukeraren arabera alda dezakezu."
+
+#: inc/root.php:53 inc/settings.php:208 inc/settings.php:226
+#: inc/settings.php:239 inc/shortcode_generator.php:425
+#: inc/shortcode_generator.php:442 inc/shortcode_generator.php:455
+#: inc/shortcode_generator.php:568 inc/shortcode_generator.php:585
+#: inc/shortcode_generator.php:598
+msgid "Default:"
+msgstr "Lehenetsia:"
+
+#: inc/root.php:55
+msgid ""
+"Please change this carefully, Wrong path can lead file manager plugin to go "
+"down."
+msgstr ""
+"Mesedez, aldatu hau arretaz. Bide okerrak fitxategi kudeatzailearen plugina "
+"jaistera eraman dezake."
+
+#: inc/root.php:60
+msgid "Enable Syntax Checker?"
+msgstr "Sintaxi egiaztatzailea gaitu?"
+
+#: inc/root.php:63
+msgid ""
+"When the Syntax Checker is enabled, the code updates being made to PHP files "
+"will be checked for syntax errors. If a syntax error is found, the updates "
+"will not be saved and a message box will appear which will define the error "
+"found. This checker will help prevent website downtime issues due to syntax "
+"errors."
+msgstr ""
+"Sintaxi zuzentzailea gaituta dagoenean, PHP fitxategietan egiten ari diren "
+"kodeen eguneratzeak sintaxi akatsik dauden egiaztatuko da. Sintaxi errore "
+"bat aurkitzen bada, eguneratzeak ez dira gordeko eta aurkitutako akatsa "
+"definituko duen mezu koadro bat agertuko da. Egiaztatzaile honek sintaxi "
+"akatsengatik webgunearen geldialdiak saihesten lagunduko du."
+
+#: inc/root.php:68
+msgid "Enable Trash?"
+msgstr "Zaborrontzia gaitu nahi duzu?"
+
+#: inc/root.php:73
+msgid "After enabling trash, your files will go to trash folder."
+msgstr ""
+"Zakarrontzia gaitu ondoren, zure fitxategiak zakarrontzira joango dira."
+
+#: inc/root.php:78
+msgid "Enable Files Upload to Media Library?"
+msgstr "Multimedia liburutegian fitxategiak kargatu nahi dituzu?"
+
+#: inc/root.php:83
+msgid ""
+"After enabling this, uploaded images, pdfs and zip files will go to media "
+"library too."
+msgstr ""
+"Gaitu ondoren, kargatutako irudiak, pdfak eta zip fitxategiak mediateketara "
+"ere joango dira."
+
+#: inc/settings.php:18
+msgid "Settings - File Manager"
+msgstr "Ezarpenak - Fitxategi kudeatzailea"
+
+#: inc/settings.php:19
+msgid "Settings will apply on"
+msgstr "Ezarpenak aktibatuko dira"
+
+#: inc/settings.php:19
+msgid "shortcode."
+msgstr "kode laburra."
+
+#: inc/settings.php:24 inc/shortcode_generator.php:210
+msgid "Make Directory"
+msgstr "Egin direktorioa"
+
+#: inc/settings.php:25 inc/shortcode_generator.php:211
+msgid "Make File"
+msgstr "Egin fitxategia"
+
+#: inc/settings.php:26 inc/shortcode_generator.php:212
+msgid "Rename"
+msgstr "Aldatu izena"
+
+#: inc/settings.php:27 inc/shortcode_generator.php:213
+msgid "Duplicate"
+msgstr "Bikoiztu"
+
+#: inc/settings.php:28 inc/shortcode_generator.php:214
+msgid "Paste"
+msgstr "Itsatsi"
+
+#: inc/settings.php:29 inc/shortcode_generator.php:215
+msgid "Archive"
+msgstr "Artxiboa"
+
+#: inc/settings.php:30 inc/shortcode_generator.php:216
+msgid "Extract"
+msgstr "Atera"
+
+#: inc/settings.php:31 inc/shortcode_generator.php:217
+#: inc/shortcode_listing.php:61 inc/shortcode_listing.php:84
+#: inc/shortcode_listing.php:159 inc/shortcode_listing.php:175
+#: inc/shortcode_listing.php:215
+msgid "Copy"
+msgstr "Kopiatu"
+
+#: inc/settings.php:32 inc/shortcode_generator.php:218
+msgid "Cut"
+msgstr "Ebaki"
+
+#: inc/settings.php:35 inc/shortcode_generator.php:221
+msgid "Download"
+msgstr "Deskargatu"
+
+#: inc/settings.php:36 inc/shortcode_generator.php:222
+msgid "Upload"
+msgstr "Kargatu"
+
+#: inc/settings.php:37 inc/shortcode_generator.php:223
+#: inc/shortcode_listing.php:109
+msgid "Search"
+msgstr "Bilatu"
+
+#: inc/settings.php:38 inc/shortcode_generator.php:224
+msgid "Info"
+msgstr "Informazioa"
+
+#: inc/settings.php:40 inc/shortcode_generator.php:226
+msgid "Resize"
+msgstr "Aldatu tamaina"
+
+#: inc/settings.php:47 inc/shortcode_generator.php:147
+msgid "<strong>Saving Please wait...</strong>"
+msgstr "<strong> Gordetzen Mesedez itxaron ... </strong>"
+
+#: inc/settings.php:83
+msgid "General"
+msgstr "Orokorra"
+
+#: inc/settings.php:88
+msgid "Code Editor"
+msgstr "Kode editorea"
+
+#: inc/settings.php:93
+msgid "User Restrictions"
+msgstr "Erabiltzaileen murriztapenak"
+
+#: inc/settings.php:98
+msgid "User Role Restrictions"
+msgstr "Erabiltzaile rolen mugak"
+
+#: inc/settings.php:104
+msgid "Frontend Access"
+msgstr "Frontend sarbidea"
+
+#: inc/settings.php:111
+msgid "Select User Roles to access WP File Manager"
+msgstr "Aukeratu Erabiltzaile rolak WP fitxategi kudeatzailera sartzeko"
+
+#: inc/settings.php:124
+msgid "Allow user roles to access WP File Manager."
+msgstr "Baimendu erabiltzaile rolak WP fitxategi kudeatzailea atzitzeko."
+
+#: inc/settings.php:131
+msgid "Select User Roles to access DB Manager"
+msgstr "Aukeratu Erabiltzaile rolak DB kudeatzailean sartzeko"
+
+#: inc/settings.php:144
+msgid "Allow user roles to access DB Manager."
+msgstr "Utzi erabiltzaile rolak DB kudeatzailea atzitzea."
+
+#: inc/settings.php:150
+msgid "Separate or Private Folder Access"
+msgstr "Karpeta sarbide bereizia edo pribatua"
+
+#: inc/settings.php:152
+msgid ""
+"File Manager will access this folder path. Else, will access root directory. "
+"<strong>e.g wp-content/plugins</strong>. <br><strong>Note:</strong> Will be "
+"valid for all user roles."
+msgstr ""
+"Fitxategi kudeatzaileak karpeta bide honetara sartuko da. Bestela, root "
+"direktorioa sartuko da. <strong> Adibidez, wp-content / plugins </strong>. "
+"<br><strong>Oharra: </strong> Erabiltzaile rol guztietarako balioko du."
+
+#: inc/settings.php:157
+msgid "Maximum Upload Size"
+msgstr "Kargatzeko gehieneko tamaina"
+
+#: inc/settings.php:159
+msgid "MB"
+msgstr ""
+
+#: inc/settings.php:159
+msgid "Allow users to upload file of maximum."
+msgstr "Utzi erabiltzaileei gehienezko fitxategia kargatzeko."
+
+#: inc/settings.php:163
+msgid "Notification Email"
+msgstr "Jakinarazpen posta elektronikoa"
+
+#: inc/settings.php:165
+msgid ""
+"Sends Notifications to this email. <strong>Note:</strong> This will take "
+"admin email by default if kept empty."
+msgstr ""
+"Jakinarazpenak mezu elektroniko honetara bidaltzen ditu. <strong>Oharra:</"
+"strong> honek administratzailearen mezu elektronikoa hartuko du lehenespenez "
+"hutsik mantentzen bada."
+
+#: inc/settings.php:170
+msgid "Send Notifications to admin and save logs on file upload ?"
+msgstr ""
+"Jakinarazpenak bidali nahi dizkiozu administratzaileari eta fitxategiak "
+"kargatzean erregistroak gorde?"
+
+#: inc/settings.php:174
+msgid ""
+"Check to allow file upload notifications. Mail will be sent to admin. Click "
+"<a href=\"admin.php?page=wpfm-emails\" target=\"_blank\">here</a> to set "
+"notification email."
+msgstr ""
+"Egiaztatu fitxategiak kargatzeko jakinarazpenak baimentzeko. Posta "
+"administratzaileari bidaliko zaio. Egin klik <a href=\"admin.php?page=wpfm-"
+"emails\" target=\"_blank\">hemen</a>jakinarazpen posta elektronikoa "
+"ezartzeko."
+
+#: inc/settings.php:174 inc/settings.php:183 inc/settings.php:192
+msgid ""
+"<strong>Note:</strong> This feature is using wp_mail(), Make sure <a href="
+"\"https://developer.wordpress.org/reference/functions/wp_mail/\" title="
+"\"Read More\" target=\"_blank\">wp_mail</a> is working."
+msgstr ""
+"<strong>Oharra:</strong> Ezaugarri hau wp_mail () erabiltzen ari da. "
+"Ziurtatu <a href=\"https://developer.wordpress.org/reference/functions/"
+"wp_mail/\" title=\"Irakurri gehiago\" target=\"_blank\">wp_mail</a> "
+"funtzionatzen ari da."
+
+#: inc/settings.php:179
+msgid "Send Notifications to admin and save logs on file download ?"
+msgstr ""
+"Jakinarazpenak administratzaileari bidali eta fitxategiak deskargatzean "
+"erregistroak gorde?"
+
+#: inc/settings.php:183
+msgid ""
+"Check to allow file download notifications. Mail will be sent to admin. "
+"Click <a href=\"admin.php?page=wpfm-emails\" target=\"_blank\">here</a> to "
+"set notification email."
+msgstr ""
+"Egiaztatu fitxategiak deskargatzeko jakinarazpenak baimentzeko. Posta "
+"administratzaileari bidaliko zaio. Egin klik <a href=\"admin.php?page=wpfm-"
+"emails\" target=\"_blank\">hemen</a> jakinarazpen posta elektronikoa "
+"ezartzeko."
+
+#: inc/settings.php:188
+msgid "Send Notifications to admin and save logs on file edit ?"
+msgstr ""
+"Jakinarazpenak bidali nahi dizkiozu administratzaileari eta fitxategiak "
+"aldatzean erregistroak gorde?"
+
+#: inc/settings.php:192
+msgid ""
+"Check to allow file edit notifications. Mail will be sent to admin.  Click "
+"<a href=\"admin.php?page=wpfm-emails\" target=\"_blank\">here</a> to set "
+"notification email."
+msgstr ""
+"Egiaztatu fitxategiak editatzeko jakinarazpenak baimentzeko. Posta "
+"administratzaileari bidaliko zaio. Egin klik <a href=\"admin.php?page=wpfm-"
+"emails\" target=\"_blank\">hemen</a> jakinarazpen posta elektronikoa "
+"ezartzeko."
+
+#: inc/settings.php:198
+msgid "Select File Manager Language"
+msgstr "Aukeratu Fitxategi kudeatzailearen hizkuntza"
+
+#: inc/settings.php:208 inc/shortcode_generator.php:425
+#: inc/shortcode_generator.php:568
+msgid "English"
+msgstr "Ingelesa"
+
+#: inc/settings.php:209
+msgid "You can select any language for File Manager."
+msgstr "Fitxategi kudeatzailerako edozein hizkuntza hauta dezakezu."
+
+#: inc/settings.php:215
+msgid "Select File Manager Theme"
+msgstr "Aukeratu Fitxategi kudeatzailearen gaia"
+
+#: inc/settings.php:227
+msgid "You can select any theme for File Manager."
+msgstr "Fitxategi kudeatzailearentzako edozein gai hauta dezakezu."
+
+#: inc/settings.php:233 inc/shortcode_generator.php:449
+#: inc/shortcode_generator.php:592
+msgid "Files View"
+msgstr "Fitxategien ikuspegia"
+
+#: inc/settings.php:236 inc/settings.php:239 inc/shortcode_generator.php:452
+#: inc/shortcode_generator.php:455 inc/shortcode_generator.php:595
+#: inc/shortcode_generator.php:598
+msgid "List"
+msgstr "Zerrenda"
+
+#: inc/settings.php:237 inc/shortcode_generator.php:453
+#: inc/shortcode_generator.php:596
+msgid "Icon"
+msgstr "Ikonoa"
+
+#: inc/settings.php:240
+msgid "You can select any view for File Manager."
+msgstr "Fitxategi kudeatzailearentzako edozein ikuspegi hauta dezakezu."
+
+#: inc/settings.php:244
+msgid "Enable \"Insert File Manager Shortcode\" Button with Content Editor ?"
+msgstr ""
+"Gaitu \"Txertatu fitxategi kudeatzailearen kode laburra\" botoia Eduki "
+"editorearekin?"
+
+#: inc/settings.php:248
+msgid ""
+"Enable \"Insert File Manager Shortcode\" button in edit page screen with "
+"classic editor."
+msgstr ""
+"Gaitu \"Txertatu fitxategi kudeatzailearen kode laburra\" botoia edizio "
+"orrialdearen pantailan editorea klasikoarekin."
+
+#: inc/settings.php:252
+msgid "Disable Local File System ?"
+msgstr "Tokiko fitxategi sistema desgaitu?"
+
+#: inc/settings.php:256
+msgid "Check to disable Local File System in File Manager."
+msgstr "Markatu Tokiko fitxategi sistema fitxategi kudeatzailean desgaitzeko."
+
+#: inc/settings.php:261
+msgid "Disable Database Manager ?"
+msgstr "Datu base kudeatzailea desgaitu?"
+
+#: inc/settings.php:265
+msgid "Check to disable Database Manager."
+msgstr "Markatu datu-basearen kudeatzailea desgaitzeko."
+
+#: inc/settings.php:276
+msgid "Code editor allow fullscreen?"
+msgstr "Kode editoreak pantaila osoa baimendu nahi duzu?"
+
+#: inc/settings.php:277
+msgid "Check to allow fullscreen code editor"
+msgstr "Begiratu pantaila osoko kode editorea baimentzeko"
+
+#: inc/settings.php:281
+msgid "Select theme for Code Editor."
+msgstr "Aukeratu Kode editorearen gaia."
+
+#: inc/settings.php:289
+msgid ""
+"Select theme for Code Editor. For more information please visit <a href="
+"\"http://codemirror.net/demo/theme.html\" target=\"_blank\">this link</a>."
+msgstr ""
+"Aukeratu Kode editorearen gaia. Informazio gehiagorako, bisitatu <a href="
+"\"http://codemirror.net/demo/theme.html\" target=\"_blank\"> esteka hau </a>."
+
+#: inc/settings.php:298
+msgid "Disable or Ban WP File Manager Operations to User Roles"
+msgstr ""
+"Desgaitu edo debekatu WP fitxategi kudeatzailearen eragiketak erabiltzaileen "
+"roletara"
+
+#: inc/settings.php:299
+msgid "Select user role and disable operation."
+msgstr "Aukeratu erabiltzailearen rola eta desgaitu eragiketa."
+
+#: inc/settings.php:304 inc/settings.php:491
+msgid "Click to Add Rules"
+msgstr "Egin klik Arauak gehitzeko"
+
+#: inc/settings.php:305
+msgid "Add rule for User Roles"
+msgstr "Gehitu araua Erabiltzaile roletarako"
+
+#: inc/settings.php:313 inc/settings.php:396
+msgid "If User role is"
+msgstr "Erabiltzaile rola bada"
+
+#: inc/settings.php:315 inc/settings.php:398
+msgid "Select User Role"
+msgstr "Aukeratu Erabiltzaile rola"
+
+#: inc/settings.php:320 inc/settings.php:406 inc/settings.php:508
+#: inc/settings.php:589
+msgid "Then"
+msgstr "Ondoren"
+
+#: inc/settings.php:329 inc/settings.php:415 inc/settings.php:517
+#: inc/settings.php:599
+msgid "Disable Operations"
+msgstr "Desgaitu operazioak"
+
+#: inc/settings.php:342 inc/settings.php:435 inc/settings.php:528
+#: inc/settings.php:620
+msgid ""
+"Separate or private folder access <strong>e.g wp-content/themes</strong> etc."
+msgstr ""
+"Karpeta berezi edo pribatuetarako sarbidea<strong>adibidez wp-edukia/gaiak</"
+"strong>etab."
+
+#: inc/settings.php:345 inc/settings.php:353 inc/settings.php:361
+#: inc/settings.php:438 inc/settings.php:446 inc/settings.php:454
+#: inc/settings.php:531 inc/settings.php:539 inc/settings.php:547
+#: inc/settings.php:623 inc/settings.php:631 inc/settings.php:639
+msgid "Note:"
+msgstr "Ohar:"
+
+#: inc/settings.php:345 inc/settings.php:438 inc/settings.php:531
+#: inc/settings.php:623
+msgid "It will overide \"Private Folder Access\" settings"
+msgstr "\"Karpeta pribatuko sarbidea\" ezarpenak gainidatziko ditu"
+
+#: inc/settings.php:350 inc/settings.php:443 inc/settings.php:536
+#: inc/settings.php:628
+msgid ""
+"Enter Folder or Files Paths That You want to <strong>Hide</strong> e.g wp-"
+"content/themes|wp-content/plugins."
+msgstr ""
+"Sartu <strong>Ezkutatu</strong> nahi dituzun karpeta edo fitxategien bideak, "
+"adibidez wp-content / themes | wp-content / plugins."
+
+#: inc/settings.php:353 inc/settings.php:446 inc/settings.php:539
+#: inc/settings.php:631
+msgid "Multiple separated by Vertical Bar (|)."
+msgstr "Anitza barra bertikalarekin bereizita (|)."
+
+#: inc/settings.php:358 inc/settings.php:451 inc/settings.php:544
+#: inc/settings.php:636
+msgid ""
+"Enter file extensions which you want to Lock. <strong>e.g .php|.png|.css</"
+"strong> etc"
+msgstr ""
+"Idatzi blokeatu nahi dituzun fitxategi luzapenak. <strong> Adib .php | .png "
+"| .css</strong> etab"
+
+#: inc/settings.php:361 inc/settings.php:454 inc/settings.php:547
+#: inc/settings.php:639
+msgid ""
+"The extensions in the option are case sensitive and should be separated by "
+"vertical bar (|) without having white space between them. e.g. php,PHP"
+msgstr ""
+"Aukeraren luzapenek maiuskulak eta minuskulak bereizten dituzte eta barra "
+"bertikalaren bidez bereiztu behar dira (|) haien artean tarte zuririk izan "
+"gabe. adibidez php, PHP"
+
+#: inc/settings.php:366 inc/settings.php:459 inc/settings.php:552
+#: inc/settings.php:644
+msgid "Disable Toolbar and Context Menu"
+msgstr "Desgaitu tresna-barra eta testuinguru menua"
+
+#: inc/settings.php:372 inc/settings.php:464 inc/settings.php:557
+#: inc/settings.php:648
+msgid "Disable Toolbar"
+msgstr "Desgaitu tresna-barra"
+
+#: inc/settings.php:377 inc/settings.php:464 inc/settings.php:558
+#: inc/settings.php:648
+msgid "Disable Context Menu"
+msgstr "Desgaitu testuinguru menua"
+
+#: inc/settings.php:385 inc/settings.php:473 inc/settings.php:567
+#: inc/settings.php:654
+msgid "Remove"
+msgstr "Kendu"
+
+#: inc/settings.php:485
+msgid "Disable or Ban WP File Manager Operations to Users"
+msgstr ""
+"Desgaitu edo banatu WP fitxategi kudeatzailea Erabiltzaileei eragiketak"
+
+#: inc/settings.php:486
+msgid "Select users and disable operation."
+msgstr "Aukeratu erabiltzaileak eta desgaitu eragiketa."
+
+#: inc/settings.php:492
+msgid "Add rule for Users"
+msgstr "Gehitu erabiltzaileentzako araua"
+
+#: inc/settings.php:501 inc/settings.php:581
+msgid "If User is"
+msgstr "Erabiltzailea bada"
+
+#: inc/settings.php:503 inc/settings.php:583
+msgid "Select User"
+msgstr "Aukeratu Erabiltzailea"
+
+#: inc/settings.php:664
+msgid "Select the pages where you want to show the File Manager on Frontend"
+msgstr ""
+"Hautatu Frontend-en Fitxategi kudeatzailea erakutsi nahi duzun orrialdeak"
+
+#: inc/settings.php:666
+msgid "Select Pages"
+msgstr "Aukeratu orrialdeak"
+
+#: inc/settings.php:676
+msgid ""
+"<strong>Note:</strong> It will not work if already using any File Manager "
+"shortcode in selected page editor."
+msgstr ""
+"<strong> Oharra: </strong> Ez du funtzionatuko hautatutako orrialde-"
+"editorean Fitxategi-kudeatzailearen kode laburrik erabiltzen baduzu."
+
+#: inc/settings.php:680
+msgid "Display File Manager ?"
+msgstr "Fitxategi kudeatzailea bistaratu?"
+
+#: inc/settings.php:683
+msgid "After Content"
+msgstr "Edukiaren ondoren"
+
+#: inc/settings.php:684
+msgid "Before Content"
+msgstr "Edukiaren aurretik"
+
+#: inc/settings.php:687
+msgid "Default: After Content"
+msgstr "Lehenetsia: Edukiaren ondoren"
+
+#: inc/settings.php:691 inc/shortcode_listing.php:44
+msgid "Shortcode"
+msgstr "Kode laburra"
+
+#: inc/settings.php:693
+msgid "Paste the shortcode here"
+msgstr "Itsatsi kode laburra hemen"
+
+#: inc/settings.php:694
+msgid ""
+"You can generate new shortcode from the <a href='admin.php?"
+"page=wp_file_manager_existing_shortcodes'>Shortcode Generator</a> of File "
+"Manager."
+msgstr ""
+"Fitxategi-kudeatzailearen <a href='admin.php?"
+"page=wp_file_manager_existing_shortcodes'> Kode laburren sortzailea </a> "
+"kode laburrak sor ditzakezu."
+
+#: inc/settings.php:695
+msgid ""
+"Shortcode will work on selected pages. Help is given below to edit "
+"parameters:"
+msgstr ""
+"Kode laburrak hautatutako orrietan funtzionatuko du. Laguntza ematen da "
+"jarraian parametroak editatzeko:"
+
+#: inc/settings.php:696
+msgid "Shortcode Help:"
+msgstr "Shortcode Laguntza:"
+
+#: inc/settings.php:696
+msgid ""
+"<a href='https://filemanagerpro.io/shortcodes/' "
+"target='_blank'>Documentation</a>"
+msgstr ""
+"<a href='https://filemanagerpro.io/shortcodes/' "
+"target='_blank'>Dokumentazioa</a>"
+
+#: inc/settings.php:731 inc/settings.php:773
+msgid "Please select user from the previously added rule before adding new!"
+msgstr ""
+"Mesedez, hautatu erabiltzailea aurrez gehitutako arautik, berria gehitu "
+"aurretik!"
+
+#: inc/settings.php:833 inc/settings.php:847
+msgid "Please select user in the added user restriction rule before saving."
+msgstr ""
+"Mesedez, hautatu erabiltzailea gehitutako erabiltzaileen murrizketa arauan "
+"gorde aurretik."
+
+#: inc/shortcode.php:114
+msgid "Welcome: "
+msgstr "Ongi etorri: "
+
+#: inc/shortcode.php:323 inc/shortcode_admin_control.php:115
+msgid "Sorry, you are not allowed to access this page."
+msgstr "Barkatu, ez duzu orrialde honetan sartzeko baimenik."
+
+#: inc/shortcode.php:330 inc/shortcode_admin_control.php:118
+msgid "Please login to access file manager."
+msgstr "Mesedez, hasi saioa fitxategi kudeatzailera sartzeko."
+
+#: inc/shortcode_docs.php:11
+msgid "Shortcodes"
+msgstr "Kode laburrak"
+
+#: inc/shortcode_generator.php:42 inc/shortcode_generator.php:55
+#: inc/shortcode_generator.php:62
+msgid "Error in creating shortcode. Invalid shortcode."
+msgstr "Errorea kode laburra sortzean. Kode labur baliogabea."
+
+#: inc/shortcode_generator.php:250
+msgid "Click to get list of all shortcodes"
+msgstr "Egin klik kode labur guztien zerrenda lortzeko"
+
+#: inc/shortcode_generator.php:250
+msgid "All Shortcodes"
+msgstr "Kode labur guztiak"
+
+#: inc/shortcode_generator.php:253
+msgid "Click to create new shortcode"
+msgstr "Egin klik kode labur berria sortzeko"
+
+#: inc/shortcode_generator.php:253 inc/shortcode_listing.php:24
+msgid "Generate New Shortcode"
+msgstr "Sortu kode labur berria"
+
+#: inc/shortcode_generator.php:263
+msgid "Logged in users"
+msgstr "Saioa hasi duten erabiltzaileak"
+
+#: inc/shortcode_generator.php:269
+msgid "Non logged in users"
+msgstr "Saioa hasi gabeko erabiltzaileak"
+
+#: inc/shortcode_generator.php:275
+msgid "From existing shortcode"
+msgstr "Lehendik dagoen kode laburretik"
+
+#: inc/shortcode_generator.php:288 inc/shortcode_generator.php:492
+#: inc/shortcode_generator.php:635
+#, php-format
+msgid ""
+"Your shortcode <span style='background-color:#e5e5e5;'>%s</span> has been "
+"generated successfully. Copy this shortcode and paste it in your pages."
+msgstr ""
+"Zure shortcode <span style='background-color:#e5e5e5;'>% s</span> behar "
+"bezala sortu da. Kopiatu kode labur hau eta itsatsi zure orrietan."
+
+#: inc/shortcode_generator.php:290 inc/shortcode_generator.php:494
+msgid "Your shortcode settings has been updated successfully."
+msgstr "Kode laburren ezarpenak behar bezala eguneratu dira."
+
+#: inc/shortcode_generator.php:295 inc/shortcode_generator.php:498
+#: inc/shortcode_generator.php:639
+msgid "Shortcode Title"
+msgstr "Shortcode Izenburua"
+
+#: inc/shortcode_generator.php:297 inc/shortcode_generator.php:500
+#: inc/shortcode_generator.php:641
+msgid "Enter shortcode title"
+msgstr "Idatzi kode laburren izenburua"
+
+#: inc/shortcode_generator.php:298 inc/shortcode_generator.php:501
+#: inc/shortcode_generator.php:642
+msgid "It is required to identify the shortcode you are going to use."
+msgstr "Erabiliko duzun kode laburra identifikatu behar da."
+
+#: inc/shortcode_generator.php:299 inc/shortcode_generator.php:502
+#: inc/shortcode_generator.php:643 inc/shortcode_generator.php:653
+msgid "This field can not be empty."
+msgstr "Eremu hau ezin da hutsik egon."
+
+#: inc/shortcode_generator.php:300 inc/shortcode_generator.php:503
+#: inc/shortcode_generator.php:644
+msgid "Title with this name already exists. Please choose another title."
+msgstr ""
+"Izen hau duen izenburua dagoeneko badago. Mesedez, aukeratu beste izenburu "
+"bat."
+
+#: inc/shortcode_generator.php:304
+msgid "Allowed Roles"
+msgstr "Onartutako rolak"
+
+#: inc/shortcode_generator.php:318
+msgid "All"
+msgstr "Guztiak"
+
+#: inc/shortcode_generator.php:338
+msgid ""
+"It will allow all roles to access file manager on front end. All will apply "
+"for all available user roles."
+msgstr ""
+"Rol guztiak fitxategi-kudeatzailean frontendean sartzeko baimena emango du. "
+"Guztiak erabilgarri dauden erabiltzaile rol guztiei aplikatuko zaizkie."
+
+#: inc/shortcode_generator.php:339
+msgid "Please choose at least one user role."
+msgstr "Aukeratu gutxienez erabiltzaile rol bat."
+
+#: inc/shortcode_generator.php:344 inc/shortcode_generator.php:507
+msgid "Access Folder"
+msgstr "Sarbidea karpetara"
+
+#: inc/shortcode_generator.php:348 inc/shortcode_generator.php:510
+msgid "Path of the folder to display e.g wp-content/uploads"
+msgstr "Wp-content / uploads bistaratzeko karpetaren bidea"
+
+#: inc/shortcode_generator.php:349 inc/shortcode_generator.php:511
+msgid "Root directory"
+msgstr "Erro direktorioa"
+
+#: inc/shortcode_generator.php:350 inc/shortcode_generator.php:512
+msgid ""
+"eg. You can put \"test\" as a name of folder which is located on root "
+"directory, or you can give path for sub folders as like \"wp-content/plugins"
+"\". If leave blank or empty it will access all folders on root directory. If "
+"you put * then it will auto creates user folders with their username."
+msgstr ""
+"Adib. \"Test\" jar dezakezu karpetako izen gisa erro direktorioan edo "
+"azpikarpeten bidea eman dezakezu \"wp-content / plugins\" bezala. Hutsik edo "
+"hutsik uzten baduzu root direktorioko karpeta guztietara sartuko da. * "
+"Jartzen baduzu, automatikoki sortuko ditu erabiltzaileen karpetak "
+"erabiltzaile-izenarekin."
+
+#: inc/shortcode_generator.php:355 inc/shortcode_generator.php:517
+msgid "Allowed Operations"
+msgstr "Onartutako eragiketak"
+
+#: inc/shortcode_generator.php:373 inc/shortcode_generator.php:535
+msgid ""
+"For all operations and to allow some operation you can choose operations "
+"name from the list."
+msgstr ""
+"Eragiketa guztietarako eta eragiketa batzuk baimentzeko zerrendako "
+"eragiketen izena aukeratu dezakezu."
+
+#: inc/shortcode_generator.php:378
+msgid "Ban User IDs"
+msgstr "Debekatu erabiltzaile IDak"
+
+#: inc/shortcode_generator.php:389 inc/wpfmlogs.php:76 inc/wpfmlogs.php:158
+#: inc/wpfmlogs.php:241
+msgid "User ID"
+msgstr "Erabiltzaile IDa"
+
+#: inc/shortcode_generator.php:394
+msgid ""
+"To ban specific user from accessing file manager on frontend then you can "
+"choose the users from the list."
+msgstr ""
+"Erabiltzaile espezifikoak frontend-eko fitxategi kudeatzailera sartzea "
+"debekatzeko, zerrendako erabiltzaileak aukeratu ditzakezu."
+
+#: inc/shortcode_generator.php:398 inc/shortcode_generator.php:540
+msgid "Hide Files"
+msgstr "Ezkutatu fitxategiak"
+
+#: inc/shortcode_generator.php:400
+msgid "Hide files from access folder e.g. wp-content/plugins,wp-config.php etc"
+msgstr ""
+"Ezkutatu fitxategiak sarbide karpetatik adibidez. wp-content / plugins, wp-"
+"config.php etab"
+
+#: inc/shortcode_generator.php:402
+msgid ""
+"It will hide the files and folder mentioned here. <br><strong>Note:</strong> "
+"This option is case sensitive and should be comma(,) separated without "
+"having white space between them."
+msgstr ""
+"Hemen aipatutako fitxategiak eta karpeta ezkutatuko ditu. <br><strong>Oharra:"
+"</strong> Aukera honek maiuskulak eta minuskulak bereizten ditu eta komaz "
+"(,) bereizita egon behar da haien artean espazio zuririk izan gabe."
+
+#: inc/shortcode_generator.php:406 inc/shortcode_generator.php:549
+msgid "Lock Extensions"
+msgstr "Blokeatu luzapenak"
+
+#: inc/shortcode_generator.php:408 inc/shortcode_generator.php:551
+msgid "Restrict extensions e.g. .php,.css OR php,css"
+msgstr "Mugatu luzapenak, adibidez. .php, .css EDO php, css"
+
+#: inc/shortcode_generator.php:410 inc/shortcode_generator.php:553
+msgid ""
+"It will lock files mentioned in commas without white space between them. You "
+"can lock more as like \".php,.css,.js\" etc.<br><span class=\"highlighted"
+"\"><strong>Note:</strong> The extensions in the option are case sensitive "
+"and should be comma(,) separated without having white space between them. e."
+"g. php,PHP</span>"
+msgstr ""
+"Komaz aipatutako fitxategiak blokeatuko ditu haien artean espazio zuririk "
+"gabe. \".Php, .css, .js\" eta abar bezalakoak blokea ditzakezu<br><span "
+"class=\"highlighted\"><strong>Oharra: </strong> Aukerako luzapenek "
+"maiuskulak eta minuskulak bereizten dituzte eta koma izan behar dute (,) "
+"bereizita haien artean espazio zuririk izan gabe. adibidez php, PHP </span>"
+
+#: inc/shortcode_generator.php:415 inc/shortcode_generator.php:558
+msgid "Select Filemanager Language"
+msgstr "Aukeratu Filemanager hizkuntza"
+
+#: inc/shortcode_generator.php:426 inc/shortcode_generator.php:569
+msgid "You can select any language for filemanager."
+msgstr "Filemanager-erako edozein hizkuntza hauta dezakezu."
+
+#: inc/shortcode_generator.php:431 inc/shortcode_generator.php:574
+msgid "Select Filemanager Theme"
+msgstr "Aukeratu Filemanager Gaia"
+
+#: inc/shortcode_generator.php:443 inc/shortcode_generator.php:586
+msgid "You can select any theme for filemanager."
+msgstr "Filemanager-erako edozein gai hauta dezakezu."
+
+#: inc/shortcode_generator.php:456 inc/shortcode_generator.php:599
+msgid "You can select any view for filemanager."
+msgstr "Fitxategi kudeatzailearentzako edozein ikuspegi hauta dezakezu."
+
+#: inc/shortcode_generator.php:461 inc/shortcode_generator.php:603
+msgid "Date Format"
+msgstr "Data formatua"
+
+#: inc/shortcode_generator.php:471 inc/shortcode_generator.php:613
+msgid "You can select any date format for filemanager modified date."
+msgstr ""
+"Fitxategi kudeatzailea aldatutako datarako edozein data formatu hauta "
+"dezakezu."
+
+#: inc/shortcode_generator.php:477 inc/shortcode_generator.php:619
+msgid "Update Shortcode"
+msgstr "Eguneratu kode laburra"
+
+#: inc/shortcode_generator.php:477 inc/shortcode_generator.php:619
+#: inc/shortcode_generator.php:659
+msgid "Generate Shortcode"
+msgstr "Sortu kode laburra"
+
+#: inc/shortcode_generator.php:542
+msgid "Hide files from access folder e.g. test1,folder/test2 etc"
+msgstr ""
+"Ezkutatu fitxategiak sarbide karpetatik adibidez. test1, karpeta / test2 etab"
+
+#: inc/shortcode_generator.php:544
+msgid ""
+"It will hide the files and folder mentioned here. Note: This option is case "
+"sensitive and should be comma(,) separated without having white space "
+"between them."
+msgstr ""
+"Hemen aipatutako fitxategiak eta karpeta ezkutatuko ditu. Oharra: aukera "
+"honek maiuskulak eta minuskulak bereizten ditu eta komaz (,) bereizita egon "
+"behar da bien artean espazio zuririk izan gabe."
+
+#: inc/shortcode_generator.php:648
+msgid "Generate New Shortcode from existing one"
+msgstr "Sortu kode labur berria lehendik dagoenetik"
+
+#: inc/shortcode_generator.php:651
+msgid "Paste the shortcode which you are using in your page/post"
+msgstr "Itsatsi erabiltzen ari zaren kode laburra zure orrian / mezuan"
+
+#: inc/shortcode_generator.php:652
+msgid "This will convert the existing shortcode to the new shortcode format."
+msgstr "Horrela, lehendik dagoen kode laburra formatu berrira bihurtuko da."
+
+#: inc/shortcode_listing.php:23
+msgid "Existing Shortcode(s)"
+msgstr "Dauden kode laburrak"
+
+#: inc/shortcode_listing.php:24
+msgid "Click to go back to the shortcode generator"
+msgstr "Egin klik kode laburren sorgailura itzultzeko"
+
+#: inc/shortcode_listing.php:28
+msgid "Shortcode has been deleted successfully."
+msgstr "Kode laburra behar bezala ezabatu da."
+
+#: inc/shortcode_listing.php:30
+msgid "Shortcode(s) has been deleted successfully."
+msgstr "Kode laburrak ongi ezabatu dira."
+
+#: inc/shortcode_listing.php:43
+msgid "Title"
+msgstr "Izenburua"
+
+#: inc/shortcode_listing.php:61 inc/shortcode_listing.php:84
+#: inc/shortcode_listing.php:160 inc/shortcode_listing.php:176
+#: inc/shortcode_listing.php:216
+msgid "Copy to clipboard"
+msgstr "Kopiatu arbelera"
+
+#: inc/shortcode_listing.php:63
+msgid "Are you sure you want to delete this shortcode?"
+msgstr "Ziur zaude kode labur hau ezabatu nahi duzula?"
+
+#: inc/shortcode_listing.php:64 inc/shortcode_listing.php:77
+msgid "Customize Shortcode"
+msgstr "Pertsonalizatu kode laburra"
+
+#: inc/shortcode_listing.php:87
+msgid ""
+"Copy above filter code and paste it in your theme's functions.php file or in "
+"your plugin file to customize shortcode values as per your requirement."
+msgstr ""
+"Kopiatu goiko iragazkiaren kodea eta itsatsi zure gaiaren functions.php "
+"fitxategian edo zure plugin fitxategian kode laburren balioak zure "
+"eskakizunen arabera pertsonalizatzeko."
+
+#: inc/shortcode_listing.php:106 inc/shortcode_listing.php:108
+msgid "Showing"
+msgstr "Erakusten"
+
+#: inc/shortcode_listing.php:106 inc/shortcode_listing.php:108
+msgid "entries"
+msgstr "sarrerak"
+
+#: inc/shortcode_listing.php:110
+msgid "No shortcode found"
+msgstr "Ez da kode laburrik aurkitu"
+
+#: inc/shortcode_listing.php:131
+msgid "Delete All Selected"
+msgstr "Ezabatu hautatutako guztiak"
+
+#: inc/shortcode_listing.php:170 inc/shortcode_listing.php:210
+msgid "Copied"
+msgstr "Kopiatuta"
+
+#: inc/shortcode_listing.php:171 inc/shortcode_listing.php:211
+msgid "Copied to clipboard"
+msgstr "Arbelera kopiatu da"
+
+#: inc/shortcode_listing.php:221
+msgid "Are you sure you want to delete selected shortcode(s)?"
+msgstr "Ziur zaude hautatutako kode laburrak ezabatu nahi dituzula?"
+
+#: inc/shortcode_listing.php:229
+msgid "Please select atleast one shortcode from the list."
+msgstr "Mesedez, hautatu gutxienez kode labur bat zerrendatik."
+
+#: inc/verify.php:9
+msgid "License Verification"
+msgstr "Lizentziaren egiaztapena"
+
+#: inc/verify.php:11
+msgid ""
+"To unlock updates, please enter your order id and license key below. If you "
+"don't have a licence key, <a href=\"https://filemanagerpro.io/product/file-"
+"manager/\" target=\"_blank\" class=\"page-title-action buy-link\" title="
+"\"click to buy Licence Key\">please see details & pricing</a>."
+msgstr ""
+"Eguneratzeak desblokeatzeko, sartu zure eskaeraren IDa eta lizentzia gakoa "
+"behean. Lizentzia gakorik ez baduzu, <a href=\"https://filemanagerpro.io/"
+"product/file-manager/\" target=\"_blank\" class=\"page-title-action buy-link"
+"\" title=\"egin klik Lizentzia gakoa erosteko\">ikusi xehetasunak eta "
+"prezioak </a>."
+
+#: inc/verify.php:23
+msgid "ORDER ID (#) *"
+msgstr "ESKAERA IDa (#) *"
+
+#: inc/verify.php:24
+msgid "Please Check Your email for order ID."
+msgstr "Mesedez, egiaztatu zure posta elektronikoa eskaeraren IDa lortzeko."
+
+#: inc/verify.php:27
+msgid "LICENCE KEY *"
+msgstr "LIZENTZIA GAKOA *"
+
+#: inc/verify.php:28
+msgid "Please Check Your email for Licence Key."
+msgstr "Mesedez, egiaztatu zure helbide elektronikoa lizentzia gakoa lortzeko."
+
+#: inc/wpfmlogs.php:51
+msgid ""
+"To enable logs, go to <a href=\"admin.php?page=wp_file_manager_settings"
+"\">General Settings Tab</a> -> Check \"Send Notifications to admin on file "
+"upload \" , \"Send Notifications to admin on file download\" and \"Send "
+"Notifications to admin on file edit\" options."
+msgstr ""
+"Erregistroak gaitzeko, joan <a href=\"admin.php?page=wp_file_manager_settings"
+"\"> Ezarpen orokorren fitxa </a> -> Markatu \"Bidali jakinarazpenak "
+"administratzaileari fitxategia kargatzean\", \"Bidali jakinarazpenak "
+"administratzaileari fitxategia deskargatzean\" eta \"Bidali jakinarazpenak "
+"administratzaileari fitxategia editatzean\" aukerak."
+
+#: inc/wpfmlogs.php:53 inc/wpfmlogs.php:61
+msgid "Edited Files"
+msgstr "Editatutako fitxategiak"
+
+#: inc/wpfmlogs.php:54 inc/wpfmlogs.php:145
+msgid "Downloaded Files"
+msgstr "Deskargatutako fitxategiak"
+
+#: inc/wpfmlogs.php:55
+msgid "Uploaded Files"
+msgstr "Kargatutako fitxategiak"
+
+#: inc/wpfmlogs.php:64 inc/wpfmlogs.php:148 inc/wpfmlogs.php:231
+msgid "Bulk Actions"
+msgstr "Ekintza handiak"
+
+#: inc/wpfmlogs.php:67 inc/wpfmlogs.php:151 inc/wpfmlogs.php:234
+msgid "Apply"
+msgstr "Aplikatu"
+
+#: inc/wpfmlogs.php:75 inc/wpfmlogs.php:157 inc/wpfmlogs.php:240
+msgid "Sr No."
+msgstr "Sr No."
+
+#: inc/wpfmlogs.php:77 inc/wpfmlogs.php:159 inc/wpfmlogs.php:242
+msgid "User Name"
+msgstr "Erabiltzaile izena"
+
+#: inc/wpfmlogs.php:78 inc/wpfmlogs.php:160 inc/wpfmlogs.php:243
+msgid "Files"
+msgstr "Fitxategiak"
+
+#: inc/wpfmlogs.php:79 inc/wpfmlogs.php:161 inc/wpfmlogs.php:244
+msgid "Date"
+msgstr "Data"
+
+#: inc/wpfmlogs.php:93 inc/wpfmlogs.php:175 inc/wpfmlogs.php:258
+msgid "Are you sure want to delete?"
+msgstr "Ziur zaude ezabatu nahi duzula?"
+
+#: inc/wpfmlogs.php:98 inc/wpfmlogs.php:180 inc/wpfmlogs.php:265
+msgid "No log(s) found!"
+msgstr "Ez da egunkaririk aurkitu!"
+
+#: inc/wpfmlogs.php:108 inc/wpfmlogs.php:190 inc/wpfmlogs.php:275
+msgid "Showing "
+msgstr "Erakusten"
+
+#: inc/wpfmlogs.php:108 inc/wpfmlogs.php:190 inc/wpfmlogs.php:275
+msgid " entries"
+msgstr "sarrerak"
+
+#: inc/wpfmlogs.php:228
+msgid "Uploaded File"
+msgstr "Kargatutako fitxategia"
+
+#: inc/wpfmlogs.php:374
+msgid "Are you sure want to remove selected log(s)?"
+msgstr "Ziur zaude hautatutako erregistroak kendu nahi dituzula?"
+
+#: inc/wpfmlogs.php:395
+msgid "Please select delete action!"
+msgstr "Mesedez, hautatu ezabatu ekintza!"
+
+#: js/jquery-ui.min.js:8 lib/jquery/jquery-ui-1.11.4.js:8
+msgid "'"
+msgstr ""
+
+#: lib/wpfilemanager.php:445
+msgid " WP File Manager PRO "
+msgstr "WP File Manager PRO "
+
+#: plugin-update-checker/Puc/v4p5/Plugin/Ui.php:54
+msgid "View details"
+msgstr "Xehetasunak ikusi"
+
+#: plugin-update-checker/Puc/v4p5/Plugin/Ui.php:77
+#, php-format
+msgid "More information about %s"
+msgstr "%s ri buruzko informazio gehiago"
+
+#: plugin-update-checker/Puc/v4p5/Plugin/Ui.php:128
+msgid "Check for updates"
+msgstr "Begiratu eguneratzeak"
+
+#: plugin-update-checker/Puc/v4p5/Plugin/Ui.php:223
+#, php-format
+msgid "Unknown update checker status \"%s\""
+msgstr "Eguneratze egiaztatzaile \"%s\" egoera ezezaguna"
+
+#: plugin-update-checker/Puc/v4p5/Vcs/PluginUpdateChecker.php:98
+msgid "There is no changelog available."
+msgstr "Ez dago aldaketen egunkari erabilgarririk."
+
+#~ msgid "Manage your WP files."
+#~ msgstr "Kudeatu WP fitxategiak."
+
+#~ msgid "WP File Manager - PRO"
+#~ msgstr "WP fitxategi kudeatzailea - PRO"
+
+#~ msgid "<span class=\"fm_console_error\">Nothing selected for backup</span>"
+#~ msgstr ""
+#~ "<span class=\"fm_console_error\">Ez da ezer hautatu babeskopia egiteko</"
+#~ "span>"
+
+#~ msgid "<span class=\"fm_console_success\">Database backup done.</span>"
+#~ msgstr ""
+#~ "<span class=\"fm_console_success\">Datu-basearen babeskopia egin da.</"
+#~ "span>"
+
+#~ msgid ""
+#~ "<span class=\"fm_console_error\">Unable to create database backup.</span>"
+#~ msgstr ""
+#~ "<span class=\"fm_console_error\">Ezin da datu basearen segurtasun kopia "
+#~ "sortu.</span>"
+
+#~ msgid "<span class=\"fm_console_success\">Plugins backup done.</span>"
+#~ msgstr ""
+#~ "<span class=\"fm_console_success\">Pluginen babeskopia egin da.</span>"
+
+#~ msgid "<span class=\"fm_console_error\">Plugins backup failed.</span>"
+#~ msgstr ""
+#~ "<span class=\"fm_console_error\">Pluginen segurtasun kopiak huts egin du. "
+#~ "</span>"
+
+#~ msgid "<span class=\"fm_console_success\">Themes backup done.</span>"
+#~ msgstr "<span class=\"fm_console_success\">Gaien babeskopia egin da.</span>"
+
+#~ msgid "<span class=\"fm_console_error\">Themes backup failed.</span>"
+#~ msgstr ""
+#~ "<span class=\"fm_console_error\">Gaien babeskopiak huts egin du.</span>"
+
+#~ msgid "<span class=\"fm_console_success\">Uploads backup done.</span>"
+#~ msgstr ""
+#~ "<span class=\"fm_console_success\">Kargatutako kopiak egin dira.</span>"
+
+#~ msgid "<span class=\"fm_console_error\">Uploads backup failed.</span>"
+#~ msgstr ""
+#~ "<span class=\"fm_console_error\">Ezin izan da kargatzearen segurtasun "
+#~ "kopia egin.</span>"
+
+#~ msgid "<span class=\"fm_console_success\">Others backup done.</span>"
+#~ msgstr ""
+#~ "<span class=\"fm_console_success\">Beste kopia batzuk egin dira. </span>"
+
+#~ msgid "<span class=\"fm_console_error\">Others backup failed.</span>"
+#~ msgstr ""
+#~ "<span class=\"fm_console_error\">Beste batzuek segurtasun kopia huts egin "
+#~ "dute. </span>"
+
+#~ msgid "<span class=\"fm_console_success\">All done</span>"
+#~ msgstr "<span class=\"fm_console_success\">Egina </span>"
+
+#~ msgid "Database"
+#~ msgstr "Datu basea"
+
+#~ msgid "System Properties"
+#~ msgstr "Sistema-propietateak"
+
+#~ msgid "Donate"
+#~ msgstr "Eman"
+
+#~ msgid ""
+#~ "Note: This is just a demo screenshot. To get settings please buy our pro "
+#~ "version."
+#~ msgstr ""
+#~ "Oharra: hau demoaren pantaila da. Ezarpenak lortzeko, erosi pro bertsioa."
+
+#~ msgid "Buy PRO"
+#~ msgstr "Erosi PRO"
+
+#~ msgid "Settings - General"
+#~ msgstr "Ezarpenak - Orokorra"
+
+#~ msgid ""
+#~ "Here admin can give access to user roles to use filemanager. Admin can "
+#~ "set Default Access Folder and also control upload size of filemanager."
+#~ msgstr ""
+#~ "Hemen kudeatzaileek erabiltzaile-rolak sar ditzakete filemanager "
+#~ "erabiltzeko. Administratzaileak sarbide karpeta lehenetsia ezar dezake "
+#~ "eta, gainera, fitxategi kudeatzailearen tamaina kargatu kontrolatzen du."
+
+#~ msgid "Settings - Code-editor"
+#~ msgstr "Ezarpenak - Code editor"
+
+#~ msgid ""
+#~ "File Manager has a code editor with multiple themes. You can select any "
+#~ "theme for code editor. It will display when you edit any file. Also you "
+#~ "can allow fullscreen mode of code editor."
+#~ msgstr ""
+#~ "Fitxategi kudeatzaileak hainbat gai dituen kodea editorea du. Kodearen "
+#~ "editorean gai bat hauta dezakezu. Fitxategi bat editatzen duzunean "
+#~ "erakutsiko da. Gainera, kode editorearen pantaila osoko modua baimendu "
+#~ "dezakezu."
+
+#~ msgid "Code-editor View"
+#~ msgstr "Code-editor View"
+
+#~ msgid "Settings - User Restrictions"
+#~ msgstr "Ezarpenak - Erabiltzailearen murrizketak"
+
+#~ msgid ""
+#~ "Admin can restrict actions of any user. Also hide files and folders and "
+#~ "can set different - different folders paths for different users."
+#~ msgstr ""
+#~ "Administrazioak edozein erabiltzailek ekintza murriztu dezake. "
+#~ "Fitxategiak eta karpetak ere ezkutatu eta beste hainbat karpeta-karpeta "
+#~ "ezberdin ezarri ditzakezu."
+
+#~ msgid "Settings - User Role Restrictions"
+#~ msgstr "Ezarpenak - Erabiltzailearen rolaren murriztapenak"
+
+#~ msgid ""
+#~ "Admin can restrict actions of any userrole. Also hide files and folders "
+#~ "and can set different - different folders paths for different users roles."
+#~ msgstr ""
+#~ "Admin edozein userrole ekintzak mugatzeko. Fitxategiak eta karpetak ere "
+#~ "ezkutatu eta hainbat karpeta-bide desberdin ezar ditzakezu erabiltzaile "
+#~ "bakoitzeko roletan."
+
+#~ msgid "File Manager - System Properties"
+#~ msgstr "Fitxategi kudeatzailea - Sistemaren propietateak"
+
+#~ msgid "PHP version"
+#~ msgstr "PHP bertsioa"
+
+#~ msgid "Maximum file upload size (upload_max_filesize)"
+#~ msgstr "Gehienezko fitxategi kargaren tamaina (upload_max_filesize)"
+
+#~ msgid "Post maximum file upload size (post_max_size)"
+#~ msgstr "Igotako gehienezko fitxategi kargaren tamaina (post_max_size)"
+
+#~ msgid "Memory Limit (memory_limit)"
+#~ msgstr "Memoriaren muga (memory_limit)"
+
+#~ msgid "Timeout (max_execution_time)"
+#~ msgstr "Denbora-muga (max_execution_time)"
+
+#~ msgid "Browser and OS (HTTP_USER_AGENT)"
+#~ msgstr "Arakatzailea eta OS (HTTP_USER_AGENT)"
+
+#~ msgid ""
+#~ "Please contribute some donation, to make plugin more stable. You can pay "
+#~ "amount of your choice."
+#~ msgstr ""
+#~ "Egin dohaintza batzuk, plugin gehiago egonkortu ahal izateko. Zure aukera "
+#~ "zenbatekoa ordaindu ahal izango duzu."
+
+#~ msgid ""
+#~ "Note: This feature is using wp_mail(), Make sure wp_mail is working or "
+#~ "not."
+#~ msgstr ""
+#~ "Oharra: Ezaugarri hau wp_mail () erabiltzen ari da, Ziurtatu wp_mail "
+#~ "funtzionatzen duela edo ez. \""
+
+#~ msgid ""
+#~ "Check to allow fullscreen code editor. For more information please visit"
+#~ msgstr ""
+#~ "Egiaztatu pantaila osoko kodea editorea ahal izateko. Informazio gehiago "
+#~ "nahi izanez gero, bisitatu"

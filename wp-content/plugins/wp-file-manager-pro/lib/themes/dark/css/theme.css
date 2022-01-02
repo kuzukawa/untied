@@ -1,0 +1,1683 @@
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans:400,400i,700,700i&subset=cyrillic,cyrillic-ext,devanagari,greek,greek-ext,latin-ext,vietnamese");
+.theme-dark .elfinder {
+  color: #546E7A;
+  font-family: "Noto Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.theme-dark .elfinder.ui-widget.ui-widget-content {
+  font-family: "Noto Sans", sans-serif;
+  -webkit-box-shadow: 0 1px 8px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.6);
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  border: 0;
+}
+/**
+ * Input & Select
+ */
+.theme-dark input.elfinder-tabstop,
+.theme-dark input.elfinder-tabstop.ui-state-hover,
+.theme-dark select.elfinder-tabstop,
+.theme-dark select.elfinder-tabstop.ui-state-hover {
+  padding: 5px;
+  color: #666666;
+  background: #fff;
+  border-radius: 3px;
+  font-weight: normal;
+  border-color: #888;
+}
+.theme-dark select.elfinder-tabstop,
+.theme-dark select.elfinder-tabstop.ui-state-hover {
+  width: 100%;
+}
+/**
+ * Loading
+ */
+.theme-dark .elfinder-info-spinner,
+.theme-dark .elfinder-navbar-spinner,
+.theme-dark .elfinder-button-icon-spinner {
+  background: url("../images/loading.svg") center center no-repeat !important;
+  width: 16px;
+  height: 16px;
+}
+/**
+ * Progress Bar
+ */
+@-webkit-keyframes progress-animation {
+  from {
+    background-position: 1rem 0;
+  }
+  to {
+    background-position: 0 0;
+  }
+}
+@keyframes progress-animation {
+  from {
+    background-position: 1rem 0;
+  }
+  to {
+    background-position: 0 0;
+  }
+}
+.theme-dark .elfinder-notify-progressbar {
+  border: 0;
+}
+.theme-dark .elfinder-notify-progress,
+.theme-dark .elfinder-notify-progressbar {
+  -webkit-border-radius: 0;
+  border-radius: 0;
+}
+.theme-dark .elfinder-notify-progress,
+.theme-dark .elfinder-resize-spinner {
+  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-size: 1rem 1rem;
+  -webkit-animation: progress-animation 1s linear infinite;
+  animation: progress-animation 1s linear infinite;
+  background-color: #0275d8;
+  height: 1rem;
+}
+/**
+ * Quick Look
+ */
+ .theme-dark .elfinder-quicklook {
+  background: #232323;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+}
+.theme-dark .elfinder-quicklook-titlebar {
+  background: inherit;
+}
+.theme-dark .elfinder-quicklook-fullscreen .elfinder-quicklook-navbar {
+  border: inherit;
+  opacity: inherit;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  background: rgba(66, 66, 66, 0.73);
+}
+.theme-dark .elfinder .elfinder-navdock {
+  border: 0;
+}
+.theme-dark .std42-dialog .ui-dialog-titlebar .ui-dialog-titlebar-close:hover .ui-icon,
+.theme-dark .elfinder-mobile .std42-dialog .ui-dialog-titlebar .ui-dialog-titlebar-close .ui-icon,
+.theme-dark .elfinder-quicklook-titlebar-icon .ui-icon.elfinder-icon-close:hover,
+.theme-dark .elfinder-mobile .elfinder-quicklook-titlebar-icon .ui-icon.elfinder-icon-close,
+.theme-dark .std42-dialog .ui-dialog-titlebar .elfinder-titlebar-minimize:hover .ui-icon,
+.theme-dark .elfinder-mobile .std42-dialog .ui-dialog-titlebar .elfinder-titlebar-minimize .ui-icon,
+.theme-dark .elfinder-quicklook-titlebar-icon .ui-icon.elfinder-icon-minimize:hover,
+.theme-dark .elfinder-mobile .elfinder-quicklook-titlebar-icon .ui-icon.elfinder-icon-minimize,
+.theme-dark .std42-dialog .ui-dialog-titlebar .elfinder-titlebar-full:hover .ui-icon,
+.theme-dark .elfinder-mobile .std42-dialog .ui-dialog-titlebar .elfinder-titlebar-full .ui-icon,
+.theme-dark .elfinder-quicklook-titlebar-icon .ui-icon.elfinder-icon-full:hover,
+.theme-dark .elfinder-mobile .elfinder-quicklook-titlebar-icon .ui-icon.elfinder-icon-full {
+  background-image: none;
+}
+/**
+ * Toast Notification
+ */
+ .theme-dark .elfinder .elfinder-toast > div {
+  background-color: #323232 !important;
+  color: #d6d6d6;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  opacity: inherit;
+}
+.theme-dark .elfinder .elfinder-toast > div button.ui-button {
+  color: #fff;
+}
+.theme-dark .elfinder .elfinder-toast > .toast-info button.ui-button {
+  background-color: #3498DB;
+}
+.theme-dark .elfinder .elfinder-toast > .toast-error button.ui-button {
+  background-color: #F44336;
+}
+.theme-dark .elfinder .elfinder-toast > .toast-success button.ui-button {
+  background-color: #4CAF50;
+}
+.theme-dark .elfinder .elfinder-toast > .toast-warning button.ui-button {
+  background-color: #FF9800;
+}
+.theme-dark .elfinder-toast-msg {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 14px;
+}
+/**
+ * For Ace Editor
+ */
+#ace_settingsmenu {
+  font-family: "Noto Sans", sans-serif;
+  -webkit-box-shadow: 0 1px 30px rgba(0, 0, 0, 0.6) !important;
+  box-shadow: 0 1px 30px rgba(0, 0, 0, 0.6) !important;
+  background-color: #1d2736 !important;
+  color: #e6e6e6 !important;
+}
+#ace_settingsmenu,
+#kbshortcutmenu {
+  padding: 0;
+}
+.ace_optionsMenuEntry {
+  padding: 5px 10px;
+}
+.ace_optionsMenuEntry:hover {
+  background-color: #111721;
+}
+.ace_optionsMenuEntry label {
+  font-size: 13px;
+}
+#ace_settingsmenu input[type="text"],
+#ace_settingsmenu select {
+  margin: 1px 2px 2px;
+  padding: 2px 5px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  border: 0;
+  background: rgba(9, 53, 121, 0.75);
+  color: white;
+}
+/**
+ * Icons
+ * Webfont is generated by Fontello http://fontello.com
+ */
+@font-face {
+  font-family: material;
+  src: url("../icons/material.eot?98361579");
+  src: url("../icons/material.eot?98361579#iefix") format("embedded-opentype"), url("../icons/material.woff2?98361579") format("woff2"), url("../icons/material.woff?98361579") format("woff"), url("../icons/material.ttf?98361579") format("truetype"), url("../icons/material.svg?98361579#material") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  @font-face {
+    font-family: material;
+    src: url("../icons/material.svg?98361579#material") format("svg");
+  }
+}
+.theme-dark .elfinder-button-menu {
+  margin-top: 24px !important;
+}
+.theme-dark .ui-icon,
+.theme-dark .elfinder-button-icon,
+.theme-dark .ui-widget-header .ui-icon,
+.theme-dark .ui-widget-content .ui-icon {
+  font: normal normal normal 14px/1 material;
+  background-image: inherit;
+  text-indent: inherit;
+}
+.theme-dark .ui-button-icon-only .ui-icon {
+  font: normal normal normal 14px/1 material;
+  background-image: inherit !important;
+  text-indent: 0;
+  font-size: 16px;
+}
+.theme-dark .elfinder-toolbar .elfinder-button-icon {
+  font-size: 20px;
+  color: #ddd;
+  margin-top: -2px;
+}
+.theme-dark .elfinder-button-icon {
+  background: inherit;
+}
+.theme-dark .elfinder-button-icon-home:before {
+  content: '\e800';
+}
+.theme-dark .elfinder-button-icon-back:before {
+  content: '\e801';
+}
+.theme-dark .elfinder-button-icon-forward:before {
+  content: '\e802';
+}
+.theme-dark .elfinder-button-icon-up:before {
+  content: '\e803';
+}
+.theme-dark .elfinder-button-icon-dir:before {
+  content: '\e804';
+}
+.theme-dark .elfinder-button-icon-opendir:before {
+  content: '\e805';
+}
+.theme-dark .elfinder-button-icon-reload:before {
+  content: '\e806';
+}
+.theme-dark .elfinder-button-icon-open:before {
+  content: '\e807';
+}
+.theme-dark .elfinder-button-icon-mkdir:before {
+  content: '\e808';
+}
+.theme-dark .elfinder-button-icon-mkfile:before {
+  content: '\e809';
+}
+.theme-dark .elfinder-button-icon-rm:before {
+  content: '\e80a';
+}
+.theme-dark .elfinder-button-icon-trash:before {
+  content: '\e80b';
+}
+.theme-dark .elfinder-button-icon-restore:before {
+  content: '\e80c';
+}
+.theme-dark .elfinder-button-icon-copy:before {
+  content: '\e80d';
+}
+.theme-dark .elfinder-button-icon-cut:before {
+  content: '\e80e';
+}
+.theme-dark .elfinder-button-icon-paste:before {
+  content: '\e80f';
+}
+.theme-dark .elfinder-button-icon-getfile:before {
+  content: '\e810';
+}
+.theme-dark .elfinder-button-icon-duplicate:before {
+  content: '\e811';
+}
+.theme-dark .elfinder-button-icon-rename:before {
+  content: '\e812';
+}
+.theme-dark .elfinder-button-icon-edit:before {
+  content: '\e813';
+}
+.theme-dark .elfinder-button-icon-quicklook:before {
+  content: '\e814';
+}
+.theme-dark .elfinder-button-icon-upload:before {
+  content: '\e815';
+}
+.theme-dark .elfinder-button-icon-download:before {
+  content: '\e816';
+}
+.theme-dark .elfinder-button-icon-info:before {
+  content: '\e817';
+}
+.theme-dark .elfinder-button-icon-extract:before {
+  content: '\e818';
+}
+.theme-dark .elfinder-button-icon-archive:before {
+  content: '\e819';
+}
+.theme-dark .elfinder-button-icon-view:before {
+  content: '\e81a';
+}
+.theme-dark .elfinder-button-icon-view-list:before {
+  content: '\e81b';
+}
+.theme-dark .elfinder-button-icon-help:before {
+  content: '\e81c';
+}
+.theme-dark .elfinder-button-icon-resize:before {
+  content: '\e81d';
+}
+.theme-dark .elfinder-button-icon-link:before {
+  content: '\e81e';
+}
+.theme-dark .elfinder-button-icon-search:before {
+  content: '\e81f';
+}
+.theme-dark .elfinder-button-icon-sort:before {
+  content: '\e820';
+}
+.theme-dark .elfinder-button-icon-rotate-r:before {
+  content: '\e821';
+}
+.theme-dark .elfinder-button-icon-rotate-l:before {
+  content: '\e822';
+}
+.theme-dark .elfinder-button-icon-netmount:before {
+  content: '\e823';
+}
+.theme-dark .elfinder-button-icon-netunmount:before {
+  content: '\e824';
+}
+.theme-dark .elfinder-button-icon-places:before {
+  content: '\e825';
+}
+.theme-dark .elfinder-button-icon-chmod:before {
+  content: '\e826';
+}
+.theme-dark .elfinder-button-icon-accept:before {
+  content: '\e827';
+}
+.theme-dark .elfinder-button-icon-menu:before {
+  content: '\e828';
+}
+.theme-dark .elfinder-button-icon-colwidth:before {
+  content: '\e829';
+}
+.theme-dark .elfinder-button-icon-fullscreen:before {
+  content: '\e82a';
+}
+.theme-dark .elfinder-button-icon-unfullscreen:before {
+  content: '\e82b';
+}
+.theme-dark .elfinder-button-icon-empty:before {
+  content: '\e82c';
+}
+.theme-dark .elfinder-button-icon-undo:before {
+  content: '\e82d';
+}
+.theme-dark .elfinder-button-icon-redo:before {
+  content: '\e82e';
+}
+.theme-dark .elfinder-button-icon-preference:before {
+  content: '\e82f';
+}
+.theme-dark .elfinder-button-icon-mkdirin:before {
+  content: '\e830';
+}
+.theme-dark .elfinder-button-icon-selectall:before {
+  content: '\e831';
+}
+.theme-dark .elfinder-button-icon-selectnone:before {
+  content: '\e832';
+}
+.theme-dark .elfinder-button-icon-selectinvert:before {
+  content: '\e833';
+}
+.theme-dark .elfinder-button-icon-theme:before {
+  content: '\e859';
+}
+.theme-dark .elfinder-button-icon-logout:before {
+  content: '\e85a';
+}
+.theme-dark .elfinder-button-search .ui-icon.ui-icon-search {
+  font-size: 17px;
+  background: inherit;
+}
+.theme-dark .elfinder-button-search .ui-icon:hover {
+  opacity: 1;
+}
+.theme-dark .elfinder-navbar-icon {
+  font: normal normal normal 16px/1 material;
+  background-image: inherit !important;
+}
+.theme-dark .elfinder-navbar-icon:before {
+  content: '\e804';
+}
+.theme-dark .elfinder-droppable-active .elfinder-navbar-icon:before,
+.theme-dark .ui-state-active .elfinder-navbar-icon:before,
+.theme-dark .ui-state-hover .elfinder-navbar-icon:before {
+  content: '\e805';
+}
+.theme-dark .elfinder-navbar-root-local .elfinder-navbar-icon:before {
+  content: '\e83d';
+}
+.theme-dark .elfinder-navbar-root-ftp .elfinder-navbar-icon:before {
+  content: '\e823';
+}
+.theme-dark .elfinder-navbar-root-sql .elfinder-navbar-icon:before {
+  content: '\e83e';
+}
+.theme-dark .elfinder-navbar-root-dropbox .elfinder-navbar-icon:before {
+  content: '\e83f';
+}
+.theme-dark .elfinder-navbar-root-googledrive .elfinder-navbar-icon:before {
+  content: '\e840';
+}
+.theme-dark .elfinder-navbar-root-onedrive .elfinder-navbar-icon:before {
+  content: '\e841';
+}
+.theme-dark .elfinder-navbar-root-box .elfinder-navbar-icon:before {
+  content: '\e842';
+}
+.theme-dark .elfinder-navbar-root-trash .elfinder-navbar-icon:before {
+  content: '\e80b';
+}
+.theme-dark .elfinder-places .elfinder-navbar-root .elfinder-navbar-icon:before {
+  content: '\e825';
+}
+.theme-dark .elfinder-navbar-arrow {
+  background-image: inherit !important;
+  font: normal normal normal 14px/1 material;
+  font-size: 10px;
+  padding-top: 3px;
+  padding-left: 2px;
+  color: #a9a9a9;
+}
+.theme-dark .ui-state-active .elfinder-navbar-arrow {
+  color: #fff;
+}
+.theme-dark .elfinder-ltr .elfinder-navbar-collapsed .elfinder-navbar-arrow:before {
+  content: '\e857';
+}
+.theme-dark .elfinder-rtl .elfinder-navbar-collapsed .elfinder-navbar-arrow:before {
+  content: '\e858';
+}
+.theme-dark .elfinder-ltr .elfinder-navbar-expanded .elfinder-navbar-arrow:before,
+.theme-dark .elfinder-rtl .elfinder-navbar-expanded .elfinder-navbar-arrow:before {
+  content: '\e851';
+}
+.theme-dark div.elfinder-cwd-wrapper-list tr.ui-state-default td span.ui-icon {
+  font-size: 8px;
+  margin-top: 5px;
+  margin-right: 5px;
+}
+.theme-dark div.elfinder-cwd-wrapper-list .ui-icon-grip-dotted-vertical {
+  margin: 2px;
+}
+.theme-dark .elfinder-cwd-view-list .elfinder-navbar-root-local td .elfinder-cwd-icon,
+.theme-dark .elfinder-navbar-root-local .elfinder-cwd-icon,
+.theme-dark .elfinder-cwd-view-list .elfinder-navbar-root-ftp td .elfinder-cwd-icon,
+.theme-dark .elfinder-navbar-root-ftp .elfinder-cwd-icon,
+.theme-dark .elfinder-cwd-view-list .elfinder-navbar-root-sql td .elfinder-cwd-icon,
+.theme-dark .elfinder-navbar-root-sql .elfinder-cwd-icon,
+.theme-dark .elfinder-cwd-view-list .elfinder-navbar-root-dropbox td .elfinder-cwd-icon,
+.theme-dark .elfinder-navbar-root-dropbox .elfinder-cwd-icon,
+.theme-dark .elfinder-cwd-view-list .elfinder-navbar-root-googledrive td .elfinder-cwd-icon,
+.theme-dark .elfinder-navbar-root-googledrive .elfinder-cwd-icon,
+.theme-dark .elfinder-cwd-view-list .elfinder-navbar-root-onedrive td .elfinder-cwd-icon,
+.theme-dark .elfinder-navbar-root-onedrive .elfinder-cwd-icon,
+.theme-dark .elfinder-cwd-view-list .elfinder-navbar-root-box td .elfinder-cwd-icon,
+.theme-dark .elfinder-navbar-root-box .elfinder-cwd-icon,
+.theme-dark .elfinder-cwd-view-list .elfinder-navbar-root-trash td .elfinder-cwd-icon,
+.theme-dark .elfinder-navbar-root-trash .elfinder-cwd-icon {
+  background-image: inherit;
+}
+.theme-dark .elfinder-cwd-view-list .elfinder-navbar-root-local td .elfinder-cwd-icon:before,
+.theme-dark .elfinder-navbar-root-local .elfinder-cwd-icon:before,
+.theme-dark .elfinder-cwd-view-list .elfinder-navbar-root-ftp td .elfinder-cwd-icon:before,
+.theme-dark .elfinder-navbar-root-ftp .elfinder-cwd-icon:before,
+.theme-dark .elfinder-cwd-view-list .elfinder-navbar-root-sql td .elfinder-cwd-icon:before,
+.theme-dark .elfinder-navbar-root-sql .elfinder-cwd-icon:before,
+.theme-dark .elfinder-cwd-view-list .elfinder-navbar-root-dropbox td .elfinder-cwd-icon:before,
+.theme-dark .elfinder-navbar-root-dropbox .elfinder-cwd-icon:before,
+.theme-dark .elfinder-cwd-view-list .elfinder-navbar-root-googledrive td .elfinder-cwd-icon:before,
+.theme-dark .elfinder-navbar-root-googledrive .elfinder-cwd-icon:before,
+.theme-dark .elfinder-cwd-view-list .elfinder-navbar-root-onedrive td .elfinder-cwd-icon:before,
+.theme-dark .elfinder-navbar-root-onedrive .elfinder-cwd-icon:before,
+.theme-dark .elfinder-cwd-view-list .elfinder-navbar-root-box td .elfinder-cwd-icon:before,
+.theme-dark .elfinder-navbar-root-box .elfinder-cwd-icon:before,
+.theme-dark .elfinder-cwd-view-list .elfinder-navbar-root-trash td .elfinder-cwd-icon:before,
+.theme-dark .elfinder-navbar-root-trash .elfinder-cwd-icon:before {
+  font-family: material;
+  background-color: transparent;
+  color: #525252;
+  font-size: 55px;
+  position: relative;
+  top: -10px !important;
+  padding: 0;
+  display: contents !important;
+}
+
+.theme-dark .std42-dialog, 
+.theme-dark .std42-dialog .ui-widget-content{    
+    background-clip: border-box !important;
+}
+
+.theme-dark .elfinder-cwd-view-list .elfinder-navbar-root-local td .elfinder-cwd-icon:before,
+.theme-dark .elfinder-navbar-root-local .elfinder-cwd-icon:before {
+  content: '\e83d';
+}
+.theme-dark .elfinder-cwd-view-list .elfinder-navbar-root-ftp td .elfinder-cwd-icon:before,
+.theme-dark .elfinder-navbar-root-ftp .elfinder-cwd-icon:before {
+  content: '\e823';
+}
+.theme-dark .elfinder-cwd-view-list .elfinder-navbar-root-sql td .elfinder-cwd-icon:before,
+.theme-dark .elfinder-navbar-root-sql .elfinder-cwd-icon:before {
+  content: '\e83e';
+}
+.theme-dark .elfinder-cwd-view-list .elfinder-navbar-roor-dropbox td .elfinder-cwd-icon:before,
+.theme-dark .elfinder-navbar-roor-dropbox .elfinder-cwd-icon:before {
+  content: '\e83f';
+}
+.theme-dark .elfinder-cwd-view-list .elfinder-navbar-roor-googledrive td .elfinder-cwd-icon:before,
+.theme-dark .elfinder-navbar-roor-googledrive .elfinder-cwd-icon:before {
+  content: '\e840';
+}
+.theme-dark .elfinder-cwd-view-list .elfinder-navbar-roor-onedrive td .elfinder-cwd-icon:before,
+.theme-dark .elfinder-navbar-roor-onedrive .elfinder-cwd-icon:before {
+  content: '\e841';
+}
+.theme-dark .elfinder-cwd-view-list .elfinder-navbar-roor-box td .elfinder-cwd-icon:before,
+.theme-dark .elfinder-navbar-roor-box .elfinder-cwd-icon:before {
+  content: '\e842';
+}
+.theme-dark .elfinder-cwd-view-list .elfinder-navbar-root-trash td .elfinder-cwd-icon:before,
+.theme-dark .elfinder-navbar-root-trash .elfinder-cwd-icon:before {
+  content: '\e80b';
+}
+.theme-dark .elfinder-dialog-icon {
+  font: normal normal normal 14px/1 material;
+  background: inherit;
+  color: #524949;
+  font-size: 37px;
+}
+.theme-dark .elfinder-dialog-icon:before {
+  content: '\e843';
+}
+.theme-dark .elfinder-dialog-icon-mkdir:before {
+  content: '\e808';
+}
+.theme-dark .elfinder-dialog-icon-mkfile:before {
+  content: '\e809';
+}
+.theme-dark .elfinder-dialog-icon-copy:before {
+  content: '\e80d';
+}
+.theme-dark .elfinder-dialog-icon-prepare:before,
+.theme-dark .elfinder-dialog-icon-move:before {
+  content: '\e844';
+}
+.theme-dark .elfinder-dialog-icon-upload:before,
+.theme-dark .elfinder-dialog-icon-chunkmerge:before {
+  content: '\e815';
+}
+.theme-dark .elfinder-dialog-icon-rm:before {
+  content: '\e80a';
+}
+.theme-dark .elfinder-dialog-icon-open:before,
+.theme-dark .elfinder-dialog-icon-readdir:before,
+.theme-dark .elfinder-dialog-icon-file:before {
+  content: '\e807';
+}
+.theme-dark .elfinder-dialog-icon-reload:before {
+  content: '\e806';
+}
+.theme-dark .elfinder-dialog-icon-download:before {
+  content: '\e816';
+}
+.theme-dark .elfinder-dialog-icon-save:before {
+  content: '\e845';
+}
+.theme-dark .elfinder-dialog-icon-rename:before {
+  content: '\e812';
+}
+.theme-dark .elfinder-dialog-icon-zipdl:before,
+.theme-dark .elfinder-dialog-icon-archive:before {
+  content: '\e819';
+}
+.theme-dark .elfinder-dialog-icon-extract:before {
+  content: '\e818';
+}
+.theme-dark .elfinder-dialog-icon-search:before {
+  content: '\e81f';
+}
+.theme-dark .elfinder-dialog-icon-loadimg:before {
+  content: '\e846';
+}
+.theme-dark .elfinder-dialog-icon-url:before {
+  content: '\e81e';
+}
+.theme-dark .elfinder-dialog-icon-resize:before {
+  content: '\e81d';
+}
+.theme-dark .elfinder-dialog-icon-netmount:before {
+  content: '\e823';
+}
+.theme-dark .elfinder-dialog-icon-netunmount:before {
+  content: '\e824';
+}
+.theme-dark .elfinder-dialog-icon-chmod:before {
+  content: '\e826';
+}
+.theme-dark .elfinder-dialog-icon-preupload:before,
+.theme-dark .elfinder-dialog-icon-dim:before {
+  content: '\e847';
+}
+.theme-dark .elfinder-contextmenu .elfinder-contextmenu-item span.elfinder-contextmenu-icon {
+  font-size: 16px;
+}
+.theme-dark .elfinder-contextmenu .elfinder-contextmenu-item .elfinder-contextsubmenu-item .ui-icon {
+  font-size: 15px;
+}
+.theme-dark .elfinder-contextmenu .elfinder-contextmenu-item .elfinder-button-icon-link:before {
+  content: '\e837';
+}
+.theme-dark .elfinder .elfinder-contextmenu-extra-icon {
+  margin-top: -6px;
+}
+.theme-dark .elfinder .elfinder-contextmenu-extra-icon a {
+  padding: 5px;
+  margin: -16px;
+}
+.theme-dark .elfinder-button-icon-link:before {
+  content: '\e81e' !important;
+}
+.theme-dark .elfinder .elfinder-contextmenu-arrow {
+  font: normal normal normal 14px/1 material;
+  background-image: inherit;
+  font-size: 10px !important;
+  padding-top: 3px;
+}
+.theme-dark .elfinder .elfinder-contextmenu-arrow:before {
+  content: '\e857';
+}
+.theme-dark .elfinder-contextmenu .ui-state-hover .elfinder-contextmenu-arrow {
+  background-image: inherit;
+}
+.theme-dark .elfinder-quicklook .ui-resizable-se {
+  background: inherit;
+}
+.theme-dark .elfinder-quicklook-navbar-icon {
+  background: transparent;
+  font: normal normal normal 14px/1 material;
+  font-size: 32px;
+  color: #fff;
+}
+.theme-dark .elfinder-quicklook-titlebar-icon {
+  margin-top: -8px;
+}
+.theme-dark .elfinder-quicklook-titlebar-icon .ui-icon {
+  border: 0;
+  opacity: .8;
+  font-size: 15px;
+  padding: 1px;
+}
+.theme-dark .elfinder-quicklook-titlebar .ui-icon-circle-close,
+.theme-dark .elfinder-quicklook .ui-icon-gripsmall-diagonal-se {
+  color: #f1f1f1;
+}
+.theme-dark .elfinder-quicklook-navbar-icon-prev:before {
+  content: '\e848';
+}
+.theme-dark .elfinder-quicklook-navbar-icon-next:before {
+  content: '\e849';
+}
+.theme-dark .elfinder-quicklook-navbar-icon-fullscreen:before {
+  content: '\e84a';
+}
+.theme-dark .elfinder-quicklook-navbar-icon-fullscreen-off:before {
+  content: '\e84b';
+}
+.theme-dark .elfinder-quicklook-navbar-icon-close:before {
+  content: '\e84c';
+}
+.theme-dark .ui-button-icon {
+  background-image: inherit;
+}
+.theme-dark .ui-icon-search:before {
+  content: '\e81f';
+}
+.theme-dark .ui-icon-closethick:before,
+.theme-dark .ui-icon-close:before {
+  content: '\e839';
+}
+.theme-dark .ui-icon-circle-close:before {
+  content: '\e84c';
+}
+.theme-dark .ui-icon-gear:before {
+  content: '\e82f';
+}
+.theme-dark .ui-icon-gripsmall-diagonal-se:before {
+  content: '\e838';
+}
+.theme-dark .ui-icon-locked:before {
+  content: '\e834';
+}
+.theme-dark .ui-icon-unlocked:before {
+  content: '\e836';
+}
+.theme-dark .ui-icon-arrowrefresh-1-n:before {
+  content: '\e821';
+}
+.theme-dark .ui-icon-plusthick:before {
+  content: '\e83a';
+}
+.theme-dark .ui-icon-arrowreturnthick-1-s:before {
+  content: '\e83b';
+}
+.theme-dark .ui-icon-minusthick:before {
+  content: '\e83c';
+}
+.theme-dark .ui-icon-pin-s:before {
+  content: '\e84d';
+}
+.theme-dark .ui-icon-check:before {
+  content: '\e84e';
+}
+.theme-dark .ui-icon-arrowthick-1-s:before {
+  content: '\e84f';
+}
+.theme-dark .ui-icon-arrowthick-1-n:before {
+  content: '\e850';
+}
+.theme-dark .ui-icon-triangle-1-s:before {
+  content: '\e851';
+}
+.theme-dark .ui-icon-triangle-1-n:before {
+  content: '\e852';
+}
+.theme-dark .ui-icon-grip-dotted-vertical:before {
+  content: '\e853';
+}
+.theme-dark .elfinder-lock,
+.theme-dark .elfinder-perms,
+.theme-dark .elfinder-symlink {
+  background-image: inherit;
+  font: normal normal normal 18px/1 material;
+  color: #4d4d4d;
+}
+.theme-dark .elfinder-na .elfinder-perms:before {
+  content: '\e824';
+}
+.theme-dark .elfinder-wo .elfinder-perms:before {
+  content: '\e854';
+}
+.theme-dark .elfinder-group .elfinder-perms:before {
+  content: '\e800';
+}
+.theme-dark .elfinder-lock:before {
+  content: '\e834';
+}
+.theme-dark .elfinder-symlink:before {
+  content: '\e837';
+}
+.theme-dark .elfinder .elfinder-toast > div {
+  font: normal normal normal 14px/1 material;
+}
+.theme-dark .elfinder .elfinder-toast > div:before {
+  font-size: 24px;
+  position: absolute;
+  left: 15px;
+  top: 3px;
+}
+.theme-dark .elfinder .elfinder-toast > .toast-info,
+.theme-dark .elfinder .elfinder-toast > .toast-error,
+.theme-dark .elfinder .elfinder-toast > .toast-success,
+.theme-dark .elfinder .elfinder-toast > .toast-warning {
+  background-image: inherit !important;
+}
+.theme-dark .elfinder .elfinder-toast > .toast-info:before {
+  content: '\e817';
+  color: #3498DB;
+}
+.theme-dark .elfinder .elfinder-toast > .toast-error:before {
+  content: '\e855';
+  color: #F44336;
+}
+.theme-dark .elfinder .elfinder-toast > .toast-success:before {
+  content: '\e84e';
+  color: #4CAF50;
+}
+.theme-dark .elfinder .elfinder-toast > .toast-warning:before {
+  content: '\e856';
+  color: #FF9800;
+}
+.theme-dark .elfinder-drag-helper-icon-status {
+  font: normal normal normal 14px/1 material;
+  background: inherit;
+}
+.theme-dark .elfinder-drag-helper-icon-status:before {
+  content: '\e824';
+}
+.theme-dark .elfinder-drag-helper-move .elfinder-drag-helper-icon-status {
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+.theme-dark .elfinder-drag-helper-move .elfinder-drag-helper-icon-status:before {
+  content: '\e854';
+}
+.theme-dark .elfinder-drag-helper-plus .elfinder-drag-helper-icon-status {
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+.theme-dark .elfinder-drag-helper-plus .elfinder-drag-helper-icon-status:before {
+  content: '\e84c';
+}
+/**
+ * MIME Types
+ */
+ .theme-dark .elfinder-cwd-view-list td .elfinder-cwd-icon {
+  background-image: url("../images/icons-small.png");
+}
+.theme-dark .elfinder-cwd-icon {
+  background: url("../images/icons-big.png") 0 0 no-repeat;
+}
+.theme-dark .elfinder-cwd-icon:before {
+  font-size: 10px;
+  position: relative;
+  top: 27px;
+  left: inherit;
+  padding: 1px;
+  background-color: transparent;
+}
+.theme-dark .elfinder-info-title .elfinder-cwd-icon:before {
+  top: 32px;
+  display: block;
+  margin: 0 auto;
+}
+.theme-dark .elfinder-info-title .elfinder-cwd-icon.elfinder-cwd-bgurl:before {
+  background-color: #313131 !important;
+}
+.theme-dark .elfinder-cwd-view-icons .elfinder-cwd-icon.elfinder-cwd-bgurl:before {
+  left: inherit;
+  background-color: #313131;
+}
+.theme-dark .elfinder-quicklook .elfinder-cwd-icon:before {
+  top: 33px;
+  left: 50% !important;
+  position: relative;
+  display: block;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+.theme-dark .elfinder-cwd-icon-zip:before,
+.theme-dark .elfinder-cwd-icon-x-zip:before {
+  content: 'zip' !important;
+}
+.theme-dark .elfinder-cwd-icon-x-xz:before {
+  content: 'xz' !important;
+}
+.theme-dark .elfinder-cwd-icon-x-7z-compressed:before {
+  content: '7z' !important;
+}
+.theme-dark .elfinder-cwd-icon-x-gzip:before {
+  content: 'gzip' !important;
+}
+.theme-dark .elfinder-cwd-icon-x-tar:before {
+  content: 'tar' !important;
+}
+.theme-dark .elfinder-cwd-icon-x-bzip:before,
+.theme-dark .elfinder-cwd-icon-x-bzip2:before {
+  content: 'bzip' !important;
+}
+.theme-dark .elfinder-cwd-icon-x-rar:before,
+.theme-dark .elfinder-cwd-icon-x-rar-compressed:before {
+  content: 'rar' !important;
+}
+.theme-dark .elfinder-cwd-icon-directory {
+  background-position: 0 -50px;
+}
+.theme-dark .elfinder-cwd-icon-application {
+  background-position: 0 -150px;
+}
+.theme-dark .elfinder-cwd-icon-text {
+  background-position: 0 -200px;
+}
+.theme-dark .elfinder-cwd-icon-plain,
+.theme-dark .elfinder-cwd-icon-x-empty {
+  background-position: 0 -250px;
+}
+.theme-dark .elfinder-cwd-icon-image {
+  background-position: 0 -300px;
+}
+.theme-dark .elfinder-cwd-icon-vnd-adobe-photoshop {
+  background-position: 0 -350px;
+}
+.theme-dark .elfinder-cwd-icon-vnd-adobe-photoshop:before {
+  content: none !important;
+}
+.theme-dark .elfinder-cwd-icon-postscript {
+  background-position: 0 -400px;
+}
+.theme-dark .elfinder-cwd-icon-audio {
+  background-position: 0 -450px;
+}
+.theme-dark .elfinder-cwd-icon-video,
+.theme-dark .elfinder-cwd-icon-flash-video,
+.theme-dark .elfinder-cwd-icon-dash-xml,
+.theme-dark .elfinder-cwd-icon-vnd-apple-mpegurl,
+.theme-dark .elfinder-cwd-icon-x-mpegurl {
+  background-position: 0 -500px;
+}
+.theme-dark .elfinder-cwd-icon-rtf,
+.theme-dark .elfinder-cwd-icon-rtfd {
+  background-position: 0 -550px;
+}
+.theme-dark .elfinder-cwd-icon-pdf {
+  background-position: 0 -600px;
+}
+.theme-dark .elfinder-cwd-icon-x-msaccess {
+  background-position: 0 -650px;
+}
+.theme-dark .elfinder-cwd-icon-x-msaccess:before {
+  content: none !important;
+}
+.theme-dark .elfinder-cwd-icon-msword,
+.theme-dark .elfinder-cwd-icon-vnd-ms-word,
+.theme-dark .theme-dark .elfinder-cwd-icon-vnd-ms-word-document-macroEnabled-12,
+.theme-dark .elfinder-cwd-icon-vnd-ms-word-template-macroEnabled-12 {
+  background-position: 0 -700px;
+}
+.theme-dark .elfinder-cwd-icon-msword:before,
+.theme-dark .elfinder-cwd-icon-vnd-ms-word:before,
+.theme-dark .elfinder-cwd-icon-vnd-ms-word-document-macroEnabled-12:before,
+.theme-dark .elfinder-cwd-icon-vnd-ms-word-template-macroEnabled-12:before {
+  content: none !important;
+}
+.theme-dark .elfinder-cwd-icon-ms-excel,
+.theme-dark .elfinder-cwd-icon-vnd-ms-excel,
+.theme-dark .elfinder-cwd-icon-vnd-ms-excel-addin-macroEnabled-12,
+.theme-dark .elfinder-cwd-icon-vnd-ms-excel-sheet-binary-macroEnabled-12,
+.theme-dark .elfinder-cwd-icon-vnd-ms-excel-sheet-macroEnabled-12,
+.theme-dark .elfinder-cwd-icon-vnd-ms-excel-template-macroEnabled-12 {
+  background-position: 0 -750px;
+}
+.theme-dark .elfinder-cwd-icon-ms-excel:before,
+.theme-dark .elfinder-cwd-icon-vnd-ms-excel:before,
+.theme-dark .elfinder-cwd-icon-vnd-ms-excel-addin-macroEnabled-12:before,
+.theme-dark .elfinder-cwd-icon-vnd-ms-excel-sheet-binary-macroEnabled-12:before,
+.theme-dark .elfinder-cwd-icon-vnd-ms-excel-sheet-macroEnabled-12:before,
+.theme-dark .elfinder-cwd-icon-vnd-ms-excel-template-macroEnabled-12:before {
+  content: none !important;
+}
+.theme-dark .elfinder-cwd-icon-vnd-ms-powerpoint,
+.theme-dark .elfinder-cwd-icon-vnd-ms-powerpoint-addin-macroEnabled-12,
+.theme-dark .elfinder-cwd-icon-vnd-ms-powerpoint-presentation-macroEnabled-12,
+.theme-dark .elfinder-cwd-icon-vnd-ms-powerpoint-slide-macroEnabled-12,
+.theme-dark .elfinder-cwd-icon-vnd-ms-powerpoint-slideshow-macroEnabled-12,
+.theme-dark .elfinder-cwd-icon-vnd-ms-powerpoint-template-macroEnabled-12 {
+  background-position: 0 -800px;
+}
+.theme-dark .elfinder-cwd-icon-vnd-ms-powerpoint:before,
+.theme-dark .elfinder-cwd-icon-vnd-ms-powerpoint-addin-macroEnabled-12:before,
+.theme-dark .elfinder-cwd-icon-vnd-ms-powerpoint-presentation-macroEnabled-12:before,
+.theme-dark .elfinder-cwd-icon-vnd-ms-powerpoint-slide-macroEnabled-12:before,
+.theme-dark .elfinder-cwd-icon-vnd-ms-powerpoint-slideshow-macroEnabled-12:before,
+.theme-dark .elfinder-cwd-icon-vnd-ms-powerpoint-template-macroEnabled-12:before {
+  content: none !important;
+}
+.theme-dark .elfinder-cwd-icon-vnd-ms-office,
+.theme-dark .elfinder-cwd-icon-vnd-oasis-opendocument-chart,
+.theme-dark .elfinder-cwd-icon-vnd-oasis-opendocument-database,
+.theme-dark .elfinder-cwd-icon-vnd-oasis-opendocument-formula,
+.theme-dark .elfinder-cwd-icon-vnd-oasis-opendocument-graphics,
+.theme-dark .elfinder-cwd-icon-vnd-oasis-opendocument-graphics-template,
+.theme-dark .elfinder-cwd-icon-vnd-oasis-opendocument-image,
+.theme-dark .elfinder-cwd-icon-vnd-oasis-opendocument-presentation,
+.theme-dark .elfinder-cwd-icon-vnd-oasis-opendocument-presentation-template,
+.theme-dark .elfinder-cwd-icon-vnd-oasis-opendocument-spreadsheet,
+.theme-dark .elfinder-cwd-icon-vnd-oasis-opendocument-spreadsheet-template,
+.theme-dark .elfinder-cwd-icon-vnd-oasis-opendocument-text,
+.theme-dark .elfinder-cwd-icon-vnd-oasis-opendocument-text-master,
+.theme-dark .elfinder-cwd-icon-vnd-oasis-opendocument-text-template,
+.theme-dark .elfinder-cwd-icon-vnd-oasis-opendocument-text-web,
+.theme-dark .elfinder-cwd-icon-vnd-openofficeorg-extension,
+.theme-dark .elfinder-cwd-icon-vnd-openxmlformats-officedocument-presentationml-presentation,
+.theme-dark .elfinder-cwd-icon-vnd-openxmlformats-officedocument-presentationml-slide,
+.theme-dark .elfinder-cwd-icon-vnd-openxmlformats-officedocument-presentationml-slideshow,
+.theme-dark .elfinder-cwd-icon-vnd-openxmlformats-officedocument-presentationml-template,
+.theme-dark .elfinder-cwd-icon-vnd-openxmlformats-officedocument-spreadsheetml-sheet,
+.theme-dark .elfinder-cwd-icon-vnd-openxmlformats-officedocument-spreadsheetml-template,
+.theme-dark .elfinder-cwd-icon-vnd-openxmlformats-officedocument-wordprocessingml-document,
+.theme-dark .elfinder-cwd-icon-vnd-openxmlformats-officedocument-wordprocessingml-template {
+  background-position: 0 -850px;
+}
+.theme-dark .elfinder-cwd-icon-html {
+  background-position: 0 -900px;
+}
+.theme-dark .elfinder-cwd-icon-css {
+  background-position: 0 -950px;
+}
+.theme-dark .elfinder-cwd-icon-javascript,
+.theme-dark .elfinder-cwd-icon-x-javascript {
+  background-position: 0 -1000px;
+}
+.theme-dark .elfinder-cwd-icon-x-perl {
+  background-position: 0 -1050px;
+}
+.theme-dark .elfinder-cwd-icon-x-python:after,
+.theme-dark .elfinder-cwd-icon-x-python {
+  background-position: 0 -1100px;
+}
+.theme-dark .elfinder-cwd-icon-x-ruby {
+  background-position: 0 -1150px;
+}
+.theme-dark .elfinder-cwd-icon-x-sh,
+.theme-dark .elfinder-cwd-icon-x-shellscript {
+  background-position: 0 -1200px;
+}
+.theme-dark .elfinder-cwd-icon-x-c,
+.theme-dark .elfinder-cwd-icon-x-csrc,
+.theme-dark .elfinder-cwd-icon-x-chdr,
+.theme-dark .elfinder-cwd-icon-x-c--,
+.theme-dark .elfinder-cwd-icon-x-c--src,
+.theme-dark .elfinder-cwd-icon-x-c--hdr {
+  background-position: 0 -1250px;
+}
+.theme-dark .elfinder-cwd-icon-x-jar,
+.theme-dark .elfinder-cwd-icon-x-java,
+.theme-dark .elfinder-cwd-icon-x-java-source {
+  background-position: 0 -1300px;
+}
+.theme-dark .elfinder-cwd-icon-x-jar:before,
+.theme-dark .elfinder-cwd-icon-x-java:before,
+.theme-dark .elfinder-cwd-icon-x-java-source:before {
+  content: none !important;
+}
+.theme-dark .elfinder-cwd-icon-x-php {
+  background-position: 0 -1350px;
+}
+.theme-dark .elfinder-cwd-icon-xml:after,
+.theme-dark .elfinder-cwd-icon-xml {
+  background-position: 0 -1400px;
+}
+.theme-dark .elfinder-cwd-icon-zip,
+.theme-dark .elfinder-cwd-icon-x-zip,
+.theme-dark .elfinder-cwd-icon-x-xz,
+.theme-dark .elfinder-cwd-icon-x-7z-compressed,
+.theme-dark .elfinder-cwd-icon-x-gzip,
+.theme-dark .elfinder-cwd-icon-x-tar,
+.theme-dark .elfinder-cwd-icon-x-bzip,
+.theme-dark .elfinder-cwd-icon-x-bzip2,
+.theme-dark .elfinder-cwd-icon-x-rar,
+.theme-dark .elfinder-cwd-icon-x-rar-compressed {
+  background-position: 0 -1450px;
+}
+.theme-dark .elfinder-cwd-icon-x-shockwave-flash {
+  background-position: 0 -1500px;
+}
+.theme-dark .elfinder-cwd-icon-group {
+  background-position: 0 -1550px;
+}
+.theme-dark .elfinder-cwd-icon-json {
+  background-position: 0 -1600px;
+}
+.theme-dark .elfinder-cwd-icon-json:before {
+  content: none !important;
+}
+.theme-dark .elfinder-cwd-icon-markdown,
+.theme-dark .elfinder-cwd-icon-x-markdown {
+  background-position: 0 -1650px;
+}
+.theme-dark .elfinder-cwd-icon-markdown:before,
+.theme-dark .elfinder-cwd-icon-x-markdown:before {
+  content: none !important;
+}
+.theme-dark .elfinder-cwd-icon-sql {
+  background-position: 0 -1700px;
+}
+.theme-dark .elfinder-cwd-icon-sql:before {
+  content: none !important;
+}
+.theme-dark .elfinder-cwd-icon-svg,
+.theme-dark .elfinder-cwd-icon-svg-xml {
+  background-position: 0 -1750px;
+}
+.theme-dark .elfinder-cwd-icon-svg:before,
+.theme-dark .elfinder-cwd-icon-svg-xml:before {
+  content: none !important;
+}
+/**
+ * Toolbar
+ */
+.theme-dark .elfinder-toolbar {
+  background: #061325;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  border: 0;
+  padding: 5px 0;
+}
+.theme-dark .elfinder-buttonset {
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  border: 0;
+  margin: 0 5px;
+  height: 24px;
+}
+.theme-dark .elfinder .elfinder-button {
+  background: transparent;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  cursor: pointer;
+  color: #efefef;
+}
+.theme-dark .elfinder-toolbar-button-separator {
+  border: 0;
+}
+.theme-dark .elfinder-button-menu {
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.3);
+  border: none;
+  margin-top: 5px;
+}
+.theme-dark .elfinder-button-menu-item {
+  color: #666666;
+  padding: 6px 19px;
+}
+.theme-dark .elfinder-button-menu-item.ui-state-hover {
+  color: #141414;
+  background-color: #f5f4f4;
+}
+.theme-dark .elfinder-button-menu-item-separated {
+  border-top: 1px solid #e5e5e5;
+}
+.theme-dark .elfinder-button-menu-item-separated.ui-state-hover {
+  border-top: 1px solid #e5e5e5;
+}
+.theme-dark .elfinder .elfinder-button-search {
+  margin: 0 10px;
+  min-height: inherit;
+}
+.theme-dark .elfinder .elfinder-button-search input {
+  background: rgba(22, 43, 76, 0.75);
+  -webkit-border-radius: 2px;
+  border-radius: 2px;  
+  border: 0;
+  margin: 0; 
+  padding: 0 27px;
+  height: 24px;
+  color: #fff;
+  font-weight: 100;
+  min-height: 24px;
+}
+.theme-dark .elfinder .elfinder-button-search .elfinder-button-menu {
+  margin-top: 4px;
+  border: none;
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+/**
+ * Navbar
+ */
+ .theme-dark .elfinder .elfinder-navbar {
+  background: #2a384d;
+  -webkit-box-shadow: 0 1px 8px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.6);
+  border: none;
+}
+.theme-dark .elfinder-navbar-dir {
+  color: #e6e6e6;
+  cursor: pointer;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  padding: 5px;
+  border: none;
+}
+.theme-dark .elfinder-navbar-dir.ui-state-hover,
+.theme-dark .elfinder-navbar-dir.ui-state-active.ui-state-hover {
+  background: #17202c;
+  color: #e6e6e6;
+  border: none;
+}
+.theme-dark .elfinder-navbar .ui-state-active,
+.theme-dark .elfinder-disabled .elfinder-navbar .ui-state-active {
+  background: #1b2533;
+  border: none;
+}
+/**
+ * Workzone
+ */
+ .theme-dark .elfinder-workzone {
+  background: #0e1827;
+}
+.theme-dark .elfinder-cwd-file {
+  color: #ddd;
+}
+.theme-dark .elfinder-cwd-file.ui-state-hover,
+.theme-dark .elfinder-cwd-file.ui-selected.ui-state-hover {
+  background: #1a283c;
+  color: #ddd;
+}
+.theme-dark .elfinder-cwd-file.ui-selected {
+  background: #152131;
+  color: #ddd;
+}
+.theme-dark .elfinder-cwd-filename input,
+.theme-dark .elfinder-cwd-filename textarea {
+  padding: 2px;
+  -webkit-border-radius: 2px !important;
+  border-radius: 2px !important;
+  width: 100px !important;
+  background: #fff;
+  color: #222;
+}
+.theme-dark .elfinder-cwd-filename input:focus,
+.theme-dark .elfinder-cwd-filename textarea:focus {
+  outline: none;
+  border: 1px solid #555;
+}
+.theme-dark .elfinder-cwd-view-icons .elfinder-cwd-file .ui-state-hover,
+.theme-dark .elfinder-cwd-view-icons .elfinder-cwd-file .elfinder-cwd-filename.ui-state-hover,
+.theme-dark .elfinder-disabled .elfinder-cwd-view-icons .elfinder-cwd-file .elfinder-cwd-filename.ui-state-hover,
+.theme-dark .elfinder-disabled .elfinder-cwd table td.ui-state-hover {
+  background: transparent;
+}
+.theme-dark .elfinder-ltr .elfinder-cwd table {
+  padding: 0 2px 0 0;
+}
+.theme-dark .elfinder-rtl .elfinder-cwd table {
+  padding: 0 0 0 2px;
+}
+.theme-dark .elfinder-cwd table tr:nth-child(odd) {
+  background-color: transparent;
+}
+.theme-dark .elfinder-cwd table tr:nth-child(odd).ui-state-hover {
+  background-color: #1a283c;
+}
+.theme-dark #elfinder-elfinder-cwd-thead td {
+  background: #010e21;
+  color: #ddd;
+}
+.theme-dark #elfinder-elfinder-cwd-thead td.ui-state-hover,
+.theme-dark #elfinder-elfinder-cwd-thead td.ui-state-active {
+  background: #010a17;
+}
+.theme-dark #elfinder-elfinder-cwd-thead td.ui-state-active.ui-state-hover {
+  background: #010812;
+}
+.theme-dark .ui-selectable-helper {
+  border: 1px solid #022861;
+  background-color: rgba(3, 62, 150, 0.38);
+}
+.theme-dark .elfinder-cwd-wrapper.elfinder-cwd-wrapper-trash {
+  background-color: #e4e4e4;
+}
+.theme-dark .elfinder-cwd-wrapper.elfinder-cwd-wrapper-trash .elfinder-cwd-file {
+  color: #333;
+}
+.theme-dark .elfinder-cwd-wrapper.elfinder-cwd-wrapper-trash .elfinder-cwd-file.ui-state-hover,
+.theme-dark .elfinder-cwd-wrapper.elfinder-cwd-wrapper-trash .elfinder-cwd-file.ui-selected.ui-state-hover {
+  background: #1a283c;
+  color: #ddd;
+}
+.theme-dark .elfinder-cwd-wrapper.elfinder-cwd-wrapper-trash .elfinder-cwd-file.ui-selected {
+  background: #152131;
+  color: #ddd;
+}
+/**
+ * Status Bar
+ */
+ .theme-dark .elfinder .elfinder-statusbar {
+  background: #061325;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  border: 0;
+  color: #cfd2d4;
+}
+.theme-dark .elfinder-path,
+.theme-dark .elfinder-stat-size {
+  margin: 0 15px;
+}
+/**
+ * Buttons
+ */
+ .theme-dark .ui-button,
+ .theme-dark .ui-button:active,
+ .theme-dark .ui-button.ui-state-default {
+  display: inline-block;
+  font-weight: normal;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  white-space: nowrap;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  text-transform: uppercase;
+  -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s;
+  background: #fff;
+  color: #222;
+}
+.theme-dark .ui-button .ui-icon,
+.theme-dark .ui-button:active .ui-icon,
+.theme-dark .ui-button.ui-state-default .ui-icon {
+  color: #222;
+}
+.theme-dark .ui-button:hover,
+.theme-dark a.ui-button:active,
+.theme-dark .ui-button:active,
+.theme-dark .ui-button:focus,
+.theme-dark .ui-button.ui-state-hover,
+.theme-dark .ui-button.ui-state-active {
+  background: #3498DB;
+  color: #fff;
+}
+.theme-dark .ui-button:hover .ui-icon,
+.theme-dark a.ui-button:active .ui-icon,
+.theme-dark .ui-button:active .ui-icon,
+.theme-dark .ui-button:focus .ui-icon,
+.theme-dark .ui-button.ui-state-hover .ui-icon,
+.theme-dark .ui-button.ui-state-active .ui-icon {
+  color: #fff;
+}
+.theme-dark .ui-button.ui-state-active:hover {
+  background: #217dbb;
+  color: #fff;
+  border: none;
+}
+.theme-dark .ui-button:focus {
+  outline: none !important;
+}
+.theme-dark .ui-controlgroup-horizontal .ui-button {
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  border: 0;
+}
+/**
+ * Context Menu
+ */
+ .theme-dark .elfinder .elfinder-contextmenu,
+ .theme-dark .elfinder .elfinder-contextmenu-sub {
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.3);
+  border: none;
+}
+.theme-dark .elfinder .elfinder-contextmenu-separator,
+.theme-dark .elfinder .elfinder-contextmenu-sub-separator {
+  border-top: 1px solid #e5e5e5;
+}
+.theme-dark .elfinder .elfinder-contextmenu-item {
+  color: #666;
+  padding: 5px 30px;
+}
+.theme-dark .elfinder .elfinder-contextmenu-item.ui-state-hover {
+  background-color: #f5f4f4;
+  color: #141414;
+}
+.theme-dark .elfinder .elfinder-contextmenu-item.ui-state-active {
+  background-color: #2196F3;
+  color: #fff;
+}
+/**
+ * Dialogs
+ */
+ .theme-dark .elfinder .elfinder-dialog {
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  border: 0;
+  -webkit-box-shadow: 0 1px 30px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 1px 30px rgba(0, 0, 0, 0.6);
+}
+.theme-dark .elfinder .elfinder-dialog .ui-dialog-content[id*="edit-elfinder-elfinder-"] {
+  padding: 0;
+}
+.theme-dark .elfinder .elfinder-dialog .ui-tabs {
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  border: 0;
+}
+.theme-dark .elfinder .elfinder-dialog .ui-tabs-nav {
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  border: 0;
+  background: transparent;
+  border-bottom: 1px solid #ddd;
+}
+.theme-dark .elfinder .elfinder-dialog .ui-tabs-nav li {
+  border: 0;
+  font-weight: normal;
+  background: transparent;
+  margin: 0;
+  padding: 3px 0;
+}
+.theme-dark .elfinder .elfinder-dialog .ui-tabs-nav li.ui-tabs-active {
+  padding-bottom: 7px;
+}
+.theme-dark .elfinder .elfinder-dialog .ui-tabs-nav .ui-tabs-selected a,
+.theme-dark .elfinder .elfinder-dialog .ui-tabs-nav .ui-state-active a,
+.theme-dark .elfinder .elfinder-dialog .ui-tabs-nav li:hover a {
+  -webkit-box-shadow: inset 0 -2px 0 #3498DB;
+  box-shadow: inset 0 -2px 0 #3498DB;
+  color: #3498DB;
+}
+.theme-dark .std42-dialog .ui-dialog-titlebar {
+  background: #1b2533;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  border: 0;
+}
+.theme-dark .std42-dialog .ui-dialog-titlebar .elfinder-titlebar-button .ui-icon {
+  border-color: inherit;
+  -webkit-transition: 0.2s ease-out;
+  -o-transition: 0.2s ease-out;
+  transition: 0.2s ease-out;
+  opacity: 0.8;
+  color: #fff;
+  width: auto;
+  height: auto;
+  font-size: 12px;
+  padding: 3px;
+}
+.theme-dark .elfinder-mobile .std42-dialog .ui-dialog-titlebar .ui-dialog-titlebar-close .ui-icon,
+.theme-dark .std42-dialog .ui-dialog-titlebar .ui-dialog-titlebar-close:hover .ui-icon {
+  background-color: #F44336;
+}
+.theme-dark .elfinder-mobile .std42-dialog .ui-dialog-titlebar .elfinder-titlebar-full .ui-icon,
+.theme-dark .std42-dialog .ui-dialog-titlebar .elfinder-titlebar-full:hover .ui-icon {
+  background-color: #4CAF50;
+}
+.theme-dark .elfinder-mobile .std42-dialog .ui-dialog-titlebar .elfinder-titlebar-minimize .ui-icon,
+.theme-dark .std42-dialog .ui-dialog-titlebar .elfinder-titlebar-minimize:hover .ui-icon {
+  background-color: #FF9800;
+}
+.theme-dark .elfinder-dialog-title {
+  color: #f1f1f1;
+}
+.theme-dark .std42-dialog .ui-dialog-content {
+  background: #fff;
+  /* width: 80%; */
+}
+.theme-dark .ui-widget-content {
+  font-family: "Noto Sans", sans-serif;
+  color: #546E7A;
+}
+.theme-dark .std42-dialog .ui-dialog-buttonpane button {
+  margin: 2px;
+  padding: .4em .3em;
+}
+.theme-dark .std42-dialog .ui-dialog-buttonpane button span.ui-icon {
+  padding: 0;
+}
+.theme-dark .elfinder-upload-dialog-wrapper .elfinder-upload-dirselect {
+  width: inherit;
+  height: inherit;
+  padding: .4em;
+  margin-left: 5px;
+  color: #222;
+}
+.theme-dark .elfinder-upload-dialog-wrapper .elfinder-upload-dirselect.ui-state-hover {
+  background: #888;
+  color: #fff;
+  outline: none;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+}
+.theme-dark .elfinder-upload-dialog-wrapper .ui-button {
+  padding: .4em 3px;
+  margin: 0 2px;
+}
+.theme-dark .elfinder-upload-dialog-wrapper .ui-button {
+  margin-left: 19px;
+  margin-right: -15px;
+}
+.theme-dark .elfinder-upload-dropbox {
+  border: 2px dashed #bbb;
+}
+.theme-dark .elfinder-upload-dropbox:focus {
+  outline: none;
+}
+.theme-dark .elfinder-upload-dropbox.ui-state-hover {
+  background: #f1f1f1;
+  border: 2px dashed #bbb;
+}
+.theme-dark .elfinder-help *,
+.theme-dark .elfinder-help a {
+  color: #546E7A;
+}
+/****/
+.theme-dark .elfinder .elfinder-cwd table thead td {
+  padding: 8px 14px;
+  padding-right: 25px;
+}
+.theme-dark .elfinder .elfinder-cwd table td {
+  padding: 8px 12px;
+}
+.theme-dark .elfinder-navbar-dir {
+  padding: 7px 5px;
+}
+.theme-dark div.elfinder-cwd-wrapper-list tr.ui-state-default td span.ui-icon {
+  top: 8px;
+  margin-right: 10px;
+}
+.theme-dark .elfinder-cwd-view-list thead td .ui-resizable-handle {
+  top: 7px;
+}
+.theme-dark .elfinder .elfinder-cwd table thead td.ui-resizable.ui-state-active {
+  background: #4a6187;
+  color:#fff;
+}
+.theme-dark .elfinder .elfinder-cwd table thead td.ui-resizable{
+  background:#18263f;
+  color:#fff !important;
+}
+.theme-dark .elfinder-toolbar {
+  padding: 10px 0;
+}
+.theme-dark .elfinder .elfinder-button-search-menu {
+  top: 42px;
+}
+/** Custom scrollbar Firefox **/
+.theme-dark .elfinder-cwd-wrapper{
+  scrollbar-color: #4a6187 #0e1827;
+  scrollbar-width: thin;
+} 
+.theme-dark .elfinder-navbar.ui-resizable{
+  scrollbar-color: #4a6187 #2a384d;
+  scrollbar-width: thin;
+}
+
+/** custom scrollbar Chrome & Safari **/
+.theme-dark .elfinder-cwd-wrapper::-webkit-scrollbar, 
+.theme-dark .elfinder-navbar.ui-resizable::-webkit-scrollbar {
+    width: 13px;
+} 
+.theme-dark .elfinder-cwd-wrapper::-webkit-scrollbar-track, 
+.theme-dark .elfinder-navbar.ui-resizable::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    -moz-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+} 
+.theme-dark .elfinder-cwd-wrapper::-webkit-scrollbar-thumb,
+.theme-dark .elfinder-navbar.ui-resizable::-webkit-scrollbar-thumb {
+  background-color: #4a6187;
+  border: 1px solid #4a6187 !important;
+  outline:none;
+  box-shadow:none !important;
+}
+
+
+.theme-dark .elfinder-cwd-wrapper::-moz-scrollbar {
+    width: 13px;
+} 
+.theme-dark .elfinder-cwd-wrapper::-moz-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    -moz-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+} 
+.theme-dark .elfinder-cwd-wrapper::-moz-scrollbar-thumb {
+  background-color: #4a6187;
+  border: 1px solid #4a6187 !important;
+  outline:none;
+  box-shadow:none !important;
+}
+
+.theme-dark .elfinder-cwd-view-icons .elfinder-cwd-icon.elfinder-cwd-bgurl:before {
+  width: 60px;
+}
+
+.theme-dark .elfinder-rtl .elfinder-cwd-size1 .elfinder-cwd-icon.elfinder-cwd-bgurl:before,
+.theme-dark .elfinder-rtl .elfinder-cwd-size2 .elfinder-cwd-icon.elfinder-cwd-bgurl:before,
+.theme-dark .elfinder-rtl .elfinder-cwd-size3 .elfinder-cwd-icon.elfinder-cwd-bgurl:before {
+  left: 0;
+  position: absolute;
+}
+
+.theme-dark .elfinder-cwd-view-icons .elfinder-cwd-file .ui-state-hover,
+.theme-dark .elfinder-cwd-view-icons .elfinder-cwd-file .ui-state-active {
+ color: #ddd;
+}
+
+.theme-dark .elfinder .elfinder-contextmenu-item .ui-icon.ui-icon-check {
+  margin-top: -6px;
+}
+.theme-dark .elfinder .elfinder-contextmenu-rtl .elfinder-contextmenu-item .ui-icon.ui-icon-check {
+  right: -1px;
+  left: auto;
+}
+.theme-dark .elfinder-contextmenu .elfinder-contextmenu-item .elfinder-contextsubmenu-item .ui-icon.ui-icon-check {
+  font-size: 13px;
+}
+.theme-dark .elfinder-ltr .elfinder-button-search .ui-icon-close{font-size: 17px;}
+.theme-dark .elfinder .elfinder-contextmenu-rtl .elfinder-contextmenu-arrow:before {
+  content: '\e858';
+}
+.theme-dark .elfinder .elfinder-toolbar .elfinder-buttonset .elfinder-button:hover {
+  background: transparent;
+}
+.theme-dark .elfinder-button-search input[type=text] {
+  box-sizing: border-box;  
+}
+.theme-dark .elfinder-button-search .ui-icon {  
+  line-height: 17px;
+  padding-left: 4px;
+}
+.theme-dark .elfinder .elfinder-cwd-wrapper-list .elfinder-cwd-file .elfinder-cwd-filename {
+    color: #fff;
+}
+.theme-dark .elfinder .elfinder-cwd-wrapper-list .elfinder-cwd-file:hover, 
+.theme-dark .elfinder .elfinder-cwd-wrapper-list .elfinder-cwd-file.ui-state-hover,
+.theme-dark .elfinder .elfinder-cwd-wrapper-list .elfinder-cwd-file.ui-state-hover:hover ,
+.theme-dark .elfinder .elfinder-navbar .elfinder-navbar-dir:hover {
+    background: #4a61873d;
+    border-color: #4a61873d;
+}
+.theme-dark .elfinder .elfinder-navbar .elfinder-navbar-dir:hover ,
+.theme-dark .elfinder-navbar .ui-state-active {
+    background: #1b2533 !important;
+	border-color: #1b2533 !important;
+	color:#fff;
+}
+.theme-dark .elfinder .elfinder-navbar .elfinder-navbar-dir , 
+.theme-dark .elfinder .elfinder-navbar .elfinder-navbar-icon {
+    background-image:none !important;
+	color:#fff;
+}
+
+.theme-dark .elfinder .elfinder-cwd-wrapper-list table thead tr td:not(:last-child) {
+    border-right: 1px solid #eee !important;
+    color: #fff !important;  
+}
+.theme-dark .elfinder.elfinder-ltr .elfinder-navbar {
+    border-right: 1px solid #eee !important;
+}
+.theme-dark table td, 
+.theme-dark table td {
+    vertical-align: middle;
+}
+.theme-dark table.elfinder-info-tb a.mk_elfinder_share_button button.button.button-primary {
+    margin-left: 5px;
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    background: #485e83;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+.theme-dark .elfinder .elfinder-cwd-wrapper-list table thead tr td.ui-state-hover,
+.theme-dark .elfinder .elfinder-cwd-wrapper-list table thead tr td:hover {
+    background: #4a6187;
+}
+.theme-dark .elfinder .elfinder-cwd table tbody.elfinder-cwd-fixheader {
+    position: relative;
+    background: #061325;  
+}
+.theme-dark .elfinder:not(.elfinder-mobile) *::-webkit-scrollbar-track {
+    border-radius: 10px;
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, .1) !important;
+}
+.theme-dark .elfinder-navbar-dir {
+  padding-left: 35px;
+}
+
+.theme-dark .op-mkdir.elfinder-button-icon-mkdirin:before {
+  display: none;
+}
+
+.elfinder-contextmenu-item.op-opennew .elfinder-button-icon-opennew:before {content: ''; background: url(../images/icon-new-window.png) no-repeat; height: 16px; width: 16px; display: block; background-size: 15px; } 
+
+.elfinder-contextmenu-item .elfinder-button-icon-hide:before {content: ''; background: url(../images/hide.png) no-repeat; height: 16px; width: 16px; display: block; background-size: 15px; }
+
+.theme-dark .elfinder-notify-cancel .elfinder-notify-button.ui-icon.ui-icon-close{ line-height: 19px; font-size: 11px; color:#fff; }  
+.theme-dark .elfinder-notify-cancel .elfinder-notify-button.ui-icon.ui-icon-close:hover{ background: #ff6252; }
+.theme-dark .ui-front.elfinder-quicklook.elfinder-frontmost .ui-dialog-titlebar .ui-icon{ font-size: 11px; line-height: 17px; }

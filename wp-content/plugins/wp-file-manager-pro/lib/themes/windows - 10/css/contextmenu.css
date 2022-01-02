@@ -1,0 +1,56 @@
+/* contextmenu.css */
+/* **Note** that the context menu is NOT inside the main elfinder div */
+/* Context menu wrapper */
+.theme-windows---10 .elfinder-contextmenu,
+.theme-windows---10 .elfinder-contextmenu-sub,
+.theme-windows---10 .elfinder-button-menu {
+  font-family: 'Open Sans', sans-serif;
+  background: #fff!important;
+  border: 1px solid #b5b5b5!important;
+  box-shadow: 0 0 5px #cdcdcd!important;
+  border-radius: 0;
+  padding: 3px 3px 0 3px;
+}
+
+.theme-windows---10 .elfinder-contextmenu,
+.theme-windows---10 .elfinder-contextmenu-sub{
+  font-size: 16px;
+}
+
+/* Menu item */
+.theme-windows---10 .elfinder-contextmenu .elfinder-contextmenu-item,
+.theme-windows---10 .elfinder-button-menu .elfinder-button-menu-item {
+  margin: 0 0 3px 0;
+}
+
+/* Hovered menu item */
+.theme-windows---10 .elfinder-contextmenu .elfinder-contextmenu-item:hover,
+.theme-windows---10 .elfinder-button-menu .elfinder-button-menu-item:hover  {
+  background: #dedddc; 
+  color: #000;
+}
+
+/* Item icon */
+.theme-windows---10 .elfinder-contextmenu .elfinder-contextmenu-item .elfinder-contextmenu-icon {
+  /* */
+}
+
+/* Separator */
+.theme-windows---10 .elfinder-contextmenu .elfinder-contextmenu-separator {
+  background: #e2e3e4;
+  height: 1px;
+  margin: 1px;
+}
+
+.theme-windows---10 .elfinder-contextmenu .elfinder-button-icon-open + span {
+  font-weight: bold;
+}
+
+.theme-windows---10 .elfinder .elfinder-contextmenu-item .ui-icon.ui-icon-check {
+  margin-top: -9px;
+  left: 1px;
+}
+.theme-windows---10 .elfinder .elfinder-contextmenu-rtl .elfinder-contextmenu-item .ui-icon.ui-icon-check {
+  right: -1px;
+  left: auto;
+}

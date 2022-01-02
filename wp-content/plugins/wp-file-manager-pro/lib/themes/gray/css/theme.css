@@ -1,0 +1,1602 @@
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans:400,400i,700,700i&subset=cyrillic,cyrillic-ext,devanagari,greek,greek-ext,latin-ext,vietnamese");
+.theme-gray .elfinder {
+  color: #546E7A;
+  font-family: "Noto Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.theme-gray .elfinder.ui-widget.ui-widget-content {
+  font-family: "Noto Sans", sans-serif;
+  -webkit-box-shadow: 0 1px 8px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.6);
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  border: 0;
+}
+/**
+ * Input & Select
+ */
+ .theme-gray input.elfinder-tabstop,
+ .theme-gray input.elfinder-tabstop.ui-state-hover,
+ .theme-gray select.elfinder-tabstop,
+ .theme-gray select.elfinder-tabstop.ui-state-hover {
+  padding: 5px;
+  color: #666666;
+  background: #fff;
+  border-radius: 3px;
+  font-weight: normal;
+  border-color: #888;
+}
+.theme-gray select.elfinder-tabstop,
+.theme-gray select.elfinder-tabstop.ui-state-hover {
+  width: 100%;
+}
+/**
+ * Loading
+ */
+ .theme-gray .elfinder-info-spinner,
+ .theme-gray .elfinder-navbar-spinner,
+ .theme-gray .elfinder-button-icon-spinner {
+  background: url("../images/loading.svg") center center no-repeat !important;
+  width: 16px;
+  height: 16px;
+}
+/**
+ * Progress Bar
+ */
+@-webkit-keyframes progress-animation {
+  from {
+    background-position: 1rem 0;
+  }
+  to {
+    background-position: 0 0;
+  }
+}
+@keyframes progress-animation {
+  from {
+    background-position: 1rem 0;
+  }
+  to {
+    background-position: 0 0;
+  }
+}
+.theme-gray .elfinder-notify-progressbar {
+  border: 0;
+}
+.theme-gray .elfinder-notify-progress,
+.theme-gray .elfinder-notify-progressbar {
+  -webkit-border-radius: 0;
+  border-radius: 0;
+}
+.theme-gray .elfinder-notify-progress,
+.theme-gray .elfinder-resize-spinner {
+  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-size: 1rem 1rem;
+  -webkit-animation: progress-animation 1s linear infinite;
+  animation: progress-animation 1s linear infinite;
+  background-color: #0275d8;
+  height: 1rem;
+}
+/**
+ * Quick Look
+ */
+ .theme-gray .elfinder-quicklook {
+  background: #232323;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+}
+.theme-gray .elfinder-quicklook-titlebar {
+  background: inherit;
+}
+.theme-gray .elfinder-quicklook-fullscreen .elfinder-quicklook-navbar {
+  border: inherit;
+  opacity: inherit;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  background: rgba(66, 66, 66, 0.73);
+}
+.theme-gray .elfinder .elfinder-navdock {
+  border: 0;
+}
+.theme-gray .std42-dialog .ui-dialog-titlebar .ui-dialog-titlebar-close:hover .ui-icon,
+.theme-gray .elfinder-mobile .std42-dialog .ui-dialog-titlebar .ui-dialog-titlebar-close .ui-icon,
+.theme-gray .elfinder-quicklook-titlebar-icon .ui-icon.elfinder-icon-close:hover,
+.theme-gray .elfinder-mobile .elfinder-quicklook-titlebar-icon .ui-icon.elfinder-icon-close,
+.theme-gray .std42-dialog .ui-dialog-titlebar .elfinder-titlebar-minimize:hover .ui-icon,
+.theme-gray .elfinder-mobile .std42-dialog .ui-dialog-titlebar .elfinder-titlebar-minimize .ui-icon,
+.theme-gray .elfinder-quicklook-titlebar-icon .ui-icon.elfinder-icon-minimize:hover,
+.theme-gray .elfinder-mobile .elfinder-quicklook-titlebar-icon .ui-icon.elfinder-icon-minimize,
+.theme-gray .std42-dialog .ui-dialog-titlebar .elfinder-titlebar-full:hover .ui-icon,
+.theme-gray .elfinder-mobile .std42-dialog .ui-dialog-titlebar .elfinder-titlebar-full .ui-icon,
+.theme-gray .elfinder-quicklook-titlebar-icon .ui-icon.elfinder-icon-full:hover,
+.theme-gray .elfinder-mobile .elfinder-quicklook-titlebar-icon .ui-icon.elfinder-icon-full {
+  background-image: none;
+}
+/**
+ * Toast Notification
+ */
+ .theme-gray .elfinder .elfinder-toast > div {
+  background-color: #323232 !important;
+  color: #d6d6d6;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  opacity: inherit;
+}
+.theme-gray .elfinder .elfinder-toast > div button.ui-button {
+  color: #fff;
+}
+.theme-gray .elfinder .elfinder-toast > .toast-info button.ui-button {
+  background-color: #3498DB;
+}
+.theme-gray .elfinder .elfinder-toast > .toast-error button.ui-button {
+  background-color: #F44336;
+}
+.theme-gray .elfinder .elfinder-toast > .toast-success button.ui-button {
+  background-color: #4CAF50;
+}
+.theme-gray .elfinder .elfinder-toast > .toast-warning button.ui-button {
+  background-color: #FF9800;
+}
+.theme-gray .elfinder-toast-msg {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 14px;
+}
+/**
+ * For Ace Editor
+ */
+#ace_settingsmenu {
+  font-family: "Noto Sans", sans-serif;
+  -webkit-box-shadow: 0 1px 30px rgba(0, 0, 0, 0.6) !important;
+  box-shadow: 0 1px 30px rgba(0, 0, 0, 0.6) !important;
+  background-color: #1d2736 !important;
+  color: #e6e6e6 !important;
+}
+#ace_settingsmenu,
+#kbshortcutmenu {
+  padding: 0;
+}
+.ace_optionsMenuEntry {
+  padding: 5px 10px;
+}
+.ace_optionsMenuEntry:hover {
+  background-color: #111721;
+}
+.ace_optionsMenuEntry label {
+  font-size: 13px;
+}
+#ace_settingsmenu input[type="text"],
+#ace_settingsmenu select {
+  margin: 1px 2px 2px;
+  padding: 2px 5px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  border: 0;
+  background: rgba(9, 53, 121, 0.75);
+  color: white;
+}
+/**
+ * Icons
+ * Webfont is generated by Fontello http://fontello.com
+ */
+@font-face {
+  font-family: material;
+  src: url("../icons/material.eot?98361579");
+  src: url("../icons/material.eot?98361579#iefix") format("embedded-opentype"), url("../icons/material.woff2?98361579") format("woff2"), url("../icons/material.woff?98361579") format("woff"), url("../icons/material.ttf?98361579") format("truetype"), url("../icons/material.svg?98361579#material") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+.elfinder-button-menu {
+	margin-top: 24px !important;
+}
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  @font-face {
+    font-family: material;
+    src: url("../icons/material.svg?98361579#material") format("svg");
+  }
+}
+.theme-gray .ui-icon,
+.theme-gray .elfinder-button-icon,
+.theme-gray .ui-widget-header .ui-icon,
+.theme-gray .ui-widget-content .ui-icon {
+  font: normal normal normal 14px/1 material;
+  background-image: inherit;
+  text-indent: inherit;
+}
+.theme-gray .ui-button-icon-only .ui-icon {
+  font: normal normal normal 14px/1 material;
+  background-image: inherit !important;
+  text-indent: 0;
+  font-size: 16px;
+}
+.theme-gray .elfinder-toolbar .elfinder-button-icon {
+  font-size: 20px;
+  color: #ddd;
+  margin-top: -2px;
+}
+.theme-gray .elfinder-button-icon {
+  background: inherit;
+}
+.theme-gray .elfinder-button-icon-home:before {
+  content: '\e800';
+}
+.theme-gray .elfinder-button-icon-back:before {
+  content: '\e801';
+}
+.theme-gray .elfinder-button-icon-forward:before {
+  content: '\e802';
+}
+.theme-gray .elfinder-button-icon-up:before {
+  content: '\e803';
+}
+.theme-gray .elfinder-button-icon-dir:before {
+  content: '\e804';
+}
+.theme-gray .elfinder-button-icon-opendir:before {
+  content: '\e805';
+}
+.theme-gray .elfinder-button-icon-reload:before {
+  content: '\e806';
+}
+.theme-gray .elfinder-button-icon-open:before {
+  content: '\e807';
+}
+.theme-gray .elfinder-button-icon-mkdir:before {
+  content: '\e808';
+}
+.theme-gray .elfinder-button-icon-mkfile:before {
+  content: '\e809';
+}
+.theme-gray .elfinder-button-icon-rm:before {
+  content: '\e80a';
+}
+.theme-gray .elfinder-button-icon-trash:before {
+  content: '\e80b';
+}
+.theme-gray .elfinder-button-icon-restore:before {
+  content: '\e80c';
+}
+.theme-gray .elfinder-button-icon-copy:before {
+  content: '\e80d';
+}
+.theme-gray .elfinder-button-icon-cut:before {
+  content: '\e80e';
+}
+.theme-gray .elfinder-button-icon-paste:before {
+  content: '\e80f';
+}
+.theme-gray .elfinder-button-icon-getfile:before {
+  content: '\e810';
+}
+.theme-gray .elfinder-button-icon-duplicate:before {
+  content: '\e811';
+}
+.theme-gray .elfinder-button-icon-rename:before {
+  content: '\e812';
+}
+.theme-gray .elfinder-button-icon-edit:before {
+  content: '\e813';
+}
+.theme-gray .elfinder-button-icon-quicklook:before {
+  content: '\e814';
+}
+.theme-gray .elfinder-button-icon-upload:before {
+  content: '\e815';
+}
+.theme-gray .elfinder-button-icon-download:before {
+  content: '\e816';
+}
+.theme-gray .elfinder-button-icon-info:before {
+  content: '\e817';
+}
+.theme-gray .elfinder-button-icon-extract:before {
+  content: '\e818';
+}
+.theme-gray .elfinder-button-icon-archive:before {
+  content: '\e819';
+}
+.theme-gray .elfinder-button-icon-view:before {
+  content: '\e81a';
+}
+.theme-gray .elfinder-button-icon-view-list:before {
+  content: '\e81b';
+}
+.theme-gray .elfinder-button-icon-help:before {
+  content: '\e81c';
+}
+.theme-gray .elfinder-button-icon-resize:before {
+  content: '\e81d';
+}
+.theme-gray .elfinder-button-icon-link:before {
+  content: '\e81e';
+}
+.theme-gray .elfinder-button-icon-search:before {
+  content: '\e81f';
+}
+.theme-gray .elfinder-button-icon-sort:before {
+  content: '\e820';
+}
+.theme-gray .elfinder-button-icon-rotate-r:before {
+  content: '\e821';
+}
+.theme-gray .elfinder-button-icon-rotate-l:before {
+  content: '\e822';
+}
+.theme-gray .elfinder-button-icon-netmount:before {
+  content: '\e823';
+}
+.theme-gray .elfinder-button-icon-netunmount:before {
+  content: '\e824';
+}
+.theme-gray .elfinder-button-icon-places:before {
+  content: '\e825';
+}
+.theme-gray .elfinder-button-icon-chmod:before {
+  content: '\e826';
+}
+.theme-gray .elfinder-button-icon-accept:before {
+  content: '\e827';
+}
+.theme-gray .elfinder-button-icon-menu:before {
+  content: '\e828';
+}
+.theme-gray .elfinder-button-icon-colwidth:before {
+  content: '\e829';
+}
+.theme-gray .elfinder-button-icon-fullscreen:before {
+  content: '\e82a';
+}
+.theme-gray .elfinder-button-icon-unfullscreen:before {
+  content: '\e82b';
+}
+.theme-gray .elfinder-button-icon-empty:before {
+  content: '\e82c';
+}
+.theme-gray .elfinder-button-icon-undo:before {
+  content: '\e82d';
+}
+.theme-gray .elfinder-button-icon-redo:before {
+  content: '\e82e';
+}
+.theme-gray .elfinder-button-icon-preference:before {
+  content: '\e82f';
+}
+.theme-gray .elfinder-button-icon-mkdirin:before {
+  content: '\e830';
+}
+.theme-gray .elfinder-button-icon-selectall:before {
+  content: '\e831';
+}
+.theme-gray .elfinder-button-icon-selectnone:before {
+  content: '\e832';
+}
+.theme-gray .elfinder-button-icon-selectinvert:before {
+  content: '\e833';
+}
+.theme-gray .elfinder-button-icon-theme:before {
+  content: '\e859';
+}
+.theme-gray .elfinder-button-icon-logout:before {
+  content: '\e85a';
+}
+.theme-gray .elfinder-button-search .ui-icon.ui-icon-search {
+  font-size: 17px;
+}
+.theme-gray .elfinder-button-search .ui-icon:hover {
+  opacity: 1;
+}
+.theme-gray .elfinder-navbar-icon {
+  font: normal normal normal 16px/1 material;
+  background-image: inherit !important;
+}
+.theme-gray .elfinder-navbar-icon:before {
+  content: '\e804';
+}
+
+.theme-gray .std42-dialog, 
+.theme-gray .std42-dialog .ui-widget-content {
+    /* background-color: #ffffff !important; */
+    background-clip: border-box !important;
+}
+
+.theme-gray .elfinder-droppable-active .elfinder-navbar-icon:before,
+.theme-gray .ui-state-active .elfinder-navbar-icon:before,
+.theme-gray .ui-state-hover .elfinder-navbar-icon:before {
+  content: '\e805';
+}
+.theme-gray .elfinder-navbar-root-local .elfinder-navbar-icon:before {
+  content: '\e83d';
+}
+.theme-gray .elfinder-navbar-root-ftp .elfinder-navbar-icon:before {
+  content: '\e823';
+}
+.theme-gray .elfinder-navbar-root-sql .elfinder-navbar-icon:before {
+  content: '\e83e';
+}
+.theme-gray .elfinder-navbar-root-dropbox .elfinder-navbar-icon:before {
+  content: '\e83f';
+}
+.theme-gray .elfinder-navbar-root-googledrive .elfinder-navbar-icon:before {
+  content: '\e840';
+}
+.theme-gray .elfinder-navbar-root-onedrive .elfinder-navbar-icon:before {
+  content: '\e841';
+}
+.theme-gray .elfinder-navbar-root-box .elfinder-navbar-icon:before {
+  content: '\e842';
+}
+.theme-gray .elfinder-navbar-root-trash .elfinder-navbar-icon:before {
+  content: '\e80b';
+}
+.theme-gray .elfinder-places .elfinder-navbar-root .elfinder-navbar-icon:before {
+  content: '\e825';
+}
+.theme-gray .elfinder-navbar-arrow {
+  background-image: inherit !important;
+  font: normal normal normal 14px/1 material;
+  font-size: 10px;
+  padding-top: 3px;
+  padding-left: 2px;
+  color: #a9a9a9;
+}
+.theme-gray .ui-state-active .elfinder-navbar-arrow {
+  color: #fff;
+}
+.theme-gray .elfinder-ltr .elfinder-navbar-collapsed .elfinder-navbar-arrow:before {
+  content: '\e857';
+}
+.theme-gray .elfinder-rtl .elfinder-navbar-collapsed .elfinder-navbar-arrow:before {
+  content: '\e858';
+}
+.theme-gray .elfinder-ltr .elfinder-navbar-expanded .elfinder-navbar-arrow:before,
+.theme-gray .elfinder-rtl .elfinder-navbar-expanded .elfinder-navbar-arrow:before {
+  content: '\e851';
+}
+.theme-gray div.elfinder-cwd-wrapper-list tr.ui-state-default td span.ui-icon {
+  font-size: 8px;
+  margin-top: 5px;
+  margin-right: 10px;
+}
+.theme-gray div.elfinder-cwd-wrapper-list .ui-icon-grip-dotted-vertical {
+  margin: 2px;
+}
+.theme-gray .elfinder-cwd-view-list .elfinder-navbar-root-local td .elfinder-cwd-icon,
+.theme-gray .elfinder-navbar-root-local .elfinder-cwd-icon,
+.theme-gray .elfinder-cwd-view-list .elfinder-navbar-root-ftp td .elfinder-cwd-icon,
+.theme-gray .elfinder-navbar-root-ftp .elfinder-cwd-icon,
+.theme-gray .elfinder-cwd-view-list .elfinder-navbar-root-sql td .elfinder-cwd-icon,
+.theme-gray .elfinder-navbar-root-sql .elfinder-cwd-icon,
+.theme-gray .elfinder-cwd-view-list .elfinder-navbar-root-dropbox td .elfinder-cwd-icon,
+.theme-gray .elfinder-navbar-root-dropbox .elfinder-cwd-icon,
+.theme-gray .elfinder-cwd-view-list .elfinder-navbar-root-googledrive td .elfinder-cwd-icon,
+.theme-gray .elfinder-navbar-root-googledrive .elfinder-cwd-icon,
+.theme-gray .elfinder-cwd-view-list .elfinder-navbar-root-onedrive td .elfinder-cwd-icon,
+.theme-gray .elfinder-navbar-root-onedrive .elfinder-cwd-icon,
+.theme-gray .elfinder-cwd-view-list .elfinder-navbar-root-box td .elfinder-cwd-icon,
+.theme-gray .elfinder-navbar-root-box .elfinder-cwd-icon,
+.theme-gray .elfinder-cwd-view-list .elfinder-navbar-root-trash td .elfinder-cwd-icon,
+.theme-gray .elfinder-navbar-root-trash .elfinder-cwd-icon {
+  background-image: inherit;
+}
+.theme-gray .elfinder-cwd-view-list .elfinder-navbar-root-local td .elfinder-cwd-icon:before,
+.theme-gray .elfinder-navbar-root-local .elfinder-cwd-icon:before,
+.theme-gray .elfinder-cwd-view-list .elfinder-navbar-root-ftp td .elfinder-cwd-icon:before,
+.theme-gray .elfinder-navbar-root-ftp .elfinder-cwd-icon:before,
+.theme-gray .elfinder-cwd-view-list .elfinder-navbar-root-sql td .elfinder-cwd-icon:before,
+.theme-gray .elfinder-navbar-root-sql .elfinder-cwd-icon:before,
+.theme-gray .elfinder-cwd-view-list .elfinder-navbar-root-dropbox td .elfinder-cwd-icon:before,
+.theme-gray .elfinder-navbar-root-dropbox .elfinder-cwd-icon:before,
+.theme-gray .elfinder-cwd-view-list .elfinder-navbar-root-googledrive td .elfinder-cwd-icon:before,
+.theme-gray .elfinder-navbar-root-googledrive .elfinder-cwd-icon:before,
+.theme-gray .elfinder-cwd-view-list .elfinder-navbar-root-onedrive td .elfinder-cwd-icon:before,
+.theme-gray .elfinder-navbar-root-onedrive .elfinder-cwd-icon:before,
+.theme-gray .elfinder-cwd-view-list .elfinder-navbar-root-box td .elfinder-cwd-icon:before,
+.theme-gray .elfinder-navbar-root-box .elfinder-cwd-icon:before,
+.theme-gray .elfinder-cwd-view-list .elfinder-navbar-root-trash td .elfinder-cwd-icon:before,
+.theme-gray .elfinder-navbar-root-trash .elfinder-cwd-icon:before,
+.theme-gray .elfinder-dialog-icon-opennew:before {
+  font-family: material;
+  background-color: transparent;
+  color: #525252;
+  font-size: 55px;
+  position: relative;
+  top: -10px !important;
+  padding: 0;
+  display: contents !important;
+} 
+.theme-gray .elfinder-cwd-view-list .elfinder-navbar-root-local td .elfinder-cwd-icon:before,
+.theme-gray .elfinder-navbar-root-local .elfinder-cwd-icon:before {
+  content: '\e83d';
+}
+.theme-gray .elfinder-cwd-view-list .elfinder-navbar-root-ftp td .elfinder-cwd-icon:before,
+.theme-gray .elfinder-navbar-root-ftp .elfinder-cwd-icon:before {
+  content: '\e823';
+}
+.theme-gray .elfinder-cwd-view-list .elfinder-navbar-root-sql td .elfinder-cwd-icon:before,
+.theme-gray .elfinder-navbar-root-sql .elfinder-cwd-icon:before {
+  content: '\e83e';
+}
+.theme-gray .elfinder-cwd-view-list .elfinder-navbar-roor-dropbox td .elfinder-cwd-icon:before,
+.theme-gray .elfinder-navbar-roor-dropbox .elfinder-cwd-icon:before {
+  content: '\e83f';
+}
+.theme-gray .elfinder-cwd-view-list .elfinder-navbar-roor-googledrive td .elfinder-cwd-icon:before,
+.theme-gray .elfinder-navbar-roor-googledrive .elfinder-cwd-icon:before {
+  content: '\e840';
+}
+.theme-gray .elfinder-cwd-view-list .elfinder-navbar-roor-onedrive td .elfinder-cwd-icon:before,
+.theme-gray .elfinder-navbar-roor-onedrive .elfinder-cwd-icon:before {
+  content: '\e841';
+}
+.theme-gray .elfinder-cwd-view-list .elfinder-navbar-roor-box td .elfinder-cwd-icon:before,
+.theme-gray .elfinder-navbar-roor-box .elfinder-cwd-icon:before {
+  content: '\e842';
+}
+.theme-gray .elfinder-cwd-view-list .elfinder-navbar-root-trash td .elfinder-cwd-icon:before,
+.theme-gray .elfinder-navbar-root-trash .elfinder-cwd-icon:before {
+  content: '\e80b';
+}
+.theme-gray .elfinder-dialog-icon {
+  font: normal normal normal 14px/1 material;
+  background: inherit;
+  color: #524949;
+  font-size: 37px;
+}
+.theme-gray .elfinder-dialog-icon:before {
+  content: '\e843';
+}
+.theme-gray .elfinder-dialog-icon-mkdir:before {
+  content: '\e808';
+}
+.theme-gray .elfinder-dialog-icon-mkfile:before {
+  content: '\e809';
+}
+.theme-gray .elfinder-dialog-icon-copy:before {
+  content: '\e80d';
+}
+.theme-gray .elfinder-dialog-icon-prepare:before,
+.theme-gray .elfinder-dialog-icon-move:before {
+  content: '\e844';
+}
+.theme-gray .elfinder-dialog-icon-upload:before,
+.theme-gray .elfinder-dialog-icon-chunkmerge:before {
+  content: '\e815';
+}
+.theme-gray .elfinder-dialog-icon-rm:before {
+  content: '\e80a';
+}
+.theme-gray .elfinder-dialog-icon-open:before,
+.theme-gray .elfinder-dialog-icon-readdir:before,
+.theme-gray .elfinder-dialog-icon-file:before {
+  content: '\e807';
+}
+.theme-gray .elfinder-dialog-icon-reload:before {
+  content: '\e806';
+}
+.theme-gray .elfinder-dialog-icon-download:before {
+  content: '\e816';
+}
+.theme-gray .elfinder-dialog-icon-save:before {
+  content: '\e845';
+}
+.theme-gray .elfinder-dialog-icon-rename:before {
+  content: '\e812';
+}
+.theme-gray .elfinder-dialog-icon-zipdl:before,
+.theme-gray .elfinder-dialog-icon-archive:before {
+  content: '\e819';
+}
+.theme-gray .elfinder-dialog-icon-extract:before {
+  content: '\e818';
+}
+.theme-gray .elfinder-dialog-icon-search:before {
+  content: '\e81f';
+}
+.theme-gray .elfinder-dialog-icon-loadimg:before {
+  content: '\e846';
+}
+.theme-gray .elfinder-dialog-icon-url:before {
+  content: '\e81e';
+}
+.theme-gray .elfinder-dialog-icon-resize:before {
+  content: '\e81d';
+}
+.theme-gray .elfinder-dialog-icon-netmount:before {
+  content: '\e823';
+}
+.theme-gray .elfinder-dialog-icon-netunmount:before {
+  content: '\e824';
+}
+.theme-gray .elfinder-dialog-icon-chmod:before {
+  content: '\e826';
+}
+.theme-gray .elfinder-dialog-icon-preupload:before,
+.theme-gray .elfinder-dialog-icon-dim:before {
+  content: '\e847';
+}
+.theme-gray .elfinder-contextmenu .elfinder-contextmenu-item span.elfinder-contextmenu-icon {
+  font-size: 16px;
+}
+.theme-gray .elfinder-contextmenu .elfinder-contextmenu-item .elfinder-contextsubmenu-item .ui-icon {
+  font-size: 15px;
+}
+.theme-gray .elfinder-contextmenu .elfinder-contextmenu-item .elfinder-button-icon-link:before {
+  content: '\e837';
+}
+.theme-gray .elfinder .elfinder-contextmenu-extra-icon {
+  margin-top: -6px;
+}
+.theme-gray .elfinder .elfinder-contextmenu-extra-icon a {
+  padding: 5px;
+  margin: -16px;
+}
+.theme-gray .elfinder-button-icon-link:before {
+  content: '\e81e' !important;
+}
+.theme-gray .elfinder .elfinder-contextmenu-arrow {
+  font: normal normal normal 14px/1 material;
+  background-image: inherit;
+  font-size: 10px !important;
+  padding-top: 3px;
+}
+.theme-gray .elfinder .elfinder-contextmenu-arrow:before {
+  content: '\e857';
+}
+.theme-gray .elfinder-contextmenu .ui-state-hover .elfinder-contextmenu-arrow {
+  background-image: inherit;
+}
+.theme-gray .elfinder-quicklook .ui-resizable-se {
+  background: inherit;
+}
+.theme-gray .elfinder-quicklook-navbar-icon {
+  background: transparent;
+  font: normal normal normal 14px/1 material;
+  font-size: 32px;
+  color: #fff;
+}
+.theme-gray .elfinder-quicklook-titlebar-icon {
+  margin-top: -8px;
+}
+.theme-gray .elfinder-quicklook-titlebar-icon .ui-icon {
+  border: 0;
+  opacity: .8;
+  font-size: 15px;
+  padding: 1px;
+}
+.theme-gray .elfinder-quicklook-titlebar .ui-icon-circle-close,
+.theme-gray .elfinder-quicklook .ui-icon-gripsmall-diagonal-se {
+  color: #f1f1f1;
+}
+.theme-gray .elfinder-quicklook-navbar-icon-prev:before {
+  content: '\e848';
+}
+.theme-gray .elfinder-quicklook-navbar-icon-next:before {
+  content: '\e849';
+}
+.theme-gray .elfinder-quicklook-navbar-icon-fullscreen:before {
+  content: '\e84a';
+}
+.theme-gray .elfinder-quicklook-navbar-icon-fullscreen-off:before {
+  content: '\e84b';
+}
+.theme-gray .elfinder-quicklook-navbar-icon-close:before {
+  content: '\e84c';
+}
+.theme-gray .ui-button-icon {
+  background-image: inherit;
+}
+.theme-gray .ui-icon-search:before {
+  content: '\e81f';
+}
+.theme-gray .ui-icon-closethick:before,
+.theme-gray .ui-icon-close:before {
+  content: '\e839';
+}
+.theme-gray .ui-icon-circle-close:before {
+  content: '\e84c';
+}
+.theme-gray .ui-icon-gear:before {
+  content: '\e82f';
+}
+.theme-gray .ui-icon-gripsmall-diagonal-se:before {
+  content: '\e838';
+}
+.theme-gray .ui-icon-locked:before {
+  content: '\e834';
+}
+.theme-gray .ui-icon-unlocked:before {
+  content: '\e836';
+}
+.theme-gray .ui-icon-arrowrefresh-1-n:before {
+  content: '\e821';
+}
+.theme-gray .ui-icon-plusthick:before {
+  content: '\e83a';
+}
+.theme-gray .ui-icon-arrowreturnthick-1-s:before {
+  content: '\e83b';
+}
+.theme-gray .ui-icon-minusthick:before {
+  content: '\e83c';
+}
+.theme-gray .ui-icon-pin-s:before {
+  content: '\e84d';
+}
+.theme-gray .ui-icon-check:before {
+  content: '\e84e';
+}
+.theme-gray .ui-icon-arrowthick-1-s:before {
+  content: '\e84f';
+}
+.theme-gray .ui-icon-arrowthick-1-n:before {
+  content: '\e850';
+}
+.theme-gray .ui-icon-triangle-1-s:before {
+  content: '\e851';
+}
+.theme-gray .ui-icon-triangle-1-n:before {
+  content: '\e852';
+}
+.theme-gray .ui-icon-grip-dotted-vertical:before {
+  content: '\e853';
+}
+.theme-gray .elfinder-lock,
+.theme-gray .elfinder-perms,
+.theme-gray .elfinder-symlink {
+  background-image: inherit;
+  font: normal normal normal 18px/1 material;
+  color: #4d4d4d;
+}
+.theme-gray .elfinder-na .elfinder-perms:before {
+  content: '\e824';
+}
+/* .elfinder-ro .elfinder-perms:before {
+  content: '\e835';
+} */
+.theme-gray .elfinder-wo .elfinder-perms:before {
+  content: '\e854';
+}
+.theme-gray .elfinder-group .elfinder-perms:before {
+  content: '\e800';
+}
+.theme-gray .elfinder-lock:before {
+    content: '\e834';
+    margin-top: 0px;
+    position: absolute;
+    right: -2px;
+    top: 3px;
+}
+.theme-gray .elfinder-symlink:before {
+  content: '\e837';
+}
+.theme-gray .elfinder .elfinder-toast > div {
+  font: normal normal normal 14px/1 material;
+}
+.theme-gray .elfinder .elfinder-toast > div:before {
+  font-size: 24px;
+  position: absolute;
+  left: 15px;
+  top: 3px;
+}
+.theme-gray .elfinder .elfinder-toast > .toast-info,
+.theme-gray .elfinder .elfinder-toast > .toast-error,
+.theme-gray .elfinder .elfinder-toast > .toast-success,
+.theme-gray .elfinder .elfinder-toast > .toast-warning {
+  background-image: inherit !important;
+}
+.theme-gray .elfinder .elfinder-toast > .toast-info:before {
+  content: '\e817';
+  color: #3498DB;
+}
+.theme-gray .elfinder .elfinder-toast > .toast-error:before {
+  content: '\e855';
+  color: #F44336;
+}
+.theme-gray .elfinder .elfinder-toast > .toast-success:before {
+  content: '\e84e';
+  color: #4CAF50;
+}
+.theme-gray .elfinder .elfinder-toast > .toast-warning:before {
+  content: '\e856';
+  color: #FF9800;
+}
+.theme-gray .elfinder-drag-helper-icon-status {
+  font: normal normal normal 14px/1 material;
+  background: inherit;
+}
+.theme-gray .elfinder-drag-helper-icon-status:before {
+  content: '\e824';
+}
+.theme-gray .elfinder-drag-helper-move .elfinder-drag-helper-icon-status {
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+.theme-gray .elfinder-drag-helper-move .elfinder-drag-helper-icon-status:before {
+  content: '\e854';
+}
+.theme-gray .elfinder-drag-helper-plus .elfinder-drag-helper-icon-status {
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+.theme-gray .elfinder-drag-helper-plus .elfinder-drag-helper-icon-status:before {
+  content: '\e84c';
+}
+/**
+ * MIME Types
+ */
+ .theme-gray .elfinder-cwd-view-list td .elfinder-cwd-icon {
+  background-image: url("../images/icons-small.png");
+}
+.theme-gray .elfinder-cwd-icon {
+  background: url("../images/icons-big.png") 0 0 no-repeat;
+}
+.theme-gray .elfinder-cwd-icon:before {
+  font-size: 10px;
+  position: relative;
+  top: 27px;
+  left: inherit;
+  padding: 1px;
+  background-color: transparent;
+}
+.theme-gray .elfinder-info-title .elfinder-cwd-icon:before {
+  top: 32px;
+  display: block;
+  margin: 0 auto;
+}
+.theme-gray .elfinder-info-title .elfinder-cwd-icon.elfinder-cwd-bgurl:before {
+  background-color: #313131 !important;
+}
+.theme-gray .elfinder-cwd-view-icons .elfinder-cwd-icon.elfinder-cwd-bgurl:before {
+  left: inherit;
+  background-color: #313131;
+  width: 60px;
+}
+.theme-gray .elfinder-quicklook .elfinder-cwd-icon:before {
+  top: 33px;
+  left: 50% !important;
+  position: relative;
+  display: block;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+.theme-gray .elfinder-cwd-icon-zip:before,
+.theme-gray .elfinder-cwd-icon-x-zip:before {
+  content: 'zip' !important;
+}
+.theme-gray .elfinder-cwd-icon-x-xz:before {
+  content: 'xz' !important;
+}
+.theme-gray .elfinder-cwd-icon-x-7z-compressed:before {
+  content: '7z' !important;
+}
+.theme-gray .elfinder-cwd-icon-x-gzip:before {
+  content: 'gzip' !important;
+}
+.theme-gray .elfinder-cwd-icon-x-tar:before {
+  content: 'tar' !important;
+}
+.theme-gray .elfinder-cwd-icon-x-bzip:before,
+.theme-gray .elfinder-cwd-icon-x-bzip2:before {
+  content: 'bzip' !important;
+}
+.theme-gray .elfinder-cwd-icon-x-rar:before,
+.theme-gray .elfinder-cwd-icon-x-rar-compressed:before {
+  content: 'rar' !important;
+}
+.theme-gray .elfinder-cwd-icon-directory {
+  background-position: 0 -50px;
+}
+.theme-gray .elfinder-cwd-icon-application {
+  background-position: 0 -150px;
+}
+.theme-gray .elfinder-cwd-icon-text {
+  background-position: 0 -200px;
+}
+.theme-gray .elfinder-cwd-icon-plain,
+.theme-gray .elfinder-cwd-icon-x-empty {
+  background-position: 0 -250px;
+}
+.theme-gray .elfinder-cwd-icon-image {
+  background-position: 0 -300px;
+}
+.theme-gray .elfinder-cwd-icon-vnd-adobe-photoshop {
+  background-position: 0 -350px;
+}
+.theme-gray .elfinder-cwd-icon-vnd-adobe-photoshop:before {
+  content: none !important;
+}
+.theme-gray .elfinder-cwd-icon-postscript {
+  background-position: 0 -400px;
+}
+.theme-gray .elfinder-cwd-icon-audio {
+  background-position: 0 -450px;
+}
+.theme-gray .elfinder-cwd-icon-video,
+.theme-gray .elfinder-cwd-icon-flash-video,
+.theme-gray .elfinder-cwd-icon-dash-xml,
+.theme-gray .elfinder-cwd-icon-vnd-apple-mpegurl,
+.theme-gray .elfinder-cwd-icon-x-mpegurl {
+  background-position: 0 -500px;
+}
+.theme-gray .elfinder-cwd-icon-rtf,
+.theme-gray .elfinder-cwd-icon-rtfd {
+  background-position: 0 -550px;
+}
+.theme-gray .elfinder-cwd-icon-pdf {
+  background-position: 0 -600px;
+}
+.theme-gray .elfinder-cwd-icon-x-msaccess {
+  background-position: 0 -650px;
+}
+.theme-gray .elfinder-cwd-icon-x-msaccess:before {
+  content: none !important;
+}
+.theme-gray .elfinder-cwd-icon-msword,
+.theme-gray .elfinder-cwd-icon-vnd-ms-word,
+.theme-gray .elfinder-cwd-icon-vnd-ms-word-document-macroEnabled-12,
+.theme-gray .elfinder-cwd-icon-vnd-ms-word-template-macroEnabled-12 {
+  background-position: 0 -700px;
+}
+.theme-gray .elfinder-cwd-icon-msword:before,
+.theme-gray .elfinder-cwd-icon-vnd-ms-word:before,
+.theme-gray .elfinder-cwd-icon-vnd-ms-word-document-macroEnabled-12:before,
+.theme-gray .elfinder-cwd-icon-vnd-ms-word-template-macroEnabled-12:before {
+  content: none !important;
+}
+.theme-gray .elfinder-cwd-icon-ms-excel,
+.theme-gray .elfinder-cwd-icon-vnd-ms-excel,
+.theme-gray .elfinder-cwd-icon-vnd-ms-excel-addin-macroEnabled-12,
+.theme-gray .elfinder-cwd-icon-vnd-ms-excel-sheet-binary-macroEnabled-12,
+.theme-gray .elfinder-cwd-icon-vnd-ms-excel-sheet-macroEnabled-12,
+.theme-gray .elfinder-cwd-icon-vnd-ms-excel-template-macroEnabled-12 {
+  background-position: 0 -750px;
+}
+.theme-gray .elfinder-cwd-icon-ms-excel:before,
+.theme-gray .elfinder-cwd-icon-vnd-ms-excel:before,
+.theme-gray .elfinder-cwd-icon-vnd-ms-excel-addin-macroEnabled-12:before,
+.theme-gray .elfinder-cwd-icon-vnd-ms-excel-sheet-binary-macroEnabled-12:before,
+.theme-gray .elfinder-cwd-icon-vnd-ms-excel-sheet-macroEnabled-12:before,
+.theme-gray .elfinder-cwd-icon-vnd-ms-excel-template-macroEnabled-12:before {
+  content: none !important;
+}
+.theme-gray .elfinder-cwd-icon-vnd-ms-powerpoint,
+.theme-gray .elfinder-cwd-icon-vnd-ms-powerpoint-addin-macroEnabled-12,
+.theme-gray .elfinder-cwd-icon-vnd-ms-powerpoint-presentation-macroEnabled-12,
+.theme-gray .elfinder-cwd-icon-vnd-ms-powerpoint-slide-macroEnabled-12,
+.theme-gray .elfinder-cwd-icon-vnd-ms-powerpoint-slideshow-macroEnabled-12,
+.theme-gray .elfinder-cwd-icon-vnd-ms-powerpoint-template-macroEnabled-12 {
+  background-position: 0 -800px;
+}
+.theme-gray .elfinder-cwd-icon-vnd-ms-powerpoint:before,
+.theme-gray .elfinder-cwd-icon-vnd-ms-powerpoint-addin-macroEnabled-12:before,
+.theme-gray .elfinder-cwd-icon-vnd-ms-powerpoint-presentation-macroEnabled-12:before,
+.theme-gray .elfinder-cwd-icon-vnd-ms-powerpoint-slide-macroEnabled-12:before,
+.theme-gray .elfinder-cwd-icon-vnd-ms-powerpoint-slideshow-macroEnabled-12:before,
+.theme-gray .elfinder-cwd-icon-vnd-ms-powerpoint-template-macroEnabled-12:before {
+  content: none !important;
+}
+.theme-gray .elfinder-cwd-icon-vnd-ms-office,
+.theme-gray .elfinder-cwd-icon-vnd-oasis-opendocument-chart,
+.theme-gray .elfinder-cwd-icon-vnd-oasis-opendocument-database,
+.theme-gray .elfinder-cwd-icon-vnd-oasis-opendocument-formula,
+.theme-gray .elfinder-cwd-icon-vnd-oasis-opendocument-graphics,
+.theme-gray .elfinder-cwd-icon-vnd-oasis-opendocument-graphics-template,
+.theme-gray .elfinder-cwd-icon-vnd-oasis-opendocument-image,
+.theme-gray .elfinder-cwd-icon-vnd-oasis-opendocument-presentation,
+.theme-gray .elfinder-cwd-icon-vnd-oasis-opendocument-presentation-template,
+.theme-gray .elfinder-cwd-icon-vnd-oasis-opendocument-spreadsheet,
+.theme-gray .elfinder-cwd-icon-vnd-oasis-opendocument-spreadsheet-template,
+.theme-gray .elfinder-cwd-icon-vnd-oasis-opendocument-text,
+.theme-gray .elfinder-cwd-icon-vnd-oasis-opendocument-text-master,
+.theme-gray .elfinder-cwd-icon-vnd-oasis-opendocument-text-template,
+.theme-gray .elfinder-cwd-icon-vnd-oasis-opendocument-text-web,
+.theme-gray .elfinder-cwd-icon-vnd-openofficeorg-extension,
+.theme-gray .elfinder-cwd-icon-vnd-openxmlformats-officedocument-presentationml-presentation,
+.theme-gray .elfinder-cwd-icon-vnd-openxmlformats-officedocument-presentationml-slide,
+.theme-gray .elfinder-cwd-icon-vnd-openxmlformats-officedocument-presentationml-slideshow,
+.theme-gray .elfinder-cwd-icon-vnd-openxmlformats-officedocument-presentationml-template,
+.theme-gray .elfinder-cwd-icon-vnd-openxmlformats-officedocument-spreadsheetml-sheet,
+.theme-gray .elfinder-cwd-icon-vnd-openxmlformats-officedocument-spreadsheetml-template,
+.theme-gray .elfinder-cwd-icon-vnd-openxmlformats-officedocument-wordprocessingml-document,
+.theme-gray .elfinder-cwd-icon-vnd-openxmlformats-officedocument-wordprocessingml-template {
+  background-position: 0 -850px;
+}
+.theme-gray .elfinder-cwd-icon-html {
+  background-position: 0 -900px;
+}
+.theme-gray .elfinder-cwd-icon-css {
+  background-position: 0 -950px;
+}
+.theme-gray .elfinder-cwd-icon-javascript,
+.theme-gray .elfinder-cwd-icon-x-javascript {
+  background-position: 0 -1000px;
+}
+.theme-gray .elfinder-cwd-icon-x-perl {
+  background-position: 0 -1050px;
+}
+.theme-gray .elfinder-cwd-icon-x-python:after,
+.theme-gray .elfinder-cwd-icon-x-python {
+  background-position: 0 -1100px;
+}
+.theme-gray .elfinder-cwd-icon-x-ruby {
+  background-position: 0 -1150px;
+}
+.theme-gray .elfinder-cwd-icon-x-sh,
+.theme-gray .elfinder-cwd-icon-x-shellscript {
+  background-position: 0 -1200px;
+}
+.theme-gray .elfinder-cwd-icon-x-c,
+.theme-gray .elfinder-cwd-icon-x-csrc,
+.theme-gray .elfinder-cwd-icon-x-chdr,
+.theme-gray .elfinder-cwd-icon-x-c--,
+.theme-gray .elfinder-cwd-icon-x-c--src,
+.theme-gray .elfinder-cwd-icon-x-c--hdr {
+  background-position: 0 -1250px;
+}
+.theme-gray .elfinder-cwd-icon-x-jar,
+.theme-gray .elfinder-cwd-icon-x-java,
+.theme-gray .elfinder-cwd-icon-x-java-source {
+  background-position: 0 -1300px;
+}
+.theme-gray .elfinder-cwd-icon-x-jar:before,
+.theme-gray .elfinder-cwd-icon-x-java:before,
+.theme-gray .elfinder-cwd-icon-x-java-source:before {
+  content: none !important;
+}
+.theme-gray .elfinder-cwd-icon-x-php {
+  background-position: 0 -1350px;
+}
+.theme-gray .elfinder-cwd-icon-xml:after,
+.theme-gray .elfinder-cwd-icon-xml {
+  background-position: 0 -1400px;
+}
+.theme-gray .elfinder-cwd-icon-zip,
+.theme-gray .elfinder-cwd-icon-x-zip,
+.theme-gray .elfinder-cwd-icon-x-xz,
+.theme-gray .elfinder-cwd-icon-x-7z-compressed,
+.theme-gray .elfinder-cwd-icon-x-gzip,
+.theme-gray .elfinder-cwd-icon-x-tar,
+.theme-gray .elfinder-cwd-icon-x-bzip,
+.theme-gray .elfinder-cwd-icon-x-bzip2,
+.theme-gray .elfinder-cwd-icon-x-rar,
+.theme-gray .elfinder-cwd-icon-x-rar-compressed {
+  background-position: 0 -1450px;
+}
+.theme-gray .elfinder-cwd-icon-x-shockwave-flash {
+  background-position: 0 -1500px;
+}
+.theme-gray .elfinder-cwd-icon-group {
+  background-position: 0 -1550px;
+}
+.theme-gray .elfinder-cwd-icon-json {
+  background-position: 0 -1600px;
+}
+.theme-gray .elfinder-cwd-icon-json:before {
+  content: none !important;
+}
+.theme-gray .elfinder-cwd-icon-markdown,
+.theme-gray .elfinder-cwd-icon-x-markdown {
+  background-position: 0 -1650px;
+}
+.theme-gray .elfinder-cwd-icon-markdown:before,
+.theme-gray .elfinder-cwd-icon-x-markdown:before {
+  content: none !important;
+}
+.theme-gray .elfinder-cwd-icon-sql {
+  background-position: 0 -1700px;
+}
+.theme-gray .elfinder-cwd-icon-sql:before {
+  content: none !important;
+}
+.theme-gray .elfinder-cwd-icon-svg,
+.theme-gray .elfinder-cwd-icon-svg-xml {
+  background-position: 0 -1750px;
+}
+.theme-gray .elfinder-cwd-icon-svg:before,
+.theme-gray .elfinder-cwd-icon-svg-xml:before {
+  content: none !important;
+}
+/**
+ * Toolbar
+ */
+.theme-gray .elfinder-toolbar {
+  background: #3b4047;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  border: 0;
+  padding: 5px 0;
+}
+.theme-gray .elfinder-buttonset {
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  border: 0;
+  margin: 0 5px;
+  height: 24px;
+}
+.theme-gray .elfinder .elfinder-button {
+  background: transparent;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  cursor: pointer;
+  color: #efefef;
+}
+.theme-gray .elfinder-toolbar-button-separator {
+  border: 0;
+}
+.theme-gray .elfinder-button-menu {
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.3);
+  border: none;
+  margin-top: 5px;
+}
+.theme-gray .elfinder-button-menu-item {
+  color: #666666;
+  padding: 6px 19px;
+}
+.theme-gray .elfinder-button-menu-item.ui-state-hover {
+  color: #141414;
+  background-color: #f5f4f4;
+}
+.theme-gray .elfinder-button-menu-item-separated {
+  border-top: 1px solid #e5e5e5;
+}
+.theme-gray .elfinder-button-menu-item-separated.ui-state-hover {
+  border-top: 1px solid #e5e5e5;
+}
+.theme-gray .elfinder .elfinder-button-search {
+  margin: 0 10px;
+  min-height: inherit;
+}
+.theme-gray .elfinder .elfinder-button-search input {
+  box-sizing: border-box;
+  width: 100%;
+  height: 25px;
+  min-height: 25px;
+  padding: 0 27px;
+  line-height: 22px;
+  border: 0 solid; 
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
+  outline: 0px solid;
+  background: rgba(40, 42, 45, 0.79);
+  color: #fff;
+}
+.theme-gray .elfinder .elfinder-button-search .elfinder-button-menu {
+  margin-top: 4px;
+  border: none;
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+/**
+ * Navbar
+ */
+ .theme-gray .elfinder .elfinder-navbar {
+  background: #535e64;
+  -webkit-box-shadow: 0 1px 8px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.6);
+  border: none;
+}
+.theme-gray .elfinder-navbar-dir {
+  color: #e6e6e6;
+  cursor: pointer;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  padding: 5px;
+  border: none;
+}
+.theme-gray .elfinder-navbar-dir.ui-state-hover,
+.theme-gray .elfinder-navbar-dir.ui-state-active.ui-state-hover {
+  background: #3c4448;
+  color: #e6e6e6;
+  border: none;
+}
+.theme-gray .elfinder-navbar .ui-state-active,
+.theme-gray .elfinder-disabled .elfinder-navbar .ui-state-active {
+  background: #41494e;
+  border: none;
+}
+/**
+ * Workzone
+ */
+ .theme-gray .elfinder-workzone {
+  background: #cdcfd4;
+}
+.theme-gray .elfinder-cwd-file {
+  color: #555;
+}
+.theme-gray .elfinder-cwd-file.ui-state-hover,
+.theme-gray .elfinder-cwd-file.ui-selected.ui-state-hover {
+  background: #4c5961;
+  color: #ddd;
+}
+.theme-gray .elfinder-cwd-file.ui-selected {
+  background: #455158;
+  color: #555;
+}
+.theme-gray .elfinder-cwd-filename input,
+.theme-gray .elfinder-cwd-filename textarea {
+  padding: 2px;
+  -webkit-border-radius: 2px !important;
+  border-radius: 2px !important;
+  width: 100px !important;
+  background: #fff;
+  color: #222;
+}
+.theme-gray .elfinder-cwd-filename input:focus,
+.theme-gray .elfinder-cwd-filename textarea:focus {
+  outline: none;
+  border: 1px solid #555;
+}
+.theme-gray .elfinder-cwd-view-icons .elfinder-cwd-file .ui-state-hover,
+.theme-gray .elfinder-cwd-view-icons .elfinder-cwd-file .elfinder-cwd-filename.ui-state-hover,
+.theme-gray .elfinder-disabled .elfinder-cwd-view-icons .elfinder-cwd-file .elfinder-cwd-filename.ui-state-hover,
+.theme-gray .elfinder-disabled .elfinder-cwd table td.ui-state-hover {
+  background: transparent;
+}
+.theme-gray .elfinder-cwd table {
+  padding: 0;
+}
+.theme-gray .elfinder-cwd table tr:nth-child(odd) {
+  background-color: #e9e9e9;
+}
+.theme-gray .elfinder-cwd table tr:nth-child(odd).ui-state-hover {
+  background-color: #4c5961;
+}
+.theme-gray #elfinder-elfinder-cwd-thead td {
+  background: #353b42;
+  color: #ddd;
+}
+.theme-gray #elfinder-elfinder-cwd-thead td.ui-state-hover,
+#elfinder-elfinder-cwd-thead td.ui-state-active {
+  background: #30363c;
+}
+.theme-gray #elfinder-elfinder-cwd-thead td.ui-state-active.ui-state-hover {
+  background: #2e333a;
+}
+.theme-gray .ui-selectable-helper {
+  border: 1px solid #3b4047;
+  background-color: rgba(104, 111, 121, 0.5);
+}
+.theme-gray .elfinder-cwd-wrapper.elfinder-cwd-wrapper-trash {
+  background-color: #e4e4e4;
+}
+.theme-gray .elfinder-cwd-wrapper.elfinder-cwd-wrapper-trash .elfinder-cwd-file {
+  color: #333;
+}
+.theme-gray .elfinder-cwd-wrapper.elfinder-cwd-wrapper-trash .elfinder-cwd-file.ui-state-hover,
+.theme-gray .elfinder-cwd-wrapper.elfinder-cwd-wrapper-trash .elfinder-cwd-file.ui-selected.ui-state-hover {
+  background: #4c5961;
+  color: #ddd;
+}
+.theme-gray .elfinder-cwd-wrapper.elfinder-cwd-wrapper-trash .elfinder-cwd-file.ui-selected {
+  background: #455158;
+  color: #555;
+}
+/**
+ * Status Bar
+ */
+ .theme-gray .elfinder .elfinder-statusbar {
+  background: #3b4047;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  border: 0;
+  color: #cfd2d4;
+}
+.theme-gray .elfinder-path,
+.theme-gray .elfinder-stat-size {
+  margin: 0 15px;
+}
+/**
+ * Buttons
+ */
+.theme-gray .ui-button,
+.theme-gray .ui-button:active,
+.theme-gray .ui-button.ui-state-default {
+  display: inline-block;
+  font-weight: normal;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  white-space: nowrap;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  text-transform: uppercase;
+  -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s;
+  background: #fff;
+  color: #222;
+  /*border: none;*/
+}
+.theme-gray .ui-button .ui-icon,
+.theme-gray .ui-button:active .ui-icon,
+.theme-gray .ui-button.ui-state-default .ui-icon {
+  color: #222;
+}
+.theme-gray .ui-button:hover,
+.theme-gray a.ui-button:active,
+.theme-gray .ui-button:active,
+.theme-gray .ui-button:focus,
+.theme-gray .ui-button.ui-state-hover,
+.theme-gray .ui-button.ui-state-active {
+  background: #3498DB;
+  color: #fff;
+  /*border: none;*/
+}
+.theme-gray .ui-button:hover .ui-icon,
+.theme-gray a.ui-button:active .ui-icon,
+.theme-gray .ui-button:active .ui-icon,
+.theme-gray .ui-button:focus .ui-icon,
+.theme-gray .ui-button.ui-state-hover .ui-icon,
+.theme-gray .ui-button.ui-state-active .ui-icon {
+  color: #fff;
+}
+.theme-gray .ui-button.ui-state-active:hover {
+
+  background: #217dbb;
+  color: #fff;
+  border: none;
+}
+.theme-gray .ui-button:focus {
+  outline: none !important;
+}
+.theme-gray .ui-controlgroup-horizontal .ui-button {
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  border: 0;
+}
+/**
+ * Context Menu
+ */
+ .theme-gray .elfinder .elfinder-contextmenu,
+ .theme-gray .elfinder .elfinder-contextmenu-sub {
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.3);
+  border: none;
+}
+.theme-gray .elfinder .elfinder-contextmenu-separator,
+.theme-gray .elfinder .elfinder-contextmenu-sub-separator {
+  border-top: 1px solid #e5e5e5;
+}
+.theme-gray .elfinder .elfinder-contextmenu-item {
+  color: #666;
+  padding: 5px 30px;
+}
+.theme-gray .elfinder .elfinder-contextmenu-item.ui-state-hover {
+  background-color: #f5f4f4;
+  color: #141414;
+}
+.theme-gray .elfinder .elfinder-contextmenu-item.ui-state-active {
+  background-color: #2196F3;
+  color: #fff;
+}
+/**
+ * Dialogs
+ */
+ .theme-gray .elfinder .elfinder-dialog {
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  border: 0;
+  -webkit-box-shadow: 0 1px 30px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 1px 30px rgba(0, 0, 0, 0.6);
+}
+.theme-gray .elfinder .elfinder-dialog .ui-dialog-content[id*="edit-elfinder-elfinder-"] {
+  padding: 0;
+}
+.theme-gray .elfinder .elfinder-dialog .ui-tabs {
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  border: 0;
+}
+.theme-gray .elfinder .elfinder-dialog .ui-tabs-nav {
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  border: 0;
+  background: transparent;
+  border-bottom: 1px solid #ddd;
+}
+.theme-gray .elfinder .elfinder-dialog .ui-tabs-nav li {
+  border: 0;
+  font-weight: normal;
+  background: transparent;
+  margin: 0;
+  padding: 3px 0;
+}
+.theme-gray .elfinder .elfinder-dialog .ui-tabs-nav li.ui-tabs-active {
+  padding-bottom: 7px;
+}
+.theme-gray .elfinder .elfinder-dialog .ui-tabs-nav .ui-tabs-selected a,
+.theme-gray .elfinder .elfinder-dialog .ui-tabs-nav .ui-state-active a,
+.theme-gray .elfinder .elfinder-dialog .ui-tabs-nav li:hover a {
+  -webkit-box-shadow: inset 0 -2px 0 #3498DB;
+  box-shadow: inset 0 -2px 0 #3498DB;
+  color: #3498DB;
+}
+.theme-gray .std42-dialog .ui-dialog-titlebar {
+  background: #353b44;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  border: 0;
+}
+.theme-gray .std42-dialog .ui-dialog-titlebar .elfinder-titlebar-button .ui-icon {
+  border-color: inherit;
+  -webkit-transition: 0.2s ease-out;
+  -o-transition: 0.2s ease-out;
+  transition: 0.2s ease-out;
+  opacity: 0.8;
+  color: #fff;
+  width: auto;
+  height: auto;
+  font-size: 12px;
+  padding: 3px;
+}
+.theme-gray .elfinder-mobile .std42-dialog .ui-dialog-titlebar .ui-dialog-titlebar-close .ui-icon,
+.theme-gray .std42-dialog .ui-dialog-titlebar .ui-dialog-titlebar-close:hover .ui-icon {
+  background-color: #F44336;
+}
+.theme-gray .elfinder-mobile .std42-dialog .ui-dialog-titlebar .elfinder-titlebar-full .ui-icon,
+.theme-gray .std42-dialog .ui-dialog-titlebar .elfinder-titlebar-full:hover .ui-icon {
+  background-color: #4CAF50;
+}
+.theme-gray .elfinder-mobile .std42-dialog .ui-dialog-titlebar .elfinder-titlebar-minimize .ui-icon,
+.theme-gray .std42-dialog .ui-dialog-titlebar .elfinder-titlebar-minimize:hover .ui-icon {
+  background-color: #FF9800;
+}
+.theme-gray .elfinder-dialog-title {
+  color: #f1f1f1;
+}
+.theme-gray .std42-dialog .ui-dialog-content {
+  background: #fff;
+}
+.theme-gray .ui-widget-content {
+  font-family: "Noto Sans", sans-serif;
+  color: #546E7A;
+}
+.theme-gray .std42-dialog .ui-dialog-buttonpane button {
+  margin: 2px;
+  padding: .4em .3em;
+}
+.theme-gray .std42-dialog .ui-dialog-buttonpane button span.ui-icon {
+  padding: 0;
+}
+.theme-gray .elfinder-upload-dialog-wrapper .elfinder-upload-dirselect {
+  width: inherit;
+  height: inherit;
+  padding: .4em;
+  margin-left: 5px;
+  color: #222;
+}
+.theme-gray .elfinder-upload-dialog-wrapper .elfinder-upload-dirselect.ui-state-hover {
+  background: #888;
+  color: #fff;
+  outline: none;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+}
+.theme-gray .elfinder-upload-dialog-wrapper .ui-button {
+  padding: .4em 3px;
+  margin: 0 2px;
+}
+.theme-gray .elfinder-upload-dialog-wrapper .ui-button {
+  margin-left: 19px;
+  margin-right: -15px;
+}
+.theme-gray .elfinder-upload-dropbox {
+  border: 2px dashed #bbb;
+}
+.theme-gray .elfinder-upload-dropbox:focus {
+  outline: none;
+}
+.theme-gray .elfinder-upload-dropbox.ui-state-hover {
+  background: #f1f1f1;
+  border: 2px dashed #bbb;
+}
+.theme-gray .elfinder-help *,
+.theme-gray .elfinder-help a {
+  color: #546E7A;
+}
+
+.theme-gray .elfinder-rtl .elfinder-cwd-size1 .elfinder-cwd-icon.elfinder-cwd-bgurl:before, 
+.theme-gray .elfinder-rtl .elfinder-cwd-size2 .elfinder-cwd-icon.elfinder-cwd-bgurl:before,
+.theme-gray .elfinder-rtl .elfinder-cwd-size3 .elfinder-cwd-icon.elfinder-cwd-bgurl:before {
+  left: 0;
+  position: absolute;
+}
+.theme-gray .elfinder-cwd-view-icons .elfinder-cwd-file .ui-state-hover,
+.theme-gray .elfinder-cwd-view-icons .elfinder-cwd-file .ui-state-active {
+ color: #fff;
+}
+.theme-gray .elfinder-cwd-view-list thead td .ui-resizable-handle {top: 3px;}
+.theme-gray .elfinder .elfinder-contextmenu-item .ui-icon.ui-icon-check {
+  margin-top: -6px;
+}
+.theme-gray .elfinder-contextmenu .elfinder-contextmenu-item .elfinder-contextsubmenu-item .ui-icon.ui-icon-check {
+  font-size: 13px;right: 1px;
+}
+.theme-gray .elfinder-ltr .elfinder-button-search .ui-icon-close{font-size: 17px;}
+.theme-gray .elfinder .elfinder-contextmenu-rtl .elfinder-contextmenu-arrow:before {
+  content: '\e858';
+}
+.theme-gray .elfinder-cwd table td {
+  box-sizing: content-box;
+  /* color: #9a9a9a !important; */
+}
+.theme-gray .elfinder-button-search .ui-icon {
+  /* font-size: 12px !important; */
+  line-height: 17px;
+  padding-left: 4px;
+}
+.theme-gray .elfinder .elfinder-navbar .elfinder-navbar-icon {
+  background-image: none !important;
+}
+.theme-gray .elfinder .elfinder-navbar .elfinder-navbar-dir.ui-state-active {
+  background: #41494e;
+  border: 1px solid #41494e;
+  color:#fff;
+}
+.theme-gray .elfinder .elfinder-navbar .elfinder-navbar-dir {
+  color: #e6e6e6;
+}
+.theme-gray .elfinder .elfinder-cwd-wrapper-list .elfinder-cwd-file td {
+  vertical-align: middle !important;
+}
+.theme-gray .elfinder .elfinder-cwd-wrapper-list .elfinder-cwd-file.ui-selected td {
+    background: #9a9a9a !important;
+}
+.theme-gray .elfinder .elfinder-cwd-wrapper-list .elfinder-cwd-file.ui-selected td span ,.theme-gray .elfinder .elfinder-cwd-wrapper-list .elfinder-cwd-file.ui-selected td div {
+  color:#fff;
+}
+
+.theme-gray .elfinder .elfinder-cwd-wrapper-list .elfinder-cwd-file:hover , 
+.theme-gray .elfinder .elfinder-navbar .elfinder-navbar-dir:hover {
+  background: #3b4047;
+  border-color: #3b4047;
+  color:#fff;
+}
+/* .page-template-default .theme-gray .elfinder .elfinder-toolbar .elfinder-buttonset .elfinder-button-icon:before {
+  display: none !important;
+} */
+.theme-gray .elfinder .elfinder-cwd table thead td.ui-resizable.ui-state-active {
+    background: #ebf1f6;
+    background: -moz-linear-gradient( top, #ebf1f6 0%, #abd3ee 50%, #89c3eb 51%, #d5ebfb 100% );
+    background: -webkit-gradient( linear, left top, left bottom, color-stop(0%, #ebf1f6), color-stop(50%, #abd3ee), color-stop(51%, #89c3eb), color-stop(100%, #d5ebfb) );
+    background: -webkit-linear-gradient( top, #ebf1f6 0%, #abd3ee 50%, #89c3eb 51%, #d5ebfb 100% );
+    background: -o-linear-gradient( top, #ebf1f6 0%, #abd3ee 50%, #89c3eb 51%, #d5ebfb 100% );
+    background: -ms-linear-gradient( top, #ebf1f6 0%, #abd3ee 50%, #89c3eb 51%, #d5ebfb 100% );
+    background: linear-gradient( to bottom, #ebf1f6 0%, #abd3ee 50%, #89c3eb 51%, #d5ebfb 100% );
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ebf1f6', endColorstr='#d5ebfb', GradientType=0);
+	color:#fff;
+}
+.theme-gray .elfinder .elfinder-cwd table thead td.ui-resizable {
+    background: #edf3fe;
+    color: #000;
+}
+.theme-gray .elfinder:not(.elfinder-mobile) *::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 50, 0.08);
+    border-radius: 10px;
+    box-shadow: 0 0 0 1px rgba(255, 255, 255, .3);
+}
+
+.theme-gray .elfinder-navbar-dir {
+  padding-left: 35px;
+}
+.theme-gray .elfinder-contextmenu-item.op-mkdir.elfinder-button-icon-mkdirin:before{ display: none; }
+
+.elfinder-contextmenu-item.op-opennew .elfinder-button-icon-opennew:before {content: ''; background: url(../images/icon-new-window.png) no-repeat; height: 16px; width: 16px; display: block; background-size: 15px; } 
+
+.elfinder-contextmenu-item .elfinder-button-icon-hide:before {content: ''; background: url(../images/hide.png) no-repeat; height: 16px; width: 16px; display: block; background-size: 15px; }
+
+.theme-gray .ui-front.elfinder-quicklook.elfinder-frontmost .ui-dialog-titlebar .ui-icon{ font-size: 11px; line-height: 17px; }
+.theme-gray .elfinder-notify-cancel .elfinder-notify-button.ui-icon.ui-icon-close{ line-height: 19px; font-size: 11px; color:#fff;  } 
+.theme-gray .elfinder-notify-cancel .elfinder-notify-button.ui-icon.ui-icon-close:hover{ background: #ff6252; } 

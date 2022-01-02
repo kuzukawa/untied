@@ -1,0 +1,3332 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP File Manager\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-08-09 16:47+0530\n"
+"PO-Revision-Date: 2021-08-09 16:54+0530\n"
+"Last-Translator: admin <kajal.gill@mysenseinc.in>\n"
+"Language-Team: \n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10 >= 2 && n"
+"%10<=4 &&(n%100<10||n%100 >= 20)? 1 : 2;\n"
+"X-Generator: Poedit 3.0\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: classes/license.php:201 inc/license.php:42
+msgid "License Details"
+msgstr "Pojedinosti o licenci"
+
+#: classes/updates.php:41
+msgid ""
+"Your updates for <strong>WP File Manager - PRO</strong> plugin are disabled "
+"because your license has been expired."
+msgstr ""
+"Vaša ažuriranja za dodatak <strong> WP File Manager - PRO </strong> "
+"onemogućena su jer je vaša licenca istekla."
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:70
+msgid "DB Manager"
+msgstr "DB Manager"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:116
+msgid "Tables"
+msgstr "Stolovi"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:116
+#: extensions/fm_dbmanager/inc/db_tables.php:56
+msgid "Create New Table"
+msgstr "Stvori novu tablicu"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:123
+msgid "Browse:"
+msgstr "Pretraživati:"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:123
+msgid "Browse"
+msgstr "pretraživati"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:123
+msgid "Insert:"
+msgstr "Umetnuti:"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:123
+msgid "Insert"
+msgstr "Umetnuti"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:123
+msgid "Delete Table:"
+msgstr "Brisanje tablice:"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:123
+#: extensions/fm_dbmanager/fm_dbmanager.php:203
+msgid ""
+"Are you sure want to delete Table? Deleted Table may not be recovered. So "
+"please delete carefully."
+msgstr ""
+"Jeste li sigurni da želite izbrisati tablicu? Izbrisana tablica ne može se "
+"vratiti. Zato pažljivo izbrišite."
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:123
+#: extensions/fm_dbmanager/fm_dbmanager.php:203
+msgid "Drop"
+msgstr "Pad"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:123
+msgid "Empty Table:"
+msgstr "Prazan stol:"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:123
+#: extensions/fm_dbmanager/fm_dbmanager.php:204
+msgid ""
+"Are you sure want to empty Table? Table may not be recovered. So please "
+"delete carefully."
+msgstr ""
+"Jeste li sigurni da želite isprazniti tablicu? Tablica se ne može oporaviti. "
+"Zato pažljivo izbrišite."
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:123
+#: extensions/fm_dbmanager/fm_dbmanager.php:204 inc/settings.php:39
+#: inc/shortcode_generator.php:225
+msgid "Empty"
+msgstr "Prazan"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:203
+msgid "ADD: "
+msgstr "DODATI: "
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:203
+msgid "Add New"
+msgstr "Dodaj novi"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:203
+msgid "Delete Table: "
+msgstr "Brisanje tablice: "
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:204
+msgid "Empty Table: "
+msgstr "Prazan stol: "
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:230
+#: extensions/fm_dbmanager/fm_dbmanager.php:252
+msgid "Are you sure want to update? It will redirect you to updation form."
+msgstr ""
+"Jeste li sigurni da želite ažurirati? Preusmjerit će vas na obrazac za "
+"ažuriranje."
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:230
+#: extensions/fm_dbmanager/fm_dbmanager.php:252 inc/settings.php:33
+#: inc/shortcode_generator.php:219 inc/shortcode_listing.php:62
+msgid "Edit"
+msgstr "Uredi"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:231
+#: extensions/fm_dbmanager/fm_dbmanager.php:253
+msgid ""
+"Are you sure want to delete? Deleted data may not be recovered. So please "
+"delete carefully."
+msgstr ""
+"Jeste li sigurni da želite izbrisati? Izbrisani podaci se možda neće "
+"vratiti. Zato pažljivo izbrišite."
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:231
+#: extensions/fm_dbmanager/fm_dbmanager.php:253 inc/backup.php:772
+#: inc/backup.php:782 inc/email.php:63 inc/email.php:164 inc/settings.php:34
+#: inc/shortcode_generator.php:220 inc/shortcode_listing.php:63
+#: inc/wpfmlogs.php:65 inc/wpfmlogs.php:93 inc/wpfmlogs.php:149
+#: inc/wpfmlogs.php:175 inc/wpfmlogs.php:232 inc/wpfmlogs.php:258
+msgid "Delete"
+msgstr "Izbrisati"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:270
+msgid "First"
+msgstr "Prvi"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:272 inc/shortcode_listing.php:112
+msgid "Prev"
+msgstr "Prev"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:300 inc/shortcode_listing.php:113
+#: inc/wpfmlogs.php:134 inc/wpfmlogs.php:217
+msgid "Next"
+msgstr "Sljedeći"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:302
+msgid "Last"
+msgstr "Posljednji"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:338
+#: extensions/fm_dbmanager/fm_dbmanager.php:432
+#: extensions/fm_dbmanager/fm_dbmanager.php:487
+#: extensions/fm_dbmanager/inc/db_tables.php:136
+msgid "You don't have permission to access this area."
+msgstr "Nemate dozvolu za pristup ovom području."
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:353
+#: extensions/fm_dbmanager/fm_dbmanager.php:448
+msgid "Column"
+msgstr "Stupac"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:354
+#: extensions/fm_dbmanager/fm_dbmanager.php:449
+msgid "Value"
+msgstr "Stupac"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:380
+msgid "Reset"
+msgstr "Poništi"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:386
+msgid "Add"
+msgstr "Dodati"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:409
+msgid "New Record Created"
+msgstr "Novi zapis je kreiran"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:411
+#: extensions/fm_dbmanager/fm_dbmanager.php:417
+msgid "Unable to create new record"
+msgstr "Nije moguće stvoriti novi zapis"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:441
+#: extensions/fm_dbmanager/fm_dbmanager.php:529
+msgid "&larr; Back"
+msgstr "&larr; leđa"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:479
+msgid "Update"
+msgstr "Ažuriraj"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:511
+#: extensions/fm_dbmanager/fm_dbmanager.php:533
+msgid "Record "
+msgstr "Snimiti"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:511
+msgid "</strong> Updated Successfully"
+msgstr "</strong> Ažurirano uspješno"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:513
+#: extensions/fm_dbmanager/fm_dbmanager.php:516
+msgid "Unable to Update record"
+msgstr "Ažuriranje zapisa nije uspjelo"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:526
+msgid "Oops! Some thing went wrong! Please try again."
+msgstr "Ups! Nešto je pošlo po zlu! Molim te pokušaj ponovno."
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:533
+msgid " Deleted successfully."
+msgstr "Uspješno izbrisano."
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:535
+msgid "Error occured while deleting a record."
+msgstr "Došlo je do pogreške pri brisanju zapisa."
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:584
+msgid "Table Created Successfully !"
+msgstr "Tablica je uspješno stvorena!"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:589
+msgid "Table Not Created !"
+msgstr "Tablica nije stvorena!"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:605
+#: extensions/fm_dbmanager/fm_dbmanager.php:607
+msgid "Table <strong>"
+msgstr "<p> (Tablica <strong>"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:605
+#: extensions/fm_dbmanager/fm_dbmanager.php:617
+msgid "</strong> Deleted Successfully!"
+msgstr "</strong> Uspješno izbrisano!"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:607
+#: extensions/fm_dbmanager/fm_dbmanager.php:619
+msgid "</strong> Not Deleted!"
+msgstr "</strong> Nije izbrisano!) </p>"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:617
+#: extensions/fm_dbmanager/fm_dbmanager.php:619
+msgid "Table records of <strong>"
+msgstr "Tablični zapisi <strong>"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:689
+#: file_folder_manager_pro.php:2900
+msgid ""
+"<div id=\"setting-error-settings_updated\" class=\"error settings-error "
+"notice\"><p><strong>"
+msgstr ""
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:695
+#: file_folder_manager_pro.php:2906
+msgid ""
+"<div id=\"setting-error-settings_updated\" class=\"updated settings-error "
+"notice\"><p><strong>"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:9
+msgid "Table name:&nbsp;"
+msgstr "Naziv tablice:&nbsp;"
+
+#: extensions/fm_dbmanager/inc/createTbl.php:19
+#: extensions/fm_dbmanager/inc/createTbl.php:559
+msgid "Name"
+msgstr "Ime"
+
+#: extensions/fm_dbmanager/inc/createTbl.php:20
+msgid "Type"
+msgstr "Tip"
+
+#: extensions/fm_dbmanager/inc/createTbl.php:21
+msgid "Length/Values"
+msgstr "Duljina / vrijednosti"
+
+#: extensions/fm_dbmanager/inc/createTbl.php:22 inc/settings.php:218
+#: inc/settings.php:226 inc/settings.php:284 inc/shortcode_generator.php:349
+#: inc/shortcode_generator.php:372 inc/shortcode_generator.php:393
+#: inc/shortcode_generator.php:401 inc/shortcode_generator.php:409
+#: inc/shortcode_generator.php:434 inc/shortcode_generator.php:442
+#: inc/shortcode_generator.php:511 inc/shortcode_generator.php:534
+#: inc/shortcode_generator.php:543 inc/shortcode_generator.php:552
+#: inc/shortcode_generator.php:577 inc/shortcode_generator.php:585
+msgid "Default"
+msgstr "Zadano"
+
+#: extensions/fm_dbmanager/inc/createTbl.php:23
+msgid "Collation"
+msgstr "Kolacija"
+
+#: extensions/fm_dbmanager/inc/createTbl.php:24
+msgid "Attributes"
+msgstr "Atributi"
+
+#: extensions/fm_dbmanager/inc/createTbl.php:25 inc/shortcode_generator.php:401
+#: inc/shortcode_generator.php:409 inc/shortcode_generator.php:543
+#: inc/shortcode_generator.php:552
+msgid "Null"
+msgstr "Nula"
+
+#: extensions/fm_dbmanager/inc/createTbl.php:26
+msgid "Index"
+msgstr "Indeks"
+
+#: extensions/fm_dbmanager/inc/createTbl.php:27
+msgid "A_I"
+msgstr "A_I"
+
+#: extensions/fm_dbmanager/inc/createTbl.php:28
+msgid "Comments"
+msgstr "Komentari"
+
+#: extensions/fm_dbmanager/inc/createTbl.php:37
+#: extensions/fm_dbmanager/inc/createTbl.php:52
+msgid "INT"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:39
+#: extensions/fm_dbmanager/inc/createTbl.php:90
+msgid "VARCHAR"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:41
+#: extensions/fm_dbmanager/inc/createTbl.php:96
+msgid "TEXT"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:43
+#: extensions/fm_dbmanager/inc/createTbl.php:76
+msgid "DATE"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:46
+msgid "TINYINT"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:48
+msgid "SMALLINT"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:50
+msgid "MEDIUMINT"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:54
+msgid "BIGINT"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:58
+msgid "DECIMAL"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:60
+msgid "FLOAT"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:62
+msgid "DOUBLE"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:64
+msgid "REAL"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:68
+msgid "BIT"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:70
+msgid "BOOLEAN"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:72
+msgid "SERIAL"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:78
+msgid "DATETIME"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:80
+msgid "TIMESTAMP"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:82
+msgid "TIME"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:84
+msgid "YEAR"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:88
+msgid "CHAR"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:94
+msgid "TINYTEXT"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:98
+msgid "MEDIUMTEXT"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:100
+msgid "LONGTEXT"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:104
+#: extensions/fm_dbmanager/inc/createTbl.php:688
+msgid "BINARY"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:106
+msgid "VARBINARY"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:110
+msgid "TINYBLOB"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:112
+msgid "MEDIUMBLOB"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:114
+msgid "BLOB"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:116
+msgid "LONGBLOB"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:120
+msgid "ENUM"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:122
+msgid "SET"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:126
+msgid "GEOMETRY"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:128
+msgid "POINT"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:130
+msgid "LINESTRING"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:132
+msgid "POLYGON"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:134
+msgid "MULTIPOINT"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:136
+msgid "MULTILINESTRING"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:138
+msgid "MULTIPOLYGON"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:140
+msgid "GEOMETRYCOLLECTION"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:150
+#: inc/shortcode_generator.php:372 inc/shortcode_generator.php:393
+#: inc/shortcode_generator.php:534
+msgid "None"
+msgstr "Nijedan"
+
+#: extensions/fm_dbmanager/inc/createTbl.php:152
+msgid "As defined:"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:154
+msgid "NULL"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:156
+msgid "CURRENT_TIMESTAMP"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:165
+msgid "armscii8_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:167
+msgid "armscii8_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:171
+msgid "ascii_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:173
+msgid "ascii_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:177
+msgid "big5_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:179
+msgid "big5_chinese_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:183
+msgid "binary"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:187
+msgid "cp1250_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:189
+msgid "cp1250_croatian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:191
+msgid "cp1250_czech_cs"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:193
+msgid "cp1250_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:195
+msgid "cp1250_polish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:199
+msgid "cp1251_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:201
+msgid "cp1251_bulgarian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:203
+msgid "cp1251_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:205
+msgid "cp1251_general_cs"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:207
+msgid "cp1251_ukrainian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:211
+msgid "cp1256_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:213
+msgid "cp1256_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:217
+msgid "cp1257_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:219
+msgid "cp1257_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:221
+msgid "cp1257_lithuanian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:225
+msgid "cp850_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:227
+msgid "cp850_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:231
+msgid "cp852_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:233
+msgid "cp852_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:237
+msgid "cp866_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:239
+msgid "cp866_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:243
+msgid "cp932_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:245
+msgid "cp932_japanese_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:249
+msgid "dec8_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:251
+msgid "dec8_swedish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:255
+msgid "eucjpms_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:257
+msgid "eucjpms_japanese_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:261
+msgid "euckr_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:263
+msgid "euckr_korean_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:267
+msgid "gb2312_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:269
+msgid "gb2312_chinese_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:273
+msgid "gbk_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:275
+msgid "gbk_chinese_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:279
+msgid "geostd8_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:281
+msgid "geostd8_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:285
+msgid "greek_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:287
+msgid "greek_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:291
+msgid "hebrew_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:293
+msgid "hebrew_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:297
+msgid "hp8_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:299
+msgid "hp8_english_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:303
+msgid "keybcs2_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:305
+msgid "keybcs2_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:309
+msgid "koi8r_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:311
+msgid "koi8r_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:315
+msgid "koi8u_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:317
+msgid "koi8u_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:321
+msgid "latin1_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:323
+msgid "latin1_danish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:325
+msgid "latin1_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:327
+msgid "latin1_general_cs"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:329
+msgid "latin1_german1_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:331
+msgid "latin1_german2_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:333
+msgid "latin1_spanish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:335
+msgid "latin1_swedish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:339
+msgid "latin2_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:341
+msgid "latin2_croatian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:343
+msgid "latin2_czech_cs"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:345
+msgid "latin2_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:347
+msgid "latin2_hungarian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:351
+msgid "latin5_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:353
+msgid "latin5_turkish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:357
+msgid "latin7_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:359
+msgid "latin7_estonian_cs"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:361
+msgid "latin7_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:363
+msgid "latin7_general_cs"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:367
+msgid "macce_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:369
+msgid "macce_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:373
+msgid "macroman_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:375
+msgid "macroman_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:379
+msgid "sjis_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:381
+msgid "sjis_japanese_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:385
+msgid "swe7_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:387
+msgid "swe7_swedish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:391
+msgid "tis620_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:393
+msgid "tis620_thai_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:397
+msgid "ucs2_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:399
+msgid "ucs2_croatian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:401
+msgid "ucs2_czech_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:403
+msgid "ucs2_danish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:405
+msgid "ucs2_esperanto_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:407
+msgid "ucs2_estonian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:409
+msgid "ucs2_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:411
+msgid "ucs2_general_mysql500_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:413
+msgid "ucs2_german2_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:415
+msgid "ucs2_hungarian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:417
+msgid "ucs2_icelandic_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:419
+msgid "ucs2_latvian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:421
+msgid "ucs2_lithuanian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:423
+msgid "ucs2_persian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:425
+msgid "ucs2_polish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:427
+msgid "ucs2_roman_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:429
+msgid "ucs2_romanian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:431
+msgid "ucs2_sinhala_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:433
+msgid "ucs2_slovak_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:435
+msgid "ucs2_slovenian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:437
+msgid "ucs2_spanish2_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:439
+msgid "ucs2_spanish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:441
+msgid "ucs2_swedish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:443
+msgid "ucs2_turkish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:445
+msgid "ucs2_unicode_520_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:447
+msgid "ucs2_unicode_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:449
+msgid "ucs2_vietnamese_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:453
+msgid "ujis_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:455
+msgid "ujis_japanese_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:459
+msgid "utf16_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:461
+msgid "utf16_croatian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:463
+msgid "utf16_czech_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:465
+msgid "utf16_danish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:467
+msgid "utf16_esperanto_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:469
+msgid "utf16_estonian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:471
+msgid "utf16_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:473
+msgid "utf16_german2_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:475
+msgid "utf16_hungarian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:477
+msgid "utf16_icelandic_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:479
+msgid "utf16_latvian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:481
+msgid "utf16_lithuanian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:483
+msgid "utf16_persian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:485
+msgid "utf16_polish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:487
+msgid "utf16_roman_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:489
+msgid "utf16_romanian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:491
+msgid "utf16_sinhala_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:493
+msgid "utf16_slovak_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:495
+msgid "utf16_slovenian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:497
+msgid "utf16_spanish2_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:499
+msgid "utf16_spanish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:501
+msgid "utf16_swedish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:503
+msgid "utf16_turkish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:505
+msgid "utf16_unicode_520_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:507
+msgid "utf16_unicode_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:509
+msgid "utf16_vietnamese_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:513
+msgid "utf16le_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:515
+msgid "utf16le_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:519
+msgid "utf32_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:521
+msgid "utf32_croatian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:523
+msgid "utf32_czech_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:525
+msgid "utf32_danish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:527
+msgid "utf32_esperanto_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:529
+msgid "utf32_estonian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:531
+msgid "utf32_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:533
+msgid "utf32_german2_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:535
+msgid "utf32_hungarian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:537
+msgid "utf32_icelandic_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:539
+msgid "utf32_latvian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:541
+msgid "utf32_lithuanian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:543
+msgid "utf32_persian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:545
+msgid "utf32_polish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:547
+msgid "utf32_roman_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:549
+msgid "utf32_romanian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:551
+msgid "utf32_sinhala_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:553
+msgid "utf32_slovak_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:555
+msgid "utf32_slovenian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:557
+msgid "utf32_spanish2_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:559
+msgid "utf32_spanish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:561
+msgid "utf32_swedish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:563
+msgid "utf32_turkish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:565
+msgid "utf32_unicode_520_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:567
+msgid "utf32_unicode_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:569
+msgid "utf32_vietnamese_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:573
+msgid "utf8_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:575
+msgid "utf8_croatian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:577
+msgid "utf8_czech_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:579
+msgid "utf8_danish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:581
+msgid "utf8_esperanto_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:583
+msgid "utf8_estonian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:585
+msgid "utf8_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:587
+msgid "utf8_general_mysql500_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:589
+msgid "utf8_german2_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:591
+msgid "utf8_hungarian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:593
+msgid "utf8_icelandic_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:595
+msgid "utf8_latvian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:597
+msgid "utf8_lithuanian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:599
+msgid "utf8_persian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:601
+msgid "utf8_polish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:603
+msgid "utf8_roman_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:605
+msgid "utf8_romanian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:607
+msgid "utf8_sinhala_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:609
+msgid "utf8_slovak_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:611
+msgid "utf8_slovenian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:613
+msgid "utf8_spanish2_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:615
+msgid "utf8_spanish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:617
+msgid "utf8_swedish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:619
+msgid "utf8_turkish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:621
+msgid "utf8_unicode_520_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:623
+msgid "utf8_unicode_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:625
+msgid "utf8_vietnamese_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:629
+msgid "utf8mb4_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:631
+msgid "utf8mb4_croatian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:633
+msgid "utf8mb4_czech_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:635
+msgid "utf8mb4_danish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:637
+msgid "utf8mb4_esperanto_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:639
+msgid "utf8mb4_estonian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:641
+msgid "utf8mb4_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:643
+msgid "utf8mb4_german2_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:645
+msgid "utf8mb4_hungarian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:647
+msgid "utf8mb4_icelandic_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:649
+msgid "utf8mb4_latvian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:651
+msgid "utf8mb4_lithuanian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:653
+msgid "utf8mb4_persian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:655
+msgid "utf8mb4_polish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:657
+msgid "utf8mb4_roman_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:659
+msgid "utf8mb4_romanian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:661
+msgid "utf8mb4_sinhala_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:663
+msgid "utf8mb4_slovak_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:665
+msgid "utf8mb4_slovenian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:667
+msgid "utf8mb4_spanish2_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:669
+msgid "utf8mb4_spanish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:671
+msgid "utf8mb4_swedish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:673
+msgid "utf8mb4_turkish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:675
+msgid "utf8mb4_unicode_520_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:677
+msgid "utf8mb4_unicode_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:679
+msgid "utf8mb4_vietnamese_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:690
+msgid "UNSIGNED"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:692
+msgid "UNSIGNED ZEROFILL"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:694
+msgid "on update CURRENT_TIMESTAMP"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:705
+msgid "PRIMARY"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:707
+msgid "UNIQUE"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:709
+msgid "INDEX"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:711
+msgid "FULLTEXT"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:724
+msgid "Add Row"
+msgstr "Dodaj redak"
+
+#: extensions/fm_dbmanager/inc/createTbl.php:725
+msgid "Save"
+msgstr "Uštedjeti"
+
+#: extensions/fm_dbmanager/inc/db_tables.php:39
+msgid "Export Database"
+msgstr "Izvoz baze podataka"
+
+#: extensions/fm_dbmanager/inc/db_tables.php:45
+msgid "Host:"
+msgstr "Domaćin:"
+
+#: extensions/fm_dbmanager/inc/db_tables.php:49
+msgid "Database:"
+msgstr "Baza podataka:"
+
+#: extensions/fm_dbmanager/inc/db_tables.php:52
+msgid "Table:"
+msgstr "Stol:"
+
+#: extensions/fm_shortcode_without_login/inc/shortcode.php:207
+#: inc/shortcode.php:327
+msgid "This shortcode has been expired. Please contact with the site admin."
+msgstr ""
+"Ovaj je kratki kod istekao. Molimo kontaktirajte administratora stranice."
+
+#: file_folder_manager_pro.php:197
+msgid "Database backup restored successfully."
+msgstr "Sigurnosna kopija baze podataka uspješno je vraćena."
+
+#: file_folder_manager_pro.php:199
+msgid "Unable to restore DB backup."
+msgstr "Nije moguće vratiti sigurnosnu kopiju DB-a."
+
+#: file_folder_manager_pro.php:206
+msgid "Plugins backup restored successfully."
+msgstr "Sigurnosna kopija dodataka uspješno je vraćena."
+
+#: file_folder_manager_pro.php:208
+msgid "Unable to restore plugins."
+msgstr "Nije moguće vratiti dodatke."
+
+#: file_folder_manager_pro.php:215
+msgid "Themes backup restored successfully."
+msgstr "Sigurnosna kopija tema uspješno je vraćena."
+
+#: file_folder_manager_pro.php:217
+msgid "Unable to restore themes."
+msgstr "Nije moguće vratiti teme."
+
+#: file_folder_manager_pro.php:224
+msgid "Uploads backup restored successfully."
+msgstr "Sigurnosna kopija prijenosa uspješno je vraćena."
+
+#: file_folder_manager_pro.php:226
+msgid "Unable to restore uploads."
+msgstr "Prijenos nije moguće vratiti."
+
+#: file_folder_manager_pro.php:233
+msgid "Others backup restored successfully."
+msgstr "Ostale sigurnosne kopije uspješno su vraćene."
+
+#: file_folder_manager_pro.php:235
+msgid "Unable to restore others."
+msgstr "Nije moguće vratiti druge."
+
+#: file_folder_manager_pro.php:239
+msgid "Backup not found!"
+msgstr "Sigurnosna kopija nije pronađena!"
+
+#: file_folder_manager_pro.php:243
+msgid "security token expired"
+msgstr "sigurnosni token je istekao"
+
+#: file_folder_manager_pro.php:283
+msgid "Backup(s) removed successfully!"
+msgstr "Sigurnosne kopije uspješno su uklonjene!"
+
+#: file_folder_manager_pro.php:285
+msgid "Unable to remove backup(s)!"
+msgstr "Nije moguće ukloniti sigurnosne kopije!"
+
+#: file_folder_manager_pro.php:308
+msgid "Database backup done on date "
+msgstr "Nije moguće ukloniti sigurnosne kopije! "
+
+#: file_folder_manager_pro.php:312
+msgid "Plugins backup done on date "
+msgstr "Izrada sigurnosne kopije dodataka izvršena na datum "
+
+#: file_folder_manager_pro.php:316
+msgid "Themes backup done on date "
+msgstr "Izrada sigurnosne kopije tema na datum "
+
+#: file_folder_manager_pro.php:320
+msgid "Uploads backup done on date "
+msgstr "Prenosi sigurnosne kopije izvršene na datum "
+
+#: file_folder_manager_pro.php:324
+msgid "Others backup done on date "
+msgstr "Ostale sigurnosne kopije napravljene na datum "
+
+#: file_folder_manager_pro.php:328 file_folder_manager_pro.php:707
+#: inc/wpfmlogs.php:49
+msgid "Logs"
+msgstr "Trupci"
+
+#: file_folder_manager_pro.php:334
+msgid "No logs found!"
+msgstr "Nije pronađen nijedan zapisnik!"
+
+#: file_folder_manager_pro.php:405
+msgid "Backup removed successfully!"
+msgstr "Sigurnosna kopija uspješno je uklonjena!"
+
+#: file_folder_manager_pro.php:407
+msgid "Unable to removed backup!"
+msgstr "Nije moguće ukloniti sigurnosnu kopiju!"
+
+#: file_folder_manager_pro.php:430
+msgid "Nothing selected for backup"
+msgstr "Ništa nije odabrano za sigurnosnu kopiju"
+
+#: file_folder_manager_pro.php:459
+msgid "Database backup done."
+msgstr "Sigurnosno kopiranje baze podataka učinjeno."
+
+#: file_folder_manager_pro.php:462
+msgid "Unable to create database backup."
+msgstr "Nije moguće stvoriti sigurnosnu kopiju baze podataka."
+
+#: file_folder_manager_pro.php:476
+msgid "Plugins backup done."
+msgstr "Izrada sigurnosne kopije dodataka."
+
+#: file_folder_manager_pro.php:479
+msgid "Plugins backup failed."
+msgstr "Sigurnosno kopiranje dodataka nije uspjelo."
+
+#: file_folder_manager_pro.php:488
+msgid "Themes backup done."
+msgstr "Izrada sigurnosne kopije tema."
+
+#: file_folder_manager_pro.php:491
+msgid "Themes backup failed."
+msgstr "Sigurnosno kopiranje tema nije uspjelo."
+
+#: file_folder_manager_pro.php:500
+msgid "Uploads backup done."
+msgstr "Sigurnosno kopiranje učitavanja je dovršeno."
+
+#: file_folder_manager_pro.php:503
+msgid "Uploads backup failed."
+msgstr "Sigurnosno kopiranje prijenosa nije uspjelo."
+
+#: file_folder_manager_pro.php:512
+msgid "Others backup done."
+msgstr "Ostale sigurnosne kopije učinjene."
+
+#: file_folder_manager_pro.php:515
+msgid "Others backup failed."
+msgstr "Ostalo sigurnosno kopiranje nije uspjelo."
+
+#: file_folder_manager_pro.php:519 file_folder_manager_pro.php:523
+msgid "All done"
+msgstr "Sve gotovo"
+
+#: file_folder_manager_pro.php:545
+msgid "Log(s) removed successfully!"
+msgstr "Zapisnici su uspješno uklonjeni!"
+
+#: file_folder_manager_pro.php:547
+msgid "Unable to removed log(s)!"
+msgstr "Nije moguće ukloniti zapisnike!"
+
+#: file_folder_manager_pro.php:551 file_folder_manager_pro.php:3253
+#: file_folder_manager_pro.php:3267
+msgid "Invalid security key!"
+msgstr "Nevažeći sigurnosni ključ!"
+
+#: file_folder_manager_pro.php:586
+msgid "Required libraries installed successfully."
+msgstr "Potrebne su knjižnice uspješno instalirane."
+
+#: file_folder_manager_pro.php:589
+msgid "Unable to install Required libraries."
+msgstr "Nije moguće instalirati potrebne knjižnice."
+
+#: file_folder_manager_pro.php:683 file_folder_manager_pro.php:684
+msgid "WP File Manager"
+msgstr "WP upravitelj datoteka"
+
+#: file_folder_manager_pro.php:691
+msgid "Settings"
+msgstr "Postavke"
+
+#: file_folder_manager_pro.php:693
+msgid "Preferences"
+msgstr "Postavke"
+
+#: file_folder_manager_pro.php:695 inc/email.php:25
+msgid "Email Notifications"
+msgstr "Obavijesti e-poštom"
+
+#: file_folder_manager_pro.php:698 inc/shortcode_generator.php:249
+msgid "Shortcode Generator"
+msgstr "Generator kratkih kodova"
+
+#: file_folder_manager_pro.php:701 inc/extensions.php:160
+msgid "Google Drive"
+msgstr "Google vožnja"
+
+#: file_folder_manager_pro.php:704
+msgid "Mobile"
+msgstr "Mobilni"
+
+#: file_folder_manager_pro.php:706
+msgid "Addons"
+msgstr "Dodaci"
+
+#: file_folder_manager_pro.php:708
+msgid "Backup"
+msgstr "Sigurnosna kopija"
+
+#: file_folder_manager_pro.php:709
+msgid "Existing Shortcode"
+msgstr "Postojeći kratki kod"
+
+#: file_folder_manager_pro.php:711
+msgid "License"
+msgstr "Licenca"
+
+#: file_folder_manager_pro.php:808
+msgid "Type here to search list... "
+msgstr "Ovdje upišite za pretraživanje popisa ... "
+
+#: file_folder_manager_pro.php:809
+msgid "Check all"
+msgstr "Provjeri sve"
+
+#: file_folder_manager_pro.php:810
+msgid "Uncheck all"
+msgstr "Odznači sve"
+
+#: file_folder_manager_pro.php:811
+msgid "Invert select"
+msgstr "Obrni odabir"
+
+#: file_folder_manager_pro.php:2752
+msgid "You don't have permission to access file manager."
+msgstr "Nemate dozvolu za pristup upravitelju datoteka."
+
+#: file_folder_manager_pro.php:2755
+msgid "Invalid shortcode!"
+msgstr "Nevažeći kratki kod!"
+
+#: file_folder_manager_pro.php:2758
+msgid "Invalid security token!"
+msgstr "Nevažeći sigurnosni token!"
+
+#: file_folder_manager_pro.php:2915
+msgid "Your File Manager PRO Order Details"
+msgstr "Detalji o narudžbi vašeg upravitelja datoteka PRO"
+
+#: file_folder_manager_pro.php:2915
+msgid "Order Details"
+msgstr "Detalji narudžbe"
+
+#: file_folder_manager_pro.php:2917
+msgid "Order ID: "
+msgstr "ID narudžbe: "
+
+#: file_folder_manager_pro.php:2918
+msgid "License Key: "
+msgstr "Licencni ključ: "
+
+#: file_folder_manager_pro.php:2919
+msgid "&nbsp; Warning: Please don't share these details with anyone."
+msgstr "& nbsp; Upozorenje: nemojte nikome dijeliti ove detalje."
+
+#: file_folder_manager_pro.php:3048
+msgid ""
+"<p>(Unable to execute php syntax checker due to server permissions.)</p>"
+msgstr ""
+"<p> (Nije moguće izvršiti php provjeru sintakse zbog dozvola poslužitelja.) "
+"</p>"
+
+#: file_folder_manager_pro.php:3052
+msgid "<p>(File <strong>"
+msgstr "<p> (Datoteka <strong>"
+
+#: file_folder_manager_pro.php:3052
+msgid "</strong> not saved.)</p>"
+msgstr "</strong> nije spremljeno.) </p>"
+
+#: file_folder_manager_pro.php:3222
+msgid "File doesn't exist to download."
+msgstr "Datoteka ne postoji za preuzimanje."
+
+#: file_folder_manager_pro.php:3227
+msgid "Invalid Security Code."
+msgstr "Nevažeći sigurnosni kod."
+
+#: file_folder_manager_pro.php:3232
+msgid "Missing backup id."
+msgstr "Nedostaje sigurnosna kopija."
+
+#: file_folder_manager_pro.php:3235
+msgid "Missing parameter type."
+msgstr "Nedostaje vrsta parametra."
+
+#: file_folder_manager_pro.php:3238
+msgid "Missing required parameters."
+msgstr "Nedostaju potrebni parametri."
+
+#: inc/backup.php:583
+msgid "WP File Manager - Backup/Restore"
+msgstr "WP File Manager - Sigurnosna kopija / Vraćanje"
+
+#: inc/backup.php:589
+msgid "Backup Options:"
+msgstr "Opcije sigurnosne kopije:"
+
+#: inc/backup.php:596
+msgid "Database Backup"
+msgstr "Sigurnosna kopija baze podataka"
+
+#: inc/backup.php:602
+msgid "Files Backup"
+msgstr "Sigurnosna kopija datoteka"
+
+#: inc/backup.php:606
+msgid "Plugins"
+msgstr "Dodaci"
+
+#: inc/backup.php:609
+msgid "Themes"
+msgstr "Teme"
+
+#: inc/backup.php:612
+msgid "Uploads"
+msgstr "Prijenosi"
+
+#: inc/backup.php:615
+msgid "Others (Any other directories found inside wp-content)"
+msgstr "Ostalo (Bilo koji drugi direktorij koji se nalazi unutar wp-sadržaja)"
+
+#: inc/backup.php:619
+msgid "Backup Now"
+msgstr "Napravite sigurnosnu kopiju odmah"
+
+#: inc/backup.php:627
+msgid "Time now"
+msgstr "Vrijeme je sada"
+
+#: inc/backup.php:637
+msgid "SUCCESS"
+msgstr "USPJEH"
+
+#: inc/backup.php:639
+msgid "Backup successfully deleted."
+msgstr "Sigurnosna kopija uspješno je izbrisana."
+
+#: inc/backup.php:640
+msgid "Ok"
+msgstr "U redu"
+
+#: inc/backup.php:655
+msgid "DELETE FILES"
+msgstr "OBRIŠI DATOTEKE"
+
+#: inc/backup.php:657
+msgid "Are you sure you want to delete this backup?"
+msgstr "Jeste li sigurni da želite izbrisati ovu sigurnosnu kopiju?"
+
+#: inc/backup.php:658 inc/backup.php:677
+msgid "Cancel"
+msgstr "Otkazati"
+
+#: inc/backup.php:659 inc/backup.php:678
+msgid "Confirm"
+msgstr "Potvrdite"
+
+#: inc/backup.php:674
+msgid "RESTORE FILES"
+msgstr "VRAĆI DATOTEKE"
+
+#: inc/backup.php:676
+msgid "Are you sure you want to restore this backup?"
+msgstr "Jeste li sigurni da želite vratiti ovu sigurnosnu kopiju?"
+
+#: inc/backup.php:704
+msgid "Last Log Message"
+msgstr "Posljednja poruka dnevnika"
+
+#: inc/backup.php:707
+msgid "The backup apparently succeeded and is now complete."
+msgstr "Sigurnosna kopija očito je uspjela i sada je gotova."
+
+#: inc/backup.php:709
+msgid "No log message"
+msgstr "Nema poruke dnevnika"
+
+#: inc/backup.php:715
+msgid "Existing Backup(s)"
+msgstr "Postojeće sigurnosne kopije"
+
+#: inc/backup.php:723
+msgid "Backup Date"
+msgstr "Datum sigurnosne kopije"
+
+#: inc/backup.php:726
+msgid "Backup data (click to download)"
+msgstr "Sigurnosna kopija podataka (kliknite za preuzimanje)"
+
+#: inc/backup.php:729 inc/shortcode_listing.php:45 inc/wpfmlogs.php:80
+#: inc/wpfmlogs.php:162 inc/wpfmlogs.php:245
+msgid "Action"
+msgstr "Akcijski"
+
+#: inc/backup.php:749
+msgid "Today"
+msgstr "Danas"
+
+#: inc/backup.php:771
+msgid "Restore"
+msgstr "Vratiti"
+
+#: inc/backup.php:773
+msgid "View Log"
+msgstr "Prikaži zapisnik"
+
+#: inc/backup.php:778
+msgid "Currently no backup(s) found."
+msgstr "Trenutno nisu pronađene sigurnosne kopije."
+
+#: inc/backup.php:781
+msgid "Actions upon selected backup(s)"
+msgstr "Radnje po odabranim sigurnosnim kopijama"
+
+#: inc/backup.php:783
+msgid "Select All"
+msgstr "Odaberi sve"
+
+#: inc/backup.php:784
+msgid "Deselect"
+msgstr "Poništi odabir"
+
+#: inc/backup.php:786
+msgid "<strong>Note:</strong>Backup files will be under"
+msgstr "<strong> Napomena: </strong> Datoteke za sigurnosne kopije bit će pod"
+
+#: inc/backup.php:803
+msgid "Backup is running, please wait"
+msgstr "Izrada sigurnosne kopije, pričekajte"
+
+#: inc/backup.php:902
+msgid "Select backup(s) to delete!"
+msgstr "Odaberite sigurnosnu kopiju (e) za brisanje!"
+
+#: inc/backup.php:904
+msgid "Are you sure want to remove selected backup(s)?"
+msgstr "Jeste li sigurni da želite ukloniti odabrane sigurnosne kopije?"
+
+#: inc/email.php:6
+msgid "Saving please wait..."
+msgstr "Spremanje, pričekajte ..."
+
+#: inc/email.php:32 inc/root.php:30 inc/settings.php:9
+msgid "Settings saved."
+msgstr "Postavke spremljene."
+
+#: inc/email.php:32 inc/email.php:35 inc/root.php:30 inc/root.php:33
+#: inc/settings.php:9 inc/settings.php:12
+msgid "Dismiss this notice."
+msgstr "Odbaci ovu obavijest."
+
+#: inc/email.php:35 inc/settings.php:12
+msgid "Settings not saved."
+msgstr "Postavke nisu spremljene."
+
+#: inc/email.php:44
+msgid "Enable?"
+msgstr "Omogućiti?"
+
+#: inc/email.php:54
+msgid "Email Addresses"
+msgstr "Email adrese"
+
+#: inc/email.php:71
+msgid "Add More <strong>+</strong>"
+msgstr "Dodajte još <strong> + </strong>"
+
+#: inc/email.php:73
+msgid ""
+"This address is used for notification purposes, like theme/plugin "
+"notification."
+msgstr ""
+"Ova se adresa koristi u svrhe obavijesti, poput obavijesti o temi / dodatku."
+
+#: inc/email.php:79
+msgid "Files Upload Notifications"
+msgstr "Obavijesti o prijenosu datoteka"
+
+#: inc/email.php:82 inc/email.php:108 inc/email.php:131
+msgid "Subject"
+msgstr "Predmet"
+
+#: inc/email.php:85
+msgid "Files Uploaded"
+msgstr "Datoteke prenesene"
+
+#: inc/email.php:95 inc/email.php:119 inc/email.php:142
+msgid "Body"
+msgstr "Tijelo"
+
+#: inc/email.php:98 inc/email.php:122 inc/email.php:145
+msgid "Example:"
+msgstr "Primjer:"
+
+#: inc/email.php:105
+msgid "Files Download Notifications"
+msgstr "Obavijesti o preuzimanju datoteka"
+
+#: inc/email.php:111
+msgid "Files Downloaded"
+msgstr "Datoteke preuzete"
+
+#: inc/email.php:128
+msgid "Files Edit Notifications"
+msgstr "Datoteke Uredi obavijesti"
+
+#: inc/email.php:134
+msgid "Files Modified or Edited"
+msgstr "Datoteke izmijenjene ili uređene"
+
+#: inc/email.php:155 inc/root.php:87 inc/settings.php:703
+msgid "Save Changes"
+msgstr "Spremi promjene"
+
+#: inc/email.php:186 inc/email.php:209
+msgid ""
+"All added email fields needs to filled and should have valid email address."
+msgstr ""
+"Sva dodana polja e-pošte moraju biti popunjena i moraju imati valjanu adresu "
+"e-pošte."
+
+#: inc/extensions.php:116
+msgid "Add-ons"
+msgstr "Dodaci"
+
+#: inc/extensions.php:121
+msgid "Box"
+msgstr "Kutija"
+
+#: inc/extensions.php:130 inc/extensions.php:149 inc/extensions.php:169
+#: inc/extensions.php:188 inc/extensions.php:206 inc/extensions.php:225
+msgid "Buy Now"
+msgstr "Kupi sada"
+
+#: inc/extensions.php:141
+msgid "DropBox"
+msgstr ""
+
+#: inc/extensions.php:179
+msgid "OneDrive"
+msgstr ""
+
+#: inc/extensions.php:198
+msgid "AWS S3"
+msgstr ""
+
+#: inc/extensions.php:216
+msgid "Git Hub"
+msgstr ""
+
+#: inc/fm_shortcode_btn.php:8
+msgid "Insert File Manager Shortcode"
+msgstr "Umetnite kratki kod upravitelja datoteka"
+
+#: inc/fm_shortcode_btn.php:14
+msgid "Select Shortcode"
+msgstr "Odaberite Shortcode"
+
+#: inc/fm_shortcode_btn.php:17
+msgid "Choose Shortcode"
+msgstr "Odaberite Shortcode"
+
+#: inc/license.php:42
+msgid "Purchase New License"
+msgstr "Kupite novu licencu"
+
+#: inc/license.php:45
+msgid ""
+"To unlock updates, please enter your order id and license key below. If you "
+"don't have a license key, <a href=\"https://filemanagerpro.io/file-manager-"
+"pricing/\" target=\"_blank\" class=\"page-title-action buy-link\" title="
+"\"click to buy License Key\">please see details & pricing</a>"
+msgstr ""
+"Da biste otključali ažuriranja, unesite svoj ID narudžbe i ključ licence u "
+"nastavku. Ako nemate licencni ključ, <a href=\"https://filemanagerpro.io/"
+"file-manager-pricing/\" target=\"_blank\" class=\"page-title-action buy-link"
+"\" title=\"kliknite za kupnju licencnog ključa\">pogledajte detalje i cijene "
+"</a>"
+
+#: inc/license.php:50
+msgid "ORDER ID (#)"
+msgstr "ID NARUDŽBE (#)"
+
+#: inc/license.php:54
+msgid "LICENSE KEY"
+msgstr "LICENCNI KLJUČ"
+
+#: inc/license.php:69
+msgid "PURCHASE DATE"
+msgstr "DATUM KUPNJE"
+
+#: inc/license.php:73
+msgid "EXPIRE DATE"
+msgstr "ROK TRAJANJA"
+
+#: inc/license.php:85
+msgid "If you have renewed your license already then click here to refresh!"
+msgstr "Ako ste već obnovili licencu, kliknite ovdje za osvježavanje!"
+
+#: inc/license.php:97
+msgid "Deactivate"
+msgstr "Deaktivirati"
+
+#: inc/license.php:102
+msgid "Click here to renew"
+msgstr "Kliknite ovdje za obnovu"
+
+#: inc/license.php:109
+msgid "Click Here To Renew License"
+msgstr "Kliknite ovdje da biste obnovili licencu"
+
+#: inc/license.php:159
+msgid "Are you sure you want to deactivate your license?"
+msgstr "Jeste li sigurni da želite deaktivirati licencu?"
+
+#: inc/popup.php:31
+msgid "File Manager Pro Update"
+msgstr "Ažuriranje upravitelja datoteka"
+
+#: inc/popup.php:32
+msgid "File Manager Pro"
+msgstr "Upravitelj datoteka Pro"
+
+#: inc/popup.php:36
+msgid "With File Manager Pro"
+msgstr "Uz File Manager Pro"
+
+#: inc/popup.php:36
+msgid ""
+"users will now be able to customise the existing shortcodes with the help of "
+"filters."
+msgstr ""
+"korisnici će sada moći prilagoditi postojeće kratke kodove uz pomoć filtara."
+
+#: inc/popup.php:36
+msgid "Click"
+msgstr "Klik"
+
+#: inc/popup.php:36
+msgid "here"
+msgstr "ovdje"
+
+#: inc/popup.php:36
+msgid "to see documentation to support you in your transition"
+msgstr "da biste vidjeli dokumentaciju koja će vas podržati u vašem prijelazu"
+
+#: inc/popup.php:36
+msgid "Happy Coding!"
+msgstr "Sretno kodiranje!"
+
+#: inc/popup.php:37
+msgid "View Shortcode Documentation"
+msgstr "Pogledajte dokumentaciju s kratkim kodovima"
+
+#: inc/root.php:33
+msgid "You have not made any changes to be saved."
+msgstr "Niste unijeli nikakve promjene koje želite spremiti."
+
+#: inc/root.php:39
+msgid "Preferences - File Manager"
+msgstr "Postavke - Upravitelj datoteka"
+
+#: inc/root.php:46
+msgid "Public Root Path"
+msgstr "Javni korijenski put"
+
+#: inc/root.php:50
+msgid "File Manager Root Path, you can change according to your choice."
+msgstr ""
+"Korijenski put upravitelja datoteka, možete promijeniti prema vašem izboru."
+
+#: inc/root.php:53 inc/settings.php:208 inc/settings.php:226
+#: inc/settings.php:239 inc/shortcode_generator.php:425
+#: inc/shortcode_generator.php:442 inc/shortcode_generator.php:455
+#: inc/shortcode_generator.php:568 inc/shortcode_generator.php:585
+#: inc/shortcode_generator.php:598
+msgid "Default:"
+msgstr "Zadano:"
+
+#: inc/root.php:55
+msgid ""
+"Please change this carefully, Wrong path can lead file manager plugin to go "
+"down."
+msgstr ""
+"Molimo pažljivo promijenite ovo, pogrešna putanja može dovesti do pada "
+"dodatka za upravljanje datotekama."
+
+#: inc/root.php:60
+msgid "Enable Syntax Checker?"
+msgstr "Omogućiti provjeru sintakse?"
+
+#: inc/root.php:63
+msgid ""
+"When the Syntax Checker is enabled, the code updates being made to PHP files "
+"will be checked for syntax errors. If a syntax error is found, the updates "
+"will not be saved and a message box will appear which will define the error "
+"found. This checker will help prevent website downtime issues due to syntax "
+"errors."
+msgstr ""
+"Kada je omogućen Syntax Checker, ažuriranja koda u PHP datotekama provjerit "
+"će se na sintaksne pogreške. Ako se pronađe sintaksna pogreška, ažuriranja "
+"se neće spremiti i pojavit će se okvir za poruku koji će definirati "
+"pronađenu pogrešku. Ovaj alat za provjeru pomoći će spriječiti probleme s "
+"prekidima rada web stranice zbog sintaksnih pogrešaka."
+
+#: inc/root.php:68
+msgid "Enable Trash?"
+msgstr "Omogućiti otpad?"
+
+#: inc/root.php:73
+msgid "After enabling trash, your files will go to trash folder."
+msgstr "Nakon omogućavanja otpada, vaše će datoteke ići u mapu za otpad."
+
+#: inc/root.php:78
+msgid "Enable Files Upload to Media Library?"
+msgstr "Omogućiti prijenos datoteka u biblioteku medija?"
+
+#: inc/root.php:83
+msgid ""
+"After enabling this, uploaded images, pdfs and zip files will go to media "
+"library too."
+msgstr ""
+"Nakon što ovo omogućite, prenesene slike, pdfs i zip datoteke također će ići "
+"u biblioteku medija."
+
+#: inc/settings.php:18
+msgid "Settings - File Manager"
+msgstr "Postavke - Upravitelj datoteka"
+
+#: inc/settings.php:19
+msgid "Settings will apply on"
+msgstr "Postavke će se primijeniti na"
+
+#: inc/settings.php:19
+msgid "shortcode."
+msgstr "kratki kod."
+
+#: inc/settings.php:24 inc/shortcode_generator.php:210
+msgid "Make Directory"
+msgstr "Napravite imenik"
+
+#: inc/settings.php:25 inc/shortcode_generator.php:211
+msgid "Make File"
+msgstr "Napravi datoteku"
+
+#: inc/settings.php:26 inc/shortcode_generator.php:212
+msgid "Rename"
+msgstr "Preimenovati"
+
+#: inc/settings.php:27 inc/shortcode_generator.php:213
+msgid "Duplicate"
+msgstr "Duplikat"
+
+#: inc/settings.php:28 inc/shortcode_generator.php:214
+msgid "Paste"
+msgstr "Zalijepiti"
+
+#: inc/settings.php:29 inc/shortcode_generator.php:215
+msgid "Archive"
+msgstr "Arhiva"
+
+#: inc/settings.php:30 inc/shortcode_generator.php:216
+msgid "Extract"
+msgstr "Ekstrakt"
+
+#: inc/settings.php:31 inc/shortcode_generator.php:217
+#: inc/shortcode_listing.php:61 inc/shortcode_listing.php:84
+#: inc/shortcode_listing.php:159 inc/shortcode_listing.php:175
+#: inc/shortcode_listing.php:215
+msgid "Copy"
+msgstr "Kopirati"
+
+#: inc/settings.php:32 inc/shortcode_generator.php:218
+msgid "Cut"
+msgstr "Izrezati"
+
+#: inc/settings.php:35 inc/shortcode_generator.php:221
+msgid "Download"
+msgstr "preuzimanje datoteka"
+
+#: inc/settings.php:36 inc/shortcode_generator.php:222
+msgid "Upload"
+msgstr "Učitaj"
+
+#: inc/settings.php:37 inc/shortcode_generator.php:223
+#: inc/shortcode_listing.php:109
+msgid "Search"
+msgstr "traži"
+
+#: inc/settings.php:38 inc/shortcode_generator.php:224
+msgid "Info"
+msgstr "Info"
+
+#: inc/settings.php:40 inc/shortcode_generator.php:226
+msgid "Resize"
+msgstr "Promijeni veličinu"
+
+#: inc/settings.php:47 inc/shortcode_generator.php:147
+msgid "<strong>Saving Please wait...</strong>"
+msgstr "<strong> Spremanje Pričekajte ... </strong>"
+
+#: inc/settings.php:83
+msgid "General"
+msgstr "General"
+
+#: inc/settings.php:88
+msgid "Code Editor"
+msgstr "Uređivač koda"
+
+#: inc/settings.php:93
+msgid "User Restrictions"
+msgstr "Korisnička ograničenja"
+
+#: inc/settings.php:98
+msgid "User Role Restrictions"
+msgstr "Ograničenja uloge korisnika"
+
+#: inc/settings.php:104
+msgid "Frontend Access"
+msgstr "Pristup sučelja"
+
+#: inc/settings.php:111
+msgid "Select User Roles to access WP File Manager"
+msgstr "Odaberite Korisničke uloge za pristup WP upravitelju datoteka"
+
+#: inc/settings.php:124
+msgid "Allow user roles to access WP File Manager."
+msgstr "Dopustite korisničkim ulogama pristup WP upravitelju datoteka."
+
+#: inc/settings.php:131
+msgid "Select User Roles to access DB Manager"
+msgstr "Odaberite Korisničke uloge za pristup DB Manageru"
+
+#: inc/settings.php:144
+msgid "Allow user roles to access DB Manager."
+msgstr "Dopustite korisničkim ulogama pristup DB Manageru."
+
+#: inc/settings.php:150
+msgid "Separate or Private Folder Access"
+msgstr "Pristup zasebnoj ili privatnoj mapi"
+
+#: inc/settings.php:152
+msgid ""
+"File Manager will access this folder path. Else, will access root directory. "
+"<strong>e.g wp-content/plugins</strong>. <br><strong>Note:</strong> Will be "
+"valid for all user roles."
+msgstr ""
+"Upravitelj datoteka pristupit će ovoj stazi mape. Inače, pristupit će "
+"korijenskom direktoriju. <strong> npr. wp-content / plugins </strong>. <br> "
+"<strong> Napomena: </strong> vrijedit će za sve korisničke uloge."
+
+#: inc/settings.php:157
+msgid "Maximum Upload Size"
+msgstr "Maksimum upload grootte"
+
+#: inc/settings.php:159
+msgid "MB"
+msgstr ""
+
+#: inc/settings.php:159
+msgid "Allow users to upload file of maximum."
+msgstr "Omogućite korisnicima da prenose maksimalnu datoteku."
+
+#: inc/settings.php:163
+msgid "Notification Email"
+msgstr "E-pošta s obavijestima"
+
+#: inc/settings.php:165
+msgid ""
+"Sends Notifications to this email. <strong>Note:</strong> This will take "
+"admin email by default if kept empty."
+msgstr ""
+"Šalje Obavijesti na ovu e-poštu. <strong> Napomena: </strong> Ovo će prema "
+"zadanim postavkama uzeti administratorsku e-poštu ako se ostane prazno."
+
+#: inc/settings.php:170
+msgid "Send Notifications to admin and save logs on file upload ?"
+msgstr ""
+"Želite li poslati obavijesti administratoru i spremiti zapisnike o prijenosu "
+"datoteka?"
+
+#: inc/settings.php:174
+msgid ""
+"Check to allow file upload notifications. Mail will be sent to admin. Click "
+"<a href=\"admin.php?page=wpfm-emails\" target=\"_blank\">here</a> to set "
+"notification email."
+msgstr ""
+"Označite da biste omogućili obavijesti o prijenosu datoteka. Pošta će biti "
+"poslana administratoru. Kliknite <a href=\"admin.php?page=wpfm-emails\" "
+"target=\"_blank\"> ovdje </a> da biste postavili e-poštu s obavijestima."
+
+#: inc/settings.php:174 inc/settings.php:183 inc/settings.php:192
+msgid ""
+"<strong>Note:</strong> This feature is using wp_mail(), Make sure <a href="
+"\"https://developer.wordpress.org/reference/functions/wp_mail/\" title="
+"\"Read More\" target=\"_blank\">wp_mail</a> is working."
+msgstr ""
+"<strong> Napomena: </strong> Ova značajka koristi wp_mail (), pobrinite se "
+"da<a href=\"https://developer.wordpress.org/reference/functions/wp_mail/\" "
+"title=\"Čitaj više\" target=\"_blank\">wp_mail </a> radi."
+
+#: inc/settings.php:179
+msgid "Send Notifications to admin and save logs on file download ?"
+msgstr ""
+"Želite li poslati obavijesti administratoru i spremiti zapisnike o "
+"preuzimanju datoteke?"
+
+#: inc/settings.php:183
+msgid ""
+"Check to allow file download notifications. Mail will be sent to admin. "
+"Click <a href=\"admin.php?page=wpfm-emails\" target=\"_blank\">here</a> to "
+"set notification email."
+msgstr ""
+"Označite da biste omogućili obavijesti o preuzimanju datoteka. Pošta će biti "
+"poslana administratoru. Kliknite <a href=\"admin.php?page=wpfm-emails\" "
+"target=\"_blank\"> ovdje </a> da biste postavili e-poštu s obavijestima."
+
+#: inc/settings.php:188
+msgid "Send Notifications to admin and save logs on file edit ?"
+msgstr ""
+"Želite li poslati obavijesti administratoru i spremiti zapisnike o "
+"uređivanju datoteka?"
+
+#: inc/settings.php:192
+msgid ""
+"Check to allow file edit notifications. Mail will be sent to admin.  Click "
+"<a href=\"admin.php?page=wpfm-emails\" target=\"_blank\">here</a> to set "
+"notification email."
+msgstr ""
+"Označite da biste omogućili obavijesti o uređivanju datoteka. Pošta će biti "
+"poslana administratoru. Kliknite <a href=\"admin.php?page=wpfm-emails\" "
+"target=\"_blank\"> ovdje </a> da biste postavili e-poštu s obavijestima."
+
+#: inc/settings.php:198
+msgid "Select File Manager Language"
+msgstr "Odaberite Jezik upravitelja datotekama"
+
+#: inc/settings.php:208 inc/shortcode_generator.php:425
+#: inc/shortcode_generator.php:568
+msgid "English"
+msgstr "Engleski"
+
+#: inc/settings.php:209
+msgid "You can select any language for File Manager."
+msgstr "Za Upravitelj datoteka možete odabrati bilo koji jezik."
+
+#: inc/settings.php:215
+msgid "Select File Manager Theme"
+msgstr "Odaberite Tema upravitelja datoteka"
+
+#: inc/settings.php:227
+msgid "You can select any theme for File Manager."
+msgstr "Za Upravitelj datoteka možete odabrati bilo koju temu."
+
+#: inc/settings.php:233 inc/shortcode_generator.php:449
+#: inc/shortcode_generator.php:592
+msgid "Files View"
+msgstr "Prikaz datoteka"
+
+#: inc/settings.php:236 inc/settings.php:239 inc/shortcode_generator.php:452
+#: inc/shortcode_generator.php:455 inc/shortcode_generator.php:595
+#: inc/shortcode_generator.php:598
+msgid "List"
+msgstr "Popis"
+
+#: inc/settings.php:237 inc/shortcode_generator.php:453
+#: inc/shortcode_generator.php:596
+msgid "Icon"
+msgstr "Ikona"
+
+#: inc/settings.php:240
+msgid "You can select any view for File Manager."
+msgstr "Za Upravitelj datoteka možete odabrati bilo koji prikaz."
+
+#: inc/settings.php:244
+msgid "Enable \"Insert File Manager Shortcode\" Button with Content Editor ?"
+msgstr ""
+"Omogućiti gumb \"Umetni kratki kôd upravitelja datoteka\" pomoću uređivača "
+"sadržaja?"
+
+#: inc/settings.php:248
+msgid ""
+"Enable \"Insert File Manager Shortcode\" button in edit page screen with "
+"classic editor."
+msgstr ""
+"Omogućite gumb \"Umetni kratki kôd upravitelja datoteka\" na zaslonu za "
+"uređivanje stranica s klasičnim uređivačem."
+
+#: inc/settings.php:252
+msgid "Disable Local File System ?"
+msgstr "Onemogućiti lokalni datotečni sustav?"
+
+#: inc/settings.php:256
+msgid "Check to disable Local File System in File Manager."
+msgstr ""
+"Označite da biste onemogućili lokalni sustav datoteka u Upravitelju datoteka."
+
+#: inc/settings.php:261
+msgid "Disable Database Manager ?"
+msgstr "Onemogućiti upravitelja baze podataka?"
+
+#: inc/settings.php:265
+msgid "Check to disable Database Manager."
+msgstr "Označite da biste onemogućili Upravitelj baze podataka."
+
+#: inc/settings.php:276
+msgid "Code editor allow fullscreen?"
+msgstr "Uređivač koda dopušta prikaz preko cijelog zaslona?"
+
+#: inc/settings.php:277
+msgid "Check to allow fullscreen code editor"
+msgstr "Označite da biste omogućili uređivač cijelog zaslona"
+
+#: inc/settings.php:281
+msgid "Select theme for Code Editor."
+msgstr "Kies tema vir Kode-redakteur."
+
+#: inc/settings.php:289
+msgid ""
+"Select theme for Code Editor. For more information please visit <a href="
+"\"http://codemirror.net/demo/theme.html\" target=\"_blank\">this link</a>."
+msgstr ""
+"Odaberite temu za Uređivač koda. Za više informacija posjetite <a href="
+"\"http://codemirror.net/demo/theme.html\" target=\"_blank\"> ovu vezu </a>."
+
+#: inc/settings.php:298
+msgid "Disable or Ban WP File Manager Operations to User Roles"
+msgstr ""
+"Onemogućite ili zabranite operacije WP upravitelja datoteka korisničkim "
+"ulogama"
+
+#: inc/settings.php:299
+msgid "Select user role and disable operation."
+msgstr "Odaberite korisničku ulogu i onemogućite rad."
+
+#: inc/settings.php:304 inc/settings.php:491
+msgid "Click to Add Rules"
+msgstr "Kliknite za dodavanje pravila"
+
+#: inc/settings.php:305
+msgid "Add rule for User Roles"
+msgstr "Dodajte pravilo za korisničke uloge"
+
+#: inc/settings.php:313 inc/settings.php:396
+msgid "If User role is"
+msgstr "Ako je uloga korisnika"
+
+#: inc/settings.php:315 inc/settings.php:398
+msgid "Select User Role"
+msgstr "Odaberite Uloga korisnika"
+
+#: inc/settings.php:320 inc/settings.php:406 inc/settings.php:508
+#: inc/settings.php:589
+msgid "Then"
+msgstr "dan"
+
+#: inc/settings.php:329 inc/settings.php:415 inc/settings.php:517
+#: inc/settings.php:599
+msgid "Disable Operations"
+msgstr "Deaktiveer bedrywighede"
+
+#: inc/settings.php:342 inc/settings.php:435 inc/settings.php:528
+#: inc/settings.php:620
+msgid ""
+"Separate or private folder access <strong>e.g wp-content/themes</strong> etc."
+msgstr ""
+"Pristup zasebnoj ili privatnoj mapi <strong> npr. Wp-sadržaj / teme </"
+"strong> itd."
+
+#: inc/settings.php:345 inc/settings.php:353 inc/settings.php:361
+#: inc/settings.php:438 inc/settings.php:446 inc/settings.php:454
+#: inc/settings.php:531 inc/settings.php:539 inc/settings.php:547
+#: inc/settings.php:623 inc/settings.php:631 inc/settings.php:639
+msgid "Note:"
+msgstr "Bilješka:"
+
+#: inc/settings.php:345 inc/settings.php:438 inc/settings.php:531
+#: inc/settings.php:623
+msgid "It will overide \"Private Folder Access\" settings"
+msgstr "Nadjačat će postavke \"Pristup privatnoj mapi\""
+
+#: inc/settings.php:350 inc/settings.php:443 inc/settings.php:536
+#: inc/settings.php:628
+msgid ""
+"Enter Folder or Files Paths That You want to <strong>Hide</strong> e.g wp-"
+"content/themes|wp-content/plugins."
+msgstr ""
+"Unesite putove do mape ili datoteka koje želite <strong> sakriti </strong>, "
+"npr. Wp-content / themes | wp-content / plugins."
+
+#: inc/settings.php:353 inc/settings.php:446 inc/settings.php:539
+#: inc/settings.php:631
+msgid "Multiple separated by Vertical Bar (|)."
+msgstr "Višestruko odvojeno okomitom trakom (|)."
+
+#: inc/settings.php:358 inc/settings.php:451 inc/settings.php:544
+#: inc/settings.php:636
+msgid ""
+"Enter file extensions which you want to Lock. <strong>e.g .php|.png|.css</"
+"strong> etc"
+msgstr ""
+"Unesite nastavke datoteka koje želite zaključati. <strong> npr. .php | .png "
+"| .css </strong> itd"
+
+#: inc/settings.php:361 inc/settings.php:454 inc/settings.php:547
+#: inc/settings.php:639
+msgid ""
+"The extensions in the option are case sensitive and should be separated by "
+"vertical bar (|) without having white space between them. e.g. php,PHP"
+msgstr ""
+"Proširenja u opciji razlikuju velika i mala slova i trebala bi biti odvojena "
+"okomitom trakom (|), a da između njih nema razmaka. npr. php, PHP"
+
+#: inc/settings.php:366 inc/settings.php:459 inc/settings.php:552
+#: inc/settings.php:644
+msgid "Disable Toolbar and Context Menu"
+msgstr "Onemogući Alatnu traku i kontekstni izbornik"
+
+#: inc/settings.php:372 inc/settings.php:464 inc/settings.php:557
+#: inc/settings.php:648
+msgid "Disable Toolbar"
+msgstr "Onemogući Alatnu traku"
+
+#: inc/settings.php:377 inc/settings.php:464 inc/settings.php:558
+#: inc/settings.php:648
+msgid "Disable Context Menu"
+msgstr "Onemogući kontekstni izbornik"
+
+#: inc/settings.php:385 inc/settings.php:473 inc/settings.php:567
+#: inc/settings.php:654
+msgid "Remove"
+msgstr "Ukloniti"
+
+#: inc/settings.php:485
+msgid "Disable or Ban WP File Manager Operations to Users"
+msgstr "Deaktiveer of verbied WP-lêerbestuurderbedrywighede aan gebruikers"
+
+#: inc/settings.php:486
+msgid "Select users and disable operation."
+msgstr "Kies gebruikers en deaktiveer die operasie."
+
+#: inc/settings.php:492
+msgid "Add rule for Users"
+msgstr "Add rule for Users"
+
+#: inc/settings.php:501 inc/settings.php:581
+msgid "If User is"
+msgstr "As gebruiker is"
+
+#: inc/settings.php:503 inc/settings.php:583
+msgid "Select User"
+msgstr "Odaberite Korisnik"
+
+#: inc/settings.php:664
+msgid "Select the pages where you want to show the File Manager on Frontend"
+msgstr ""
+"Odaberite stranice na kojima želite prikazati Upravitelj datoteka na "
+"Frontendu"
+
+#: inc/settings.php:666
+msgid "Select Pages"
+msgstr "Odaberite Stranice"
+
+#: inc/settings.php:676
+msgid ""
+"<strong>Note:</strong> It will not work if already using any File Manager "
+"shortcode in selected page editor."
+msgstr ""
+"<strong> Napomena: </strong> Neće raditi ako već koristite bilo koji kratki "
+"kôd Upravitelja datoteka u odabranom uređivaču stranica."
+
+#: inc/settings.php:680
+msgid "Display File Manager ?"
+msgstr "Prikaz upravitelja datoteka?"
+
+#: inc/settings.php:683
+msgid "After Content"
+msgstr "Nakon Sadržaja"
+
+#: inc/settings.php:684
+msgid "Before Content"
+msgstr "Prije Sadržaja"
+
+#: inc/settings.php:687
+msgid "Default: After Content"
+msgstr "Zadano: nakon sadržaja"
+
+#: inc/settings.php:691 inc/shortcode_listing.php:44
+msgid "Shortcode"
+msgstr "Kratki kod"
+
+#: inc/settings.php:693
+msgid "Paste the shortcode here"
+msgstr "Ovdje zalijepite kratki kod"
+
+#: inc/settings.php:694
+msgid ""
+"You can generate new shortcode from the <a href='admin.php?"
+"page=wp_file_manager_existing_shortcodes'>Shortcode Generator</a> of File "
+"Manager."
+msgstr ""
+"Novi kratki kod možete generirati iz <a href='admin.php?"
+"page=wp_file_manager_existing_shortcodes'> Generator kratkog koda </a> "
+"programa File Manager."
+
+#: inc/settings.php:695
+msgid ""
+"Shortcode will work on selected pages. Help is given below to edit "
+"parameters:"
+msgstr ""
+"Shortcode će raditi na odabranim stranicama. U nastavku je data pomoć za "
+"uređivanje parametara:"
+
+#: inc/settings.php:696
+msgid "Shortcode Help:"
+msgstr "Pomoć za kratki kod:"
+
+#: inc/settings.php:696
+msgid ""
+"<a href='https://filemanagerpro.io/shortcodes/' "
+"target='_blank'>Documentation</a>"
+msgstr ""
+"<a href='https://filemanagerpro.io/shortcodes/' target='_blank'> "
+"Dokumentacija </a>"
+
+#: inc/settings.php:731 inc/settings.php:773
+msgid "Please select user from the previously added rule before adding new!"
+msgstr ""
+"Molimo odaberite korisnika iz prethodno dodanog pravila prije dodavanja "
+"novog!"
+
+#: inc/settings.php:833 inc/settings.php:847
+msgid "Please select user in the added user restriction rule before saving."
+msgstr ""
+"Molimo odaberite korisnika u dodanom pravilu ograničenja korisnika prije "
+"spremanja."
+
+#: inc/shortcode.php:114
+msgid "Welcome: "
+msgstr "Dobrodošli: "
+
+#: inc/shortcode.php:323 inc/shortcode_admin_control.php:115
+msgid "Sorry, you are not allowed to access this page."
+msgstr "Nažalost, nemate pristup ovoj stranici."
+
+#: inc/shortcode.php:330 inc/shortcode_admin_control.php:118
+msgid "Please login to access file manager."
+msgstr "Prijavite se za pristup upravitelju datoteka."
+
+#: inc/shortcode_docs.php:11
+msgid "Shortcodes"
+msgstr "Kratki kodovi"
+
+#: inc/shortcode_generator.php:42 inc/shortcode_generator.php:55
+#: inc/shortcode_generator.php:62
+msgid "Error in creating shortcode. Invalid shortcode."
+msgstr "Pogreška u stvaranju kratkog koda. Nevažeći kratki kôd."
+
+#: inc/shortcode_generator.php:250
+msgid "Click to get list of all shortcodes"
+msgstr "Kliknite da biste dobili popis svih kratkih kodova"
+
+#: inc/shortcode_generator.php:250
+msgid "All Shortcodes"
+msgstr "Svi kratki kodovi"
+
+#: inc/shortcode_generator.php:253
+msgid "Click to create new shortcode"
+msgstr "Kliknite za stvaranje novog kratkog koda"
+
+#: inc/shortcode_generator.php:253 inc/shortcode_listing.php:24
+msgid "Generate New Shortcode"
+msgstr "Generiraj novi kratki kod"
+
+#: inc/shortcode_generator.php:263
+msgid "Logged in users"
+msgstr "Prijavljeni korisnici"
+
+#: inc/shortcode_generator.php:269
+msgid "Non logged in users"
+msgstr "Korisnici koji nisu prijavljeni"
+
+#: inc/shortcode_generator.php:275
+msgid "From existing shortcode"
+msgstr "Iz postojećeg kratkog koda"
+
+#: inc/shortcode_generator.php:288 inc/shortcode_generator.php:492
+#: inc/shortcode_generator.php:635
+#, php-format
+msgid ""
+"Your shortcode <span style='background-color:#e5e5e5;'>%s</span> has been "
+"generated successfully. Copy this shortcode and paste it in your pages."
+msgstr ""
+"Vaš kratki kôd <span style='background-color:#e5e5e5;'>%s </span> uspješno "
+"je generiran. Kopirajte ovaj kratki kôd i zalijepite ga na svoje stranice."
+
+#: inc/shortcode_generator.php:290 inc/shortcode_generator.php:494
+msgid "Your shortcode settings has been updated successfully."
+msgstr "Postavke vašeg kratkog koda uspješno su ažurirane."
+
+#: inc/shortcode_generator.php:295 inc/shortcode_generator.php:498
+#: inc/shortcode_generator.php:639
+msgid "Shortcode Title"
+msgstr "Naslov kratkog koda"
+
+#: inc/shortcode_generator.php:297 inc/shortcode_generator.php:500
+#: inc/shortcode_generator.php:641
+msgid "Enter shortcode title"
+msgstr "Unesite naslov kratkog koda"
+
+#: inc/shortcode_generator.php:298 inc/shortcode_generator.php:501
+#: inc/shortcode_generator.php:642
+msgid "It is required to identify the shortcode you are going to use."
+msgstr "Potrebno je identificirati kratki kod koji ćete koristiti."
+
+#: inc/shortcode_generator.php:299 inc/shortcode_generator.php:502
+#: inc/shortcode_generator.php:643 inc/shortcode_generator.php:653
+msgid "This field can not be empty."
+msgstr "Ovo polje ne može biti prazno."
+
+#: inc/shortcode_generator.php:300 inc/shortcode_generator.php:503
+#: inc/shortcode_generator.php:644
+msgid "Title with this name already exists. Please choose another title."
+msgstr "Naslov s ovim imenom već postoji. Odaberite drugi naslov."
+
+#: inc/shortcode_generator.php:304
+msgid "Allowed Roles"
+msgstr "Dopuštene uloge"
+
+#: inc/shortcode_generator.php:318
+msgid "All"
+msgstr "svi"
+
+#: inc/shortcode_generator.php:338
+msgid ""
+"It will allow all roles to access file manager on front end. All will apply "
+"for all available user roles."
+msgstr ""
+"Omogućit će svim ulogama pristup upravitelju datotekama na prednjoj strani. "
+"Sve će se primijeniti na sve dostupne korisničke uloge."
+
+#: inc/shortcode_generator.php:339
+msgid "Please choose at least one user role."
+msgstr "Odaberite barem jednu korisničku ulogu."
+
+#: inc/shortcode_generator.php:344 inc/shortcode_generator.php:507
+msgid "Access Folder"
+msgstr "Mapa za pristup"
+
+#: inc/shortcode_generator.php:348 inc/shortcode_generator.php:510
+msgid "Path of the folder to display e.g wp-content/uploads"
+msgstr "Put mape za prikaz, npr. Wp-sadržaj / prijenosi"
+
+#: inc/shortcode_generator.php:349 inc/shortcode_generator.php:511
+msgid "Root directory"
+msgstr "Korijenski direktorij"
+
+#: inc/shortcode_generator.php:350 inc/shortcode_generator.php:512
+msgid ""
+"eg. You can put \"test\" as a name of folder which is located on root "
+"directory, or you can give path for sub folders as like \"wp-content/plugins"
+"\". If leave blank or empty it will access all folders on root directory. If "
+"you put * then it will auto creates user folders with their username."
+msgstr ""
+"npr. Možete staviti \"test\" kao naziv mape koja se nalazi u korijenskom "
+"direktoriju ili možete dati put za podmape poput \"wp-content / plugins\". "
+"Ako ostavite prazno ili prazno, pristupit će svim mapama u korijenskom "
+"direktoriju. Ako stavite *, automatski će stvoriti korisničke mape s "
+"njihovim korisničkim imenom."
+
+#: inc/shortcode_generator.php:355 inc/shortcode_generator.php:517
+msgid "Allowed Operations"
+msgstr "Dopuštene operacije"
+
+#: inc/shortcode_generator.php:373 inc/shortcode_generator.php:535
+msgid ""
+"For all operations and to allow some operation you can choose operations "
+"name from the list."
+msgstr ""
+"Za sve operacije i da biste omogućili neke operacije, s popisa možete "
+"odabrati naziv operacije."
+
+#: inc/shortcode_generator.php:378
+msgid "Ban User IDs"
+msgstr "Zabranite ID-ove korisnika"
+
+#: inc/shortcode_generator.php:389 inc/wpfmlogs.php:76 inc/wpfmlogs.php:158
+#: inc/wpfmlogs.php:241
+msgid "User ID"
+msgstr "Korisnički ID"
+
+#: inc/shortcode_generator.php:394
+msgid ""
+"To ban specific user from accessing file manager on frontend then you can "
+"choose the users from the list."
+msgstr ""
+"Da biste zabranili određenom korisniku pristup upravitelju datotekama na "
+"sučelju, tada možete odabrati korisnike s popisa."
+
+#: inc/shortcode_generator.php:398 inc/shortcode_generator.php:540
+msgid "Hide Files"
+msgstr "Sakrij datoteke"
+
+#: inc/shortcode_generator.php:400
+msgid "Hide files from access folder e.g. wp-content/plugins,wp-config.php etc"
+msgstr ""
+"Sakrij datoteke iz pristupne mape, npr. wp-content / plugins, wp-config.php "
+"itd"
+
+#: inc/shortcode_generator.php:402
+msgid ""
+"It will hide the files and folder mentioned here. <br><strong>Note:</strong> "
+"This option is case sensitive and should be comma(,) separated without "
+"having white space between them."
+msgstr ""
+"Sakrivat će ovdje spomenute datoteke i mape. <br> <strong> Napomena: </"
+"strong> Ova opcija razlikuje velika i mala slova i trebala bi biti odvojena "
+"zarezom (,) bez razmaka."
+
+#: inc/shortcode_generator.php:406 inc/shortcode_generator.php:549
+msgid "Lock Extensions"
+msgstr "Proširenja zaključavanja"
+
+#: inc/shortcode_generator.php:408 inc/shortcode_generator.php:551
+msgid "Restrict extensions e.g. .php,.css OR php,css"
+msgstr "Ograniči proširenja npr. .php, .css ILI php, css"
+
+#: inc/shortcode_generator.php:410 inc/shortcode_generator.php:553
+msgid ""
+"It will lock files mentioned in commas without white space between them. You "
+"can lock more as like \".php,.css,.js\" etc.<br><span class=\"highlighted"
+"\"><strong>Note:</strong> The extensions in the option are case sensitive "
+"and should be comma(,) separated without having white space between them. e."
+"g. php,PHP</span>"
+msgstr ""
+"Zaključat će datoteke spomenute u zarezima bez razmaka. Možete zaključati "
+"više poput \".php, .css, .js\" itd. <br> <span class = \"highlighted\"> "
+"<strong> Napomena: </strong> Proširenja u opciji razlikuju velika i mala "
+"slova i trebaju biti zarezom (,) razdvojeni, a da među njima nema praznog "
+"prostora. npr. php, PHP </span>"
+
+#: inc/shortcode_generator.php:415 inc/shortcode_generator.php:558
+msgid "Select Filemanager Language"
+msgstr "Kies Filemanager Taal"
+
+#: inc/shortcode_generator.php:426 inc/shortcode_generator.php:569
+msgid "You can select any language for filemanager."
+msgstr "U kan enige taal vir lêerbestuurder kies."
+
+#: inc/shortcode_generator.php:431 inc/shortcode_generator.php:574
+msgid "Select Filemanager Theme"
+msgstr "Odaberite temu Upravitelj datoteka"
+
+#: inc/shortcode_generator.php:443 inc/shortcode_generator.php:586
+msgid "You can select any theme for filemanager."
+msgstr "Za upravitelj datoteka možete odabrati bilo koju temu."
+
+#: inc/shortcode_generator.php:456 inc/shortcode_generator.php:599
+msgid "You can select any view for filemanager."
+msgstr "Za upravitelj datoteka možete odabrati bilo koji prikaz."
+
+#: inc/shortcode_generator.php:461 inc/shortcode_generator.php:603
+msgid "Date Format"
+msgstr "Oblik datuma"
+
+#: inc/shortcode_generator.php:471 inc/shortcode_generator.php:613
+msgid "You can select any date format for filemanager modified date."
+msgstr ""
+"Možete odabrati bilo koji format datuma za datum izmijenjen upraviteljem "
+"datoteka."
+
+#: inc/shortcode_generator.php:477 inc/shortcode_generator.php:619
+msgid "Update Shortcode"
+msgstr "Ažuriranje kratkog koda"
+
+#: inc/shortcode_generator.php:477 inc/shortcode_generator.php:619
+#: inc/shortcode_generator.php:659
+msgid "Generate Shortcode"
+msgstr "Generiraj kratki kôd"
+
+#: inc/shortcode_generator.php:542
+msgid "Hide files from access folder e.g. test1,folder/test2 etc"
+msgstr "Sakrij datoteke iz pristupne mape, npr. test1, mapa / test2 itd"
+
+#: inc/shortcode_generator.php:544
+msgid ""
+"It will hide the files and folder mentioned here. Note: This option is case "
+"sensitive and should be comma(,) separated without having white space "
+"between them."
+msgstr ""
+"Sakrivat će ovdje spomenute datoteke i mape. Napomena: Ova opcija razlikuje "
+"velika i mala slova i trebala bi biti odvojena zarezom (,) bez razmaka."
+
+#: inc/shortcode_generator.php:648
+msgid "Generate New Shortcode from existing one"
+msgstr "Generirajte novi kratki kod od postojećeg"
+
+#: inc/shortcode_generator.php:651
+msgid "Paste the shortcode which you are using in your page/post"
+msgstr "Zalijepite kratki kôd koji koristite na svoju stranicu / post"
+
+#: inc/shortcode_generator.php:652
+msgid "This will convert the existing shortcode to the new shortcode format."
+msgstr "Ovo će pretvoriti postojeći kratki kôd u novi format kratkog koda."
+
+#: inc/shortcode_listing.php:23
+msgid "Existing Shortcode(s)"
+msgstr "Postojeće kratke šifre"
+
+#: inc/shortcode_listing.php:24
+msgid "Click to go back to the shortcode generator"
+msgstr "Kliknite za povratak na generator kratkog koda"
+
+#: inc/shortcode_listing.php:28
+msgid "Shortcode has been deleted successfully."
+msgstr "Kratki kôd uspješno je izbrisan."
+
+#: inc/shortcode_listing.php:30
+msgid "Shortcode(s) has been deleted successfully."
+msgstr "Kratke šifre su uspješno izbrisane."
+
+#: inc/shortcode_listing.php:43
+msgid "Title"
+msgstr "Titula"
+
+#: inc/shortcode_listing.php:61 inc/shortcode_listing.php:84
+#: inc/shortcode_listing.php:160 inc/shortcode_listing.php:176
+#: inc/shortcode_listing.php:216
+msgid "Copy to clipboard"
+msgstr "Kopirati u međuspremnik"
+
+#: inc/shortcode_listing.php:63
+msgid "Are you sure you want to delete this shortcode?"
+msgstr "Jeste li sigurni da želite izbrisati ovaj kratki kôd?"
+
+#: inc/shortcode_listing.php:64 inc/shortcode_listing.php:77
+msgid "Customize Shortcode"
+msgstr "Prilagodite kratki kod"
+
+#: inc/shortcode_listing.php:87
+msgid ""
+"Copy above filter code and paste it in your theme's functions.php file or in "
+"your plugin file to customize shortcode values as per your requirement."
+msgstr ""
+"Kopirajte gornji kôd filtra i zalijepite ga u datoteku functions.php teme "
+"ili u datoteku dodatka kako biste prilagodili vrijednosti kratkog koda prema "
+"vašim zahtjevima."
+
+#: inc/shortcode_listing.php:106 inc/shortcode_listing.php:108
+msgid "Showing"
+msgstr "Prikazuje se"
+
+#: inc/shortcode_listing.php:106 inc/shortcode_listing.php:108
+msgid "entries"
+msgstr "unosi"
+
+#: inc/shortcode_listing.php:110
+msgid "No shortcode found"
+msgstr "Nije pronađen kratki kôd"
+
+#: inc/shortcode_listing.php:131
+msgid "Delete All Selected"
+msgstr "Izbriši sve odabrano"
+
+#: inc/shortcode_listing.php:170 inc/shortcode_listing.php:210
+msgid "Copied"
+msgstr "Kopirano"
+
+#: inc/shortcode_listing.php:171 inc/shortcode_listing.php:211
+msgid "Copied to clipboard"
+msgstr "Kopirano u međuspremnik"
+
+#: inc/shortcode_listing.php:221
+msgid "Are you sure you want to delete selected shortcode(s)?"
+msgstr "Jeste li sigurni da želite izbrisati odabrane kratke kodove?"
+
+#: inc/shortcode_listing.php:229
+msgid "Please select atleast one shortcode from the list."
+msgstr "Molimo odaberite s popisa barem jedan kratki kôd."
+
+#: inc/verify.php:9
+msgid "License Verification"
+msgstr "Provjera licence"
+
+#: inc/verify.php:11
+msgid ""
+"To unlock updates, please enter your order id and license key below. If you "
+"don't have a licence key, <a href=\"https://filemanagerpro.io/product/file-"
+"manager/\" target=\"_blank\" class=\"page-title-action buy-link\" title="
+"\"click to buy Licence Key\">please see details & pricing</a>."
+msgstr ""
+"Da biste otključali ažuriranja, unesite svoj ID narudžbe i ključ licence u "
+"nastavku. Ako nemate licencni ključ,<a href=\"https://filemanagerpro.io/"
+"product/file-manager/\" target=\"_blank\" class=\"page-title-action buy-link"
+"\" title=\"kliknite za kupnju licencnog ključa\">pogledajte detalje i cijene "
+"</a>."
+
+#: inc/verify.php:23
+msgid "ORDER ID (#) *"
+msgstr "ID NARUDŽBE (#) *"
+
+#: inc/verify.php:24
+msgid "Please Check Your email for order ID."
+msgstr "Molimo provjerite svoju e-poštu za ID narudžbe."
+
+#: inc/verify.php:27
+msgid "LICENCE KEY *"
+msgstr "KLJUČ LICENCE *"
+
+#: inc/verify.php:28
+msgid "Please Check Your email for Licence Key."
+msgstr "Molimo provjerite svoju e-poštu za ključ licence."
+
+#: inc/wpfmlogs.php:51
+msgid ""
+"To enable logs, go to <a href=\"admin.php?page=wp_file_manager_settings"
+"\">General Settings Tab</a> -> Check \"Send Notifications to admin on file "
+"upload \" , \"Send Notifications to admin on file download\" and \"Send "
+"Notifications to admin on file edit\" options."
+msgstr ""
+"Da biste omogućili zapisnike, idite na <a href=\"admin.php?"
+"page=wp_file_manager_settings\"> Kartica Opće postavke </a> -> Označite "
+"\"Pošalji obavijesti administratoru o prijenosu datoteke\", \"Pošalji "
+"obavijesti administratoru prilikom preuzimanja datoteke\" i Opcije \"Pošalji "
+"obavijesti administratoru o uređivanju datoteka\"."
+
+#: inc/wpfmlogs.php:53 inc/wpfmlogs.php:61
+msgid "Edited Files"
+msgstr "Uređene datoteke"
+
+#: inc/wpfmlogs.php:54 inc/wpfmlogs.php:145
+msgid "Downloaded Files"
+msgstr "Preuzete datoteke"
+
+#: inc/wpfmlogs.php:55
+msgid "Uploaded Files"
+msgstr "Prenesene datoteke"
+
+#: inc/wpfmlogs.php:64 inc/wpfmlogs.php:148 inc/wpfmlogs.php:231
+msgid "Bulk Actions"
+msgstr "Skupne radnje"
+
+#: inc/wpfmlogs.php:67 inc/wpfmlogs.php:151 inc/wpfmlogs.php:234
+msgid "Apply"
+msgstr "Prijavite se"
+
+#: inc/wpfmlogs.php:75 inc/wpfmlogs.php:157 inc/wpfmlogs.php:240
+msgid "Sr No."
+msgstr "Gospodin Ne."
+
+#: inc/wpfmlogs.php:77 inc/wpfmlogs.php:159 inc/wpfmlogs.php:242
+msgid "User Name"
+msgstr "Korisničko ime"
+
+#: inc/wpfmlogs.php:78 inc/wpfmlogs.php:160 inc/wpfmlogs.php:243
+msgid "Files"
+msgstr "Datoteke"
+
+#: inc/wpfmlogs.php:79 inc/wpfmlogs.php:161 inc/wpfmlogs.php:244
+msgid "Date"
+msgstr "Datum"
+
+#: inc/wpfmlogs.php:93 inc/wpfmlogs.php:175 inc/wpfmlogs.php:258
+msgid "Are you sure want to delete?"
+msgstr "Jeste li sigurni da želite izbrisati?"
+
+#: inc/wpfmlogs.php:98 inc/wpfmlogs.php:180 inc/wpfmlogs.php:265
+msgid "No log(s) found!"
+msgstr "Nije pronađen nijedan zapisnik!"
+
+#: inc/wpfmlogs.php:108 inc/wpfmlogs.php:190 inc/wpfmlogs.php:275
+msgid "Showing "
+msgstr "Prikazuje se"
+
+#: inc/wpfmlogs.php:108 inc/wpfmlogs.php:190 inc/wpfmlogs.php:275
+msgid " entries"
+msgstr "unosi"
+
+#: inc/wpfmlogs.php:228
+msgid "Uploaded File"
+msgstr "Prenesena datoteka"
+
+#: inc/wpfmlogs.php:374
+msgid "Are you sure want to remove selected log(s)?"
+msgstr "Jeste li sigurni da želite ukloniti odabrane zapisnike?"
+
+#: inc/wpfmlogs.php:395
+msgid "Please select delete action!"
+msgstr "Odaberite radnju brisanja!"
+
+#: js/jquery-ui.min.js:8 lib/jquery/jquery-ui-1.11.4.js:8
+msgid "'"
+msgstr ""
+
+#: lib/wpfilemanager.php:445
+msgid " WP File Manager PRO "
+msgstr "WP upravitelj datoteka PRO "
+
+#: plugin-update-checker/Puc/v4p5/Plugin/Ui.php:54
+msgid "View details"
+msgstr "Pregledavati pojedinosti"
+
+#: plugin-update-checker/Puc/v4p5/Plugin/Ui.php:77
+#, php-format
+msgid "More information about %s"
+msgstr "Više informacija o %s"
+
+#: plugin-update-checker/Puc/v4p5/Plugin/Ui.php:128
+msgid "Check for updates"
+msgstr "Provjerite ima li ažuriranja"
+
+#: plugin-update-checker/Puc/v4p5/Plugin/Ui.php:223
+#, php-format
+msgid "Unknown update checker status \"%s\""
+msgstr "Nepoznati status provjere ažuriranja \"%s\""
+
+#: plugin-update-checker/Puc/v4p5/Vcs/PluginUpdateChecker.php:98
+msgid "There is no changelog available."
+msgstr "Nema dostupnog dnevnika promjena."
+
+#~ msgid "Manage your WP files."
+#~ msgstr "Upravljanje WP datotekama."
+
+#~ msgid "WP File Manager - PRO"
+#~ msgstr "WP upravitelj datoteka - PRO"
+
+#~ msgid "<span class=\"fm_console_error\">Nothing selected for backup</span>"
+#~ msgstr ""
+#~ "<span class = \"fm_console_error\"> Ništa nije odabrano za sigurnosnu "
+#~ "kopiju </span>"
+
+#~ msgid "<span class=\"fm_console_success\">Database backup done.</span>"
+#~ msgstr ""
+#~ "<span class = \"fm_console_success\"> Izrađena je sigurnosna kopija baze "
+#~ "podataka. </span>"
+
+#~ msgid ""
+#~ "<span class=\"fm_console_error\">Unable to create database backup.</span>"
+#~ msgstr ""
+#~ "<span class = \"fm_console_error\"> Nije moguće stvoriti sigurnosnu "
+#~ "kopiju baze podataka. </span>"
+
+#~ msgid "<span class=\"fm_console_success\">Plugins backup done.</span>"
+#~ msgstr ""
+#~ "<span class = \"fm_console_success\"> Izrađena sigurnosna kopija "
+#~ "dodataka. </span>"
+
+#~ msgid "<span class=\"fm_console_error\">Plugins backup failed.</span>"
+#~ msgstr ""
+#~ "<span class = \"fm_console_error\"> Izrada sigurnosne kopije dodataka "
+#~ "nije uspjela. </span>"
+
+#~ msgid "<span class=\"fm_console_success\">Themes backup done.</span>"
+#~ msgstr ""
+#~ "<span class = \"fm_console_success\"> Izrađena sigurnosna kopija tema. </"
+#~ "span>"
+
+#~ msgid "<span class=\"fm_console_error\">Themes backup failed.</span>"
+#~ msgstr ""
+#~ "<span class = \"fm_console_error\"> Izrada sigurnosne kopije tema nije "
+#~ "uspjela. </span>"
+
+#~ msgid "<span class=\"fm_console_success\">Uploads backup done.</span>"
+#~ msgstr ""
+#~ "<span class = \"fm_console_success\"> Prijenos sigurnosne kopije gotov. </"
+#~ "span>"
+
+#~ msgid "<span class=\"fm_console_error\">Uploads backup failed.</span>"
+#~ msgstr ""
+#~ "<span class = \"fm_console_error\"> Prijenos sigurnosne kopije nije "
+#~ "uspio. </span>"
+
+#~ msgid "<span class=\"fm_console_success\">Others backup done.</span>"
+#~ msgstr ""
+#~ "<span class = \"fm_console_success\"> Izrađena sigurnosna kopija ostalih. "
+#~ "</span>"
+
+#~ msgid "<span class=\"fm_console_error\">Others backup failed.</span>"
+#~ msgstr ""
+#~ "<span class = \"fm_console_error\"> Sigurnosna kopija drugih nije "
+#~ "uspjela. </span>"
+
+#~ msgid "<span class=\"fm_console_success\">All done</span>"
+#~ msgstr "<span class = \"fm_console_success\"> Sve gotovo </span>"
+
+#~ msgid "Database"
+#~ msgstr "Baza podataka"
+
+#~ msgid "System Properties"
+#~ msgstr "Svojstva sustava"
+
+#~ msgid "Donate"
+#~ msgstr "darovati"
+
+#~ msgid ""
+#~ "Note: This is just a demo screenshot. To get settings please buy our pro "
+#~ "version."
+#~ msgstr ""
+#~ "Napomena: Ovo je samo snimka zaslona demo. Da biste dobili postavke, "
+#~ "molimo kupite našu verziju."
+
+#~ msgid "Buy PRO"
+#~ msgstr "Kupi PRO"
+
+#~ msgid "Settings - General"
+#~ msgstr "Postavke - Općenito"
+
+#~ msgid ""
+#~ "Here admin can give access to user roles to use filemanager. Admin can "
+#~ "set Default Access Folder and also control upload size of filemanager."
+#~ msgstr ""
+#~ "Ovdje administrator može dati pristup ulogama korisnika za upotrebu "
+#~ "filemanager-a. Administrator može postaviti zadanu mapu pristupa i "
+#~ "također kontrolirati veličinu prijenosa datoteke."
+
+#~ msgid "Settings - Code-editor"
+#~ msgstr "Postavke - uređivač koda"
+
+#~ msgid ""
+#~ "File Manager has a code editor with multiple themes. You can select any "
+#~ "theme for code editor. It will display when you edit any file. Also you "
+#~ "can allow fullscreen mode of code editor."
+#~ msgstr ""
+#~ "Upravitelj datoteka ima uređivač koda s više tema. Možete odabrati bilo "
+#~ "koju temu za uređivanje koda. Prikazat će se prilikom uređivanja bilo "
+#~ "koje datoteke. Također možete dopustiti način rada cijelog zaslona kodnog "
+#~ "uređivača."
+
+#~ msgid "Code-editor View"
+#~ msgstr "Vodič za uređivanje koda"
+
+#~ msgid "Settings - User Restrictions"
+#~ msgstr "Postavke - Ograničenja korisnika"
+
+#~ msgid ""
+#~ "Admin can restrict actions of any user. Also hide files and folders and "
+#~ "can set different - different folders paths for different users."
+#~ msgstr ""
+#~ "Administrator može ograničiti radnje svakog korisnika. Također sakriti "
+#~ "datoteke i mape i može postaviti različite - različite mape staze za "
+#~ "različite korisnike."
+
+#~ msgid "Settings - User Role Restrictions"
+#~ msgstr "Postavke - Ograničenja korisničkog uloga"
+
+#~ msgid ""
+#~ "Admin can restrict actions of any userrole. Also hide files and folders "
+#~ "and can set different - different folders paths for different users roles."
+#~ msgstr ""
+#~ "Administrator može ograničiti radnje bilo kojeg korisnika. Također "
+#~ "sakriti datoteke i mape i može postaviti različite - različite mape staze "
+#~ "za različite korisničke uloge."
+
+#~ msgid "File Manager - System Properties"
+#~ msgstr "Upravitelj datoteka - Svojstva sustava"
+
+#~ msgid "PHP version"
+#~ msgstr "PHP verzija"
+
+#~ msgid "Maximum file upload size (upload_max_filesize)"
+#~ msgstr "Maksimalna veličina prijenosa datoteke (upload_max_filesize)"
+
+#~ msgid "Post maximum file upload size (post_max_size)"
+#~ msgstr "Objavi maksimalnu veličinu prijenosa datoteke (post_max_size)"
+
+#~ msgid "Memory Limit (memory_limit)"
+#~ msgstr "Ograničenje memorije (memory_limit)"
+
+#~ msgid "Timeout (max_execution_time)"
+#~ msgstr "Vrijeme (max_execution_time)"
+
+#~ msgid "Browser and OS (HTTP_USER_AGENT)"
+#~ msgstr "Preglednik i OS (HTTP_USER_AGENT)"
+
+#~ msgid ""
+#~ "Please contribute some donation, to make plugin more stable. You can pay "
+#~ "amount of your choice."
+#~ msgstr ""
+#~ "Priložite neku donaciju kako biste dodatak stabilniji. Možete platiti "
+#~ "iznos po vašem izboru."
+
+#~ msgid ""
+#~ "Note: This feature is using wp_mail(), Make sure wp_mail is working or "
+#~ "not."
+#~ msgstr ""
+#~ "Nota: Hierdie funksie gebruik wp_mail (), maak seker dat wp_mail werk of "
+#~ "nie."
+
+#~ msgid ""
+#~ "Check to allow fullscreen code editor. For more information please visit"
+#~ msgstr ""
+#~ "Kontroleer om die volle skerm kode redakteur toe te laat. Vir meer "
+#~ "inligting besoek gerus"

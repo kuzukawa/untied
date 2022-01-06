@@ -1,0 +1,54 @@
+# ACF Custom Database Tables – By Hookturn with Phil Kurth
+
+## [1.1.0] – 2021-10-25
+### Added
+- Added plugin settings panel in WordPress admin.
+- Added repeater field support. Repeater data can now be saved as encoded data to a single column or to a sub table. See https://hookturn.io/docs/acf-custom-database-tables/1.1/working-with-repeater-fields/.
+- Added optional module for controlling a field's column data type. See https://hookturn.io/docs/acf-custom-database-tables/1.1/controlling-column-data-types/.
+- Added optional module for running custom handlers after each table schema is applied to the database. See https://hookturn.io/docs/acf-custom-database-tables/1.1/running-custom-actions-after-a-table-is-updated-created/.
+- Added action hooks for disabling/enabling data intercepts to and/or from custom database tables. See https://hookturn.io/docs/acf-custom-database-tables/1.1/disabling-storage-retrieval-to-from-custom-database-tables/.
+- Added tools tab and a tool for rebuilding the table map system either in its entirety or by choosing specific field groups. See https://hookturn.io/docs/acf-custom-database-tables/1.1/rebuilding-the-map-system/.
+- Added an opt-in 'hotfix' for WP All Import which forces critical hooks and filters to run during import. This improves compatibility with ACF Custom Database Tables. See https://hookturn.io/docs/acf-custom-database-tables/1.1/wp-all-import-compatibility/.
+- Added filters for controlling encode/decode behaviour for field values. See https://hookturn.io/docs/acf-custom-database-tables/1.1/overriding-default-field-value-encode-and-decode-behaviours/.
+- Added filters for preventing deletion of custom table data. See https://hookturn.io/docs/acf-custom-database-tables/1.1/preventing-deletion-of-custom-table-data/.
+
+### Changed
+- Changed DB access handlers to prevent issues occurring on some Redis configurations.
+- Enhanced automated test suite for much greater coverage and protection against regression.
+
+### Fixed
+- Fixed a bug where bypassed field names from one post type could affect core storage of another when updating both in the same process.
+- Fixed an issue where default values on deprecated args cause notices in PHP 8.
+- Fixed bug that allowed post revisions to interfere with removal of custom table data when deleting posts.
+
+## Removed
+- Removed core ACF `acf/update_value` duplicate filter. This is now replaced by `acfcdt/filter_value_before_update` filter.
+- Removed core ACF `acf/load_value` duplicate filters and the `acfcdt/settings/allow_acf_load_value_filters` setting and filter.
+
+## [1.0.5] – 2019-02-12
+### Fixed
+- Adjusted for ACF changes that prevented the creation of table definitions on field group save
+
+## [1.0.4] – 2018-12-05
+### Fixed
+- Fixed an issue with path normalization for Windows-based servers
+- Fixed a bug causing fatal errors when ACF JSON files were imported using ACF's 'Import Field Groups' metabox
+
+## [1.0.3]
+### Fixed
+- Fixed an issue where selecting the same post type across multiple OR conditions on a field group's location rules deactivated the table meta box
+
+## [1.0.2]
+### Added
+- Added filters that allow custom de/encoding of data being stored in custom tables
+- Added optional module for serializing stored data instead of JSON encoding. Disabled by default.
+- Added optional module for casting string based integers as integers before encoding. This is enabled by default and is the original functionality just moved to a module.
+
+### Fixed
+- Fixed an issue where leading zeros were being removed on save
+- Changed required capability for plugin settings page to match other ACF sub pages
+
+## [1.0.1]
+### Fixed
+- Fixed an issue that was causing errors on multisite network dashboard on plugin activation.
+- Fixed an issue where table definition JSON files were causing 'table does not exist' notices before triggering the database migration process.

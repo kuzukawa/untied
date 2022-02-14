@@ -6,7 +6,9 @@ function my_pre_get_site_by_path($pre, $domain, $path, $segments, $paths) {
         'update_site_meta_cache' => false,
     );
 
-    // 元ソースからドメインでのフィルタ部分を削除してパスだけでサイトを検索する
+	// ドメインがadmin.から始まる場合、除去
+	$domain = str_replace("admin.", "", $domain, $times);
+	$args['domain'] = $domain;
 
     if ( count( $paths ) > 1 ) {
         $args['path__in']               = $paths;

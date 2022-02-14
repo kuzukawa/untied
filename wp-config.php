@@ -70,7 +70,7 @@ if (@$_SERVER["SERVER_NAME"] === 'localhost') {
     /** マルチサイト下ではWP_HOME,WP_SITEURLの記載は不要。 */
     //define('WP_HOME', 'https://untied.tech');
     //define('WP_SITEURL', 'https://untied.tech');      
-
+ 
     $_SERVER['HTTPS']='on';
     define('FORCE_SSL_LOGIN', true);
     define('FORCE_SSL_ADMIN', true);
@@ -144,8 +144,8 @@ define( 'PATH_CURRENT_SITE', '/' );
 define( 'SITE_ID_CURRENT_SITE', 1 );
 define( 'BLOG_ID_CURRENT_SITE', 1 );
 
-define( 'COOKIE_DOMAIN', '');
-
+// Cookieはサーバ名からもらう
+define( 'COOKIE_DOMAIN', $_SERVER['HTTP_HOST'] );
 // サイトのホスト名はサーバから貰う
 define( 'DOMAIN_CURRENT_SITE', $_SERVER['HTTP_HOST'] );
 // wp-content/sunrise.phpを読む

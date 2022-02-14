@@ -109,7 +109,7 @@ class SliderTypeBlockAdmin extends AbstractSliderTypeAdmin {
              ->remove();
         $form->getElement('/developer/developer/developer-1/controlsBlockCarouselInteraction')
              ->remove();
-        $form->getElement('/animations/layer-animations/layer-animations/playonce')
+        $form->getElement('/animations/layer-animations')
              ->remove();
         $form->getElement('/optimize/optimize-slide/optimize-slide-loading-mode')
              ->remove();

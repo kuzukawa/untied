@@ -33,6 +33,12 @@ class WooCommerceCategory extends AbstractGenerator {
                 '5' => 5
             )
         ));
+        new Select($filter, 'hide-empty-categories', n2_('Hide empty categories'), '1', array(
+            'options' => array(
+                '0' => n2_('No'),
+                '1' => n2_('Yes')
+            )
+        ));
     }
 
     protected function resetState() {
@@ -69,7 +75,7 @@ class WooCommerceCategory extends AbstractGenerator {
         $mainCat = $this->data->get('categories', '0');
         $args    = array(
             'child_of'     => 0,
-            'hide_empty'   => 0,
+            'hide_empty'   => $this->data->get('hide-empty-categories', 1),
             'hierarchical' => 1,
             'exclude'      => '',
             'include'      => '',

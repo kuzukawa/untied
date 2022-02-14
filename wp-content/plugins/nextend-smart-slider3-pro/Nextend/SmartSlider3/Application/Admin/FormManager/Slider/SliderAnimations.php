@@ -59,6 +59,10 @@ class SliderAnimations extends AbstractSliderTab {
     }
 
     protected function layerAnimations() {
+        
+        /**
+         * Used for field removal: /animations/layer-animations
+         */
         $table = new ContainerTable($this->tab, 'layer-animations', n2_('Layer animations'));
         $row   = $table->createRow('layer-animations');
 
@@ -66,9 +70,7 @@ class SliderAnimations extends AbstractSliderTab {
             'tipLabel'       => n2_('Play on load'),
             'tipDescription' => n2_('Plays the layer animations on the first slide when it appears for the first time.')
         ));
-        /**
-         * Used for field removal: /animations/layer-animations/layer-animations/playonce
-         */
+
         new OnOff($row, 'playonce', n2_('Play once'), 0, array(
             'tipLabel'       => n2_('Play once'),
             'tipDescription' => n2_('Plays the layer animations only during the first loop.')

@@ -854,7 +854,7 @@ class Slide extends AbstractRenderableOwner {
             $imagePath = ResourceTranslator::toPath($src);
             if (isset($imagePath[0])) {
                 $extension = pathinfo($imagePath, PATHINFO_EXTENSION);
-                if ($extension != 'svg' && $extension != 'webp') {
+                if ($extension != 'svg') {
 
                     $lazyLoad = $this->sliderObject->features->lazyLoad;
 
@@ -913,7 +913,7 @@ class Slide extends AbstractRenderableOwner {
                 return Html::tag('img', $attributes, false);
             }
 
-            if ($extension != 'svg' && $extension != 'webp' && $item->data->get('image-optimize', 1)) {
+            if ($extension != 'svg' && $item->data->get('image-optimize', 1)) {
 
                 $optimizeScale = $this->sliderObject->params->get('layer-image-optimize', 0);
                 $optimizedData = $this->sliderObject->features->optimize->optimizeImageWebP($src, array(
@@ -1031,7 +1031,7 @@ class Slide extends AbstractRenderableOwner {
         if (isset($imagePath[0])) {
             $optimizeThumbnail = $this->sliderObject->params->get('optimize-thumbnail-scale', 0);
             $extension = pathinfo($imagePath, PATHINFO_EXTENSION);
-            if ($extension && $extension != 'webp' && $this->sliderObject->params->get('optimize-webp', 0) && function_exists('imagewebp')) {
+            if ($extension && $this->sliderObject->params->get('optimize-webp', 0) && function_exists('imagewebp')) {
 
                 $isRemote = false;
                 if (preg_match('/(https?:)?\/\//', $imagePath)) {

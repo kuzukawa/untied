@@ -135,7 +135,7 @@ class ItemCountdown extends AbstractItem {
 
     public function renderFields($container) {
 
-        $offset  = (Platform::getTimestamp() - gmdate('U')) / 60;
+        $offset  = (Platform::getTimestamp() - gmdate('U', time() - date('Z'))) / 60;
         $minutes = $offset % 60;
         $hours   = (int)($offset / 60);
 

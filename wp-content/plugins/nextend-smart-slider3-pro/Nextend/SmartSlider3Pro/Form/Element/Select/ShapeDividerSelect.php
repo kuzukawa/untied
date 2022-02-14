@@ -22,6 +22,7 @@ class ShapeDividerSelect extends Select {
                 'simple-Fan1'         => n2_('Fan 1'),
                 'simple-Fan2'         => n2_('Fan 2'),
                 'simple-Fan3'         => n2_('Fan 3'),
+                'simple-Fan4'         => n2_('Fan 4'),
                 'simple-Hills'        => n2_('Hills'),
                 'simple-Incline1'     => n2_('Incline 1'),
                 'simple-Incline2'     => n2_('Incline 2'),
@@ -36,6 +37,12 @@ class ShapeDividerSelect extends Select {
                 'simple-Wave1'        => n2_('Wave 1'),
                 'simple-Wave2'        => n2_('Wave 2'),
                 'simple-Waves'        => n2_('Waves'),
+                'simple-Columns1'     => n2_('Columns 1'),
+                'simple-Columns2'     => n2_('Columns 2'),
+                'simple-Paper1'       => n2_('Paper 1'),
+                'simple-Paper2'       => n2_('Paper 2'),
+                'simple-Paper3'       => n2_('Paper 3'),
+                'simple-Paper4'       => n2_('Paper 4'),
                 'bicolor'             => array(
                     'label'   => n2_('2 Colors'),
                     'options' => array(

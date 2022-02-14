@@ -502,6 +502,12 @@ class WooCommerceProductsByFilter extends AbstractGenerator {
                         $data[$i]['category' . $k . 'link']        = get_term_link($catId, 'product_cat');
                         $data[$i]['category' . $k . 'description'] = $category->description;
                         $data[$i]['category' . $k . 'ID']          = $catId;
+
+                        if (isset($data[$i]['meta_yoast_wpseo_primary_product_cat']) && $catId == $data[$i]['meta_yoast_wpseo_primary_product_cat']) {
+                            $data[$i]['primary_category']             = $data[$i]['category' . $k];
+                            $data[$i]['primary_category_link']        = $data[$i]['category' . $k . 'link'];
+                            $data[$i]['primary_category_description'] = $data[$i]['category' . $k . 'description'];
+                        }
                         $k++;
                     }
                 }

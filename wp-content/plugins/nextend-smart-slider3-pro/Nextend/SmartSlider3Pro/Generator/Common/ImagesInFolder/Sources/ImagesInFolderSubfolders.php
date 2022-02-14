@@ -2,7 +2,6 @@
 
 namespace Nextend\SmartSlider3Pro\Generator\Common\ImagesInFolder\Sources;
 
-use JURI;
 use Nextend\Framework\Filesystem\Filesystem;
 use Nextend\Framework\Form\Container\ContainerTable;
 use Nextend\Framework\Form\Element\MixedField\GeneratorOrder;
@@ -10,9 +9,8 @@ use Nextend\Framework\Form\Element\OnOff;
 use Nextend\Framework\Form\Element\Text\Folder;
 use Nextend\Framework\Notification\Notification;
 use Nextend\Framework\Parser\Common;
-use Nextend\Framework\ResourceTranslator\ResourceTranslator;
-use Nextend\Framework\Url\Url;
 use Nextend\SmartSlider3\Generator\AbstractGenerator;
+use Nextend\SmartSlider3Pro\Generator\Common\ImagesInFolder\GeneratorGroupImagesInFolder;
 
 class ImagesInFolderSubfolders extends AbstractGenerator {
 
@@ -20,50 +18,6 @@ class ImagesInFolderSubfolders extends AbstractGenerator {
 
     public function getDescription() {
         return sprintf(n2_('Creates slides from %1$s.'), n2_('Images in folder and subfolders'));
-    }
-
-    private function trim($str, $path = true) {
-        $str = ltrim(rtrim($str, '/'), '/');
-        if ($path && strpos($str, ':') === false) {
-            $str = '/' . $str;
-        }
-
-        return $str;
-    }
-
-    private function getSiteUrl() {
-        $site_url = get_site_url();
-
-        if (empty($site_url)) {
-            $site_url = (empty($_SERVER['HTTPS']) ? "http://" : "https://") . $_SERVER['HTTP_HOST'];
-        }
-
-        return $this->trim($site_url, false);
-    }
-
-    private function getRootPath() {
-        $root = '';
-        $root = ABSPATH;
-
-        if (!empty($root)) {
-            $root = $this->trim($root);
-        }
-
-        return $root;
-    }
-
-    private function pathToUri($path, $media_folder = true) {
-        $path = $this->trim($path);
-        $root = $this->getRootPath();
-        if (!empty($root) && !$media_folder) {
-            $path = str_replace($root, '', $path);
-
-            return $this->getSiteUrl() . $path;
-        } else if ($media_folder) {
-            return ResourceTranslator::urlToResource(Url::pathToUri($path));
-        } else {
-            return Url::pathToUri($path);
-        }
     }
 
     public function renderFields($container) {
@@ -99,7 +53,7 @@ class ImagesInFolderSubfolders extends AbstractGenerator {
             $ready[]          = $folder;
             $subFoldersHelper = Filesystem::folders($folder);
             foreach ($subFoldersHelper as $helper) {
-                $subFolders[] = $folder . '/' . $helper;
+                $subFolders[] = $folder . DIRECTORY_SEPARATOR . $helper;
             }
         }
         if (!empty($subFolders)) {
@@ -110,11 +64,12 @@ class ImagesInFolderSubfolders extends AbstractGenerator {
     }
 
     protected function _getData($count, $startIndex) {
-        $root   = str_replace('\\', '/', Filesystem::getImagesFolder());
-        $source = str_replace('\\', '/', $this->data->get('sourcefolder', ''));
+        $root   = GeneratorGroupImagesInFolder::fixSeparators(Filesystem::getImagesFolder());
+        $source = GeneratorGroupImagesInFolder::fixSeparators($this->data->get('sourcefolder', ''));
+
         $search = (strpos($source, "%%") !== false);
-        if (substr($source, 0, 1) != '/' && substr($source, 0, 1) != '*') {
-            $source = '/' . $source;
+        if (substr($source, 0, 1) != DIRECTORY_SEPARATOR && substr($source, 0, 1) != '*') {
+            $source = DIRECTORY_SEPARATOR . $source;
         }
         if ($search) {
             $parts          = preg_split("/[\s\/]+/", $source);
@@ -122,7 +77,7 @@ class ImagesInFolderSubfolders extends AbstractGenerator {
             $source         = '';
             foreach ($parts as $part) {
                 if (strpos($part, "%%") !== false) {
-                    $source .= $part . '/';
+                    $source .= $part . DIRECTORY_SEPARATOR;
                 } else {
                     if (substr($source, -2, 2) == '//') {
                         $source = substr($source, 0, -1);
@@ -146,7 +101,8 @@ class ImagesInFolderSubfolders extends AbstractGenerator {
         } else {
             $media_folder = true;
         }
-        $baseFolder = str_replace('\\', '/', Filesystem::realpath($root . '/' . ltrim(rtrim($source, '/'), '/')));
+
+        $baseFolder = Filesystem::realpath($root . GeneratorGroupImagesInFolder::trim($source));
 
         if (empty($baseFolder)) {
             Notification::error(n2_('Folder not found.'));
@@ -173,7 +129,7 @@ class ImagesInFolderSubfolders extends AbstractGenerator {
             $pattern        = '#' . $pattern . '#';
             $matchedFolders = array();
             foreach ($folders as $folder) {
-                if (preg_match($pattern, $folder . '/')) {
+                if (preg_match($pattern, $folder . DIRECTORY_SEPARATOR)) {
                     $matchedFolders[] = $folder;
                 }
             }
@@ -208,7 +164,7 @@ class ImagesInFolderSubfolders extends AbstractGenerator {
 
             $data = array();
             for ($i = 0; $i < $count && isset($files[$i]); $i++) {
-                $image    = $this->pathToUri($folder . '/' . $files[$i], $media_folder);
+                $image    = GeneratorGroupImagesInFolder::pathToUri($folder . DIRECTORY_SEPARATOR . $files[$i], $media_folder);
                 $data[$i] = array(
                     'image'      => $image,
                     'thumbnail'  => $image,
@@ -216,10 +172,10 @@ class ImagesInFolderSubfolders extends AbstractGenerator {
                     'name'       => preg_replace('/\\.[^.\\s]{3,4}$/', '', $files[$i]),
                     'folder'     => $folder,
                     'foldername' => basename($folder),
-                    'created'    => filemtime($folder . '/' . $files[$i])
+                    'created'    => filemtime($folder . DIRECTORY_SEPARATOR . $files[$i])
                 );
                 if ($IPTC) {
-                    $properties = @exif_read_data($folder . '/' . $files[$i]);
+                    $properties = @exif_read_data($folder . DIRECTORY_SEPARATOR . $files[$i]);
                     if ($properties) {
                         foreach ($properties as $key => $property) {
                             if (!is_array($property) && $property != '' && preg_match('/^[a-zA-Z]+$/', $key)) {

@@ -110,20 +110,24 @@ class Optimize {
 
         if ($options['optimize'] && function_exists('imagewebp')) {
 
-            $imagePath = ResourceTranslator::toPath($src);
+            $resourceSrc = ResourceTranslator::urlToResource($src);
+            $imagePath   = ResourceTranslator::toPath($resourceSrc);
 
-            if (isset($imagePath[0])) {
+            if (isset($imagePath)) {
+                $isRemote = false;
+                if ($resourceSrc == $imagePath) {
+                    //this is a remote image
+                    $isRemote  = true;
+                    $imagePath = $src;
+                } else {
+                    $src = $resourceSrc;
+                }
+
                 $extension = pathinfo($imagePath, PATHINFO_EXTENSION);
 
                 $originalImageWidth = FastImageSize::getWidth($src);
 
-                if ($extension && $extension != 'webp' && $originalImageWidth) {
-
-                    $isRemote = false;
-                    if (preg_match('/(https?:)?\/\//', $imagePath)) {
-                        //this is a remote image
-                        $isRemote = true;
-                    }
+                if ($extension && $originalImageWidth) {
 
                     $normalScale = 1;
                     if ($options['resize']) {

@@ -78,6 +78,9 @@ class PluggedControllerAjaxSlider {
             $xref->add($groupID, $sliderID);
         }
 
+        $slidersModel = new ModelSliders($this->controller);
+        $slidersModel->reindexOrdering();
+
         $this->controller->getResponse()
                          ->respond();
     }
@@ -97,14 +100,10 @@ class PluggedControllerAjaxSlider {
         );
 
         $sliderid = $slidersModel->create($slider);
-        $slider   = $slidersModel->getWithThumbnail($sliderid);
+
         $this->controller->validateDatabase($slider);
 
-        $view = new ViewAjaxSliderBox($this->controller);
-        $view->setSlider($slider);
-
-        $this->controller->getResponse()
-                         ->respond($view->display());
+        $this->controller->redirect($this->controller->getUrlSliderEdit($sliderid));
     }
 
     public function actionAddToGroup() {

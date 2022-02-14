@@ -67,8 +67,9 @@ if (@$_SERVER["SERVER_NAME"] === 'localhost') {
     /** データベースの照合順序 (ほとんどの場合変更する必要はありません) */
     define( 'DB_COLLATE', '' );
 
-    define('WP_HOME', 'https://untied.tech');
-    define('WP_SITEURL', 'https://untied.tech');
+    /** マルチサイト下ではWP_HOME,WP_SITEURLの記載は不要。 */
+    //define('WP_HOME', 'https://untied.tech');
+    //define('WP_SITEURL', 'https://untied.tech');      
 
     $_SERVER['HTTPS']='on';
     define('FORCE_SSL_LOGIN', true);
@@ -77,7 +78,15 @@ if (@$_SERVER["SERVER_NAME"] === 'localhost') {
     define('FS_METHOD', 'direct');
 
     define('WP_DEBUG', false);
+    // どうも、error_log()でログが出力されるのは以下の状態の時。とりあえずデバッグ用にしばらく以下の状態としておく。
+    // define("WP_DEBUG", true );                               //WordPressのエラー出力ON/OFF
+    // define("WP_DEBUG_LOG", "/var/log/httpd/wp_errors.log" ); //WordPressのエラー出力先
+    ini_set("display_errors", 0);                            //PHPの画面エラー出力ON/OFF
+    ini_set("error_log", "/var/log/httpd/wp_errors.log");    //PHPのエラー出力先
+    ini_set("log_errors", 1);                                //PHPのログ出力ON/OFF
+    ini_set('error_reporting', E_ALL);                       //最大限出す
 }
+
 /**#@+
  * 認証用ユニークキー
  *
@@ -131,12 +140,16 @@ define('WP_ALLOW_MULTISITE', true);
 
 define( 'MULTISITE', true );
 define( 'SUBDOMAIN_INSTALL', true );
-define( 'DOMAIN_CURRENT_SITE', 'untied.tech' );
 define( 'PATH_CURRENT_SITE', '/' );
 define( 'SITE_ID_CURRENT_SITE', 1 );
 define( 'BLOG_ID_CURRENT_SITE', 1 );
 
 define( 'COOKIE_DOMAIN', '');
+
+// サイトのホスト名はサーバから貰う
+define( 'DOMAIN_CURRENT_SITE', $_SERVER['HTTP_HOST'] );
+// wp-content/sunrise.phpを読む
+define('SUNRISE', true);
 
 /* 編集が必要なのはここまでです ! WordPress でのパブリッシングをお楽しみください。 */
 

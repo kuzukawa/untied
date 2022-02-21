@@ -68,16 +68,17 @@ if (@$_SERVER["SERVER_NAME"] === 'localhost') {
     define( 'DB_COLLATE', '' );
 
     /** マルチサイト下ではWP_HOME,WP_SITEURLの記載は不要。 */
-    $user_domain = str_replace("admin.", "", $_SERVER['HTTP_HOST'], $times);
-    $admin_domain = "admin." . $user_domain;
-    define('WP_HOME', "https://" . $user_domain);
-    define('WP_SITEURL', "https://" . $admin_domain);
-    define('WP_CONTENT_URL', "https://" . $user_domain);
+	/** 設定しても、DBの値が利用されるような挙動だった */
+    // $user_domain = str_replace("admin.", "", $_SERVER['HTTP_HOST'], $times);
+    // $admin_domain = "admin." . $user_domain;
+    // define('WP_HOME', "https://" . $user_domain);
+    // define('WP_SITEURL', "https://" . $admin_domain);
+    // define('WP_CONTENT_URL', "https://" . $user_domain);
 
     $_SERVER['HTTPS']='on';
     define('FORCE_SSL_LOGIN', true);
     define('FORCE_SSL_ADMIN', true);
-    
+
     define('FS_METHOD', 'direct');
 
     define('WP_DEBUG', false);
